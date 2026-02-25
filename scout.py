@@ -133,7 +133,7 @@ def scrape_superfly():
     ]
     for cat_name, cat_url in categories:
         page = 1
-        while True:
+        while page <= 20:
             try:
                 r = requests.get(cat_url.format(page), headers=HEADERS, timeout=25)
                 if r.status_code == 404:
