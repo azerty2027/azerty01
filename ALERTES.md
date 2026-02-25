@@ -1,71 +1,15 @@
-# VINYL SCOUT — Rapport du 25/02/2026 09:56
+# VINYL SCOUT — Rapport du 25/02/2026 12:08
 
-**Base de reference : 21 disques uniques >= 100€**
-
----
-
-## 🔴 11 NOUVEAUX DISQUES
-
-### Shakuhachi Rock Ninkyo Hen
-- **Source** : Victor Kiswell
-- **Prix** : 200.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=shakuhachi-rock-ninkyo-hen
-
-### Pinky Record n°2 – Musebinaki
-- **Source** : Victor Kiswell
-- **Prix** : 180.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=pinky-record-n2-musebinaki-2
-
-### Bamboo
-- **Source** : Victor Kiswell
-- **Prix** : 450.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=bamboo-9
-
-### Drum Drum Drum – Japanese Folk Music
-- **Source** : Victor Kiswell
-- **Prix** : 230.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=drum-drum-drum-japanese-folk-music-4
-
-### Osorezan Suite
-- **Source** : Victor Kiswell
-- **Prix** : 250.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=osorezan-suite-3
-
-### Space and Maryjuane Trip Is Same
-- **Source** : Victor Kiswell
-- **Prix** : 150.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same
-
-### Beloved Japanese Melodies
-- **Source** : Victor Kiswell
-- **Prix** : 500.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=beloved-japanese-melodies
-
-### Jamisen Funk
-- **Source** : Victor Kiswell
-- **Prix** : 220.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=jamisen-funk
-
-### Osorezan Suite
-- **Source** : Victor Kiswell
-- **Prix** : 200.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=osorezan-suite-4
-
-### Miroku
-- **Source** : Victor Kiswell
-- **Prix** : 120.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=miroku
-
-### Tsugaru Jongara Bushi – Drum & Tsugaru Jamisen
-- **Source** : Victor Kiswell
-- **Prix** : 200.0€
-- **Lien** : http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen
+**Base : 21 disques | Actifs : 11 | Seuil achat : 40% du prix ref**
 
 ---
 
-## Base complete
+## ✅ Aucune opportunite aujourd'hui
 
-### Victor Kiswell — 11 disques
+---
+## Catalogue complet
+
+### Victor Kiswell — 11 disponibles, 0 vendus
 
 - **500.0€** — Beloved Japanese Melodies — [voir](http://www.victorkiswell.com/v3/?product=beloved-japanese-melodies)
 - **450.0€** — Bamboo — [voir](http://www.victorkiswell.com/v3/?product=bamboo-9)
