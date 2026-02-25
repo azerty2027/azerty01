@@ -166,5 +166,853 @@
     "url": "http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen",
     "sold": false,
     "first_seen": "2026-02-25T09:56:26.711062"
+  },
+  "https://www.diggersdigest.com/product/can-ege-bamyasi-united-artists-records-uas-29-414-france-1972": {
+    "source": "Digger's Digest",
+    "title": "Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/can-ege-bamyasi-united-artists-records-uas-29-414-france-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464576"
+  },
+  "https://www.diggersdigest.com/product/richard-dunbar-clear-eyed-vision-jahari-records-jr101-1981": {
+    "source": "Digger's Digest",
+    "title": "Richard Dunbar – Clear-Eyed Vision (Jahari Records – JR101 – US – 1981)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/richard-dunbar-clear-eyed-vision-jahari-records-jr101-1981",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464585"
+  },
+  "https://www.diggersdigest.com/product/jacques-fattier-ha%C3%AFti-86-institut-francais-dhaiti-ifh-001-1987": {
+    "source": "Digger's Digest",
+    "title": "Jacques Fattier – Haïti 86 (Institut Francais D'Haiti ‎– IFH 001 - 1987)",
+    "price_ref": 140.0,
+    "url": "https://www.diggersdigest.com/product/jacques-fattier-ha%C3%AFti-86-institut-francais-dhaiti-ifh-001-1987",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464587"
+  },
+  "https://www.diggersdigest.com/product/revelasong-soul-roots-reggae-music-not-on-label-m16k-france": {
+    "source": "Digger's Digest",
+    "title": "Revelasong – Soul Roots Reggae Music (Not On Label – M16K – France)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/revelasong-soul-roots-reggae-music-not-on-label-m16k-france",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464589"
+  },
+  "https://www.diggersdigest.com/product/lemchaheb-el-jounoud-edition-hassania-3392-france-1981": {
+    "source": "Digger's Digest",
+    "title": "Lemchaheb – El Jounoud (Edition Hassania - 3392 – France – 1981)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/lemchaheb-el-jounoud-edition-hassania-3392-france-1981",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464590"
+  },
+  "https://www.diggersdigest.com/product/thomas-james-just-because": {
+    "source": "Digger's Digest",
+    "title": "Thomas & James : Just Because (Glorma Records – GM 408 – US – 1986)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/thomas-james-just-because",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464592"
+  },
+  "https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973": {
+    "source": "Digger's Digest",
+    "title": "Rashied Ali Quintet – Rashied Ali Quintet (Survival Records – SR-102 - US – 1973)",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464593"
+  },
+  "https://www.diggersdigest.com/product/mach-hommy-pray-for-haiti-daupe-dm-sp-076": {
+    "source": "Digger's Digest",
+    "title": "Mach-Hommy – Pray For Haiti (Daupe! – DM -SP-076)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/mach-hommy-pray-for-haiti-daupe-dm-sp-076",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464595"
+  },
+  "https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964": {
+    "source": "Digger's Digest",
+    "title": "Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964)",
+    "price_ref": 290.0,
+    "url": "https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464596"
+  },
+  "https://www.diggersdigest.com/product/jingo-fever-afro-rock-u-79-000-france-1977": {
+    "source": "Digger's Digest",
+    "title": "Jingo – Fever (Afro-Rock – U 79 000 – France – 1977)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/jingo-fever-afro-rock-u-79-000-france-1977",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464597"
+  },
+  "https://www.diggersdigest.com/product/george-gruntz-guy-pedersen-daniel-humair-visage-d-ombre-3-2-1-gallerie-riquem-1965": {
+    "source": "Digger's Digest",
+    "title": "George Gruntz / Guy Pedersen / Daniel Humair – Visage D'Ombre / 3+2=1 (Gallerie Riquelme - 1965)",
+    "price_ref": 1200.0,
+    "url": "https://www.diggersdigest.com/product/george-gruntz-guy-pedersen-daniel-humair-visage-d-ombre-3-2-1-gallerie-riquem-1965",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464598"
+  },
+  "https://www.diggersdigest.com/product/baroque-jazz-trio-orientasie-saravah-sh-40006-france-1970": {
+    "source": "Digger's Digest",
+    "title": "Baroque Jazz Trio – Orientasie (Saravah – SH 40006 – France – 1970)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/baroque-jazz-trio-orientasie-saravah-sh-40006-france-1970",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464600"
+  },
+  "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976": {
+    "source": "Digger's Digest",
+    "title": "Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976)",
+    "price_ref": 420.0,
+    "url": "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464601"
+  },
+  "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-saf-50016-france-1976": {
+    "source": "Digger's Digest",
+    "title": "Ali Toure \"Farka\" – Ali Toure \"Farka\" (Sonafric – SAF 50016 - France - 1976)",
+    "price_ref": 550.0,
+    "url": "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-saf-50016-france-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464602"
+  },
+  "https://www.diggersdigest.com/product/jean-pierre-graziani-a-dumane": {
+    "source": "Digger's Digest",
+    "title": "Jean-Pierre Graziani ‎- A Dumane (Disques Vendémiaire ‎– vd 33120 - France - 1982)",
+    "price_ref": 370.0,
+    "url": "https://www.diggersdigest.com/product/jean-pierre-graziani-a-dumane",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464604"
+  },
+  "https://www.diggersdigest.com/product/didier-et-jean-luc-avec-les-ecchoes-joie-de-vivre-en-roumanie-private-france-1982": {
+    "source": "Digger's Digest",
+    "title": "Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/didier-et-jean-luc-avec-les-ecchoes-joie-de-vivre-en-roumanie-private-france-1982",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464605"
+  },
+  "https://www.diggersdigest.com/product/nkotti-fran%C3%A7ois-et-les-black-styl-st-editions-retro-2000-ret-800203": {
+    "source": "Digger's Digest",
+    "title": "Nkotti François Et Les Black Styl - S/T (Editions Retro 2000 – RET 800203 - France)",
+    "price_ref": 290.0,
+    "url": "https://www.diggersdigest.com/product/nkotti-fran%C3%A7ois-et-les-black-styl-st-editions-retro-2000-ret-800203",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464606"
+  },
+  "https://www.diggersdigest.com/product/jef-gilson-et-son-orchestre-avec-jean-louis-chautemps-a-free-call-polydor-658-038": {
+    "source": "Digger's Digest",
+    "title": "Jef Gilson Et Son Orchestre Avec Jean-Louis Chautemps ‎– A Free Call (Polydor - France - 1966)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/jef-gilson-et-son-orchestre-avec-jean-louis-chautemps-a-free-call-polydor-658-038",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464607"
+  },
+  "https://www.diggersdigest.com/product/omar-khorshid-omar-khorshid-with-love-vol-1-voice-of-lebanon-vlmx-87": {
+    "source": "Digger's Digest",
+    "title": "Omar Khorshid – With Love Vol. 1 (Voice Of Lebanon – VLMX 87 –Lebanon – 1978)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/omar-khorshid-omar-khorshid-with-love-vol-1-voice-of-lebanon-vlmx-87",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464609"
+  },
+  "https://www.diggersdigest.com/product/omar-khorshid-with-love-vol-2-voice-of-lebanon-vlmx-88-1978": {
+    "source": "Digger's Digest",
+    "title": "Omar Khorshid – With Love Vol. 2 (Voice Of Lebanon – VLMX 88 – Greece – 1978)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/omar-khorshid-with-love-vol-2-voice-of-lebanon-vlmx-88-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464610"
+  },
+  "https://www.diggersdigest.com/product/armando-trovaioli-una-magnum-special-per-tony-saitta-beat-records-company-lpf033-italy": {
+    "source": "Digger's Digest",
+    "title": "Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/armando-trovaioli-una-magnum-special-per-tony-saitta-beat-records-company-lpf033-italy",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464611"
+  },
+  "https://www.diggersdigest.com/product/remigio-ducros-america-giovane-leo-records-lr-25-1970s": {
+    "source": "Digger's Digest",
+    "title": "Remigio Ducros – America Giovane (\tLeo Records – LR 25 – 1970s)",
+    "price_ref": 790.0,
+    "url": "https://www.diggersdigest.com/product/remigio-ducros-america-giovane-leo-records-lr-25-1970s",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464612"
+  },
+  "https://www.diggersdigest.com/product/sammy-massamba-propriete-privee-sm-productions-france-1987": {
+    "source": "Digger's Digest",
+    "title": "Sammy Massamba – Propriété Privée (SM Productions - France - 1987)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/sammy-massamba-propriete-privee-sm-productions-france-1987",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464615"
+  },
+  "https://www.diggersdigest.com/product/cap-tain-creole-ni-bel-jounin-private-1985": {
+    "source": "Digger's Digest",
+    "title": "Cap'tain Créole - Ni Bel Jounin (Private - 1985)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/cap-tain-creole-ni-bel-jounin-private-1985",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464616"
+  },
+  "https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978": {
+    "source": "Digger's Digest",
+    "title": "Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978)",
+    "price_ref": 1300.0,
+    "url": "https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464617"
+  },
+  "https://www.diggersdigest.com/product/maitre-ledy-youla-alou-k%C3%A8l%C3%A8-dabila-soukab%C3%A8-not-on-label-003-france-1986": {
+    "source": "Digger's Digest",
+    "title": "Maitre Ledy Youla ‎– Alou Kèlè Dabila - Soukabè ( Not On Label ‎– 003 - France - 1986)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/maitre-ledy-youla-alou-k%C3%A8l%C3%A8-dabila-soukab%C3%A8-not-on-label-003-france-1986",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464618"
+  },
+  "https://www.diggersdigest.com/product/ted-moses-quintet-sidereal-time-radio-canada-international-400-1974": {
+    "source": "Digger's Digest",
+    "title": "Ted Moses Quintet – Sidereal Time (Radio Canada International – 400 - 1974)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/ted-moses-quintet-sidereal-time-radio-canada-international-400-1974",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464620"
+  },
+  "https://www.diggersdigest.com/product/ait-mislayene-y%C3%A9mma-el-fen-stip-record-ch-1010-france-1976": {
+    "source": "Digger's Digest",
+    "title": "Ait Mislayene – Yémma / El Fen (Stip Record – CH 1010 - France - 1976)",
+    "price_ref": 280.0,
+    "url": "https://www.diggersdigest.com/product/ait-mislayene-y%C3%A9mma-el-fen-stip-record-ch-1010-france-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464621"
+  },
+  "https://www.diggersdigest.com/product/bob-azzam-and-his-orchestra-new-sounds-columbia-ssx-1035-sweden-1968": {
+    "source": "Digger's Digest",
+    "title": "Bob Azzam And His Orchestra – New Sounds (Columbia – SSX 1035 - Sweden - 1968)",
+    "price_ref": 140.0,
+    "url": "https://www.diggersdigest.com/product/bob-azzam-and-his-orchestra-new-sounds-columbia-ssx-1035-sweden-1968",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464622"
+  },
+  "https://www.diggersdigest.com/product/erick-cosaque-et-les-voltages-8-gros-ka-l-arme-de-defense-du-peuple-guadeloupeen": {
+    "source": "Digger's Digest",
+    "title": "Erick Cosaque Et Les Voltages 8 – Gros-Ka L'Arme De Défense Du Peuple Guadeloupéen",
+    "price_ref": 280.0,
+    "url": "https://www.diggersdigest.com/product/erick-cosaque-et-les-voltages-8-gros-ka-l-arme-de-defense-du-peuple-guadeloupeen",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464624"
+  },
+  "https://www.diggersdigest.com/product/fela-ransome-kuti-and-africa-70-organization-everything-scatter-philips-9286-434-1976": {
+    "source": "Digger's Digest",
+    "title": "Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/fela-ransome-kuti-and-africa-70-organization-everything-scatter-philips-9286-434-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464625"
+  },
+  "https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985": {
+    "source": "Digger's Digest",
+    "title": "Nyssa Musique - Comme Au Moulin (Private press - France - 1985)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464626"
+  },
+  "https://www.diggersdigest.com/product/david-wertman-sun-ensemble-wide-eye-culture-sunmuse-records-sun-401-us-1983": {
+    "source": "Digger's Digest",
+    "title": "David Wertman, Sun Ensemble – Wide Eye Culture (Sunmuse Records – SUN 401 - US - 1983)",
+    "price_ref": 490.0,
+    "url": "https://www.diggersdigest.com/product/david-wertman-sun-ensemble-wide-eye-culture-sunmuse-records-sun-401-us-1983",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464628"
+  },
+  "https://www.diggersdigest.com/product/tee-company-sonnet-three-blind-mice-tbm-5004-japan-1977": {
+    "source": "Digger's Digest",
+    "title": "Tee & Company – Sonnet (Three Blind Mice – TBM-5004 - Japan - 1977)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/tee-company-sonnet-three-blind-mice-tbm-5004-japan-1977",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464629"
+  },
+  "https://www.diggersdigest.com/product/gwakasonne-temwen": {
+    "source": "Digger's Digest",
+    "title": "Gwakasonne ‎- Témwen (GKS Robert Oumaou - 1987)",
+    "price_ref": 140.0,
+    "url": "https://www.diggersdigest.com/product/gwakasonne-temwen",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464630"
+  },
+  "https://www.diggersdigest.com/product/tee-company-spanish-flower-three-blind-mice-tbm-5008-japan-1978": {
+    "source": "Digger's Digest",
+    "title": "Tee & Company – Spanish Flower (Three Blind Mice – TBM-5008 - Japan - 1978)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/tee-company-spanish-flower-three-blind-mice-tbm-5008-japan-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464632"
+  },
+  "https://www.diggersdigest.com/product/franco-campanino-l-insegnante-viene-a-casa-cam-sag-9094-italy-1979": {
+    "source": "Digger's Digest",
+    "title": "Franco Campanino – L'Insegnante Viene A Casa (Cam – Sag 9094 - Italy - 1979)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/franco-campanino-l-insegnante-viene-a-casa-cam-sag-9094-italy-1979",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464633"
+  },
+  "https://www.diggersdigest.com/product/sun-ra-quartet-featuring-john-gilmore-other-voices-other-blues-horo-records-1978": {
+    "source": "Digger's Digest",
+    "title": "Sun Ra Quartet Featuring John Gilmore ‎- Other Voices, Other Blues (Horo Records, 1978)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/sun-ra-quartet-featuring-john-gilmore-other-voices-other-blues-horo-records-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464634"
+  },
+  "https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969": {
+    "source": "Digger's Digest",
+    "title": "Pharoah Sanders ‎– Japan (Stateside ‎– 2C 006 - 90650 - France - 1969)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464635"
+  },
+  "https://www.diggersdigest.com/product/jacques-thollot-watch-devil-go-palm-palm-17-france-1975": {
+    "source": "Digger's Digest",
+    "title": "Jacques Thollot - Watch Devil Go (Palm – PALM 17 - France - 1975)",
+    "price_ref": 290.0,
+    "url": "https://www.diggersdigest.com/product/jacques-thollot-watch-devil-go-palm-palm-17-france-1975",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464636"
+  },
+  "https://www.diggersdigest.com/product/jacques-berrocal-paralleles-d-avantage-dav-01-france-1976": {
+    "source": "Digger's Digest",
+    "title": "Jacques Berrocal ‎– Parallèles (d'Avantage ‎– dav 01 - France - 1976)",
+    "price_ref": 140.0,
+    "url": "https://www.diggersdigest.com/product/jacques-berrocal-paralleles-d-avantage-dav-01-france-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464638"
+  },
+  "https://www.diggersdigest.com/product/claude-vasori-robert-viger-daniel-janin-cocktail-d-images-mpi-lp-536": {
+    "source": "Digger's Digest",
+    "title": "Claude Vasori / Robert Viger / Daniel Janin – Cocktail D'Images (MPI/LP 536)",
+    "price_ref": 200.0,
+    "url": "https://www.diggersdigest.com/product/claude-vasori-robert-viger-daniel-janin-cocktail-d-images-mpi-lp-536",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464639"
+  },
+  "https://www.diggersdigest.com/product/fusion-jazz-quartet-new-j-m-b-j-m-b-001-france-1984": {
+    "source": "Digger's Digest",
+    "title": "Fusion Jazz Quartet – New (\tJ.M.B. – J.M.B. 001 - France - 1984)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/fusion-jazz-quartet-new-j-m-b-j-m-b-001-france-1984",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464640"
+  },
+  "https://www.diggersdigest.com/product/between-and-the-waters-opened-vertigo-6360-612-germany-1972": {
+    "source": "Digger's Digest",
+    "title": "Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)",
+    "price_ref": 390.0,
+    "url": "https://www.diggersdigest.com/product/between-and-the-waters-opened-vertigo-6360-612-germany-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464642"
+  },
+  "https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-volume-2-temps-des-cerises-1974": {
+    "source": "Digger's Digest",
+    "title": "Intercommunal Free Dance Music Orchestra - Volume. 2 (Temps Des Cerises, France, 1974)",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-volume-2-temps-des-cerises-1974",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464643"
+  },
+  "https://www.diggersdigest.com/product/atarpop-73-le-collectif-le-temps-des-cerises-attention-l-armee-temps-des-cerises-1972": {
+    "source": "Digger's Digest",
+    "title": "ATARPOP 73 & Le Collectif Le Temps Des Cerises ‎- Attention L'Armée (Temps Des Cerises - 1972)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/atarpop-73-le-collectif-le-temps-des-cerises-attention-l-armee-temps-des-cerises-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464644"
+  },
+  "https://www.diggersdigest.com/product/bernard-verley-accompagne-par-catharsis-rimbaud-c-est-toi-le-bateau-ivre-original-acetate": {
+    "source": "Digger's Digest",
+    "title": "Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/bernard-verley-accompagne-par-catharsis-rimbaud-c-est-toi-le-bateau-ivre-original-acetate",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464645"
+  },
+  "https://www.diggersdigest.com/product/speed-limit-speed-limit-le-chant-du-monde-1974": {
+    "source": "Digger's Digest",
+    "title": "Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/speed-limit-speed-limit-le-chant-du-monde-1974",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464646"
+  },
+  "https://www.diggersdigest.com/product/second-hand-death-may-be-your-santa-claus-stateside-2-c-062-92660-france-1971": {
+    "source": "Digger's Digest",
+    "title": "Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/second-hand-death-may-be-your-santa-claus-stateside-2-c-062-92660-france-1971",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464647"
+  },
+  "https://www.diggersdigest.com/product/rufus-harley-re-creation-of-the-gods-ankh-records-inc-us-1972": {
+    "source": "Digger's Digest",
+    "title": "Rufus Harley ‎– Re-Creation Of The Gods ( Ankh Records, Inc. ‎– US - 1972)",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/rufus-harley-re-creation-of-the-gods-ankh-records-inc-us-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464649"
+  },
+  "https://www.diggersdigest.com/product/cymande-cymande-rca-victor-1972-france": {
+    "source": "Digger's Digest",
+    "title": "Christine Schaller ‎– Horny Weather (Mega Wave Orchestra ‎– MWO-02 - Switzerland - 1988)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/cymande-cymande-rca-victor-1972-france",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464650"
+  },
+  "https://www.diggersdigest.com/product/louis-xavier-ladja-adda-81013-1981": {
+    "source": "Digger's Digest",
+    "title": "Louis Xavier ‎– Ladja \"Jazz With A West Indian Soul\" (Adda ‎– France - 1981)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/louis-xavier-ladja-adda-81013-1981",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464651"
+  },
+  "https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976": {
+    "source": "Digger's Digest",
+    "title": "Mombasa – Mombasa 2 \"African Rhythms & Blues\" (Spiegelei – INT 160.049 - 1976)",
+    "price_ref": 100.0,
+    "url": "https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464653"
+  },
+  "https://www.diggersdigest.com/product/twink-think-pink-sire-stec-lp-93-france-1970": {
+    "source": "Digger's Digest",
+    "title": "Twink – Think Pink (Sire – STEC LP 93 - France - 1970)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/twink-think-pink-sire-stec-lp-93-france-1970",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464654"
+  },
+  "https://www.diggersdigest.com/product/the-william-penn-jazz-ensemble-carvings-not-on-label-tr-520643-us-1982": {
+    "source": "Digger's Digest",
+    "title": "The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/the-william-penn-jazz-ensemble-carvings-not-on-label-tr-520643-us-1982",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464655"
+  },
+  "https://www.diggersdigest.com/product/tita-lobo-l-incomparable-tita-barclay-820190-france-1968": {
+    "source": "Digger's Digest",
+    "title": "Tita Lobo - L'Incomparable Tita (Barclay ‎– 820190 - France - 1968)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/tita-lobo-l-incomparable-tita-barclay-820190-france-1968",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464656"
+  },
+  "https://www.diggersdigest.com/product/johnny-lamas-danza-cosmica-private-press-venezuela-1993": {
+    "source": "Digger's Digest",
+    "title": "Johnny Lamas – Danza Cosmica (Private Press - Venezuela - 1993)",
+    "price_ref": 300.0,
+    "url": "https://www.diggersdigest.com/product/johnny-lamas-danza-cosmica-private-press-venezuela-1993",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464658"
+  },
+  "https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-concert-novembre-1972-poster": {
+    "source": "Digger's Digest",
+    "title": "Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.",
+    "price_ref": 390.0,
+    "url": "https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-concert-novembre-1972-poster",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464659"
+  },
+  "https://www.diggersdigest.com/product/american-center-for-students-and-artists-point-de-rencontre": {
+    "source": "Digger's Digest",
+    "title": "American Center for Students and Artists - Point de Rencontre original poster",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/american-center-for-students-and-artists-point-de-rencontre",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464660"
+  },
+  "https://www.diggersdigest.com/product/concerts-free-jazz-by-boojum-consort-theatre-du-chene-noir-poster": {
+    "source": "Digger's Digest",
+    "title": "\"Concerts Free Jazz\" by Boojum Consort - Théatre du Chêne Noir poster.",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/concerts-free-jazz-by-boojum-consort-theatre-du-chene-noir-poster",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464662"
+  },
+  "https://www.diggersdigest.com/product/chene-noir-fantastic-miss-madona-rare-poster": {
+    "source": "Digger's Digest",
+    "title": "\"Chêne Noir - Fantastic Miss Madona\" Rare Poster",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/chene-noir-fantastic-miss-madona-rare-poster",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464663"
+  },
+  "https://www.diggersdigest.com/product/alan-silva-concert-american-center-for-students-artists": {
+    "source": "Digger's Digest",
+    "title": "\"Alan Silva , concert American Center For Students Artists\"",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/alan-silva-concert-american-center-for-students-artists",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464664"
+  },
+  "https://www.diggersdigest.com/product/steve-lacy-au-bataclan": {
+    "source": "Digger's Digest",
+    "title": "\"Free Jazz Festival au Bataclan feat. Steve Lacy orchestra\" Original Poster.",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/steve-lacy-au-bataclan",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464665"
+  },
+  "https://www.diggersdigest.com/product/eddie-warner-nino-nardini-music-of-today-music-of-tomorrow-im-16-france-1975": {
+    "source": "Digger's Digest",
+    "title": "Toni Campo – Prime Cuts (Impress – IA 409 - UK - 1976)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/eddie-warner-nino-nardini-music-of-today-music-of-tomorrow-im-16-france-1975",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464666"
+  },
+  "https://www.diggersdigest.com/product/teddy-lasry-back-to-amazonia-sonimage-si-835-1987": {
+    "source": "Digger's Digest",
+    "title": "Teddy Lasry – Back To Amazonia (Sonimage – SI 835 - 1987)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/teddy-lasry-back-to-amazonia-sonimage-si-835-1987",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464668"
+  },
+  "https://www.diggersdigest.com/product/larry-robbins-sportstudio-band-s-t-conroy-bmlp-093-uk-1972": {
+    "source": "Digger's Digest",
+    "title": "Larry Robbins Sportstudio Band - S/T (Conroy – BMLP 093 - UK - 1972)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/larry-robbins-sportstudio-band-s-t-conroy-bmlp-093-uk-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464671"
+  },
+  "https://www.diggersdigest.com/product/johnny-hawksworth-featuring-hampton-hawes-anglo-american-jazz-phase-1-music-de-wolfe-1971": {
+    "source": "Digger's Digest",
+    "title": "Johnny Hawksworth Featuring Hampton Hawes - Anglo American Jazz Phase 1 (Music De Wolfe - 1971)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/johnny-hawksworth-featuring-hampton-hawes-anglo-american-jazz-phase-1-music-de-wolfe-1971",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464672"
+  },
+  "https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978": {
+    "source": "Digger's Digest",
+    "title": "Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978)",
+    "price_ref": 100.0,
+    "url": "https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464673"
+  },
+  "https://www.diggersdigest.com/product/sunny-boy-love-affaire-d-k-danse-d-k-01-italy-80-s": {
+    "source": "Digger's Digest",
+    "title": "Sunny Boy – Love Affaire (D.K.Danse – D.K.01 - Italy - 80's)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/sunny-boy-love-affaire-d-k-danse-d-k-01-italy-80-s",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464675"
+  },
+  "https://www.diggersdigest.com/product/alain-bellaiche-sea-fluorescent-asylum-records-1976": {
+    "source": "Digger's Digest",
+    "title": "Alain Bellaïche - Sea Fluorescent (Asylum Records - 1976)",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/alain-bellaiche-sea-fluorescent-asylum-records-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464676"
+  },
+  "https://www.diggersdigest.com/product/septet-matchi-oul-terremoto-futura-records-ger-25-1971": {
+    "source": "Digger's Digest",
+    "title": "Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/septet-matchi-oul-terremoto-futura-records-ger-25-1971",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464677"
+  },
+  "https://www.diggersdigest.com/product/malagasy-gilson-malagasy-lumen-ld-33-908-1972": {
+    "source": "Digger's Digest",
+    "title": "Malagasy / Gilson - Malagasy (Lumen – LD 33 908 - 1972)",
+    "price_ref": 750.0,
+    "url": "https://www.diggersdigest.com/product/malagasy-gilson-malagasy-lumen-ld-33-908-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464678"
+  },
+  "https://www.diggersdigest.com/product/travelling-voici-la-nuit-tombee-futura-records-red-06-1973": {
+    "source": "Digger's Digest",
+    "title": "Travelling ‎– Voici La Nuit Tombée (Futura Records ‎– RED 06 - 1973)",
+    "price_ref": 300.0,
+    "url": "https://www.diggersdigest.com/product/travelling-voici-la-nuit-tombee-futura-records-red-06-1973",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464680"
+  },
+  "https://www.diggersdigest.com/product/djoa-quintet-claude-sommier-pigment-america-1990": {
+    "source": "Digger's Digest",
+    "title": "DJOA - Quintet Claude Sommier - Pigment (America - 1990)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/djoa-quintet-claude-sommier-pigment-america-1990",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464681"
+  },
+  "https://www.diggersdigest.com/product/eddy-louiss-mazurka-cocadou-tout-petit-colchiques-barclay-72714": {
+    "source": "Digger's Digest",
+    "title": "Eddy Louiss ‎– Mazurka Cocadou / Tout Petit / Colchiques (Barclay ‎– 72714 - 1969)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/eddy-louiss-mazurka-cocadou-tout-petit-colchiques-barclay-72714",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464682"
+  },
+  "https://www.diggersdigest.com/product/max-rambhojan-show-man-presente-max-rambhojan-rythmo-disc-1980": {
+    "source": "Digger's Digest",
+    "title": "Max Rambhojan - Show Man Présente Max Rambhojan (Rythmo-Disc - 1980)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/max-rambhojan-show-man-presente-max-rambhojan-rythmo-disc-1980",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464683"
+  },
+  "https://www.diggersdigest.com/product/chene-noir-chant-pour-le-delta-la-lune-et-le-soleil": {
+    "source": "Digger's Digest",
+    "title": "Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/chene-noir-chant-pour-le-delta-la-lune-et-le-soleil",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464685"
+  },
+  "https://www.diggersdigest.com/product/le-theatre-du-chene-noir-miss-madona-studio-35-bm-65-1973": {
+    "source": "Digger's Digest",
+    "title": "Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/le-theatre-du-chene-noir-miss-madona-studio-35-bm-65-1973",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464686"
+  },
+  "https://www.diggersdigest.com/product/chene-noir-orphee-2000-chene-noir-disques-cn-00-2-1976": {
+    "source": "Digger's Digest",
+    "title": "Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/chene-noir-orphee-2000-chene-noir-disques-cn-00-2-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464687"
+  },
+  "https://www.diggersdigest.com/product/temple-sun-brasilia-express-voyage-sans-retour-le-kiosque-d-orphee-ko-09-1102-1970": {
+    "source": "Digger's Digest",
+    "title": "Temple Sun - Brasilia Express / Voyage Sans Retour (Le Kiosque d'Orphée – KO/09.1102 - 1970)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/temple-sun-brasilia-express-voyage-sans-retour-le-kiosque-d-orphee-ko-09-1102-1970",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464688"
+  },
+  "https://www.diggersdigest.com/product/francis-bebey-si-les-gaulois-avaient-su": {
+    "source": "Digger's Digest",
+    "title": "Francis Bebey ‎– Si Les Gaulois Avaient Su !... (Blue Silver - France - 1986)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/francis-bebey-si-les-gaulois-avaient-su",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464689"
+  },
+  "https://www.diggersdigest.com/product/orea-desintegration-beguine-inferno-private-1982-france": {
+    "source": "Digger's Digest",
+    "title": "OREA – Désintégration / Biguine Inferno (Private - 1982 - France)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/orea-desintegration-beguine-inferno-private-1982-france",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464691"
+  },
+  "https://www.diggersdigest.com/product/alex-dorothee-et-sa-troupe-gavodie-au-krisma-discotheque": {
+    "source": "Digger's Digest",
+    "title": "Alex Dorothée Et Sa Troupe Gavodiè ‎- Au Krisma Discothèque (Private - mid 80's)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/alex-dorothee-et-sa-troupe-gavodie-au-krisma-discotheque",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464692"
+  },
+  "https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969": {
+    "source": "Digger's Digest",
+    "title": "Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969)",
+    "price_ref": 1250.0,
+    "url": "https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464693"
+  },
+  "https://www.diggersdigest.com/product/black-devil-disco-club-rca-pl-37164-france-1978": {
+    "source": "Digger's Digest",
+    "title": "Black Devil – Disco Club (RCA – PL 37164 - France - 1978)",
+    "price_ref": 280.0,
+    "url": "https://www.diggersdigest.com/product/black-devil-disco-club-rca-pl-37164-france-1978",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464694"
+  },
+  "https://www.diggersdigest.com/product/franz-auffray-original-popcorn-barclay-kmlp-319-1970": {
+    "source": "Digger's Digest",
+    "title": "Franz Auffray ‎- Original Popcorn (Egg – 940.015 - France - 1970)",
+    "price_ref": 490.0,
+    "url": "https://www.diggersdigest.com/product/franz-auffray-original-popcorn-barclay-kmlp-319-1970",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464695"
+  },
+  "https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020": {
+    "source": "Digger's Digest",
+    "title": "Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)",
+    "price_ref": 175.0,
+    "url": "https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464697"
+  },
+  "https://www.diggersdigest.com/product/manu-dibango-african-voodoo-psi-1972": {
+    "source": "Digger's Digest",
+    "title": "Manu Dibango - African Voodoo (PSI, 1972)",
+    "price_ref": 790.0,
+    "url": "https://www.diggersdigest.com/product/manu-dibango-african-voodoo-psi-1972",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464698"
+  },
+  "https://www.diggersdigest.com/product/hot-fudge-play-it-again-music-de-wolfe-1976": {
+    "source": "Digger's Digest",
+    "title": "Hot Fudge - Play It Again (Music De Wolfe - 1976)",
+    "price_ref": 190.0,
+    "url": "https://www.diggersdigest.com/product/hot-fudge-play-it-again-music-de-wolfe-1976",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464699"
+  },
+  "https://www.diggersdigest.com/product/cecil-leuter-pop-electronique-neuilly-1969-france": {
+    "source": "Digger's Digest",
+    "title": "Cecil Leuter ‎– Pop Electronique (Neuilly - France - 1969)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/cecil-leuter-pop-electronique-neuilly-1969-france",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464700"
+  },
+  "https://www.diggersdigest.com/product/alan-parker-alan-hawkshaw-alternatives-music-de-wolfe-1971-uk": {
+    "source": "Digger's Digest",
+    "title": "Alan Parker & Alan Hawkshaw - Alternatives (Music De Wolfe - 1971 - UK)",
+    "price_ref": 110.0,
+    "url": "https://www.diggersdigest.com/product/alan-parker-alan-hawkshaw-alternatives-music-de-wolfe-1971-uk",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464702"
+  },
+  "https://www.diggersdigest.com/product/gerard-doulssane-atmospheres-soleil-masque-sma-33007": {
+    "source": "Digger's Digest",
+    "title": "Gérard Doulssane - Atmosphères (Soleil Masqué – SMA 33007)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/gerard-doulssane-atmospheres-soleil-masque-sma-33007",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464703"
+  },
+  "https://www.diggersdigest.com/product/moving-gelatine-plates-moving-gelatine-plates-cbs-s-64399-france-1971": {
+    "source": "Digger's Digest",
+    "title": "Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/moving-gelatine-plates-moving-gelatine-plates-cbs-s-64399-france-1971",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464704"
+  },
+  "https://www.diggersdigest.com/product/rhesus-o-rhesus-o-epic-epc-64560-france-1971": {
+    "source": "Digger's Digest",
+    "title": "Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)",
+    "price_ref": 200.0,
+    "url": "https://www.diggersdigest.com/product/rhesus-o-rhesus-o-epic-epc-64560-france-1971",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464705"
+  },
+  "https://www.diggersdigest.com/product/acayouman-funky-reggae-12-sepdda-production-ca-94441": {
+    "source": "Digger's Digest",
+    "title": "Acayouman - Funky Reggae 12\" (Sepdda Production – CA 94441)",
+    "price_ref": 380.0,
+    "url": "https://www.diggersdigest.com/product/acayouman-funky-reggae-12-sepdda-production-ca-94441",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464707"
+  },
+  "https://www.diggersdigest.com/product/u-turn-demon-du-midi-mini-records-mrs-1202-1988": {
+    "source": "Digger's Digest",
+    "title": "U-Turn ‎– Démon Du Midi ( Mini Records ‎– MRS 1202 - 1988)",
+    "price_ref": 280.0,
+    "url": "https://www.diggersdigest.com/product/u-turn-demon-du-midi-mini-records-mrs-1202-1988",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464708"
+  },
+  "https://www.diggersdigest.com/product/charlston-marquis-komba-plato-production-cm-1-sd-16-1987": {
+    "source": "Digger's Digest",
+    "title": "Charlston Marquis – Komba (Plato Production – CM 1 SD 16 - 1987)",
+    "price_ref": 300.0,
+    "url": "https://www.diggersdigest.com/product/charlston-marquis-komba-plato-production-cm-1-sd-16-1987",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464709"
+  },
+  "https://www.diggersdigest.com/product/pasteur-lappe-ashiko-sekele-etc-disques-esperance-france-1981": {
+    "source": "Digger's Digest",
+    "title": "Pasteur Lappé – Ashiko, Sekele, Etc... (Disques Espérance - France - 1981)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/pasteur-lappe-ashiko-sekele-etc-disques-esperance-france-1981",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464710"
+  },
+  "https://www.diggersdigest.com/product/gainsbourg-iusse-ou-es-tu-melody-editions-vents-d-ouest-1987": {
+    "source": "Digger's Digest",
+    "title": "Gainsbourg/ Iusse – Où Es-tu Mélody ? (Editions Vents D'Ouest – 1987)",
+    "price_ref": 350.0,
+    "url": "https://www.diggersdigest.com/product/gainsbourg-iusse-ou-es-tu-melody-editions-vents-d-ouest-1987",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464711"
+  },
+  "https://www.diggersdigest.com/product/peter-lemer-la-troupe-populaire-de-g-naoua-de-asilah-asilah-80": {
+    "source": "Digger's Digest",
+    "title": "Peter Lemer & La Troupe Populaire De G'naoua De Asilah ‎- Asilah 80",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/peter-lemer-la-troupe-populaire-de-g-naoua-de-asilah-asilah-80",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464713"
+  },
+  "https://www.diggersdigest.com/product/jose-mancliere-doubout-pou-gade-private-press-1980": {
+    "source": "Digger's Digest",
+    "title": "José Manclière - Doubout Pou Gadé (Private - Guadelope, 1980)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/jose-mancliere-doubout-pou-gade-private-press-1980",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464714"
+  },
+  "https://www.diggersdigest.com/product/barney-wilen-un-temoin-dans-la-ville-fontana-660-226-mr-1959": {
+    "source": "Digger's Digest",
+    "title": "Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959)",
+    "price_ref": 390.0,
+    "url": "https://www.diggersdigest.com/product/barney-wilen-un-temoin-dans-la-ville-fontana-660-226-mr-1959",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464715"
+  },
+  "https://www.diggersdigest.com/product/eddy-louiss-eddy-louiss-barclay-1968": {
+    "source": "Digger's Digest",
+    "title": "Eddy Louiss - Eddy Louiss (Barclay - 1968)",
+    "price_ref": 320.0,
+    "url": "https://www.diggersdigest.com/product/eddy-louiss-eddy-louiss-barclay-1968",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464716"
+  },
+  "https://www.diggersdigest.com/product/jef-gilson-enfin-acetate": {
+    "source": "Digger's Digest",
+    "title": "Jef Gilson - Enfin (Acétate - France  - 1964)",
+    "price_ref": 290.0,
+    "url": "https://www.diggersdigest.com/product/jef-gilson-enfin-acetate",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464718"
+  },
+  "https://www.diggersdigest.com/product/francois-tusques-vers-une-musique-bretonne-nouvelle-le-chant-du-monde-1979": {
+    "source": "Digger's Digest",
+    "title": "François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)",
+    "price_ref": 120.0,
+    "url": "https://www.diggersdigest.com/product/francois-tusques-vers-une-musique-bretonne-nouvelle-le-chant-du-monde-1979",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464719"
+  },
+  "https://www.diggersdigest.com/product/guerilla-guerilla-hit-parade-hpr-68-martinique-1975": {
+    "source": "Digger's Digest",
+    "title": "Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)",
+    "price_ref": 150.0,
+    "url": "https://www.diggersdigest.com/product/guerilla-guerilla-hit-parade-hpr-68-martinique-1975",
+    "sold": false,
+    "first_seen": "2026-02-25T13:25:32.464720"
   }
 }
