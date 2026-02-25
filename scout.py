@@ -30,44 +30,50 @@ def extract_price(text):
 
 def scrape_victorkiswell():
     results = {}
-    page = 1
-    while True:
-        try:
-            url = f"http://www.victorkiswell.com/v3/?page_id=15&paged={page}"
-            r = requests.get(url, headers=HEADERS, timeout=25)
-            soup = BeautifulSoup(r.text, 'html.parser')
-            items = soup.select('li.product')
-            if not items:
+    categories = [
+        'afro', 'caribbean', 'arabic-persian', 'bollywood', 'latin',
+        'funk', 'jazz', 'library-music', 'soundtracks', 'early-electro',
+        'electro-cosmic', 'pop-jerk', 'psych-prog', 'sitar-bangers',
+        'breaks-loops', 'we-once-had-it'
+    ]
+    for cat in categories:
+        page = 1
+        while page <= 20:
+            try:
+                url = f"http://www.victorkiswell.com/v3/?product_cat={cat}&paged={page}"
+                r = requests.get(url, headers=HEADERS, timeout=25)
+                soup = BeautifulSoup(r.text, 'html.parser')
+                items = soup.select('li.product')
+                if not items:
+                    break
+                for item in items:
+                    title_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
+                    price_el = item.select_one('.price')
+                    link_el = item.select_one('a.woocommerce-LoopProduct-link') or item.select_one('a')
+                    if not title_el or not link_el:
+                        continue
+                    price_text = price_el.get_text() if price_el else ''
+                    price = extract_price(price_text)
+                    if not price or price < MIN_PRICE:
+                        continue
+                    url_item = link_el['href']
+                    if url_item in results:
+                        continue
+                    sold = any(x in item.get_text().lower() for x in ['out of stock', 'sold', 'epuise'])
+                    results[url_item] = {
+                        'source': 'Victor Kiswell',
+                        'title': title_el.get_text(strip=True),
+                        'price_ref': price,
+                        'url': url_item,
+                        'sold': sold
+                    }
+                page += 1
+                time.sleep(1.5)
+            except Exception as e:
+                print(f"VK {cat} page {page}: {e}")
                 break
-            for item in items:
-                title_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
-                price_el = item.select_one('.price')
-                link_el = item.select_one('a.woocommerce-LoopProduct-link') or item.select_one('a')
-                if not title_el or not link_el:
-                    continue
-                price_text = price_el.get_text() if price_el else ''
-                price = extract_price(price_text)
-                if not price or price < MIN_PRICE:
-                    continue
-                url_item = link_el['href']
-                if url_item in results:
-                    continue
-                sold = any(x in item.get_text().lower() for x in ['out of stock', 'sold', 'epuise'])
-                results[url_item] = {
-                    'source': 'Victor Kiswell',
-                    'title': title_el.get_text(strip=True),
-                    'price_ref': price,
-                    'url': url_item,
-                    'sold': sold
-                }
-            page += 1
-            time.sleep(1.5)
-        except Exception as e:
-            print(f"VK page {page}: {e}")
-            break
     print(f"Victor Kiswell: {len(results)} disques")
     return list(results.values())
-
 def scrape_diggersdigest():
     results = {}
     page = 1
