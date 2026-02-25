@@ -78,5 +78,93 @@
     "url": "http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen",
     "sold": false,
     "first_seen": "2026-02-25T09:17:23.510191"
+  },
+  "http://www.victorkiswell.com/v3/?product=shakuhachi-rock-ninkyo-hen": {
+    "source": "Victor Kiswell",
+    "title": "Shakuhachi Rock Ninkyo Hen",
+    "price_ref": 200.0,
+    "url": "http://www.victorkiswell.com/v3/?product=shakuhachi-rock-ninkyo-hen",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711029"
+  },
+  "http://www.victorkiswell.com/v3/?product=pinky-record-n2-musebinaki-2": {
+    "source": "Victor Kiswell",
+    "title": "Pinky Record n°2 – Musebinaki",
+    "price_ref": 180.0,
+    "url": "http://www.victorkiswell.com/v3/?product=pinky-record-n2-musebinaki-2",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711043"
+  },
+  "http://www.victorkiswell.com/v3/?product=bamboo-9": {
+    "source": "Victor Kiswell",
+    "title": "Bamboo",
+    "price_ref": 450.0,
+    "url": "http://www.victorkiswell.com/v3/?product=bamboo-9",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711045"
+  },
+  "http://www.victorkiswell.com/v3/?product=drum-drum-drum-japanese-folk-music-4": {
+    "source": "Victor Kiswell",
+    "title": "Drum Drum Drum – Japanese Folk Music",
+    "price_ref": 230.0,
+    "url": "http://www.victorkiswell.com/v3/?product=drum-drum-drum-japanese-folk-music-4",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711047"
+  },
+  "http://www.victorkiswell.com/v3/?product=osorezan-suite-3": {
+    "source": "Victor Kiswell",
+    "title": "Osorezan Suite",
+    "price_ref": 250.0,
+    "url": "http://www.victorkiswell.com/v3/?product=osorezan-suite-3",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711049"
+  },
+  "http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same": {
+    "source": "Victor Kiswell",
+    "title": "Space and Maryjuane Trip Is Same",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711050"
+  },
+  "http://www.victorkiswell.com/v3/?product=beloved-japanese-melodies": {
+    "source": "Victor Kiswell",
+    "title": "Beloved Japanese Melodies",
+    "price_ref": 500.0,
+    "url": "http://www.victorkiswell.com/v3/?product=beloved-japanese-melodies",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711052"
+  },
+  "http://www.victorkiswell.com/v3/?product=jamisen-funk": {
+    "source": "Victor Kiswell",
+    "title": "Jamisen Funk",
+    "price_ref": 220.0,
+    "url": "http://www.victorkiswell.com/v3/?product=jamisen-funk",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711057"
+  },
+  "http://www.victorkiswell.com/v3/?product=osorezan-suite-4": {
+    "source": "Victor Kiswell",
+    "title": "Osorezan Suite",
+    "price_ref": 200.0,
+    "url": "http://www.victorkiswell.com/v3/?product=osorezan-suite-4",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711059"
+  },
+  "http://www.victorkiswell.com/v3/?product=miroku": {
+    "source": "Victor Kiswell",
+    "title": "Miroku",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=miroku",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711061"
+  },
+  "http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen": {
+    "source": "Victor Kiswell",
+    "title": "Tsugaru Jongara Bushi – Drum & Tsugaru Jamisen",
+    "price_ref": 200.0,
+    "url": "http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen",
+    "sold": false,
+    "first_seen": "2026-02-25T09:56:26.711062"
   }
 }
