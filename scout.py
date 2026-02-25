@@ -77,7 +77,7 @@ def scrape_victorkiswell():
 def scrape_diggersdigest():
     results = {}
     page = 1
-    while True:
+    while page <= 30:
         try:
             url = f"https://www.diggersdigest.com/products?page={page}"
             r = requests.get(url, headers=HEADERS, timeout=25)
