@@ -348,8 +348,7 @@ def main():
     actifs = [r for r in all_records if not r.get('sold')]
     for record in actifs:
         max_price = round(record['price_ref'] * MAX_PRICE_RATIO, 0)
-        found = search_ebay(record['title'], max_price)
-        found += search_leboncoin(record['title'], max_price)
+found = search_leboncoin(record['title'], max_price)
         for f in found:
             marge = record['price_ref'] - f['price']
             ratio = round((marge / record['price_ref']) * 100)
