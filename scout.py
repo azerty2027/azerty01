@@ -76,32 +76,26 @@ def scrape_diggersdigest():
             url = f"https://www.diggersdigest.com/products?page={page}"
             r = requests.get(url, headers=HEADERS, timeout=25)
             soup = BeautifulSoup(r.text, 'html.parser')
-            items = soup.select('li.product, .grid-product, article.product')
-            if not items:
-                items = soup.select('[class*="product"]')
+            items = soup.select('a.prod-thumb')
             if not items:
                 break
             found_new = False
             for item in items:
-                title_el = (item.select_one('.product-title') or
-                           item.select_one('h2') or
-                           item.select_one('h3') or
-                           item.select_one('[class*="title"]'))
-                price_el = (item.select_one('.product-price') or
-                           item.select_one('.price') or
-                           item.select_one('[class*="price"]'))
-                link_el = item.select_one('a')
-                if not title_el or not link_el:
+                title_el = item.select_one('.prod-thumb-name')
+                price_el = item.select_one('span[data-currency-amount]')
+                sold_el = item.select_one('.prod-thumb-status')
+                if not title_el:
                     continue
-                price_text = price_el.get_text() if price_el else item.get_text()
-                price = extract_price(price_text)
-                if not price or price < MIN_PRICE:
-                    continue
-                href = link_el.get('href', '')
+                href = item.get('href', '')
                 url_item = href if href.startswith('http') else 'https://www.diggersdigest.com' + href
                 if url_item in results:
                     continue
-                sold = any(x in item.get_text().lower() for x in ['sold out', 'sold', 'unavailable'])
+                sold = sold_el is not None and 'sold' in sold_el.get_text().lower()
+                if not price_el:
+                    continue  # pas de prix = pas utile
+                price = float(price_el.get('data-currency-amount', 0))
+                if price < MIN_PRICE:
+                    continue
                 results[url_item] = {
                     'source': "Digger's Digest",
                     'title': title_el.get_text(strip=True),
