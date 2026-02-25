@@ -238,41 +238,6 @@ def clean_title(title):
     words = [w for w in title.split() if len(w) > 2]
     return ' '.join(words[:5])
 
-def search_ebay(title, max_price):
-    results = []
-    query = clean_title(title)
-    for domain in ['ebay.fr', 'ebay.co.uk']:
-        try:
-            params = {
-                '_nkw': query + ' vinyl',
-                '_sop': '10',
-                'LH_BIN': '1',
-                '_udhi': str(int(max_price)),
-                'LH_ItemCondition': '3000',
-            }
-            r = requests.get(f"https://www.{domain}/sch/i.html", headers=HEADERS, params=params, timeout=15)
-            soup = BeautifulSoup(r.text, 'html.parser')
-            for item in soup.select('.s-item'):
-                title_el = item.select_one('.s-item__title')
-                price_el = item.select_one('.s-item__price')
-                link_el = item.select_one('a.s-item__link')
-                if not title_el or not price_el or not link_el:
-                    continue
-                if 'Shop on eBay' in title_el.get_text():
-                    continue
-                price = extract_price(price_el.get_text())
-                if not price or price > max_price:
-                    continue
-                results.append({
-                    'platform': domain,
-                    'title': title_el.get_text(strip=True),
-                    'price': price,
-                    'url': link_el['href']
-                })
-            time.sleep(1)
-        except Exception as e:
-            print(f"eBay {domain}: {e}")
-    return results
 
 def search_leboncoin(title, max_price):
     results = []
