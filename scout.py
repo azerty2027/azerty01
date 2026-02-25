@@ -190,7 +190,7 @@ def scrape_diaspora():
     for url_template in urls_to_try:
         page = 0
         consecutive_empty = 0
-        while consecutive_empty < 2:
+        while consecutive_empty < 2 and page <= 30:
             try:
                 url = url_template.format(page)
                 r = requests.get(url, headers=HEADERS, timeout=25)
