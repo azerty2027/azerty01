@@ -1,6 +1,6 @@
 """
-VINYL SCOUT v7
-- Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora)
+VINYL SCOUT v8
+- Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 2 : croisement Disques Anciens (matching artiste + album)
 - Phase 3 : recherche opportunites Leboncoin API + Vinted API + eBay API
 """
@@ -328,6 +328,117 @@ def scrape_diaspora():
     return list(results.values())
 
 
+def scrape_sofarecords():
+    results = {}
+    MIN_PRICE_SOFA = 70  # Seuil spécifique SOFA (vs 100€ global)
+    categories = [
+        ('afro-funk-afro-disco',        'c98000508'),
+        ('dj-stuff-club-electronics',   'c98000509'),
+        ('afro-beat',                   'c98000510'),
+        ('highlife',                    'c98000511'),
+        ('mali-guinea-senegal',         'c98000489'),
+        ('congo-rumba-sukus',           'c98000512'),
+        ('ethiopia-sudan-somalia',      'c98000493'),
+        ('kenya-east-africa',           'c98000539'),
+        ('maghreb-vinyl',               'c98000515'),
+        ('lebanon-egypt',               'c98000517'),
+        ('french-west-indies-zou',      'c98000519'),
+        ('reggae-dub-ska',              'c98000521'),
+        ('latin-salsa-boogaloo',        'c98000523'),
+        ('brazilian-soul-funk-samba',   'c98000526'),
+        ('bossa-nova-brazilian-jazz',   'c98000527'),
+        ('japanese-jazz-funk-ambient-city-pop', 'c98000529'),
+        ('soul-jazz-jazz-funk',         'c98000535'),
+        ('free-jazz-avant-garde',       'c98000537'),
+        ('french-jazz-avant-garde',     'c98000531'),
+        ('french-grooves-songs',        'c98000532'),
+    ]
+    for cat_name, cat_id in categories:
+        page = 1
+        while page <= 20:
+            try:
+                url = f"https://www.sofarecords.fr/fr/{cat_name}/{cat_id}/"
+                if page > 1:
+                    url = f"https://www.sofarecords.fr/fr/{cat_name}/{cat_id}/{page}/"
+                r = requests.get(url, headers=HEADERS, timeout=25)
+                if r.status_code == 404:
+                    break
+                soup = BeautifulSoup(r.text, 'html.parser')
+                # Chaque produit est dans un bloc avec le prix et le lien
+                items = soup.select('div.product-info') or soup.select('li.product') or soup.select('[class*="product"]')
+                # Fallback : chercher les liens produit directement
+                if not items:
+                    links = soup.select('a[href*="/fr/"][href*="/p"]')
+                    if not links:
+                        break
+                    found_new = False
+                    for link in links:
+                        href = link.get('href', '')
+                        if not href or '/p' not in href:
+                            continue
+                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
+                        if url_item in results:
+                            continue
+                        parent = link.find_parent(['div', 'li', 'article'])
+                        if not parent:
+                            continue
+                        price_text = parent.get_text()
+                        price = extract_price(price_text)
+                        if not price or price < MIN_PRICE_SOFA:
+                            continue
+                        title_el = link.select_one('h3') or link.select_one('h2') or link
+                        title = title_el.get_text(strip=True) if title_el else ''
+                        if not title:
+                            continue
+                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
+                        results[url_item] = {
+                            'source': 'SOFA Records',
+                            'title': title,
+                            'price_ref': price,
+                            'url': url_item,
+                            'sold': sold
+                        }
+                        found_new = True
+                    if not found_new:
+                        break
+                else:
+                    found_new = False
+                    for item in items:
+                        link_el = item.select_one('a')
+                        if not link_el:
+                            continue
+                        href = link_el.get('href', '')
+                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
+                        if url_item in results:
+                            continue
+                        price_text = item.get_text()
+                        price = extract_price(price_text)
+                        if not price or price < MIN_PRICE_SOFA:
+                            continue
+                        title_el = item.select_one('h3') or item.select_one('h2')
+                        title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
+                        if not title:
+                            continue
+                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
+                        results[url_item] = {
+                            'source': 'SOFA Records',
+                            'title': title,
+                            'price_ref': price,
+                            'url': url_item,
+                            'sold': sold
+                        }
+                        found_new = True
+                    if not found_new:
+                        break
+                page += 1
+                time.sleep(1.5)
+            except Exception as e:
+                print(f"SOFA {cat_name} page {page}: {e}")
+                break
+    print(f"SOFA Records: {len(results)} disques")
+    return list(results.values())
+
+
 # ─────────────────────────────────────────────
 # PHASE 2 — CROISEMENT DISQUES ANCIENS
 # ─────────────────────────────────────────────
@@ -607,6 +718,7 @@ def main():
     all_records += scrape_diggersdigest()
     all_records += scrape_superfly()
     all_records += scrape_diaspora()
+    all_records += scrape_sofarecords()
 
     seen = set()
     unique_records = []
