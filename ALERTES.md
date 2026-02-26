@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 26/02/2026 11:17
+# VINYL SCOUT — Rapport du 26/02/2026 13:55
 
-**Base : 387 disques | Actifs : 3 | Seuil achat : 40% du prix ref**
+**Base : 422 disques | Actifs : 3 | Seuil achat : 40% du prix ref**
 
 ---
 
@@ -9,6 +9,45 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
+
+---
+## 🆕 35 nouveaux en base
+
+- **250.0€** — Cymandecymande  |  janus (SOFA Records)
+- **250.0€** — Chene Noirorphée 2000  |  chene noir disques (SOFA Records)
+- **250.0€** — Action (Various)action  |  musax (SOFA Records)
+- **190.0€** — Elektro-Dschungelkebab und andere träume  |  no label (SOFA Records)
+- **150.0€** — The George Otsuka 5go on  |  three blind mice (SOFA Records)
+- **140.0€** — Johnny Mokhalisister sexy eyes / best friends  |  drum rock (SOFA Records)
+- **140.0€** — Sun Ra & His Inter-Galactic Research Arkestranuits de la fondation maeght  |  strut / artyard (SOFA Records)
+- **120.0€** — Guy Pedersencontrebasses  |  tele music (SOFA Records)
+- **110.0€** — Fela Kuti & Africa 70zombie  |  polydor (SOFA Records)
+- **110.0€** — Orquesta Sabor Internacionaldieka  |  bellot records (SOFA Records)
+- **110.0€** — Mantramantra  |  hit parade (SOFA Records)
+- **110.0€** — Max Cillala flute des mornes vol.1  |  apia (SOFA Records)
+- **110.0€** — Neutral Rythmiquevarious  |  musax (SOFA Records)
+- **90.0€** — Docteur Nico & Orchestre African Fiestaadieu freetown / timbero  |  ngoma (SOFA Records)
+- **90.0€** — Fairuzloulou volume 1  |  parlophone (SOFA Records)
+- **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa (SOFA Records)
+- **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music (SOFA Records)
+- **80.0€** — Bovick & Covenus / bazombo  |  mci music (SOFA Records)
+- **80.0€** — Black Beats Bandblack beat rhythms  |  decca (SOFA Records)
+- **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma (SOFA Records)
+- **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient (SOFA Records)
+- **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic (SOFA Records)
+- **80.0€** — Ramuntcho Matta Presentsbrion gysin / polo lombardo  |  mosquito (SOFA Records)
+- **80.0€** — Cohelmec Ensemblenext  |  saravah (SOFA Records)
+- **80.0€** — Bernard Estardyclaviers  |  tele music (SOFA Records)
+- **80.0€** — Ilousilous  |  flamophone (SOFA Records)
+- **75.0€** — Mansia M'Bilas/t  |  west african music (wam) (SOFA Records)
+- **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records (SOFA Records)
+- **75.0€** — Mombasa Rootsmsa mombasa  |  polydor (SOFA Records)
+- **75.0€** — Fairuzlebanon forever  |  voix de l'orient (SOFA Records)
+- **70.0€** — African Brothers Band Internationalodo paa nie  |  aduana (SOFA Records)
+- **70.0€** — Ricomwen domi dewo  |  liso music production (SOFA Records)
+- **70.0€** — Caetano Velosos/t  |  philips (SOFA Records)
+- **70.0€** — Os Tatuisos tatuís  |  farroupilha (SOFA Records)
+- **70.0€** — Kimiko Kasai With Kosuke Mine Quartetyellow carcass in the blue  |  three blind mice (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -125,6 +164,44 @@
 - **110.0€** — Alan Parker & Alan Hawkshaw - Alternatives (Music De Wolfe - 1971 - UK) — [voir](https://www.diggersdigest.com/product/alan-parker-alan-hawkshaw-alternatives-music-de-wolfe-1971-uk)
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
+
+### SOFA Records — 35 disponibles, 0 vendus
+
+- **250.0€** — Cymandecymande  |  janus — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
+- **250.0€** — Chene Noirorphée 2000  |  chene noir disques — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
+- **250.0€** — Action (Various)action  |  musax — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
+- **190.0€** — Elektro-Dschungelkebab und andere träume  |  no label — [voir](https://www.sofarecords.fr/fr/elektro-dschungel/kebab-und-andere-traume/p3200090298/)
+- **150.0€** — The George Otsuka 5go on  |  three blind mice — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
+- **140.0€** — Johnny Mokhalisister sexy eyes / best friends  |  drum rock — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
+- **140.0€** — Sun Ra & His Inter-Galactic Research Arkestranuits de la fondation maeght  |  strut / artyard — [voir](https://www.sofarecords.fr/fr/sun-ra-amp-his-inter-galactic-research-arkestra/nuits-de-la-fondation-maeght/p3201674136/)
+- **120.0€** — Guy Pedersencontrebasses  |  tele music — [voir](https://www.sofarecords.fr/fr/guy-pedersen/contrebasses/p3202495797/)
+- **110.0€** — Fela Kuti & Africa 70zombie  |  polydor — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
+- **110.0€** — Orquesta Sabor Internacionaldieka  |  bellot records — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
+- **110.0€** — Mantramantra  |  hit parade — [voir](https://www.sofarecords.fr/fr/mantra/mantra/p3204752581/)
+- **110.0€** — Max Cillala flute des mornes vol.1  |  apia — [voir](https://www.sofarecords.fr/fr/max-cilla/la-flute-des-mornes-vol-1/p2968465827/)
+- **110.0€** — Neutral Rythmiquevarious  |  musax — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
+- **90.0€** — Docteur Nico & Orchestre African Fiestaadieu freetown / timbero  |  ngoma — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
+- **90.0€** — Fairuzloulou volume 1  |  parlophone — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
+- **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
+- **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
+- **80.0€** — Bovick & Covenus / bazombo  |  mci music — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
+- **80.0€** — Black Beats Bandblack beat rhythms  |  decca — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
+- **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
+- **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
+- **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
+- **80.0€** — Ramuntcho Matta Presentsbrion gysin / polo lombardo  |  mosquito — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
+- **80.0€** — Cohelmec Ensemblenext  |  saravah — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
+- **80.0€** — Bernard Estardyclaviers  |  tele music — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
+- **80.0€** — Ilousilous  |  flamophone — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
+- **75.0€** — Mansia M'Bilas/t  |  west african music (wam) — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
+- **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
+- **75.0€** — Mombasa Rootsmsa mombasa  |  polydor — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
+- **75.0€** — Fairuzlebanon forever  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/fairuz/lebanon-forever/p3016313215/)
+- **70.0€** — African Brothers Band Internationalodo paa nie  |  aduana — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
+- **70.0€** — Ricomwen domi dewo  |  liso music production — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
+- **70.0€** — Caetano Velosos/t  |  philips — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
+- **70.0€** — Os Tatuisos tatuís  |  farroupilha — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
+- **70.0€** — Kimiko Kasai With Kosuke Mine Quartetyellow carcass in the blue  |  three blind mice — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
 ### Victor Kiswell — 269 disponibles, 0 vendus
 
