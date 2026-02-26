@@ -17,6 +17,7 @@ MIN_PRICE = 100
 MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
 ALERT_FILE = "ALERTES.md"
+TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 
 
 # ─────────────────────────────────────────────
@@ -444,8 +445,15 @@ def search_leboncoin(title, max_price):
             "sort_order": "desc"
         }
         r = requests.post(url, headers=headers, json=payload, timeout=15)
+        print(f"  LBC status: {r.status_code} | query: {query} | max: {max_price}€")
+        if r.status_code != 200:
+            print(f"  LBC erreur body: {r.text[:300]}")
+            return results
         data = r.json()
-        for ad in data.get("ads", []):
+        total = data.get("total", "?")
+        ads = data.get("ads", [])
+        print(f"  LBC total annonces API: {total} | retournées: {len(ads)}")
+        for ad in ads:
             price_list = ad.get("price", [])
             price = price_list[0] if price_list else None
             if not price or float(price) > max_price:
@@ -458,7 +466,7 @@ def search_leboncoin(title, max_price):
             })
         time.sleep(1)
     except Exception as e:
-        print(f"Leboncoin: {e}")
+        print(f"  LBC exception: {e}")
     return results
 
 
@@ -483,8 +491,17 @@ def search_vinted(title, max_price):
             "https://www.vinted.fr/api/v2/catalog/items",
             headers=headers, params=params, timeout=15
         )
+        print(f"  VTD status: {r.status_code} | query: {query} | max: {max_price}€")
+        if r.status_code != 200:
+            print(f"  VTD erreur body: {r.text[:300]}")
+            return results
         data = r.json()
-        for item in data.get("items", []):
+        items = data.get("items", [])
+        pagination = data.get("pagination", {})
+        print(f"  VTD total API: {pagination.get('total_count', '?')} | retournés: {len(items)}")
+        if not items and "error" in data:
+            print(f"  VTD error field: {data['error']}")
+        for item in items:
             price_data = item.get("price", {})
             price = float(price_data.get("amount", 0)) if isinstance(price_data, dict) else float(price_data or 0)
             if not price or price > max_price:
@@ -500,7 +517,7 @@ def search_vinted(title, max_price):
             })
         time.sleep(1)
     except Exception as e:
-        print(f"Vinted: {e}")
+        print(f"  VTD exception: {e}")
     return results
 
 
@@ -622,6 +639,9 @@ def main():
     print("\nPhase 3 : recherche opportunites marche...")
     opportunites = []
     actifs = [r for r in all_records if not r.get('sold')]
+    if TEST_MODE:
+        print("  [TEST_MODE] Limite a 3 disques pour diagnostic")
+        actifs = actifs[:3]
     for record in actifs:
         max_price = round(record['price_ref'] * MAX_PRICE_RATIO, 0)
         found = search_leboncoin(record['title'], max_price)
