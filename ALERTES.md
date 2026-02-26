@@ -1,4 +1,4 @@
-# VINYL SCOUT — Rapport du 26/02/2026 13:55
+# VINYL SCOUT — Rapport du 26/02/2026 14:39
 
 **Base : 422 disques | Actifs : 3 | Seuil achat : 40% du prix ref**
 
@@ -9,45 +9,6 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
-
----
-## 🆕 35 nouveaux en base
-
-- **250.0€** — Cymandecymande  |  janus (SOFA Records)
-- **250.0€** — Chene Noirorphée 2000  |  chene noir disques (SOFA Records)
-- **250.0€** — Action (Various)action  |  musax (SOFA Records)
-- **190.0€** — Elektro-Dschungelkebab und andere träume  |  no label (SOFA Records)
-- **150.0€** — The George Otsuka 5go on  |  three blind mice (SOFA Records)
-- **140.0€** — Johnny Mokhalisister sexy eyes / best friends  |  drum rock (SOFA Records)
-- **140.0€** — Sun Ra & His Inter-Galactic Research Arkestranuits de la fondation maeght  |  strut / artyard (SOFA Records)
-- **120.0€** — Guy Pedersencontrebasses  |  tele music (SOFA Records)
-- **110.0€** — Fela Kuti & Africa 70zombie  |  polydor (SOFA Records)
-- **110.0€** — Orquesta Sabor Internacionaldieka  |  bellot records (SOFA Records)
-- **110.0€** — Mantramantra  |  hit parade (SOFA Records)
-- **110.0€** — Max Cillala flute des mornes vol.1  |  apia (SOFA Records)
-- **110.0€** — Neutral Rythmiquevarious  |  musax (SOFA Records)
-- **90.0€** — Docteur Nico & Orchestre African Fiestaadieu freetown / timbero  |  ngoma (SOFA Records)
-- **90.0€** — Fairuzloulou volume 1  |  parlophone (SOFA Records)
-- **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa (SOFA Records)
-- **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music (SOFA Records)
-- **80.0€** — Bovick & Covenus / bazombo  |  mci music (SOFA Records)
-- **80.0€** — Black Beats Bandblack beat rhythms  |  decca (SOFA Records)
-- **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma (SOFA Records)
-- **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient (SOFA Records)
-- **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic (SOFA Records)
-- **80.0€** — Ramuntcho Matta Presentsbrion gysin / polo lombardo  |  mosquito (SOFA Records)
-- **80.0€** — Cohelmec Ensemblenext  |  saravah (SOFA Records)
-- **80.0€** — Bernard Estardyclaviers  |  tele music (SOFA Records)
-- **80.0€** — Ilousilous  |  flamophone (SOFA Records)
-- **75.0€** — Mansia M'Bilas/t  |  west african music (wam) (SOFA Records)
-- **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records (SOFA Records)
-- **75.0€** — Mombasa Rootsmsa mombasa  |  polydor (SOFA Records)
-- **75.0€** — Fairuzlebanon forever  |  voix de l'orient (SOFA Records)
-- **70.0€** — African Brothers Band Internationalodo paa nie  |  aduana (SOFA Records)
-- **70.0€** — Ricomwen domi dewo  |  liso music production (SOFA Records)
-- **70.0€** — Caetano Velosos/t  |  philips (SOFA Records)
-- **70.0€** — Os Tatuisos tatuís  |  farroupilha (SOFA Records)
-- **70.0€** — Kimiko Kasai With Kosuke Mine Quartetyellow carcass in the blue  |  three blind mice (SOFA Records)
 
 ---
 ## Catalogue complet
