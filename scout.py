@@ -400,7 +400,7 @@ def croiser_disquesanciens(base_records, da_records):
             da_words = words_from(da['title'])
             match_artist = artist_words & da_words
             match_album = album_words & da_words
-            if match_artist and match_album:
+            if match_artist and match_album and len(match_artist | match_album) >= 2:
                 croisements.append({
                     'ref_title': ref['title'],
                     'ref_source': ref['source'],
