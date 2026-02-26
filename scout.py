@@ -1,13 +1,13 @@
 """
-VINYL SCOUT v8
+VINYL SCOUT v9
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 2 : croisement Disques Anciens (matching artiste + album)
-- Phase 3 : recherche opportunites Leboncoin API + Vinted API + eBay API
+- Phase 3 : recherche opportunites Leboncoin + Vinted (via ScrapeOps) + eBay API
 """
 
 import requests
 from bs4 import BeautifulSoup
-import json, re, os, time
+import json, re, os, time, urllib.parse
 from datetime import datetime
 
 HEADERS = {
@@ -18,6 +18,7 @@ MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
 ALERT_FILE = "ALERTES.md"
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
+SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
 
 
 # ─────────────────────────────────────────────
@@ -531,49 +532,52 @@ def croiser_disquesanciens(base_records, da_records):
 # PHASE 3 — RECHERCHE OPPORTUNITES MARCHE
 # ─────────────────────────────────────────────
 
+def scrapeops_get(url):
+    """Requête GET via ScrapeOps proxy résidentiel."""
+    return requests.get(
+        "https://proxy.scrapeops.io/v1/",
+        params={
+            "api_key": SCRAPEOPS_KEY,
+            "url": url,
+            "residential": "true",
+            "country": "fr",
+        },
+        timeout=60
+    )
+
+
 def search_leboncoin(title, max_price):
-    """Recherche via l'API interne Leboncoin (JSON)."""
+    """Recherche Leboncoin via scraping HTML + ScrapeOps."""
+    if not SCRAPEOPS_KEY:
+        return []
     results = []
-    query = clean_title(title)
+    query = urllib.parse.quote(clean_title(title))
     try:
-        url = "https://api.leboncoin.fr/api/adfinder/v1/search"
-        headers = {
-            **HEADERS,
-            "api_key": "ba0c2dad52b3565fd92a98951aacea5c",
-            "Content-Type": "application/json",
-            "Origin": "https://www.leboncoin.fr",
-            "Referer": "https://www.leboncoin.fr/",
-        }
-        payload = {
-            "filters": {
-                "category": {"id": "34"},
-                "keywords": {"text": query, "type": "all"},
-                "price": {"max": str(int(max_price))}
-            },
-            "limit": 35,
-            "offset": 0,
-            "sort_by": "time",
-            "sort_order": "desc"
-        }
-        r = requests.post(url, headers=headers, json=payload, timeout=15)
-        print(f"  LBC status: {r.status_code} | query: {query} | max: {max_price}€")
+        url = f"https://www.leboncoin.fr/recherche?text={query}&category=34&price=0-{int(max_price)}"
+        r = scrapeops_get(url)
+        print(f"  LBC status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
         if r.status_code != 200:
-            print(f"  LBC erreur body: {r.text[:300]}")
+            print(f"  LBC erreur: {r.text[:200]}")
             return results
-        data = r.json()
-        total = data.get("total", "?")
-        ads = data.get("ads", [])
-        print(f"  LBC total annonces API: {total} | retournées: {len(ads)}")
-        for ad in ads:
-            price_list = ad.get("price", [])
-            price = price_list[0] if price_list else None
-            if not price or float(price) > max_price:
+        from bs4 import BeautifulSoup as BS
+        soup = BS(r.text, 'html.parser')
+        ads = soup.select('a[data-qa-id="aditem_container"]') or soup.select('[data-test-id="ad"]') or soup.select('li[data-id]')
+        print(f"  LBC annonces trouvées: {len(ads)}")
+        for ad in ads[:20]:
+            title_el = ad.select_one('[data-qa-id="aditem_title"]') or ad.select_one('h2') or ad.select_one('p')
+            price_el = ad.select_one('[data-qa-id="aditem_price"]') or ad.select_one('[class*="price"]')
+            href = ad.get('href', '')
+            if not href:
+                continue
+            ad_url = href if href.startswith('http') else 'https://www.leboncoin.fr' + href
+            price = extract_price(price_el.get_text()) if price_el else None
+            if not price or price > max_price:
                 continue
             results.append({
                 "platform": "leboncoin.fr",
-                "title": ad.get("subject", ""),
-                "price": float(price),
-                "url": ad.get("url", "")
+                "title": title_el.get_text(strip=True) if title_el else '',
+                "price": price,
+                "url": ad_url
             })
         time.sleep(1)
     except Exception as e:
@@ -582,47 +586,36 @@ def search_leboncoin(title, max_price):
 
 
 def search_vinted(title, max_price):
-    """Recherche via l'API Vinted (JSON)."""
+    """Recherche Vinted via scraping HTML + ScrapeOps."""
+    if not SCRAPEOPS_KEY:
+        return []
     results = []
-    query = clean_title(title)
+    query = urllib.parse.quote(clean_title(title))
     try:
-        params = {
-            "search_text": query,
-            "catalog_ids": "2050",
-            "price_to": str(int(max_price)),
-            "order": "newest_first",
-            "per_page": 30,
-        }
-        headers = {
-            **HEADERS,
-            "Origin": "https://www.vinted.fr",
-            "Referer": "https://www.vinted.fr/",
-        }
-        r = requests.get(
-            "https://www.vinted.fr/api/v2/catalog/items",
-            headers=headers, params=params, timeout=15
-        )
-        print(f"  VTD status: {r.status_code} | query: {query} | max: {max_price}€")
+        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=2050"
+        r = scrapeops_get(url)
+        print(f"  VTD status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
         if r.status_code != 200:
-            print(f"  VTD erreur body: {r.text[:300]}")
+            print(f"  VTD erreur: {r.text[:200]}")
             return results
-        data = r.json()
-        items = data.get("items", [])
-        pagination = data.get("pagination", {})
-        print(f"  VTD total API: {pagination.get('total_count', '?')} | retournés: {len(items)}")
-        if not items and "error" in data:
-            print(f"  VTD error field: {data['error']}")
-        for item in items:
-            price_data = item.get("price", {})
-            price = float(price_data.get("amount", 0)) if isinstance(price_data, dict) else float(price_data or 0)
+        from bs4 import BeautifulSoup as BS
+        soup = BS(r.text, 'html.parser')
+        items = soup.select('[data-testid="grid-item"]') or soup.select('[class*="ItemBox"]') or soup.select('div[class*="item"]')
+        print(f"  VTD articles trouvés: {len(items)}")
+        for item in items[:20]:
+            link_el = item.select_one('a')
+            price_el = item.select_one('[class*="price"]') or item.select_one('[data-testid*="price"]')
+            if not link_el:
+                continue
+            href = link_el.get('href', '')
+            item_url = href if href.startswith('http') else 'https://www.vinted.fr' + href
+            price = extract_price(price_el.get_text()) if price_el else None
             if not price or price > max_price:
                 continue
-            item_url = item.get("url", "")
-            if not item_url.startswith("http"):
-                item_url = "https://www.vinted.fr" + item_url
+            title_el = item.select_one('[class*="title"]') or item.select_one('h3') or link_el
             results.append({
                 "platform": "vinted.fr",
-                "title": item.get("title", ""),
+                "title": title_el.get_text(strip=True) if title_el else '',
                 "price": price,
                 "url": item_url
             })
