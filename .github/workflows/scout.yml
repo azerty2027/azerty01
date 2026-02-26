@@ -18,6 +18,7 @@ jobs:
         run: python scout.py
         env:
           TEST_MODE: "false"
+          SCRAPEOPS_KEY: ${{ secrets.SCRAPEOPS_KEY }}
       - name: Save results
         run: |
           git config user.name "github-actions[bot]"
