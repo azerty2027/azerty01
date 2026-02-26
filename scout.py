@@ -1,7 +1,7 @@
 """
-VINYL SCOUT v6
+VINYL SCOUT v7
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora)
-- Phase 2 : croisement Disques Anciens
+- Phase 2 : croisement Disques Anciens (matching artiste + album)
 - Phase 3 : recherche opportunites Leboncoin API + Vinted API + eBay API
 """
 
@@ -23,6 +23,37 @@ ALERT_FILE = "ALERTES.md"
 # UTILS
 # ─────────────────────────────────────────────
 
+STOPWORDS = {
+    # Labels et industrie
+    'records', 'record', 'company', 'label', 'edition', 'editions',
+    'productions', 'production', 'international', 'pressing', 'reissue',
+    'publishing', 'release', 'distributed', 'distribution',
+    # Formats
+    'vinyl', 'stereo', 'mono', 'disc', 'disk', 'album', 'single',
+    'original', 'limited', 'volume', 'studio', 'live',
+    # Mots musicaux génériques
+    'music', 'musique', 'orchestra', 'orchestre', 'ensemble', 'band',
+    'trio', 'quartet', 'quintet', 'sextet', 'session', 'suite',
+    'theme', 'themes', 'song', 'songs', 'dance', 'plays', 'featuring',
+    'present', 'presents', 'various', 'artists', 'compilation',
+    'collection', 'series', 'best', 'great', 'super', 'special',
+    # Genres (trop génériques)
+    'jazz', 'blues', 'soul', 'funk', 'disco', 'rock', 'folk',
+    'latin', 'afro', 'reggae', 'bossa', 'nova', 'swing',
+    # Mots français/anglais communs
+    'avec', 'dans', 'pour', 'from', 'the', 'and', 'feat',
+    'chant', 'monde', 'club', 'libre',
+    # Pays et régions
+    'france', 'french', 'italy', 'italian', 'germany', 'german',
+    'sweden', 'swedish', 'japan', 'japanese', 'brasil', 'brazil',
+    'belgium', 'swiss', 'spain', 'spanish', 'greece', 'greek',
+    'africa', 'african', 'india', 'indian', 'lebanese',
+    # Labels spécifiques trop courants
+    'columbia', 'ducretet', 'thomson', 'polydor', 'barclay',
+    'philips', 'atlantic', 'verve',
+}
+
+
 def extract_price(text):
     if not text:
         return None
@@ -33,16 +64,41 @@ def extract_price(text):
     match = re.search(r'(\d{2,4}\.?\d*)', text)
     return float(match.group(1)) if match else None
 
+
 def clean_title(title):
     title = re.sub(r'[^\w\s]', ' ', title)
     words = [w for w in title.split() if len(w) > 2]
     return ' '.join(words[:5])
 
-def normalize_title(title):
-    title = title.lower()
-    title = re.sub(r'[^\w\s]', ' ', title)
-    words = [w for w in title.split() if len(w) > 3]
-    return set(words)
+
+def words_from(text):
+    """Mots significatifs : > 3 chars, pas chiffre, pas stopword."""
+    text = text.lower()
+    text = re.sub(r'[^\w\s]', ' ', text)
+    return set(
+        w for w in text.split()
+        if len(w) > 3
+        and not w.isdigit()
+        and w not in STOPWORDS
+    )
+
+
+def parse_artist_album(title):
+    """
+    Extrait (artiste, album) depuis le format standard :
+    'Artiste - Album (Label - Ref - Pays - Annee)'
+    """
+    # Enlève tout ce qui est entre parenthèses (infos label)
+    title_clean = re.sub(r'\(.*?\)', '', title).strip()
+    # Split sur tiret long ou court entouré d'espaces
+    parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
+    if len(parts) == 2:
+        artist = parts[0].strip()
+        album = parts[1].strip()
+    else:
+        artist = ''
+        album = title_clean.strip()
+    return artist, album
 
 
 # ─────────────────────────────────────────────
@@ -327,15 +383,24 @@ def scrape_disquesanciens():
 
 
 def croiser_disquesanciens(base_records, da_records):
+    """
+    Match uniquement si :
+    - au moins 1 mot significatif de l'ARTISTE est présent dans le titre DA
+    - ET au moins 1 mot significatif de l'ALBUM est présent dans le titre DA
+    """
     croisements = []
     for ref in base_records:
-        ref_words = normalize_title(ref['title'])
-        if len(ref_words) < 2:
+        artist, album = parse_artist_album(ref['title'])
+        artist_words = words_from(artist)
+        album_words = words_from(album)
+        # Les deux doivent être non vides
+        if not artist_words or not album_words:
             continue
         for da in da_records:
-            da_words = normalize_title(da['title'])
-            communs = ref_words & da_words
-            if len(communs) >= 2:
+            da_words = words_from(da['title'])
+            match_artist = artist_words & da_words
+            match_album = album_words & da_words
+            if match_artist and match_album:
                 croisements.append({
                     'ref_title': ref['title'],
                     'ref_source': ref['source'],
@@ -343,7 +408,8 @@ def croiser_disquesanciens(base_records, da_records):
                     'da_title': da['title'],
                     'da_price': da['price'],
                     'da_url': da['url'],
-                    'mots_communs': list(communs)
+                    'match_artist': list(match_artist),
+                    'match_album': list(match_album),
                 })
     croisements.sort(key=lambda x: -x['ref_price'])
     return croisements
@@ -354,7 +420,7 @@ def croiser_disquesanciens(base_records, da_records):
 # ─────────────────────────────────────────────
 
 def search_leboncoin(title, max_price):
-    """Recherche via l'API interne Leboncoin (JSON, pas de JS requis)."""
+    """Recherche via l'API interne Leboncoin (JSON)."""
     results = []
     query = clean_title(title)
     try:
@@ -403,7 +469,7 @@ def search_vinted(title, max_price):
     try:
         params = {
             "search_text": query,
-            "catalog_ids": "2050",  # Musique / Vinyles
+            "catalog_ids": "2050",
             "price_to": str(int(max_price)),
             "order": "newest_first",
             "per_page": 30,
@@ -452,7 +518,7 @@ def search_ebay(title, max_price):
             "SECURITY-APPNAME": ebay_key,
             "RESPONSE-DATA-FORMAT": "JSON",
             "keywords": query,
-            "categoryId": "306",  # Vinyl Records
+            "categoryId": "306",
             "itemFilter(0).name": "MaxPrice",
             "itemFilter(0).value": str(int(max_price)),
             "itemFilter(0).paramName": "Currency",
@@ -590,7 +656,7 @@ def main():
             lines.append(f"### {o['ref_title']}")
             lines.append(f"- **Ref** : {o['ref_price']}€ chez {o['ref_source']}")
             lines.append(f"- **Chez Disques Anciens** : {o['da_price']}€ — {o['da_title']}")
-            lines.append(f"- Mots communs : {', '.join(o['mots_communs'])}")
+            lines.append(f"- Match artiste : `{', '.join(o['match_artist'])}` | album : `{', '.join(o['match_album'])}`")
             lines.append(f"- [Voir]({o['da_url']})")
             lines.append("")
     else:
