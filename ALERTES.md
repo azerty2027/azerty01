@@ -1,15 +1,152 @@
-# VINYL SCOUT — Rapport du 26/02/2026 08:01
+# VINYL SCOUT — Rapport du 26/02/2026 09:16
 
 **Base : 387 disques | Actifs : 376 | Seuil achat : 40% du prix ref**
 
 ---
 
-## ✅ Aucune opportunite aujourd'hui
+## 🏪 23 REFS AUSSI CHEZ DISQUES ANCIENS
+
+### Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy)
+- **Ref** : 450.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 15.0€ — HANYU CHUBU 33T25 x 2 China Records Company M 1010/1011
+- Mots communs : company, records
+- [Voir](https://disquesanciens.com/produit/hanyu-chubu-33t25x2-china-records-company-m-101011/)
+
+### Intercommunal Free Dance Music Orchestra - Volume. 2 (Temps Des Cerises, France, 1974)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — AVEC LE QUINTETTE DU HOT CLUB DE FRANCE VOLUME 1
+- Mots communs : volume, france
+- [Voir](https://disquesanciens.com/produit/avec-le-quintette-du-hot-club-de-france-volume-1/)
+
+### Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964)
+- **Ref** : 290.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 25.0€ — Mademoiselle SALIMA 45EP Ducretet Thomson 450V324 S Ya Khti-Gouli Lih/Yekouik-Yekouik
+- Mots communs : ducretet, thomson
+- [Voir](https://disquesanciens.com/produit/mademoiselle-salima-45ep-ducretet-thomson-450v324-s-ya-khti-gouli-lih-yekouik-yekouik/)
+
+### Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964)
+- **Ref** : 290.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 10.0€ — Mademoiselle SALIMA 45EP Ducretet Thomson 450V326 Ya Dalem Lach/La Tloumouni
+- Mots communs : ducretet, thomson
+- [Voir](https://disquesanciens.com/produit/ya-dalem-lach-la-tloumouni/)
+
+### Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964)
+- **Ref** : 290.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — Soad HAJJI-Ahmed EL GHARBAOUI 45T Ducretet Thomson 450V243 Sir Allah Yehdik/Hiya-Hiya
+- Mots communs : ducretet, thomson
+- [Voir](https://disquesanciens.com/produit/sir-allah-yehdik-hiya-hiya/)
+
+### Black Devil – Disco Club (RCA – PL 37164 - France - 1978)
+- **Ref** : 280.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — AVEC LE QUINTETTE DU HOT CLUB DE FRANCE VOLUME 1
+- Mots communs : club, france
+- [Voir](https://disquesanciens.com/produit/avec-le-quintette-du-hot-club-de-france-volume-1/)
+
+### Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)
+- **Ref** : 250.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — AVEC LE QUINTETTE DU HOT CLUB DE FRANCE VOLUME 1
+- Mots communs : france, avec
+- [Voir](https://disquesanciens.com/produit/avec-le-quintette-du-hot-club-de-france-volume-1/)
+
+### Music From the East
+- **Ref** : 230.0€ chez Victor Kiswell
+- **Chez Disques Anciens** : 45.0€ — JEAN JENKINS 33T TANGENT TGS127 INTRUMENTAL MUSIC FROM MONGOLIA
+- Mots communs : from, music
+- [Voir](https://disquesanciens.com/produit/jean-jenkins-33t-tangent-tgs117-intrumental-music-from-mongolia/)
+
+### Jef Gilson Et Son Orchestre Avec Jean-Louis Chautemps ‎– A Free Call (Polydor - France - 1966)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — AVEC LE QUINTETTE DU HOT CLUB DE FRANCE VOLUME 1
+- Mots communs : france, avec
+- [Voir](https://disquesanciens.com/produit/avec-le-quintette-du-hot-club-de-france-volume-1/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 15.0€ — DANIEL VIGLIETTI 33T CHANT DU MONDE LDX 74362 CANCIONES PARA MI AMERICA
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/daniel-viglietti-33t-chant-du-monde-ldx-74362-canciones-para-mi-america/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — Maurice BENITAH 33T17 Le Chant Du Monde LDY  4148 CHANTS ET DANSES DU MAROC: SUR LA PLACE JAAMA EL FNA A MARRAKECH
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/chants-et-danses-du-maroc-sur-la-place-jaama-el-fna-a-marrakech/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 10.0€ — MOHAMED HAMAM 45EP Le Chant Du Monde EP45 1234 Pablo Neruda
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/pablo-neruda-2/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — SAHARA:CHANTS DES TOUAREG AJJER 33T17 Le Chant Du Monde LDY 4160
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/sahara-chants-touareg-ajjer/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — SALIHA chant et des Ensembles Populaires Tunisiens 33T Le Chant Du Monde LDX 4341 Danses Et Chants Bedouins De Tunisie
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/saliha-chant-et-des-ensembles-populaires-tunisiens-33t-le-chant-du-monde-ldx-4341-danses-et-chants-bedouins-de-tunisie/)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — CHANSONS POPULAIRES DU VIETNAM 33T17 Le Chant Du Monde LDY 4046
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/chansons-populaires-du-vietnam-33t17-le-chant-du-monde-ldy-4046/)
+
+### Bob Azzam And His Orchestra – New Sounds (Columbia – SSX 1035 - Sweden - 1968)
+- **Ref** : 140.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 10.0€ — THE XYLO-RIMBA ORCHESTRA 78T25 COLUMBIA 3921 SUNNY SMILES OF HAWAII-SWEET HAWAIIAN DREAMS
+- Mots communs : orchestra, columbia
+- [Voir](https://disquesanciens.com/produit/the-xylo-rimba-orchestra-78t25-columbia-3921-sunny-smiles-of-hawaii-sweet-hawaiian-dreams/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 15.0€ — DANIEL VIGLIETTI 33T CHANT DU MONDE LDX 74362 CANCIONES PARA MI AMERICA
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/daniel-viglietti-33t-chant-du-monde-ldx-74362-canciones-para-mi-america/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — Maurice BENITAH 33T17 Le Chant Du Monde LDY  4148 CHANTS ET DANSES DU MAROC: SUR LA PLACE JAAMA EL FNA A MARRAKECH
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/chants-et-danses-du-maroc-sur-la-place-jaama-el-fna-a-marrakech/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 10.0€ — MOHAMED HAMAM 45EP Le Chant Du Monde EP45 1234 Pablo Neruda
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/pablo-neruda-2/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — SAHARA:CHANTS DES TOUAREG AJJER 33T17 Le Chant Du Monde LDY 4160
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/sahara-chants-touareg-ajjer/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 20.0€ — SALIHA chant et des Ensembles Populaires Tunisiens 33T Le Chant Du Monde LDX 4341 Danses Et Chants Bedouins De Tunisie
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/saliha-chant-et-des-ensembles-populaires-tunisiens-33t-le-chant-du-monde-ldx-4341-danses-et-chants-bedouins-de-tunisie/)
+
+### François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Chez Disques Anciens** : 12.0€ — CHANSONS POPULAIRES DU VIETNAM 33T17 Le Chant Du Monde LDY 4046
+- Mots communs : chant, monde
+- [Voir](https://disquesanciens.com/produit/chansons-populaires-du-vietnam-33t17-le-chant-du-monde-ldy-4046/)
+
+### Music from Africain
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Chez Disques Anciens** : 45.0€ — JEAN JENKINS 33T TANGENT TGS127 INTRUMENTAL MUSIC FROM MONGOLIA
+- Mots communs : from, music
+- [Voir](https://disquesanciens.com/produit/jean-jenkins-33t-tangent-tgs117-intrumental-music-from-mongolia/)
 
 ---
-## 🆕 1 nouveaux en base
 
-- **125.0€** — VS QUARTET - A pou zot (Diaspora Records)
+## ✅ Aucune opportunite marche aujourd'hui
 
 ---
 ## Catalogue complet
