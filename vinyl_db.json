@@ -3086,5 +3086,13 @@
     "url": "http://www.victorkiswell.com/v3/?product=elementary-modern-dance",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332660"
+  },
+  "https://www.diasporarecords.com/jazz-jazz-fusion/pou-zot": {
+    "source": "Diaspora Records",
+    "title": "VS QUARTET - A pou zot",
+    "price_ref": 125.0,
+    "url": "https://www.diasporarecords.com/jazz-jazz-fusion/pou-zot",
+    "sold": false,
+    "first_seen": "2026-02-26T07:53:29.655973"
   }
 }
