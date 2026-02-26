@@ -1,34 +1,10 @@
-# VINYL SCOUT — Rapport du 26/02/2026 10:04
+# VINYL SCOUT — Rapport du 26/02/2026 10:45
 
 **Base : 387 disques | Actifs : 376 | Seuil achat : 40% du prix ref**
 
 ---
 
-## 🏪 4 REFS AUSSI CHEZ DISQUES ANCIENS
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Chez Disques Anciens** : 12.0€ — Miriam MAKEBA et son Quintette Guinéen 45 Tours Syliphone SYL 525 Toure Barika / Milele
-- Match artiste : `toure` | album : `toure`
-- [Voir](https://disquesanciens.com/produit/miriam-makeba-et-son-quintette-guineen-45-tours-syliphone-syl-525-toure-barika-milele/)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Chez Disques Anciens** : 10.0€ — TOURE KUNDA 33T Tréma 310 233 Toubab Bi / Wadini + 7
-- Match artiste : `toure` | album : `toure`
-- [Voir](https://disquesanciens.com/produit/toure-kunda-33t-trema-310-233-toubab-bi-wadini-7/)
-
-### Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976)
-- **Ref** : 420.0€ chez Digger's Digest
-- **Chez Disques Anciens** : 12.0€ — Miriam MAKEBA et son Quintette Guinéen 45 Tours Syliphone SYL 525 Toure Barika / Milele
-- Match artiste : `toure` | album : `toure`
-- [Voir](https://disquesanciens.com/produit/miriam-makeba-et-son-quintette-guineen-45-tours-syliphone-syl-525-toure-barika-milele/)
-
-### Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976)
-- **Ref** : 420.0€ chez Digger's Digest
-- **Chez Disques Anciens** : 10.0€ — TOURE KUNDA 33T Tréma 310 233 Toubab Bi / Wadini + 7
-- Match artiste : `toure` | album : `toure`
-- [Voir](https://disquesanciens.com/produit/toure-kunda-33t-trema-310-233-toubab-bi-wadini-7/)
+## 🏪 Aucun croisement Disques Anciens aujourd'hui
 
 ---
 
