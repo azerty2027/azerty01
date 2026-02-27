@@ -502,7 +502,7 @@ def scrapeops_get(url):
             "residential": "true",
             "country": "fr",
         },
-        timeout=60
+        timeout=90
     )
 
 
