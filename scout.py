@@ -592,7 +592,7 @@ def search_vinted(title, max_price):
     results = []
     query = urllib.parse.quote(clean_title(title))
     try:
-        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=2050"
+        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=139"
         r = scrapeops_get(url)
         print(f"  VTD status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
         if r.status_code != 200:
@@ -767,6 +767,15 @@ def main():
                 'marge_pct': ratio,
             })
     opportunites.sort(key=lambda x: -x['marge'])
+
+    # Déduplication par URL
+    seen_urls = set()
+    opportunites_uniques = []
+    for o in opportunites:
+        if o['found_url'] not in seen_urls:
+            seen_urls.add(o['found_url'])
+            opportunites_uniques.append(o)
+    opportunites = opportunites_uniques
 
     # ── Rapport ──
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
