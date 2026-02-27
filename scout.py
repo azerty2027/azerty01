@@ -508,55 +508,53 @@ def scrapeops_get(url):
 
 def search_leboncoin(title, max_price):
     """
-    Recherche LBC via l'API JSON interne — pas besoin de ScrapeOps.
+    Recherche LBC via ScrapeOps proxy résidentiel + render_js.
     Catégorie 34 = CD, Vinyles, Cassettes.
     """
+    if not SCRAPEOPS_KEY:
+        return []
     results = []
-    query = clean_title(title)
+    query = urllib.parse.quote(clean_title(title))
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "api_key": "ba0c2dad52b3565c9a3f2b9ea8220539475e2992",
-        }
-        payload = {
-            "filters": {
-                "category": {"id": "34"},
-                "keywords": {
-                    "text": query,
-                    "type": "all"
-                },
-                "price": {"max": int(max_price)},
+        url = f"https://www.leboncoin.fr/recherche?text={query}&category=34&price=min-{int(max_price)}"
+        r = requests.get(
+            "https://proxy.scrapeops.io/v1/",
+            params={
+                "api_key": SCRAPEOPS_KEY,
+                "url": url,
+                "residential": "true",
+                "country": "fr",
+                "render_js": "true",
             },
-            "limit": 20,
-            "offset": 0,
-            "sort_by": "time",
-            "sort_order": "desc",
-        }
-        r = requests.post(
-            "https://api.leboncoin.fr/finder/search",
-            headers=headers,
-            json=payload,
-            timeout=20
+            timeout=90
         )
-        print(f"  LBC status: {r.status_code} | query: {query} | max: {max_price}€")
+        print(f"  LBC status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
         if r.status_code != 200:
             print(f"  LBC erreur: {r.text[:200]}")
             return results
-        data = r.json()
-        ads = data.get("ads", [])
+        soup = BeautifulSoup(r.text, 'html.parser')
+        # LBC charge les annonces dans des balises <a> avec data-qa-id
+        ads = (soup.select('a[data-qa-id="aditem_container"]')
+               or soup.select('[data-test-id="ad"]')
+               or soup.select('a[href*="/ad/"]'))
         print(f"  LBC annonces: {len(ads)}")
-        for ad in ads:
-            price = ad.get("price", [None])[0] if ad.get("price") else None
+        for ad in ads[:20]:
+            title_el = (ad.select_one('[data-qa-id="aditem_title"]')
+                        or ad.select_one('p[class*="title"]')
+                        or ad.select_one('h2'))
+            price_el = (ad.select_one('[data-qa-id="aditem_price"]')
+                        or ad.select_one('[class*="price"]'))
+            href = ad.get('href', '')
+            if not href:
+                continue
+            ad_url = href if href.startswith('http') else 'https://www.leboncoin.fr' + href
+            price = extract_price(price_el.get_text()) if price_el else None
             if not price or price > max_price:
                 continue
-            ad_url = f"https://www.leboncoin.fr/ad/musique/{ad.get('list_id', '')}"
-            ad_title = ad.get("subject", "")
             results.append({
                 "platform": "leboncoin.fr",
-                "title": ad_title,
-                "price": float(price),
+                "title": title_el.get_text(strip=True) if title_el else '',
+                "price": price,
                 "url": ad_url
             })
         time.sleep(1)
