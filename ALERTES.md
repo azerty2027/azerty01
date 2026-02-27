@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 27/02/2026 14:07
+# VINYL SCOUT — Rapport du 27/02/2026 14:53
 
-**Base : 423 disques | Actifs : 411 | Batch du jour : 3 | Seuil achat : 40% du prix ref**
+**Base : 423 disques | Actifs : 409 | Batch du jour : 3 | Seuil achat : 40% du prix ref**
 
 ---
 
@@ -122,7 +122,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 36 disponibles, 0 vendus
+### SOFA Records — 34 disponibles, 0 vendus
 
 - **250.0€** — Cymandecymande  |  janus — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noirorphée 2000  |  chene noir disques — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
@@ -132,14 +132,12 @@
 - **140.0€** — Johnny Mokhalisister sexy eyes / best friends  |  drum rock — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
 - **140.0€** — Sun Ra & His Inter-Galactic Research Arkestranuits de la fondation maeght  |  strut / artyard — [voir](https://www.sofarecords.fr/fr/sun-ra-amp-his-inter-galactic-research-arkestra/nuits-de-la-fondation-maeght/p3201674136/)
 - **120.0€** — Guy Pedersencontrebasses  |  tele music — [voir](https://www.sofarecords.fr/fr/guy-pedersen/contrebasses/p3202495797/)
-- **110.0€** — Fela Kuti & Africa 70zombie  |  polydor — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
 - **110.0€** — Orquesta Sabor Internacionaldieka  |  bellot records — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
 - **110.0€** — Mantramantra  |  hit parade — [voir](https://www.sofarecords.fr/fr/mantra/mantra/p3204752581/)
 - **110.0€** — Max Cillala flute des mornes vol.1  |  apia — [voir](https://www.sofarecords.fr/fr/max-cilla/la-flute-des-mornes-vol-1/p2968465827/)
 - **110.0€** — Neutral Rythmiquevarious  |  musax — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
 - **90.0€** — Docteur Nico & Orchestre African Fiestaadieu freetown / timbero  |  ngoma — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
 - **90.0€** — Fairuzloulou volume 1  |  parlophone — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
-- **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
 - **80.0€** — Bovick & Covenus / bazombo  |  mci music — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
 - **80.0€** — Black Beats Bandblack beat rhythms  |  decca — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
