@@ -1,5 +1,5 @@
 """
-VINYL SCOUT v9
+VINYL SCOUT v11
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 3 : recherche opportunites Leboncoin + Vinted (via ScrapeOps) + eBay API
 """
@@ -125,6 +125,7 @@ def scrape_victorkiswell():
                 if not items:
                     break
                 for item in items:
+                    artist_el = item.select_one('h4')
                     title_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
                     price_el = item.select_one('.price')
                     link_el = item.select_one('a.woocommerce-LoopProduct-link') or item.select_one('a')
@@ -138,9 +139,12 @@ def scrape_victorkiswell():
                     if url_item in results:
                         continue
                     sold = any(x in item.get_text().lower() for x in ['out of stock', 'sold', 'epuise'])
+                    artist = artist_el.get_text(strip=True) if artist_el else ''
+                    album = title_el.get_text(strip=True)
+                    full_title = f"{artist} - {album}" if artist else album
                     results[url_item] = {
                         'source': 'Victor Kiswell',
-                        'title': title_el.get_text(strip=True),
+                        'title': full_title,
                         'price_ref': price,
                         'url': url_item,
                         'sold': sold
@@ -505,7 +509,7 @@ def search_vinted(title, max_price):
     results = []
     query = urllib.parse.quote(clean_title(title))
     try:
-        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=139"
+        url = f"https://www.vinted.fr/catalog/3041-vinyl-records?search_text={query}&price_to={int(max_price)}"
         r = scrapeops_get(url)
         print(f"  VTD status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
         if r.status_code != 200:
