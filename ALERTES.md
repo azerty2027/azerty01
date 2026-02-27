@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 27/02/2026 08:59
+# VINYL SCOUT — Rapport du 27/02/2026 12:04
 
-**Base : 423 disques | Actifs : 411 | Seuil achat : 40% du prix ref**
+**Base : 423 disques | Actifs : 411 | Batch du jour : 3 | Seuil achat : 40% du prix ref**
 
 ---
 
@@ -9,11 +9,6 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
-
----
-## 🆕 1 nouveaux en base
-
-- **75.0€** — Kazis Et Les Cheveux Crepusdiables noirs / champions  |  afro-disc (SOFA Records)
 
 ---
 ## Catalogue complet
