@@ -1,144 +1,19 @@
-# VINYL SCOUT — Rapport du 27/02/2026 21:24
+# VINYL SCOUT — Rapport du 28/02/2026 12:47
 
-**Base : 424 disques | Actifs : 410 | Batch : 100 disques | Seuil achat : 40% du prix ref**
-
----
-
-## 🎯 8 OPPORTUNITES WISHLIST
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 39.9€ sur vinted.fr — sous le seuil de **1.1000000000000014€**
-- [Voir l'annonce](https://www.vinted.fr/items/7769875533-fatboy-slim-the-best-of-fatboy-slim?referrer=catalog)
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 22.0€ sur vinted.fr — sous le seuil de **19.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/6376899654-vinyle-hip-hop-diggers-compilation-rap-us?referrer=catalog)
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 28.0€ sur vinted.fr — sous le seuil de **13.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/5735550990-scream-your-choice-live-series-lp-dave-grohl?referrer=catalog)
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 29.0€ sur vinted.fr — sous le seuil de **12.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/6869189562-punzonato-a-cerchio-various-rock-power-lp-us-terre-haute-pressing-1974-vg-nm?referrer=catalog)
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 17.0€ sur vinted.fr — sous le seuil de **24.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/7458653814-cancerous-growth-hmmimmlum-vinyl-ip-vinile?referrer=catalog)
-
-### Brothers by Choice - Brothers By Choice
-- **Max à payer** : 41€
-- **Trouvé** : 35.0€ sur vinted.fr — sous le seuil de **6.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/7711815598-manges-all-is-well-colored-vinyl-ip-vinile?referrer=catalog)
-
-### Raja - Lebanon
-- **Max à payer** : 39€
-- **Trouvé** : 16.0€ sur vinted.fr — sous le seuil de **23.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/8126500593-disque-raja-zahr?referrer=catalog)
-
-### Ann Steel - My Time
-- **Max à payer** : 11€
-- **Trouvé** : 10.0€ sur vinted.fr — sous le seuil de **1.0€**
-- [Voir l'annonce](https://www.vinted.fr/items/7261316131-45-tours-ann-steel-my-time?referrer=catalog)
+**Base : 425 disques | Actifs : 410 | Batch : 100 disques | Seuil achat : 40% du prix ref**
 
 ---
 
-## 🔴 18 OPPORTUNITES MARCHE
+## 🎯 Aucune opportunité wishlist aujourd'hui
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **470.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019?referrer=catalog)
+---
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **435.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl?referrer=catalog)
+## ✅ Aucune opportunite marche aujourd'hui
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **350.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp?referrer=catalog)
+---
+## 🆕 1 nouveaux en base
 
-### Fabriano Fuzion - Cosmik Sindika
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **195.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7453877323-fabriano-fuzion-cosmik-sindika?referrer=catalog)
-
-### Jamisen Funk - Jamisen Funk
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **185.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7147469861-vinyle-funk-jazz-rock-de-akira-ishikawa-his-count-buffalos?referrer=catalog)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **120.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8256889702-vinyl-45t-the-ritchie-family-quiet-village-voodoo?referrer=catalog)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 11.99€ sur vinted.fr — marge potentielle **118.01€ (91%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7944999892-dolls-anrchy-anarchy-01-various-12?referrer=catalog)
-
-### Assagai - Assagai
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **110.0€ (73%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6868246927-soul-makossa?referrer=catalog)
-
-### Assagai - Assagai
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7208245405-assagai-assagai-lp-album-re?referrer=catalog)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **105.0€ (81%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6790758008-lp-don-tracy-a-night-with-the-voodoo-family?referrer=catalog)
-
-### Daniel Grau - El Leon Bailarin
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **100.01€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7696274889-daniel-grau-el-leon-bailarin-lp-album-europe-2016-disco-funk-cosmic?referrer=catalog)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **100.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4236848505-vinyle-33t-voodoo-family?referrer=catalog)
-
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg?referrer=catalog)
-
-### Ofege - Try and Love
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8094191865-ofege-try-and-love-vinyle-lp-33-tours?referrer=catalog)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **80.0€ (62%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8092157892-voodoo-family?referrer=catalog)
-
-### Pedro Iturralde - Flamenco Jazz
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **74.0€ (74%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5487236588-pedro-iturralde-flamenco-jazz-vinilo-lp?referrer=catalog)
-
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga?referrer=catalog)
-
-### Pedro Iturralde - Flamenco Jazz
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 38.99€ sur vinted.fr — marge potentielle **61.01€ (61%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz?referrer=catalog)
+- **20.0€** ~~[VENDU]~~ — Logobi Various - Logobi Parisian African Breakdance (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -256,43 +131,45 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 35 disponibles, 0 vendus
+### SOFA Records — 35 disponibles, 1 vendus
 
-- **250.0€** — Cymandecymande  |  janus — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
-- **250.0€** — Chene Noirorphée 2000  |  chene noir disques — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
-- **250.0€** — Action (Various)action  |  musax — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
-- **190.0€** — Elektro-Dschungelkebab und andere träume  |  no label — [voir](https://www.sofarecords.fr/fr/elektro-dschungel/kebab-und-andere-traume/p3200090298/)
-- **180.0€** — Jimmy Blanchedou van jou  |  gefraco — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
-- **150.0€** — The George Otsuka 5go on  |  three blind mice — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
-- **140.0€** — Johnny Mokhalisister sexy eyes / best friends  |  drum rock — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
-- **140.0€** — Sun Ra & His Inter-Galactic Research Arkestranuits de la fondation maeght  |  strut / artyard — [voir](https://www.sofarecords.fr/fr/sun-ra-amp-his-inter-galactic-research-arkestra/nuits-de-la-fondation-maeght/p3201674136/)
-- **120.0€** — Guy Pedersencontrebasses  |  tele music — [voir](https://www.sofarecords.fr/fr/guy-pedersen/contrebasses/p3202495797/)
-- **110.0€** — Fela Kuti & Africa 70zombie  |  polydor — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
-- **110.0€** — Orquesta Sabor Internacionaldieka  |  bellot records — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
-- **110.0€** — Neutral Rythmiquevarious  |  musax — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
-- **90.0€** — Docteur Nico & Orchestre African Fiestaadieu freetown / timbero  |  ngoma — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
-- **90.0€** — Fairuzloulou volume 1  |  parlophone — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
-- **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
-- **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
-- **80.0€** — Bovick & Covenus / bazombo  |  mci music — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
-- **80.0€** — Black Beats Bandblack beat rhythms  |  decca — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
-- **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
-- **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
-- **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
-- **80.0€** — Ramuntcho Matta Presentsbrion gysin / polo lombardo  |  mosquito — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
-- **80.0€** — Cohelmec Ensemblenext  |  saravah — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
-- **80.0€** — Bernard Estardyclaviers  |  tele music — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
-- **80.0€** — Ilousilous  |  flamophone — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
-- **75.0€** — Mansia M'Bilas/t  |  west african music (wam) — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
-- **75.0€** — Kazis Et Les Cheveux Crepusdiables noirs / champions  |  afro-disc — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
-- **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
-- **75.0€** — Mombasa Rootsmsa mombasa  |  polydor — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
-- **75.0€** — Fairuzlebanon forever  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/fairuz/lebanon-forever/p3016313215/)
-- **70.0€** — African Brothers Band Internationalodo paa nie  |  aduana — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
-- **70.0€** — Ricomwen domi dewo  |  liso music production — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
-- **70.0€** — Caetano Velosos/t  |  philips — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
-- **70.0€** — Os Tatuisos tatuís  |  farroupilha — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
-- **70.0€** — Kimiko Kasai With Kosuke Mine Quartetyellow carcass in the blue  |  three blind mice — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
+- **250.0€** — Action Various - Action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
+- **250.0€** — Cymande - Cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
+- **250.0€** — Chene Noir - Orphee 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
+- **190.0€** — Elektro Dschungel - Kebab Und Andere Traume — [voir](https://www.sofarecords.fr/fr/elektro-dschungel/kebab-und-andere-traume/p3200090298/)
+- **180.0€** — Jimmy Blanche - Dou Van Jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
+- **150.0€** — The George Otsuka 5 - Go On — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
+- **140.0€** — Johnny Mokhali - Sister Sexy Eyes Best Friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
+- **140.0€** — Sun Ra Amp His Inter Galactic Research Arkestra - Nuits De La Fondation Maeght — [voir](https://www.sofarecords.fr/fr/sun-ra-amp-his-inter-galactic-research-arkestra/nuits-de-la-fondation-maeght/p3201674136/)
+- **120.0€** — Guy Pedersen - Contrebasses — [voir](https://www.sofarecords.fr/fr/guy-pedersen/contrebasses/p3202495797/)
+- **110.0€** — Neutral Rythmique - Various — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
+- **110.0€** — Orquesta Sabor Internacional - Dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
+- **110.0€** — Fela Kuti Amp Africa 70 - Zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
+- **90.0€** — Docteur Nico Amp Orchestre African Fiesta - Adieu Freetown Timbero — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
+- **90.0€** — Fairuz - Loulou Volume 1 — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
+- **85.0€** — Alan Hawkshaw Alan Parker - The Rock Machine — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
+- **85.0€** — Fela Kuti Amp Africa 70 - Question Jam Answer Vol 2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
+- **80.0€** — Bovick Amp Co - Venus Bazombo — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
+- **80.0€** — Cohelmec Ensemble - Next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
+- **80.0€** — Rahbaniyat - Favourite Songs Vol 6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
+- **80.0€** — Ilous - Ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
+- **80.0€** — Black Beats Band - Black Beat Rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
+- **80.0€** — Bernard Estardy - Claviers — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
+- **80.0€** — L'orchestre Jazz Babalou - Ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
+- **80.0€** — Tchangodei Steve Lacy O Johnson - The Bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
+- **80.0€** — Ramuntcho Matta Presents - Brion Gysin Polo Lombardo — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
+- **75.0€** — Mombasa Roots - Msa Mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
+- **75.0€** — Mansia M'bila - S T — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
+- **75.0€** — Fairuz - Lebanon Forever — [voir](https://www.sofarecords.fr/fr/fairuz/lebanon-forever/p3016313215/)
+- **75.0€** — Kazis Et Les Cheveux Crepus - Diables Noirs Champions — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
+- **75.0€** — S N Thiam - Synthez Guinee Dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
+- **70.0€** — Caetano Veloso - S T — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
+- **70.0€** — Os Tatuis - Os Tatuis — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
+- **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - Yellow Carcass In The Blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
+- **70.0€** — African Brothers Band International - Odo Paa Nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
+- **70.0€** — Rico - Mwen Domi Dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
+
+- ~~**20.0€**~~ — Logobi Various - Logobi Parisian African Breakdance [VENDU]
 
 ### Victor Kiswell — 268 disponibles, 0 vendus
 

@@ -3393,5 +3393,13 @@
     "url": "https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/",
     "sold": false,
     "first_seen": "2026-02-27T17:32:55.023311"
+  },
+  "https://www.sofarecords.fr/fr/logobi-various/logobi-parisian-african-breakdance/p3204926997/": {
+    "source": "SOFA Records",
+    "title": "Logobi Various - Logobi Parisian African Breakdance",
+    "price_ref": 20.0,
+    "url": "https://www.sofarecords.fr/fr/logobi-various/logobi-parisian-african-breakdance/p3204926997/",
+    "sold": true,
+    "first_seen": "2026-02-28T10:00:43.441178"
   }
 }
