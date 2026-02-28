@@ -1,5 +1,5 @@
 """
-VINYL SCOUT v11
+VINYL SCOUT v12
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 3 : recherche opportunites Leboncoin + Vinted (via ScrapeOps) + eBay API
 """
@@ -332,9 +332,44 @@ def scrape_diaspora():
     return list(results.values())
 
 
+def sofa_slug_to_text(slug):
+    """Convertit un slug URL en texte lisible : 'david-walters' -> 'David Walters'"""
+    slug = urllib.parse.unquote(slug)
+    return ' '.join(w.capitalize() for w in slug.replace('-', ' ').split())
+
+
+def sofa_extract_from_url(href):
+    """Extrait (artiste, album) depuis une URL SOFA : /fr/{artiste}/{album}/p{id}/"""
+    match = re.search(r'/fr/([^/]+)/([^/]+)/p\d+/', href)
+    if match:
+        return sofa_slug_to_text(match.group(1)), sofa_slug_to_text(match.group(2))
+    return '', ''
+
+
+def sofa_get_price(url):
+    """Fetche la page produit SOFA. Retourne (prix, sold)."""
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        text_lower = soup.get_text().lower()
+        sold = any(x in text_lower for x in ['sold out', 'épuisé', 'indisponible', 'out of stock', 'vendu'])
+        for selector in ['[itemprop="price"]', '.current-price span', '.product-price', '[class*="price"]']:
+            el = soup.select_one(selector)
+            if el:
+                price = extract_price(el.get('content') or el.get_text(strip=True))
+                if price:
+                    return price, sold
+        match = re.search(r'(\d{2,4}[,.]?\d*)\s*€', text_lower)
+        if match:
+            return extract_price(match.group()), sold
+    except Exception as e:
+        print(f"SOFA prix erreur {url}: {e}")
+    return None, False
+
+
 def scrape_sofarecords():
     results = {}
-    MIN_PRICE_SOFA = 70  # Seuil spécifique SOFA (vs 100€ global)
+    MIN_PRICE_SOFA = 70
     categories = [
         ('afro-funk-afro-disco',        'c98000508'),
         ('dj-stuff-club-electronics',   'c98000509'),
@@ -357,6 +392,8 @@ def scrape_sofarecords():
         ('french-jazz-avant-garde',     'c98000531'),
         ('french-grooves-songs',        'c98000532'),
     ]
+    # Collecte d'abord toutes les URLs produits sans fetcher chaque page
+    product_urls = set()
     for cat_name, cat_id in categories:
         page = 1
         while page <= 20:
@@ -368,77 +405,51 @@ def scrape_sofarecords():
                 if r.status_code == 404:
                     break
                 soup = BeautifulSoup(r.text, 'html.parser')
-                # Chaque produit est dans un bloc avec le prix et le lien
-                items = soup.select('div.product-info') or soup.select('li.product') or soup.select('[class*="product"]')
-                # Fallback : chercher les liens produit directement
-                if not items:
-                    links = soup.select('a[href*="/fr/"][href*="/p"]')
-                    if not links:
-                        break
-                    found_new = False
-                    for link in links:
-                        href = link.get('href', '')
-                        if not href or '/p' not in href:
-                            continue
-                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
-                        if url_item in results:
-                            continue
-                        parent = link.find_parent(['div', 'li', 'article'])
-                        if not parent:
-                            continue
-                        price_text = parent.get_text()
-                        price = extract_price(price_text)
-                        if not price or price < MIN_PRICE_SOFA:
-                            continue
-                        title_el = link.select_one('h3') or link.select_one('h2') or link
-                        title = title_el.get_text(strip=True) if title_el else ''
-                        if not title:
-                            continue
-                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
-                        results[url_item] = {
-                            'source': 'SOFA Records',
-                            'title': title,
-                            'price_ref': price,
-                            'url': url_item,
-                            'sold': sold
-                        }
+                links = soup.select('a[href*="/fr/"][href*="/p"]')
+                found_new = False
+                for link in links:
+                    href = link.get('href', '')
+                    if not href or not re.search(r'/p\d+/', href):
+                        continue
+                    if any(x in href for x in ['/panier', '/promotion', '/connexion', '/recherche']):
+                        continue
+                    full_url = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
+                    if full_url not in product_urls:
+                        product_urls.add(full_url)
                         found_new = True
-                    if not found_new:
-                        break
-                else:
-                    found_new = False
-                    for item in items:
-                        link_el = item.select_one('a')
-                        if not link_el:
-                            continue
-                        href = link_el.get('href', '')
-                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
-                        if url_item in results:
-                            continue
-                        price_text = item.get_text()
-                        price = extract_price(price_text)
-                        if not price or price < MIN_PRICE_SOFA:
-                            continue
-                        title_el = item.select_one('h3') or item.select_one('h2')
-                        title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
-                        if not title:
-                            continue
-                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
-                        results[url_item] = {
-                            'source': 'SOFA Records',
-                            'title': title,
-                            'price_ref': price,
-                            'url': url_item,
-                            'sold': sold
-                        }
-                        found_new = True
-                    if not found_new:
-                        break
+                if not found_new:
+                    break
                 page += 1
                 time.sleep(1.5)
             except Exception as e:
                 print(f"SOFA {cat_name} page {page}: {e}")
                 break
+
+    # Fetche chaque page produit pour le prix
+    print(f"SOFA: {len(product_urls)} produits trouvés, fetch des prix...")
+    for url_item in product_urls:
+        if url_item in results:
+            continue
+        artist, album = sofa_extract_from_url(url_item)
+        if not artist or not album:
+            continue
+        price, sold = sofa_get_price(url_item)
+        if not price:
+            continue
+        # Garde les vendus (connaissance marché) même sous le seuil
+        # Filtre seulement les non-vendus sous le seuil
+        if not sold and price < MIN_PRICE_SOFA:
+            continue
+        title = f"{artist} - {album}"
+        results[url_item] = {
+            'source': 'SOFA Records',
+            'title': title,
+            'price_ref': price,
+            'url': url_item,
+            'sold': sold
+        }
+        time.sleep(1)
+
     print(f"SOFA Records: {len(results)} disques")
     return list(results.values())
 
