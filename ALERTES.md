@@ -1,4 +1,4 @@
-# VINYL SCOUT — Rapport du 28/02/2026 12:47
+# VINYL SCOUT — Rapport du 01/03/2026 08:47
 
 **Base : 425 disques | Actifs : 410 | Batch : 100 disques | Seuil achat : 40% du prix ref**
 
@@ -9,11 +9,6 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
-
----
-## 🆕 1 nouveaux en base
-
-- **20.0€** ~~[VENDU]~~ — Logobi Various - Logobi Parisian African Breakdance (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -133,9 +128,9 @@
 
 ### SOFA Records — 35 disponibles, 1 vendus
 
-- **250.0€** — Action Various - Action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
-- **250.0€** — Cymande - Cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - Orphee 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
+- **250.0€** — Cymande - Cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
+- **250.0€** — Action Various - Action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Elektro Dschungel - Kebab Und Andere Traume — [voir](https://www.sofarecords.fr/fr/elektro-dschungel/kebab-und-andere-traume/p3200090298/)
 - **180.0€** — Jimmy Blanche - Dou Van Jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
 - **150.0€** — The George Otsuka 5 - Go On — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
@@ -145,28 +140,28 @@
 - **110.0€** — Neutral Rythmique - Various — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
 - **110.0€** — Orquesta Sabor Internacional - Dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
 - **110.0€** — Fela Kuti Amp Africa 70 - Zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
-- **90.0€** — Docteur Nico Amp Orchestre African Fiesta - Adieu Freetown Timbero — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
 - **90.0€** — Fairuz - Loulou Volume 1 — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
+- **90.0€** — Docteur Nico Amp Orchestre African Fiesta - Adieu Freetown Timbero — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
 - **85.0€** — Alan Hawkshaw Alan Parker - The Rock Machine — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
 - **85.0€** — Fela Kuti Amp Africa 70 - Question Jam Answer Vol 2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
-- **80.0€** — Bovick Amp Co - Venus Bazombo — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
-- **80.0€** — Cohelmec Ensemble - Next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
-- **80.0€** — Rahbaniyat - Favourite Songs Vol 6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
-- **80.0€** — Ilous - Ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
-- **80.0€** — Black Beats Band - Black Beat Rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
-- **80.0€** — Bernard Estardy - Claviers — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
 - **80.0€** — L'orchestre Jazz Babalou - Ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Tchangodei Steve Lacy O Johnson - The Bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
+- **80.0€** — Bovick Amp Co - Venus Bazombo — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
 - **80.0€** — Ramuntcho Matta Presents - Brion Gysin Polo Lombardo — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
+- **80.0€** — Rahbaniyat - Favourite Songs Vol 6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
+- **80.0€** — Cohelmec Ensemble - Next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
+- **80.0€** — Bernard Estardy - Claviers — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
+- **80.0€** — Black Beats Band - Black Beat Rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
+- **80.0€** — Ilous - Ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
 - **75.0€** — Mombasa Roots - Msa Mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **75.0€** — Mansia M'bila - S T — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
-- **75.0€** — Fairuz - Lebanon Forever — [voir](https://www.sofarecords.fr/fr/fairuz/lebanon-forever/p3016313215/)
 - **75.0€** — Kazis Et Les Cheveux Crepus - Diables Noirs Champions — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S N Thiam - Synthez Guinee Dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
+- **75.0€** — Fairuz - Lebanon Forever — [voir](https://www.sofarecords.fr/fr/fairuz/lebanon-forever/p3016313215/)
 - **70.0€** — Caetano Veloso - S T — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
+- **70.0€** — African Brothers Band International - Odo Paa Nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Os Tatuis - Os Tatuis — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - Yellow Carcass In The Blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
-- **70.0€** — African Brothers Band International - Odo Paa Nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Rico - Mwen Domi Dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
 
 - ~~**20.0€**~~ — Logobi Various - Logobi Parisian African Breakdance [VENDU]
