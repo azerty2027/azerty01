@@ -1,18 +1,17 @@
 """
-VINYL SCOUT v15
+VINYL SCOUT v16
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
-- Phase 3 : recherche opportunites Leboncoin (ScrapeOps) + Vinted (lib cookie auto) + eBay (direct)
+- Phase 3 : recherche opportunites Leboncoin (ScrapeOps) + Vinted (cookie auto) + eBay (direct)
 
-Économies v15 vs v14 :
-  - Vinted  : 0 crédit ScrapeOps (lib vinted-scraper gère les cookies)
-  - eBay    : 0 crédit ScrapeOps (scraping direct, eBay pas de DataDome)
-  - LBC     : inchangé (ScrapeOps résidentiel)
-  - Estimation : ~800 crédits/run au lieu de ~11 000
+Nouveautes v16 vs v15 :
+  - Batch rotatif : avance de BATCH_SIZE disques à chaque run (couvre tout le catalogue en N runs)
+  - Log eBay debug : affiche les titres retournés par eBay pour diagnostiquer les faux positifs
+  - BATCH_SIZE=50 par défaut (~1 250 crédits LBC/run → 20 runs/mois)
 """
 
 import requests
 from bs4 import BeautifulSoup
-import json, re, os, time, urllib.parse, base64
+import json, re, os, time, urllib.parse
 from datetime import datetime
 
 HEADERS = {
@@ -22,11 +21,11 @@ HEADERS = {
 MIN_PRICE = 100
 MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
+OFFSET_FILE = "scout_offset.json"
 ALERT_FILE = "ALERTES.html"
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
-# Nombre de disques à traiter par run (triés par prix ref décroissant)
-# 50 × 25 crédits LBC = ~1 250 crédits/run → 20 runs/mois sur 25k crédits
+# 50 disques × 25 crédits LBC = ~1 250 crédits/run → 20 runs/mois sur 25k crédits
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
 
 # Circuit breakers
@@ -68,12 +67,18 @@ STOPWORDS = {
 def extract_price(text):
     if not text:
         return None
-    text = str(text).replace('\xa0', '').replace('\u202f', '').replace(',', '.').replace(' ', '')
+    text = str(text).replace('\xa0','').replace('\u202f','').replace(',','.').replace(' ','')
     match = re.search(r'(\d{2,4}\.?\d*)\s*[€£]', text)
     if match:
         return float(match.group(1))
     match = re.search(r'(\d{2,4}\.?\d*)', text)
     return float(match.group(1)) if match else None
+
+
+def words_from(text):
+    text = text.lower()
+    text = re.sub(r'[^\w\s]', ' ', text)
+    return set(w for w in text.split() if len(w) > 3 and not w.isdigit() and w not in STOPWORDS)
 
 
 def clean_title(title):
@@ -83,26 +88,21 @@ def clean_title(title):
     - Pour les self-titled (artiste == album), garde le nom + vinyl
     - Évite les mots trop courts ou génériques
     """
-    # Séparer artiste / album si format "Artiste - Album"
     title_clean = re.sub(r'\(.*?\)', '', title).strip()
     parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
     if len(parts) == 2:
         artist = parts[0].strip()
         album = parts[1].strip()
-        # Self-titled : artiste == album → chercher artiste + vinyl
         if artist.lower() == album.lower():
             query = artist
         else:
-            # Garder les mots les plus discriminants des deux
             artist_words = [w for w in artist.split() if len(w) > 2][:2]
             album_words = [w for w in album.split() if len(w) > 2][:2]
-            combined = artist_words + album_words
-            query = ' '.join(combined[:4])
+            query = ' '.join((artist_words + album_words)[:4])
     else:
         query = re.sub(r'[^\w\s]', ' ', title)
         words = [w for w in query.split() if len(w) > 2]
         query = ' '.join(words[:4])
-    # Ajouter "vinyl" pour forcer la pertinence des résultats
     return (query + ' vinyl').strip()
 
 
@@ -111,10 +111,6 @@ def is_relevant_result(ref_title, found_title):
     Filtre de pertinence : double critère pour éviter les faux positifs.
     - ratio_ref  >= 0.50 : au moins 50% des mots de la ref sont dans le trouvé
     - ratio_found >= 0.30 : au moins 30% des mots du trouvé viennent de la ref
-                           (évite qu'1 mot rare dans un long titre suffise)
-
-    Limite connue : pour les titres avec 1 seul mot significatif (ex: "Jaws"),
-    les faux positifs ne sont pas entièrement évitables.
     """
     ref_words = words_from(ref_title)
     found_words = words_from(found_title)
@@ -126,12 +122,6 @@ def is_relevant_result(ref_title, found_title):
     ratio_ref = len(overlap) / len(ref_words)
     ratio_found = len(overlap) / len(found_words)
     return ratio_ref >= 0.50 and ratio_found >= 0.30
-
-
-def words_from(text):
-    text = text.lower()
-    text = re.sub(r'[^\w\s]', ' ', text)
-    return set(w for w in text.split() if len(w) > 3 and not w.isdigit() and w not in STOPWORDS)
 
 
 # ─────────────────────────────────────────────
@@ -472,7 +462,7 @@ def search_leboncoin(title, max_price):
             LBC_FAILURES += 1
             print(f"  LBC erreur ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {r.text[:100]}")
             return results
-        LBC_FAILURES = 0  # reset si succès
+        LBC_FAILURES = 0
         soup = BeautifulSoup(r.text, 'html.parser')
         ads = (soup.select('a[data-qa-id="aditem_container"]') or
                soup.select('[data-test-id="ad"]') or
@@ -505,7 +495,7 @@ def search_leboncoin(title, max_price):
     return results
 
 
-# ── Vinted (lib cookie auto — 0 crédit ScrapeOps) ────────────────────────────
+# ── Vinted (cookie auto — 0 crédit ScrapeOps) ─────────────────────────────────
 
 _vinted_session = None
 _vinted_cookie = None
@@ -523,14 +513,12 @@ def _get_vinted_cookie():
             "Accept-Language": "fr-FR,fr;q=0.9",
         })
         r = session.get("https://www.vinted.fr", timeout=20)
-        # Chercher access_token_web dans les cookies
         cookie = r.cookies.get("access_token_web") or r.cookies.get("_vinted_fr_session")
         if cookie:
             _vinted_cookie = cookie
             _vinted_session = session
             print(f"  VTD cookie OK: {cookie[:20]}...")
             return cookie
-        # Sinon récupérer tous les cookies de session
         _vinted_session = session
         print(f"  VTD session initialisée ({len(r.cookies)} cookies)")
         return None
@@ -540,27 +528,21 @@ def _get_vinted_cookie():
 
 
 def search_vinted(title, max_price):
-    """
-    Vinted via API interne /api/v2/catalog/items.
-    Utilise un cookie de session obtenu en chargeant vinted.fr directement.
-    0 crédit ScrapeOps.
-    """
+    """Vinted via API interne /api/v2/catalog/items. 0 crédit ScrapeOps."""
     global VINTED_FAILURES, _vinted_session
     if VINTED_FAILURES >= VINTED_MAX_FAILURES:
         return []
     results = []
     try:
-        # Initialiser la session si nécessaire
         if _vinted_session is None:
             _get_vinted_cookie()
         if _vinted_session is None:
-            print("  VTD session non initialisée")
             VINTED_FAILURES += 1
             return []
         query = clean_title(title)
         params = {
             "search_text": query,
-            "catalog[]": "139",   # Musique / Disques vinyle sur vinted.fr
+            "catalog[]": "139",
             "price_to": int(max_price),
             "per_page": "20",
             "order": "newest_first",
@@ -574,13 +556,10 @@ def search_vinted(title, max_price):
         }
         r = _vinted_session.get(
             "https://www.vinted.fr/api/v2/catalog/items",
-            params=params,
-            headers=api_headers,
-            timeout=20
+            params=params, headers=api_headers, timeout=20
         )
         print(f"  VTD status: {r.status_code} | {query} | max {max_price}€")
         if r.status_code == 401:
-            # Cookie expiré — réinitialiser
             print("  VTD cookie expiré, réinitialisation...")
             _vinted_session = None
             _get_vinted_cookie()
@@ -590,7 +569,7 @@ def search_vinted(title, max_price):
             VINTED_FAILURES += 1
             print(f"  VTD erreur ({VINTED_FAILURES}/{VINTED_MAX_FAILURES}): {r.text[:100]}")
             return []
-        VINTED_FAILURES = 0  # reset
+        VINTED_FAILURES = 0
         data = r.json()
         items = data.get("items", [])
         print(f"  VTD articles: {len(items)}")
@@ -639,7 +618,6 @@ def _get_ebay_session():
         "Sec-Fetch-Mode": "navigate",
         "Sec-Fetch-Site": "none",
     })
-    # Charger la homepage eBay.fr pour obtenir les cookies de session
     try:
         session.get("https://www.ebay.fr", timeout=15)
         time.sleep(1)
@@ -651,9 +629,8 @@ def _get_ebay_session():
 
 def search_ebay(title, max_price):
     """
-    eBay via scraping direct sans proxy.
-    eBay.fr n'utilise pas DataDome — accessible directement avec headers navigateur.
-    0 crédit ScrapeOps.
+    eBay via scraping direct sans proxy. 0 crédit ScrapeOps.
+    Log les titres retournés pour debug des faux positifs.
     """
     global EBAY_FAILURES
     if EBAY_FAILURES >= EBAY_MAX_FAILURES:
@@ -662,7 +639,6 @@ def search_ebay(title, max_price):
     try:
         session = _get_ebay_session()
         query = urllib.parse.quote(clean_title(title))
-        # LH_BIN=1 : Buy It Now uniquement | _sacat=306 : Vinyl Records
         url = f"https://www.ebay.fr/sch/i.html?_nkw={query}&_sacat=306&_udhi={int(max_price)}&LH_BIN=1&_sop=10&LH_PrefLoc=3"
         r = session.get(url, timeout=20)
         print(f"  eBay status: {r.status_code} | {clean_title(title)} | max {max_price}€")
@@ -672,21 +648,18 @@ def search_ebay(title, max_price):
             return []
         EBAY_FAILURES = 0
         soup = BeautifulSoup(r.text, 'html.parser')
-        # Sélecteurs eBay 2024
         items = soup.select('li.s-item')
         if not items:
-            # Fallback sélecteurs alternatifs
             items = (soup.select('[data-view="mi:1686|iid:1"]') or
                      soup.select('.srp-results li') or
                      soup.select('.s-item__wrapper'))
         print(f"  eBay articles: {len(items)}")
         for item in items[:20]:
-            # Ignorer le faux premier item "Résultats correspondants"
             title_el = item.select_one('.s-item__title')
             if not title_el:
                 continue
             title_text = title_el.get_text(strip=True)
-            if 'shop on ebay' in title_text.lower() or title_text.strip() == '':
+            if 'shop on ebay' in title_text.lower() or not title_text.strip():
                 continue
             price_el = (item.select_one('.s-item__price') or
                         item.select_one('[class*="price"]'))
@@ -696,9 +669,12 @@ def search_ebay(title, max_price):
             price = extract_price(price_el.get_text())
             if not price or price > max_price:
                 continue
+            # Log debug : afficher les titres eBay trouvés avant filtre
+            print(f"    eBay candidat: {title_text[:60]} | {price}€")
             if not is_relevant_result(title, title_text):
+                print(f"    → rejeté (non pertinent)")
                 continue
-            item_url = link_el.get('href', '').split('?')[0]  # Nettoyer les params tracking
+            item_url = link_el.get('href', '').split('?')[0]
             results.append({
                 "platform": "ebay.fr",
                 "title": title_text,
@@ -728,13 +704,26 @@ def save_db(db):
         json.dump(db, f, ensure_ascii=False, indent=2)
 
 
+def load_offset():
+    try:
+        with open(OFFSET_FILE) as f:
+            return json.load(f).get("offset", 0)
+    except Exception:
+        return 0
+
+
+def save_offset(offset):
+    with open(OFFSET_FILE, 'w') as f:
+        json.dump({"offset": offset, "updated": datetime.now().isoformat()}, f)
+
+
 # ─────────────────────────────────────────────
 # RAPPORT HTML
 # ─────────────────────────────────────────────
 
-def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records):
+def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset):
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
-    credits_estimes = len(actifs) * 25  # ~25 crédits/req LBC uniquement
+    credits_estimes = len(actifs) * 25
 
     opp_rows = ""
     for o in opportunites:
@@ -813,7 +802,7 @@ def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, al
 </div>
 
 <div class="credits">
-  💳 Crédits ScrapeOps estimés ce run : ~{credits_estimes} (LBC uniquement) | Vinted : cookie direct | eBay : scraping direct
+  💳 Batch {offset+1}–{offset+len(actifs)} / {len(tous_actifs)} actifs | ~{credits_estimes} crédits LBC | Vinted : cookie direct (0 crédit) | eBay : scraping direct (0 crédit)
 </div>
 
 <h2>🔴 Opportunités marché ({len(opportunites)})</h2>
@@ -836,8 +825,9 @@ def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, al
 
 def main():
     print("=" * 60)
-    print("VINYL SCOUT v15")
+    print("VINYL SCOUT v16")
     print("Vinted: cookie direct (0 crédit) | eBay: direct (0 crédit) | LBC: ScrapeOps")
+    print(f"Batch rotatif: {BATCH_SIZE} disques/run | Log eBay debug activé")
     print("=" * 60)
 
     # Phase 1
@@ -872,24 +862,33 @@ def main():
 
     # Phase 3
     print("\n⟶ Phase 3 : recherche opportunités marché...")
-
-    # Initialiser les sessions en amont (économise du temps)
     print("  Initialisation session Vinted...")
     _get_vinted_cookie()
     print("  Initialisation session eBay...")
     _get_ebay_session()
 
-    opportunites = []
     tous_actifs = [r for r in all_records if not r.get('sold')]
     tous_actifs_sorted = sorted(tous_actifs, key=lambda x: -x['price_ref'])
 
     if TEST_MODE:
         print(f"  [TEST_MODE] Limité à 5 disques")
         actifs = tous_actifs_sorted[:5]
+        offset = 0
     else:
-        actifs = tous_actifs_sorted[:BATCH_SIZE]
-        print(f"  Batch : {len(actifs)}/{len(tous_actifs)} actifs | ~{len(actifs) * 25} crédits LBC estimés")
+        # Batch rotatif : avance de BATCH_SIZE à chaque run
+        offset = load_offset()
+        if offset >= len(tous_actifs_sorted):
+            offset = 0
+            print(f"  Offset remis à 0 (cycle complet terminé)")
+        actifs = tous_actifs_sorted[offset:offset + BATCH_SIZE]
+        next_offset = offset + BATCH_SIZE
+        if next_offset >= len(tous_actifs_sorted):
+            next_offset = 0
+        save_offset(next_offset)
+        print(f"  Batch : disques {offset+1}–{offset+len(actifs)} / {len(tous_actifs)} | ~{len(actifs) * 25} crédits LBC")
+        print(f"  Prochain run : disques {next_offset+1}–{next_offset+BATCH_SIZE}")
 
+    opportunites = []
     for i, record in enumerate(actifs):
         max_price = round(record['price_ref'] * MAX_PRICE_RATIO)
         print(f"  [{i+1}/{len(actifs)}] {record['title'][:50]} | ref {record['price_ref']}€ | max {max_price}€")
@@ -913,7 +912,6 @@ def main():
                 'marge_pct': ratio,
             })
 
-        # Stop si tous les circuit breakers sont ouverts
         if LBC_FAILURES >= LBC_MAX_FAILURES and VINTED_FAILURES >= VINTED_MAX_FAILURES and EBAY_FAILURES >= EBAY_MAX_FAILURES:
             print("  ⚠️ Tous les circuit breakers ouverts — arrêt Phase 3")
             break
@@ -928,7 +926,7 @@ def main():
     opportunites = sorted(opportunites_uniques, key=lambda x: -x['marge'])
 
     # Rapport HTML
-    html = generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records)
+    html = generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset)
     with open(ALERT_FILE, 'w', encoding='utf-8') as f:
         f.write(html)
 
