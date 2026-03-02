@@ -1,28 +1,51 @@
 name: Vinyl Scout
+
 on:
-  schedule:
-    - cron: '0 7 * * *'
+  # Décommenter pour activer le run automatique quotidien :
+  # schedule:
+  #   - cron: '0 8 * * *'   # 8h00 UTC chaque jour
+
+  # Run manuel depuis l'interface GitHub Actions
   workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Nombre de disques à analyser (défaut: 50 = ~1 250 crédits LBC)'
+        required: false
+        default: '50'
+      test_mode:
+        description: 'Mode test (5 disques seulement)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
 jobs:
   scout:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
-      - name: Run scout
-        run: python scout.py
+        run: pip install requests beautifulsoup4
+
+      - name: Run Vinyl Scout
         env:
-          TEST_MODE: "false"
           SCRAPEOPS_KEY: ${{ secrets.SCRAPEOPS_KEY }}
-      - name: Save results
+          TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '50' }}
+        run: python scout-15.py
+
+      - name: Commit rapport
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ALERTES.md vinyl_db.json
-          git diff --staged --quiet || git commit -m "Scout update"
-          git push origin main --force
+          git config user.name "Vinyl Scout Bot"
+          git config user.email "scout@bot.local"
+          git add ALERTES.html vinyl_db.json
+          git diff --staged --quiet || git commit -m "Scout $(date '+%d/%m/%Y %H:%M') — batch ${{ github.event.inputs.batch_size || '50' }}"
+          git push
