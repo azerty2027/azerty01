@@ -1,11 +1,7 @@
 name: Vinyl Scout
-
 on:
-  # Décommenter pour activer le run automatique quotidien :
   # schedule:
-  #   - cron: '0 8 * * *'   # 8h00 UTC chaque jour
-
-  # Run manuel depuis l'interface GitHub Actions
+  #   - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       batch_size:
@@ -20,32 +16,27 @@ on:
         options:
           - 'false'
           - 'true'
-
 jobs:
   scout:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install requests beautifulsoup4
-
       - name: Run Vinyl Scout
         env:
           SCRAPEOPS_KEY: ${{ secrets.SCRAPEOPS_KEY }}
           TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '50' }}
-        run: python scout-15.py
-
+        run: python scout-16.py
       - name: Commit rapport
         run: |
           git config user.name "Vinyl Scout Bot"
           git config user.email "scout@bot.local"
-          git add ALERTES.html vinyl_db.json
+          git add ALERTES.html vinyl_db.json scout_offset.json || true
           git diff --staged --quiet || git commit -m "Scout $(date '+%d/%m/%Y %H:%M') — batch ${{ github.event.inputs.batch_size || '50' }}"
           git push
