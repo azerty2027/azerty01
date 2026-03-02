@@ -1,64 +1,74 @@
 """
-VINYL SCOUT v12
+VINYL SCOUT v15
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
-- Phase 3 : recherche opportunites Leboncoin + Vinted (via ScrapeOps) + eBay API
+- Phase 3 : recherche opportunites Leboncoin (ScrapeOps) + Vinted (lib cookie auto) + eBay (direct)
+
+Économies v15 vs v14 :
+  - Vinted  : 0 crédit ScrapeOps (lib vinted-scraper gère les cookies)
+  - eBay    : 0 crédit ScrapeOps (scraping direct, eBay pas de DataDome)
+  - LBC     : inchangé (ScrapeOps résidentiel)
+  - Estimation : ~800 crédits/run au lieu de ~11 000
 """
 
 import requests
 from bs4 import BeautifulSoup
-import json, re, os, time, urllib.parse
+import json, re, os, time, urllib.parse, base64
 from datetime import datetime
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
 }
 MIN_PRICE = 100
 MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
-ALERT_FILE = "ALERTES.md"
+ALERT_FILE = "ALERTES.html"
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
+# Nombre de disques à traiter par run (triés par prix ref décroissant)
+# 50 × 25 crédits LBC = ~1 250 crédits/run → 20 runs/mois sur 25k crédits
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
+
+# Circuit breakers
+LBC_FAILURES = 0
+LBC_MAX_FAILURES = 3
+VINTED_FAILURES = 0
+VINTED_MAX_FAILURES = 3
+EBAY_FAILURES = 0
+EBAY_MAX_FAILURES = 3
+
+STOPWORDS = {
+    'records', 'record', 'company', 'label', 'edition', 'editions',
+    'productions', 'production', 'international', 'pressing', 'reissue',
+    'publishing', 'release', 'distributed', 'distribution',
+    'vinyl', 'stereo', 'mono', 'disc', 'disk', 'album', 'single',
+    'original', 'limited', 'volume', 'studio', 'live',
+    'music', 'musique', 'orchestra', 'orchestre', 'ensemble', 'band',
+    'trio', 'quartet', 'quintet', 'sextet', 'session', 'suite',
+    'theme', 'themes', 'song', 'songs', 'dance', 'plays', 'featuring',
+    'present', 'presents', 'various', 'artists', 'compilation',
+    'collection', 'series', 'best', 'great', 'super', 'special',
+    'jazz', 'blues', 'soul', 'funk', 'disco', 'rock', 'folk',
+    'latin', 'afro', 'reggae', 'bossa', 'nova', 'swing',
+    'avec', 'dans', 'pour', 'from', 'the', 'and', 'feat',
+    'chant', 'monde', 'club', 'libre',
+    'france', 'french', 'italy', 'italian', 'germany', 'german',
+    'sweden', 'swedish', 'japan', 'japanese', 'brasil', 'brazil',
+    'belgium', 'swiss', 'spain', 'spanish', 'greece', 'greek',
+    'africa', 'african', 'india', 'indian', 'lebanese',
+    'columbia', 'ducretet', 'thomson', 'polydor', 'barclay',
+    'philips', 'atlantic', 'verve',
+}
 
 
 # ─────────────────────────────────────────────
 # UTILS
 # ─────────────────────────────────────────────
 
-STOPWORDS = {
-    # Labels et industrie
-    'records', 'record', 'company', 'label', 'edition', 'editions',
-    'productions', 'production', 'international', 'pressing', 'reissue',
-    'publishing', 'release', 'distributed', 'distribution',
-    # Formats
-    'vinyl', 'stereo', 'mono', 'disc', 'disk', 'album', 'single',
-    'original', 'limited', 'volume', 'studio', 'live',
-    # Mots musicaux génériques
-    'music', 'musique', 'orchestra', 'orchestre', 'ensemble', 'band',
-    'trio', 'quartet', 'quintet', 'sextet', 'session', 'suite',
-    'theme', 'themes', 'song', 'songs', 'dance', 'plays', 'featuring',
-    'present', 'presents', 'various', 'artists', 'compilation',
-    'collection', 'series', 'best', 'great', 'super', 'special',
-    # Genres (trop génériques)
-    'jazz', 'blues', 'soul', 'funk', 'disco', 'rock', 'folk',
-    'latin', 'afro', 'reggae', 'bossa', 'nova', 'swing',
-    # Mots français/anglais communs
-    'avec', 'dans', 'pour', 'from', 'the', 'and', 'feat',
-    'chant', 'monde', 'club', 'libre',
-    # Pays et régions
-    'france', 'french', 'italy', 'italian', 'germany', 'german',
-    'sweden', 'swedish', 'japan', 'japanese', 'brasil', 'brazil',
-    'belgium', 'swiss', 'spain', 'spanish', 'greece', 'greek',
-    'africa', 'african', 'india', 'indian', 'lebanese',
-    # Labels spécifiques trop courants
-    'columbia', 'ducretet', 'thomson', 'polydor', 'barclay',
-    'philips', 'atlantic', 'verve',
-}
-
-
 def extract_price(text):
     if not text:
         return None
-    text = str(text).replace('\xa0','').replace('\u202f','').replace(',','.').replace(' ','')
+    text = str(text).replace('\xa0', '').replace('\u202f', '').replace(',', '.').replace(' ', '')
     match = re.search(r'(\d{2,4}\.?\d*)\s*[€£]', text)
     if match:
         return float(match.group(1))
@@ -67,39 +77,61 @@ def extract_price(text):
 
 
 def clean_title(title):
-    title = re.sub(r'[^\w\s]', ' ', title)
-    words = [w for w in title.split() if len(w) > 2]
-    return ' '.join(words[:5])
-
-
-def words_from(text):
-    """Mots significatifs : > 3 chars, pas chiffre, pas stopword."""
-    text = text.lower()
-    text = re.sub(r'[^\w\s]', ' ', text)
-    return set(
-        w for w in text.split()
-        if len(w) > 3
-        and not w.isdigit()
-        and w not in STOPWORDS
-    )
-
-
-def parse_artist_album(title):
     """
-    Extrait (artiste, album) depuis le format standard :
-    'Artiste - Album (Label - Ref - Pays - Annee)'
+    Construit une query de recherche depuis un titre de référence.
+    - Ajoute "vinyl" pour cibler les résultats vinyle
+    - Pour les self-titled (artiste == album), garde le nom + vinyl
+    - Évite les mots trop courts ou génériques
     """
-    # Enlève tout ce qui est entre parenthèses (infos label)
+    # Séparer artiste / album si format "Artiste - Album"
     title_clean = re.sub(r'\(.*?\)', '', title).strip()
-    # Split sur tiret long ou court entouré d'espaces
     parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
     if len(parts) == 2:
         artist = parts[0].strip()
         album = parts[1].strip()
+        # Self-titled : artiste == album → chercher artiste + vinyl
+        if artist.lower() == album.lower():
+            query = artist
+        else:
+            # Garder les mots les plus discriminants des deux
+            artist_words = [w for w in artist.split() if len(w) > 2][:2]
+            album_words = [w for w in album.split() if len(w) > 2][:2]
+            combined = artist_words + album_words
+            query = ' '.join(combined[:4])
     else:
-        artist = ''
-        album = title_clean.strip()
-    return artist, album
+        query = re.sub(r'[^\w\s]', ' ', title)
+        words = [w for w in query.split() if len(w) > 2]
+        query = ' '.join(words[:4])
+    # Ajouter "vinyl" pour forcer la pertinence des résultats
+    return (query + ' vinyl').strip()
+
+
+def is_relevant_result(ref_title, found_title):
+    """
+    Filtre de pertinence : double critère pour éviter les faux positifs.
+    - ratio_ref  >= 0.50 : au moins 50% des mots de la ref sont dans le trouvé
+    - ratio_found >= 0.30 : au moins 30% des mots du trouvé viennent de la ref
+                           (évite qu'1 mot rare dans un long titre suffise)
+
+    Limite connue : pour les titres avec 1 seul mot significatif (ex: "Jaws"),
+    les faux positifs ne sont pas entièrement évitables.
+    """
+    ref_words = words_from(ref_title)
+    found_words = words_from(found_title)
+    if not ref_words or not found_words:
+        return False
+    overlap = ref_words & found_words
+    if not overlap:
+        return False
+    ratio_ref = len(overlap) / len(ref_words)
+    ratio_found = len(overlap) / len(found_words)
+    return ratio_ref >= 0.50 and ratio_found >= 0.30
+
+
+def words_from(text):
+    text = text.lower()
+    text = re.sub(r'[^\w\s]', ' ', text)
+    return set(w for w in text.split() if len(w) > 3 and not w.isdigit() and w not in STOPWORDS)
 
 
 # ─────────────────────────────────────────────
@@ -125,29 +157,21 @@ def scrape_victorkiswell():
                 if not items:
                     break
                 for item in items:
-                    artist_el = item.select_one('h4')
                     title_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
                     price_el = item.select_one('.price')
                     link_el = item.select_one('a.woocommerce-LoopProduct-link') or item.select_one('a')
                     if not title_el or not link_el:
                         continue
-                    price_text = price_el.get_text() if price_el else ''
-                    price = extract_price(price_text)
+                    price = extract_price(price_el.get_text() if price_el else '')
                     if not price or price < MIN_PRICE:
                         continue
                     url_item = link_el['href']
                     if url_item in results:
                         continue
                     sold = any(x in item.get_text().lower() for x in ['out of stock', 'sold', 'epuise'])
-                    artist = artist_el.get_text(strip=True) if artist_el else ''
-                    album = title_el.get_text(strip=True)
-                    full_title = f"{artist} - {album}" if artist else album
                     results[url_item] = {
-                        'source': 'Victor Kiswell',
-                        'title': full_title,
-                        'price_ref': price,
-                        'url': url_item,
-                        'sold': sold
+                        'source': 'Victor Kiswell', 'title': title_el.get_text(strip=True),
+                        'price_ref': price, 'url': url_item, 'sold': sold
                     }
                 page += 1
                 time.sleep(1.5)
@@ -187,11 +211,8 @@ def scrape_diggersdigest():
                 if price < MIN_PRICE:
                     continue
                 results[url_item] = {
-                    'source': "Digger's Digest",
-                    'title': title_el.get_text(strip=True),
-                    'price_ref': price,
-                    'url': url_item,
-                    'sold': sold
+                    'source': "Digger's Digest", 'title': title_el.get_text(strip=True),
+                    'price_ref': price, 'url': url_item, 'sold': sold
                 }
                 found_new = True
             if not found_new:
@@ -208,15 +229,9 @@ def scrape_diggersdigest():
 def scrape_superfly():
     results = {}
     categories = [
-        ('soul-funk-disco', '99000179'),
-        ('jazz', '99000181'),
-        ('afro', '99000182'),
-        ('latin', '99000187'),
-        ('brasil', '99000183'),
-        ('european', '99000185'),
-        ('reggae', '99000184'),
-        ('new-grooves-hip-hop', '99000191'),
-        ('groovy-rock', '99000190'),
+        ('soul-funk-disco', '99000179'), ('jazz', '99000181'), ('afro', '99000182'),
+        ('latin', '99000187'), ('brasil', '99000183'), ('european', '99000185'),
+        ('reggae', '99000184'), ('new-grooves-hip-hop', '99000191'), ('groovy-rock', '99000190'),
     ]
     for cat_name, cat_id in categories:
         page = 1
@@ -255,11 +270,8 @@ def scrape_superfly():
                         continue
                     sold = 'sold' in price_text.lower() or 'vendu' in price_text.lower()
                     results[url_item] = {
-                        'source': 'Superfly Records',
-                        'title': title,
-                        'price_ref': price,
-                        'url': url_item,
-                        'sold': sold
+                        'source': 'Superfly Records', 'title': title,
+                        'price_ref': price, 'url': url_item, 'sold': sold
                     }
                     found_new = True
                 if not found_new:
@@ -314,11 +326,8 @@ def scrape_diaspora():
                     continue
                 sold = any(x in text.lower() for x in ['sold out', 'unavailable', 'vendu'])
                 results[full_url] = {
-                    'source': 'Diaspora Records',
-                    'title': title,
-                    'price_ref': price,
-                    'url': full_url,
-                    'sold': sold
+                    'source': 'Diaspora Records', 'title': title,
+                    'price_ref': price, 'url': full_url, 'sold': sold
                 }
                 found_new = True
             if not found_new:
@@ -332,68 +341,22 @@ def scrape_diaspora():
     return list(results.values())
 
 
-def sofa_slug_to_text(slug):
-    """Convertit un slug URL en texte lisible : 'david-walters' -> 'David Walters'"""
-    slug = urllib.parse.unquote(slug)
-    return ' '.join(w.capitalize() for w in slug.replace('-', ' ').split())
-
-
-def sofa_extract_from_url(href):
-    """Extrait (artiste, album) depuis une URL SOFA : /fr/{artiste}/{album}/p{id}/"""
-    match = re.search(r'/fr/([^/]+)/([^/]+)/p\d+/', href)
-    if match:
-        return sofa_slug_to_text(match.group(1)), sofa_slug_to_text(match.group(2))
-    return '', ''
-
-
-def sofa_get_price(url):
-    """Fetche la page produit SOFA. Retourne (prix, sold)."""
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(r.text, 'html.parser')
-        text_lower = soup.get_text().lower()
-        sold = any(x in text_lower for x in ['sold out', 'épuisé', 'indisponible', 'out of stock', 'vendu'])
-        for selector in ['[itemprop="price"]', '.current-price span', '.product-price', '[class*="price"]']:
-            el = soup.select_one(selector)
-            if el:
-                price = extract_price(el.get('content') or el.get_text(strip=True))
-                if price:
-                    return price, sold
-        match = re.search(r'(\d{2,4}[,.]?\d*)\s*€', text_lower)
-        if match:
-            return extract_price(match.group()), sold
-    except Exception as e:
-        print(f"SOFA prix erreur {url}: {e}")
-    return None, False
-
-
 def scrape_sofarecords():
     results = {}
     MIN_PRICE_SOFA = 70
     categories = [
-        ('afro-funk-afro-disco',        'c98000508'),
-        ('dj-stuff-club-electronics',   'c98000509'),
-        ('afro-beat',                   'c98000510'),
-        ('highlife',                    'c98000511'),
-        ('mali-guinea-senegal',         'c98000489'),
-        ('congo-rumba-sukus',           'c98000512'),
-        ('ethiopia-sudan-somalia',      'c98000493'),
-        ('kenya-east-africa',           'c98000539'),
-        ('maghreb-vinyl',               'c98000515'),
-        ('lebanon-egypt',               'c98000517'),
-        ('french-west-indies-zou',      'c98000519'),
-        ('reggae-dub-ska',              'c98000521'),
-        ('latin-salsa-boogaloo',        'c98000523'),
-        ('brazilian-soul-funk-samba',   'c98000526'),
-        ('bossa-nova-brazilian-jazz',   'c98000527'),
+        ('afro-funk-afro-disco', 'c98000508'), ('dj-stuff-club-electronics', 'c98000509'),
+        ('afro-beat', 'c98000510'), ('highlife', 'c98000511'),
+        ('mali-guinea-senegal', 'c98000489'), ('congo-rumba-sukus', 'c98000512'),
+        ('ethiopia-sudan-somalia', 'c98000493'), ('kenya-east-africa', 'c98000539'),
+        ('maghreb-vinyl', 'c98000515'), ('lebanon-egypt', 'c98000517'),
+        ('french-west-indies-zou', 'c98000519'), ('reggae-dub-ska', 'c98000521'),
+        ('latin-salsa-boogaloo', 'c98000523'), ('brazilian-soul-funk-samba', 'c98000526'),
+        ('bossa-nova-brazilian-jazz', 'c98000527'),
         ('japanese-jazz-funk-ambient-city-pop', 'c98000529'),
-        ('soul-jazz-jazz-funk',         'c98000535'),
-        ('free-jazz-avant-garde',       'c98000537'),
-        ('french-jazz-avant-garde',     'c98000531'),
-        ('french-grooves-songs',        'c98000532'),
+        ('soul-jazz-jazz-funk', 'c98000535'), ('free-jazz-avant-garde', 'c98000537'),
+        ('french-jazz-avant-garde', 'c98000531'), ('french-grooves-songs', 'c98000532'),
     ]
-    # Collecte d'abord toutes les URLs produits sans fetcher chaque page
-    product_urls = set()
     for cat_name, cat_id in categories:
         page = 1
         while page <= 20:
@@ -405,55 +368,71 @@ def scrape_sofarecords():
                 if r.status_code == 404:
                     break
                 soup = BeautifulSoup(r.text, 'html.parser')
-                links = soup.select('a[href*="/fr/"][href*="/p"]')
-                found_new = False
-                for link in links:
-                    href = link.get('href', '')
-                    if not href or not re.search(r'/p\d+/', href):
-                        continue
-                    if any(x in href for x in ['/panier', '/promotion', '/connexion', '/recherche']):
-                        continue
-                    full_url = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
-                    if full_url not in product_urls:
-                        product_urls.add(full_url)
+                items = soup.select('div.product-info') or soup.select('li.product') or soup.select('[class*="product"]')
+                if not items:
+                    links = soup.select('a[href*="/fr/"][href*="/p"]')
+                    if not links:
+                        break
+                    found_new = False
+                    for link in links:
+                        href = link.get('href', '')
+                        if not href or '/p' not in href:
+                            continue
+                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
+                        if url_item in results:
+                            continue
+                        parent = link.find_parent(['div', 'li', 'article'])
+                        if not parent:
+                            continue
+                        price_text = parent.get_text()
+                        price = extract_price(price_text)
+                        if not price or price < MIN_PRICE_SOFA:
+                            continue
+                        title_el = link.select_one('h3') or link.select_one('h2') or link
+                        title = title_el.get_text(strip=True) if title_el else ''
+                        if not title:
+                            continue
+                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
+                        results[url_item] = {
+                            'source': 'SOFA Records', 'title': title,
+                            'price_ref': price, 'url': url_item, 'sold': sold
+                        }
                         found_new = True
-                if not found_new:
-                    break
+                    if not found_new:
+                        break
+                else:
+                    found_new = False
+                    for item in items:
+                        link_el = item.select_one('a')
+                        if not link_el:
+                            continue
+                        href = link_el.get('href', '')
+                        url_item = href if href.startswith('http') else 'https://www.sofarecords.fr' + href
+                        if url_item in results:
+                            continue
+                        price_text = item.get_text()
+                        price = extract_price(price_text)
+                        if not price or price < MIN_PRICE_SOFA:
+                            continue
+                        title_el = item.select_one('h3') or item.select_one('h2')
+                        title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
+                        if not title:
+                            continue
+                        sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
+                        results[url_item] = {
+                            'source': 'SOFA Records', 'title': title,
+                            'price_ref': price, 'url': url_item, 'sold': sold
+                        }
+                        found_new = True
+                    if not found_new:
+                        break
                 page += 1
                 time.sleep(1.5)
             except Exception as e:
                 print(f"SOFA {cat_name} page {page}: {e}")
                 break
-
-    # Fetche chaque page produit pour le prix
-    print(f"SOFA: {len(product_urls)} produits trouvés, fetch des prix...")
-    for url_item in product_urls:
-        if url_item in results:
-            continue
-        artist, album = sofa_extract_from_url(url_item)
-        if not artist or not album:
-            continue
-        price, sold = sofa_get_price(url_item)
-        if not price:
-            continue
-        # Garde les vendus (connaissance marché) même sous le seuil
-        # Filtre seulement les non-vendus sous le seuil
-        if not sold and price < MIN_PRICE_SOFA:
-            continue
-        title = f"{artist} - {album}"
-        results[url_item] = {
-            'source': 'SOFA Records',
-            'title': title,
-            'price_ref': price,
-            'url': url_item,
-            'sold': sold
-        }
-        time.sleep(1)
-
     print(f"SOFA Records: {len(results)} disques")
     return list(results.values())
-
-
 
 
 # ─────────────────────────────────────────────
@@ -461,7 +440,7 @@ def scrape_sofarecords():
 # ─────────────────────────────────────────────
 
 def scrapeops_get(url):
-    """Requête GET via ScrapeOps proxy résidentiel."""
+    """Requête via ScrapeOps proxy résidentiel — utilisé UNIQUEMENT pour Leboncoin."""
     return requests.get(
         "https://proxy.scrapeops.io/v1/",
         params={
@@ -474,26 +453,36 @@ def scrapeops_get(url):
     )
 
 
+# ── Leboncoin (ScrapeOps) ──────────────────────────────────────────────────────
+
 def search_leboncoin(title, max_price):
-    """Recherche Leboncoin via scraping HTML + ScrapeOps."""
+    """Leboncoin via ScrapeOps — ~25 crédits/requête."""
+    global LBC_FAILURES
     if not SCRAPEOPS_KEY:
+        return []
+    if LBC_FAILURES >= LBC_MAX_FAILURES:
         return []
     results = []
     query = urllib.parse.quote(clean_title(title))
     try:
         url = f"https://www.leboncoin.fr/recherche?text={query}&category=34&price=0-{int(max_price)}"
         r = scrapeops_get(url)
-        print(f"  LBC status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
+        print(f"  LBC status: {r.status_code} | {clean_title(title)} | max {max_price}€")
         if r.status_code != 200:
-            print(f"  LBC erreur: {r.text[:200]}")
+            LBC_FAILURES += 1
+            print(f"  LBC erreur ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {r.text[:100]}")
             return results
-        from bs4 import BeautifulSoup as BS
-        soup = BS(r.text, 'html.parser')
-        ads = soup.select('a[data-qa-id="aditem_container"]') or soup.select('[data-test-id="ad"]') or soup.select('li[data-id]')
-        print(f"  LBC annonces trouvées: {len(ads)}")
+        LBC_FAILURES = 0  # reset si succès
+        soup = BeautifulSoup(r.text, 'html.parser')
+        ads = (soup.select('a[data-qa-id="aditem_container"]') or
+               soup.select('[data-test-id="ad"]') or
+               soup.select('li[data-id]'))
+        print(f"  LBC annonces: {len(ads)}")
         for ad in ads[:20]:
-            title_el = ad.select_one('[data-qa-id="aditem_title"]') or ad.select_one('h2') or ad.select_one('p')
-            price_el = ad.select_one('[data-qa-id="aditem_price"]') or ad.select_one('[class*="price"]')
+            title_el = (ad.select_one('[data-qa-id="aditem_title"]') or
+                        ad.select_one('h2') or ad.select_one('p'))
+            price_el = (ad.select_one('[data-qa-id="aditem_price"]') or
+                        ad.select_one('[class*="price"]'))
             href = ad.get('href', '')
             if not href:
                 continue
@@ -501,182 +490,226 @@ def search_leboncoin(title, max_price):
             price = extract_price(price_el.get_text()) if price_el else None
             if not price or price > max_price:
                 continue
+            found_title = title_el.get_text(strip=True) if title_el else ''
+            if not is_relevant_result(title, found_title):
+                continue
             results.append({
                 "platform": "leboncoin.fr",
-                "title": title_el.get_text(strip=True) if title_el else '',
-                "price": price,
-                "url": ad_url
+                "title": found_title,
+                "price": price, "url": ad_url
             })
         time.sleep(1)
     except Exception as e:
-        print(f"  LBC exception: {e}")
+        LBC_FAILURES += 1
+        print(f"  LBC exception ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {e}")
     return results
+
+
+# ── Vinted (lib cookie auto — 0 crédit ScrapeOps) ────────────────────────────
+
+_vinted_session = None
+_vinted_cookie = None
+
+def _get_vinted_cookie():
+    """Récupère un cookie de session Vinted en chargeant la homepage."""
+    global _vinted_session, _vinted_cookie
+    if _vinted_cookie:
+        return _vinted_cookie
+    try:
+        session = requests.Session()
+        session.headers.update({
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "fr-FR,fr;q=0.9",
+        })
+        r = session.get("https://www.vinted.fr", timeout=20)
+        # Chercher access_token_web dans les cookies
+        cookie = r.cookies.get("access_token_web") or r.cookies.get("_vinted_fr_session")
+        if cookie:
+            _vinted_cookie = cookie
+            _vinted_session = session
+            print(f"  VTD cookie OK: {cookie[:20]}...")
+            return cookie
+        # Sinon récupérer tous les cookies de session
+        _vinted_session = session
+        print(f"  VTD session initialisée ({len(r.cookies)} cookies)")
+        return None
+    except Exception as e:
+        print(f"  VTD cookie exception: {e}")
+        return None
 
 
 def search_vinted(title, max_price):
-    """Recherche Vinted via scraping HTML + ScrapeOps."""
-    if not SCRAPEOPS_KEY:
+    """
+    Vinted via API interne /api/v2/catalog/items.
+    Utilise un cookie de session obtenu en chargeant vinted.fr directement.
+    0 crédit ScrapeOps.
+    """
+    global VINTED_FAILURES, _vinted_session
+    if VINTED_FAILURES >= VINTED_MAX_FAILURES:
         return []
     results = []
-    query = urllib.parse.quote(clean_title(title))
     try:
-        url = f"https://www.vinted.fr/catalog/3041-vinyl-records?search_text={query}&price_to={int(max_price)}"
-        r = scrapeops_get(url)
-        print(f"  VTD status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
+        # Initialiser la session si nécessaire
+        if _vinted_session is None:
+            _get_vinted_cookie()
+        if _vinted_session is None:
+            print("  VTD session non initialisée")
+            VINTED_FAILURES += 1
+            return []
+        query = clean_title(title)
+        params = {
+            "search_text": query,
+            "catalog[]": "139",   # Musique / Disques vinyle sur vinted.fr
+            "price_to": int(max_price),
+            "per_page": "20",
+            "order": "newest_first",
+        }
+        api_headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "fr-FR,fr;q=0.9",
+            "Referer": "https://www.vinted.fr/",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+        r = _vinted_session.get(
+            "https://www.vinted.fr/api/v2/catalog/items",
+            params=params,
+            headers=api_headers,
+            timeout=20
+        )
+        print(f"  VTD status: {r.status_code} | {query} | max {max_price}€")
+        if r.status_code == 401:
+            # Cookie expiré — réinitialiser
+            print("  VTD cookie expiré, réinitialisation...")
+            _vinted_session = None
+            _get_vinted_cookie()
+            VINTED_FAILURES += 1
+            return []
         if r.status_code != 200:
-            print(f"  VTD erreur: {r.text[:200]}")
-            return results
-        from bs4 import BeautifulSoup as BS
-        soup = BS(r.text, 'html.parser')
-        items = soup.select('[data-testid="grid-item"]') or soup.select('[class*="ItemBox"]') or soup.select('div[class*="item"]')
-        print(f"  VTD articles trouvés: {len(items)}")
-        for item in items[:20]:
-            link_el = item.select_one('a')
-            price_el = item.select_one('[class*="price"]') or item.select_one('[data-testid*="price"]')
-            if not link_el:
+            VINTED_FAILURES += 1
+            print(f"  VTD erreur ({VINTED_FAILURES}/{VINTED_MAX_FAILURES}): {r.text[:100]}")
+            return []
+        VINTED_FAILURES = 0  # reset
+        data = r.json()
+        items = data.get("items", [])
+        print(f"  VTD articles: {len(items)}")
+        for item in items:
+            try:
+                price = float(item.get("price", 0))
+                if not price or price > max_price:
+                    continue
+                item_url = item.get("url") or f"https://www.vinted.fr/items/{item.get('id', '')}"
+                item_title = item.get("title", "")
+                if not is_relevant_result(title, item_title):
+                    continue
+                results.append({
+                    "platform": "vinted.fr",
+                    "title": item_title,
+                    "price": price,
+                    "url": item_url
+                })
+            except Exception:
                 continue
-            href = link_el.get('href', '')
-            item_url = href if href.startswith('http') else 'https://www.vinted.fr' + href
-            price = extract_price(price_el.get_text()) if price_el else None
-            if not price or price > max_price:
-                continue
-            title_el = item.select_one('[class*="title"]') or item.select_one('h3') or link_el
-            results.append({
-                "platform": "vinted.fr",
-                "title": title_el.get_text(strip=True) if title_el else '',
-                "price": price,
-                "url": item_url
-            })
         time.sleep(1)
     except Exception as e:
-        print(f"  VTD exception: {e}")
+        VINTED_FAILURES += 1
+        print(f"  VTD exception ({VINTED_FAILURES}/{VINTED_MAX_FAILURES}): {e}")
     return results
+
+
+# ── eBay (scraping direct — 0 crédit ScrapeOps) ───────────────────────────────
+
+_ebay_session = None
+
+def _get_ebay_session():
+    """Session persistante pour eBay avec headers navigateur réalistes."""
+    global _ebay_session
+    if _ebay_session:
+        return _ebay_session
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+    })
+    # Charger la homepage eBay.fr pour obtenir les cookies de session
+    try:
+        session.get("https://www.ebay.fr", timeout=15)
+        time.sleep(1)
+    except Exception:
+        pass
+    _ebay_session = session
+    return session
 
 
 def search_ebay(title, max_price):
-    """Recherche via l'API officielle eBay Finding (nécessite EBAY_APP_ID en secret GitHub)."""
+    """
+    eBay via scraping direct sans proxy.
+    eBay.fr n'utilise pas DataDome — accessible directement avec headers navigateur.
+    0 crédit ScrapeOps.
+    """
+    global EBAY_FAILURES
+    if EBAY_FAILURES >= EBAY_MAX_FAILURES:
+        return []
     results = []
-    ebay_key = os.environ.get("EBAY_APP_ID", "")
-    if not ebay_key:
-        return results
-    query = clean_title(title)
     try:
-        params = {
-            "OPERATION-NAME": "findItemsAdvanced",
-            "SERVICE-VERSION": "1.0.0",
-            "SECURITY-APPNAME": ebay_key,
-            "RESPONSE-DATA-FORMAT": "JSON",
-            "keywords": query,
-            "categoryId": "306",
-            "itemFilter(0).name": "MaxPrice",
-            "itemFilter(0).value": str(int(max_price)),
-            "itemFilter(0).paramName": "Currency",
-            "itemFilter(0).paramValue": "EUR",
-            "itemFilter(1).name": "ListingType",
-            "itemFilter(1).value": "FixedPrice",
-            "itemFilter(2).name": "LocatedIn",
-            "itemFilter(2).value": "FR",
-            "paginationInput.entriesPerPage": "20",
-        }
-        r = requests.get(
-            "https://svcs.ebay.com/services/search/FindingService/v1",
-            params=params, timeout=15
-        )
-        data = r.json()
-        items = (data.get("findItemsAdvancedResponse", [{}])[0]
-                     .get("searchResult", [{}])[0]
-                     .get("item", []))
-        for item in items:
-            try:
-                price = float(item.get("sellingStatus", [{}])[0]
-                                  .get("currentPrice", [{}])[0]
-                                  .get("__value__", 0))
-            except (IndexError, KeyError, ValueError):
+        session = _get_ebay_session()
+        query = urllib.parse.quote(clean_title(title))
+        # LH_BIN=1 : Buy It Now uniquement | _sacat=306 : Vinyl Records
+        url = f"https://www.ebay.fr/sch/i.html?_nkw={query}&_sacat=306&_udhi={int(max_price)}&LH_BIN=1&_sop=10&LH_PrefLoc=3"
+        r = session.get(url, timeout=20)
+        print(f"  eBay status: {r.status_code} | {clean_title(title)} | max {max_price}€")
+        if r.status_code != 200:
+            EBAY_FAILURES += 1
+            print(f"  eBay erreur ({EBAY_FAILURES}/{EBAY_MAX_FAILURES})")
+            return []
+        EBAY_FAILURES = 0
+        soup = BeautifulSoup(r.text, 'html.parser')
+        # Sélecteurs eBay 2024
+        items = soup.select('li.s-item')
+        if not items:
+            # Fallback sélecteurs alternatifs
+            items = (soup.select('[data-view="mi:1686|iid:1"]') or
+                     soup.select('.srp-results li') or
+                     soup.select('.s-item__wrapper'))
+        print(f"  eBay articles: {len(items)}")
+        for item in items[:20]:
+            # Ignorer le faux premier item "Résultats correspondants"
+            title_el = item.select_one('.s-item__title')
+            if not title_el:
                 continue
+            title_text = title_el.get_text(strip=True)
+            if 'shop on ebay' in title_text.lower() or title_text.strip() == '':
+                continue
+            price_el = (item.select_one('.s-item__price') or
+                        item.select_one('[class*="price"]'))
+            link_el = item.select_one('a.s-item__link') or item.select_one('a[href*="ebay.fr/itm"]')
+            if not price_el or not link_el:
+                continue
+            price = extract_price(price_el.get_text())
             if not price or price > max_price:
                 continue
-            try:
-                item_url = item.get("viewItemURL", [""])[0]
-                item_title = item.get("title", [""])[0]
-            except IndexError:
+            if not is_relevant_result(title, title_text):
                 continue
+            item_url = link_el.get('href', '').split('?')[0]  # Nettoyer les params tracking
             results.append({
                 "platform": "ebay.fr",
-                "title": item_title,
+                "title": title_text,
                 "price": price,
                 "url": item_url
             })
-        time.sleep(0.5)
+        time.sleep(1.5)
     except Exception as e:
-        print(f"eBay: {e}")
+        EBAY_FAILURES += 1
+        print(f"  eBay exception ({EBAY_FAILURES}/{EBAY_MAX_FAILURES}): {e}")
     return results
-
-
-
-WISHLIST_FILE = "wishlist.json"
-
-def load_wishlist():
-    """Charge la wishlist perso depuis wishlist.json."""
-    if not os.path.exists(WISHLIST_FILE):
-        print("Wishlist: fichier non trouvé")
-        return []
-    with open(WISHLIST_FILE, encoding='utf-8') as f:
-        items = json.load(f)
-    records = []
-    for item in items:
-        title = f"{item['artist']} - {item['album']}"
-        records.append({
-            'source': 'Wishlist',
-            'title': title,
-            'artist': item['artist'],
-            'album': item['album'],
-            'price_ref': item['max_price'],
-            'url': '',
-            'sold': False,
-            'is_wishlist': True,
-        })
-    print(f"Wishlist: {len(records)} disques chargés")
-    return records
-
-
-def search_wishlist_opportunities(wishlist_records):
-    """
-    Recherche marché pour la wishlist perso.
-    max_price = prix max à payer (direct, sans ratio 40%)
-    """
-    opportunites = []
-    items = wishlist_records[:3] if TEST_MODE else wishlist_records
-    for record in items:
-        max_price = record['price_ref']
-        if max_price < 3:
-            continue
-        query_title = f"{record['artist']} {record['album']}"
-        found = search_leboncoin(query_title, max_price)
-        found += search_vinted(query_title, max_price)
-        found += search_ebay(query_title, max_price)
-        for f in found:
-            marge = max_price - f['price']
-            opportunites.append({
-                'ref_title': record['title'],
-                'ref_source': 'Wishlist perso',
-                'ref_price': max_price,
-                'found_title': f['title'],
-                'found_price': f['price'],
-                'found_url': f['url'],
-                'platform': f['platform'],
-                'marge': marge,
-                'marge_pct': round((marge / max_price) * 100),
-                'is_wishlist': True,
-            })
-    opportunites.sort(key=lambda x: -x['ref_price'])
-    # Déduplication
-    seen_urls = set()
-    result = []
-    for o in opportunites:
-        if o['found_url'] not in seen_urls:
-            seen_urls.add(o['found_url'])
-            result.append(o)
-    return result
 
 
 # ─────────────────────────────────────────────
@@ -689,9 +722,112 @@ def load_db():
             return json.load(f)
     return {}
 
+
 def save_db(db):
     with open(DB_FILE, 'w') as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
+
+
+# ─────────────────────────────────────────────
+# RAPPORT HTML
+# ─────────────────────────────────────────────
+
+def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records):
+    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    credits_estimes = len(actifs) * 25  # ~25 crédits/req LBC uniquement
+
+    opp_rows = ""
+    for o in opportunites:
+        marge_class = "high" if o['marge_pct'] >= 70 else "medium"
+        opp_rows += f"""
+        <tr class="opp-row {marge_class}">
+            <td><strong>{o['ref_title']}</strong><br><small>{o['ref_source']}</small></td>
+            <td class="price">{o['ref_price']:.0f}€</td>
+            <td><a href="{o['found_url']}" target="_blank">{o['found_title'][:60] or '—'}</a><br><small>{o['platform']}</small></td>
+            <td class="price">{o['found_price']:.0f}€</td>
+            <td class="marge"><strong>{o['marge']:.0f}€</strong><br><span class="badge">{o['marge_pct']}%</span></td>
+        </tr>"""
+
+    new_rows = ""
+    for r in sorted(nouveaux_ref, key=lambda x: -x['price_ref']):
+        sold_tag = '<span class="sold">VENDU</span>' if r.get('sold') else ''
+        new_rows += f"<tr><td>{r['price_ref']:.0f}€ {sold_tag}</td><td>{r['title']}</td><td>{r['source']}</td></tr>"
+
+    by_source = {}
+    for r in all_records:
+        by_source.setdefault(r['source'], []).append(r)
+
+    catalogue_html = ""
+    for source, items in sorted(by_source.items()):
+        dispo = [i for i in items if not i.get('sold')]
+        vendus = [i for i in items if i.get('sold')]
+        catalogue_html += f"<h3>{source} — {len(dispo)} disponibles, {len(vendus)} vendus</h3><table><thead><tr><th>Prix</th><th>Titre</th></tr></thead><tbody>"
+        for item in sorted(dispo, key=lambda x: -x['price_ref']):
+            catalogue_html += f'<tr><td class="price">{item["price_ref"]:.0f}€</td><td><a href="{item["url"]}" target="_blank">{item["title"]}</a></td></tr>'
+        catalogue_html += "</tbody></table>"
+
+    html = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinyl Scout — {now}</title>
+<style>
+  * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f0f; color: #e0e0e0; padding: 20px; }}
+  h1 {{ color: #ff6b35; font-size: 1.8em; margin-bottom: 4px; }}
+  h2 {{ color: #ffd700; margin: 30px 0 12px; font-size: 1.2em; border-bottom: 1px solid #333; padding-bottom: 6px; }}
+  h3 {{ color: #aaa; margin: 20px 0 8px; font-size: 1em; }}
+  .meta {{ color: #666; font-size: 0.85em; margin-bottom: 24px; }}
+  .stats {{ display: flex; gap: 16px; margin: 16px 0; flex-wrap: wrap; }}
+  .stat {{ background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 12px 18px; text-align: center; }}
+  .stat-val {{ font-size: 1.8em; font-weight: bold; color: #ff6b35; }}
+  .stat-lbl {{ font-size: 0.75em; color: #888; margin-top: 2px; }}
+  table {{ width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 0.88em; }}
+  th {{ background: #1a1a1a; color: #888; padding: 8px 10px; text-align: left; font-weight: 500; }}
+  td {{ padding: 8px 10px; border-bottom: 1px solid #1e1e1e; vertical-align: top; }}
+  tr:hover td {{ background: #161616; }}
+  a {{ color: #4db8ff; text-decoration: none; }}
+  a:hover {{ text-decoration: underline; }}
+  .price {{ font-weight: bold; white-space: nowrap; color: #90ee90; }}
+  .marge {{ font-weight: bold; color: #ffd700; white-space: nowrap; }}
+  .badge {{ background: #333; color: #ffd700; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }}
+  .opp-row.high td {{ border-left: 3px solid #ff4444; }}
+  .opp-row.medium td {{ border-left: 3px solid #ffd700; }}
+  .sold {{ color: #ff4444; font-size: 0.75em; background: #2a0000; padding: 1px 5px; border-radius: 3px; }}
+  .credits {{ background: #1a1a00; border: 1px solid #444400; border-radius: 6px; padding: 10px 14px; margin: 16px 0; font-size: 0.85em; color: #cccc00; }}
+  small {{ color: #888; }}
+  .empty {{ color: #555; font-style: italic; padding: 16px; text-align: center; }}
+</style>
+</head>
+<body>
+<h1>🎵 Vinyl Scout</h1>
+<div class="meta">Rapport généré le {now}</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-val">{len(db)}</div><div class="stat-lbl">En base</div></div>
+  <div class="stat"><div class="stat-val">{len(tous_actifs)}</div><div class="stat-lbl">Actifs total</div></div>
+  <div class="stat"><div class="stat-val">{len(actifs)}</div><div class="stat-lbl">Batch analysé</div></div>
+  <div class="stat"><div class="stat-val">{len(opportunites)}</div><div class="stat-lbl">Opportunités</div></div>
+  <div class="stat"><div class="stat-val">{len(nouveaux_ref)}</div><div class="stat-lbl">Nouveaux</div></div>
+</div>
+
+<div class="credits">
+  💳 Crédits ScrapeOps estimés ce run : ~{credits_estimes} (LBC uniquement) | Vinted : cookie direct | eBay : scraping direct
+</div>
+
+<h2>🔴 Opportunités marché ({len(opportunites)})</h2>
+{"<table><thead><tr><th>Référence</th><th>Prix ref</th><th>Annonce trouvée</th><th>Prix</th><th>Marge</th></tr></thead><tbody>" + opp_rows + "</tbody></table>" if opportunites else '<div class="empty">Aucune opportunité aujourd\'hui</div>'}
+
+<h2>🆕 Nouveaux en base ({len(nouveaux_ref)})</h2>
+{"<table><thead><tr><th>Prix</th><th>Titre</th><th>Source</th></tr></thead><tbody>" + new_rows + "</tbody></table>" if nouveaux_ref else '<div class="empty">Aucun nouveau disque</div>'}
+
+<h2>📀 Catalogue complet</h2>
+{catalogue_html}
+
+</body>
+</html>"""
+    return html
 
 
 # ─────────────────────────────────────────────
@@ -699,8 +835,13 @@ def save_db(db):
 # ─────────────────────────────────────────────
 
 def main():
-    # ── Phase 1 : scraping sources experts ──
-    print("Phase 1 : scraping sources experts...")
+    print("=" * 60)
+    print("VINYL SCOUT v15")
+    print("Vinted: cookie direct (0 crédit) | eBay: direct (0 crédit) | LBC: ScrapeOps")
+    print("=" * 60)
+
+    # Phase 1
+    print("\n⟶ Phase 1 : scraping sources experts...")
     all_records = []
     all_records += scrape_victorkiswell()
     all_records += scrape_diggersdigest()
@@ -715,7 +856,7 @@ def main():
             seen.add(r['url'])
             unique_records.append(r)
     all_records = unique_records
-    print(f"TOTAL: {len(all_records)} disques uniques >= {MIN_PRICE}EUR")
+    print(f"TOTAL: {len(all_records)} disques uniques >= {MIN_PRICE}€")
 
     db = load_db()
     nouveaux_ref = []
@@ -729,33 +870,34 @@ def main():
             db[key]['sold'] = r['sold']
     save_db(db)
 
-    # ── Phase 3 : recherche opportunites marche ──
-    print("\nPhase 3 : recherche opportunites marche (batch 100)...")
-    opportunites = []
-    actifs = [r for r in all_records if not r.get('sold')]
+    # Phase 3
+    print("\n⟶ Phase 3 : recherche opportunités marché...")
 
-    # ── Rotation batch 100 ──
-    BATCH_SIZE = 100
-    OFFSET_FILE = "scout_offset.json"
+    # Initialiser les sessions en amont (économise du temps)
+    print("  Initialisation session Vinted...")
+    _get_vinted_cookie()
+    print("  Initialisation session eBay...")
+    _get_ebay_session()
+
+    opportunites = []
+    tous_actifs = [r for r in all_records if not r.get('sold')]
+    tous_actifs_sorted = sorted(tous_actifs, key=lambda x: -x['price_ref'])
+
     if TEST_MODE:
-        batch = actifs[:3]
-        print("  [TEST_MODE] Limite a 3 disques pour diagnostic")
+        print(f"  [TEST_MODE] Limité à 5 disques")
+        actifs = tous_actifs_sorted[:5]
     else:
-        try:
-            offset = json.load(open(OFFSET_FILE)).get('offset', 0) if os.path.exists(OFFSET_FILE) else 0
-        except Exception:
-            offset = 0
-        offset = offset % len(actifs) if actifs else 0
-        batch = actifs[offset:offset + BATCH_SIZE]
-        next_offset = (offset + BATCH_SIZE) % len(actifs)
-        with open(OFFSET_FILE, 'w') as f:
-            json.dump({'offset': next_offset, 'last_run': datetime.now().isoformat()}, f)
-        print(f"  Batch : disques {offset} → {offset + len(batch) - 1} / {len(actifs)} actifs (prochain offset: {next_offset})")
-    for record in batch:
-        max_price = round(record['price_ref'] * MAX_PRICE_RATIO, 0)
-        found = search_leboncoin(record['title'], max_price)
+        actifs = tous_actifs_sorted[:BATCH_SIZE]
+        print(f"  Batch : {len(actifs)}/{len(tous_actifs)} actifs | ~{len(actifs) * 25} crédits LBC estimés")
+
+    for i, record in enumerate(actifs):
+        max_price = round(record['price_ref'] * MAX_PRICE_RATIO)
+        print(f"  [{i+1}/{len(actifs)}] {record['title'][:50]} | ref {record['price_ref']}€ | max {max_price}€")
+        found = []
+        found += search_leboncoin(record['title'], max_price)
         found += search_vinted(record['title'], max_price)
         found += search_ebay(record['title'], max_price)
+
         for f in found:
             marge = record['price_ref'] - f['price']
             ratio = round((marge / record['price_ref']) * 100)
@@ -767,10 +909,14 @@ def main():
                 'found_price': f['price'],
                 'found_url': f['url'],
                 'platform': f['platform'],
-                'marge': marge,
+                'marge': round(marge, 2),
                 'marge_pct': ratio,
             })
-    opportunites.sort(key=lambda x: -x['marge'])
+
+        # Stop si tous les circuit breakers sont ouverts
+        if LBC_FAILURES >= LBC_MAX_FAILURES and VINTED_FAILURES >= VINTED_MAX_FAILURES and EBAY_FAILURES >= EBAY_MAX_FAILURES:
+            print("  ⚠️ Tous les circuit breakers ouverts — arrêt Phase 3")
+            break
 
     # Déduplication par URL
     seen_urls = set()
@@ -779,73 +925,17 @@ def main():
         if o['found_url'] not in seen_urls:
             seen_urls.add(o['found_url'])
             opportunites_uniques.append(o)
-    opportunites = opportunites_uniques
+    opportunites = sorted(opportunites_uniques, key=lambda x: -x['marge'])
 
-    # ── Phase 3b : wishlist perso ──
-    print("\nPhase 3b : recherche wishlist perso...")
-    wishlist_records = load_wishlist()
-    opportunites_wishlist = search_wishlist_opportunities(wishlist_records)
-    print(f"{len(opportunites_wishlist)} opportunites wishlist trouvées")
-
-    # ── Rapport ──
-    now = datetime.now().strftime("%d/%m/%Y %H:%M")
-    lines = [f"# VINYL SCOUT — Rapport du {now}\n"]
-    lines.append(f"**Base : {len(db)} disques | Actifs : {len(actifs)} | Batch : {len(batch)} disques | Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref**\n")
-    lines.append("---\n")
-
-    # Section wishlist perso
-    if opportunites_wishlist:
-        lines.append(f"## 🎯 {len(opportunites_wishlist)} OPPORTUNITES WISHLIST\n")
-        for o in opportunites_wishlist:
-            lines.append(f"### {o['ref_title']}")
-            lines.append(f"- **Max à payer** : {o['ref_price']}€")
-            lines.append(f"- **Trouvé** : {o['found_price']}€ sur {o['platform']} — sous le seuil de **{o['marge']}€**")
-            lines.append(f"- [Voir l'annonce]({o['found_url']})")
-            lines.append("")
-    else:
-        lines.append("## 🎯 Aucune opportunité wishlist aujourd'hui\n")
-
-    lines.append("---\n")
-
-    # Section opportunites marche
-    if opportunites:
-        lines.append(f"## 🔴 {len(opportunites)} OPPORTUNITES MARCHE\n")
-        for o in opportunites:
-            lines.append(f"### {o['ref_title']}")
-            lines.append(f"- **Ref** : {o['ref_price']}€ chez {o['ref_source']}")
-            lines.append(f"- **Trouve** : {o['found_price']}€ sur {o['platform']} — marge potentielle **{o['marge']}€ ({o['marge_pct']}%)**")
-            lines.append(f"- [Voir l'annonce]({o['found_url']})")
-            lines.append("")
-    else:
-        lines.append("## ✅ Aucune opportunite marche aujourd'hui\n")
-
-    if nouveaux_ref:
-        lines.append(f"---\n## 🆕 {len(nouveaux_ref)} nouveaux en base\n")
-        for r in sorted(nouveaux_ref, key=lambda x: -x['price_ref']):
-            sold_tag = " ~~[VENDU]~~" if r.get('sold') else ""
-            lines.append(f"- **{r['price_ref']}€**{sold_tag} — {r['title']} ({r['source']})")
-        lines.append("")
-
-    lines.append("---\n## Catalogue complet\n")
-    by_source = {}
-    for r in all_records:
-        by_source.setdefault(r['source'], []).append(r)
-    for source, items in sorted(by_source.items()):
-        dispo = [i for i in items if not i.get('sold')]
-        vendus = [i for i in items if i.get('sold')]
-        lines.append(f"### {source} — {len(dispo)} disponibles, {len(vendus)} vendus\n")
-        for item in sorted(dispo, key=lambda x: -x['price_ref']):
-            lines.append(f"- **{item['price_ref']}€** — {item['title']} — [voir]({item['url']})")
-        if vendus:
-            lines.append("")
-            for item in sorted(vendus, key=lambda x: -x['price_ref']):
-                lines.append(f"- ~~**{item['price_ref']}€**~~ — {item['title']} [VENDU]")
-        lines.append("")
-
+    # Rapport HTML
+    html = generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records)
     with open(ALERT_FILE, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
+        f.write(html)
 
-    print(f"Rapport genere — {len(opportunites)} opportunites marche | {len(opportunites_wishlist)} wishlist | {len(nouveaux_ref)} nouveaux | offset suivant: {next_offset if not TEST_MODE else 0}")
+    print(f"\n✅ Rapport généré : {ALERT_FILE}")
+    print(f"   {len(opportunites)} opportunités | {len(nouveaux_ref)} nouveaux | {len(db)} en base")
+    print(f"   Crédits ScrapeOps utilisés : ~{len(actifs) * 25} (LBC seulement)")
+    print(f"   Circuit breakers — LBC: {LBC_FAILURES}/{LBC_MAX_FAILURES} | VTD: {VINTED_FAILURES}/{VINTED_MAX_FAILURES} | eBay: {EBAY_FAILURES}/{EBAY_MAX_FAILURES}")
 
 
 if __name__ == "__main__":
