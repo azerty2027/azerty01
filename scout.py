@@ -384,6 +384,13 @@ def scrape_sofarecords():
                         title = title_el.get_text(strip=True) if title_el else ''
                         if not title:
                             continue
+                        # Séparer artiste et album si collés (ex: "Cymandecymande")
+                        # Chercher h3 et h4/span séparés dans le parent
+                        if parent:
+                            h3 = parent.select_one('h3')
+                            h4 = parent.select_one('h4') or parent.select_one('p.subtitle') or parent.select_one('span.subtitle')
+                            if h3 and h4 and h3.get_text(strip=True) and h4.get_text(strip=True):
+                                title = h3.get_text(strip=True) + ' - ' + h4.get_text(strip=True)
                         sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
                         results[url_item] = {
                             'source': 'SOFA Records', 'title': title,
@@ -704,6 +711,49 @@ def load_db():
 def save_db(db):
     with open(DB_FILE, 'w') as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
+
+
+def load_blacklist():
+    if os.path.exists(BLACKLIST_FILE):
+        with open(BLACKLIST_FILE) as f:
+            return json.load(f)
+    return {}
+
+def save_blacklist(bl):
+    with open(BLACKLIST_FILE, 'w') as f:
+        json.dump(bl, f, ensure_ascii=False, indent=2)
+
+def update_blacklist(blacklist, opportunites):
+    """Incremente le compteur pour chaque URL. Retourne les opportunites filtrees."""
+    now = datetime.now().isoformat()
+    filtered = []
+    newly_blacklisted = 0
+    for o in opportunites:
+        url = o['found_url']
+        if url in blacklist and blacklist[url].get('blacklisted'):
+            continue
+        if url not in blacklist:
+            blacklist[url] = {
+                'count': 0,
+                'title': o['found_title'],
+                'ref_title': o['ref_title'],
+                'platform': o['platform'],
+                'first_seen': now,
+                'last_seen': now,
+                'blacklisted': False,
+            }
+        blacklist[url]['count'] += 1
+        blacklist[url]['last_seen'] = now
+        if blacklist[url]['count'] >= BLACKLIST_MAX_SEEN:
+            blacklist[url]['blacklisted'] = True
+            blacklist[url]['blacklisted_at'] = now
+            newly_blacklisted += 1
+            print(f"  Blacklistee ({blacklist[url]['count']}x) : {o['found_title'][:60]}")
+        else:
+            filtered.append(o)
+    if newly_blacklisted:
+        print(f"  {newly_blacklisted} nouvelle(s) annonce(s) blacklistee(s) ce run")
+    return filtered
 
 
 def load_offset():
