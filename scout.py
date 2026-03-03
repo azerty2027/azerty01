@@ -755,6 +755,8 @@ def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, al
             catalogue_html += f'<tr><td class="price">{item["price_ref"]:.0f}€</td><td><a href="{item["url"]}" target="_blank">{item["title"]}</a></td></tr>'
         catalogue_html += "</tbody></table>"
 
+    opp_empty = '<div class="empty">Aucune opportunite aujourd\'hui</div>'
+    new_empty = '<div class="empty">Aucun nouveau disque</div>'
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -806,10 +808,10 @@ def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, al
 </div>
 
 <h2>🔴 Opportunités marché ({len(opportunites)})</h2>
-{"<table><thead><tr><th>Référence</th><th>Prix ref</th><th>Annonce trouvée</th><th>Prix</th><th>Marge</th></tr></thead><tbody>" + opp_rows + "</tbody></table>" if opportunites else '<div class="empty">Aucune opportunité aujourd\'hui</div>'}
+{"<table><thead><tr><th>Référence</th><th>Prix ref</th><th>Annonce trouvée</th><th>Prix</th><th>Marge</th></tr></thead><tbody>" + opp_rows + "</tbody></table>" if opportunites else opp_empty}
 
 <h2>🆕 Nouveaux en base ({len(nouveaux_ref)})</h2>
-{"<table><thead><tr><th>Prix</th><th>Titre</th><th>Source</th></tr></thead><tbody>" + new_rows + "</tbody></table>" if nouveaux_ref else '<div class="empty">Aucun nouveau disque</div>'}
+{"<table><thead><tr><th>Prix</th><th>Titre</th><th>Source</th></tr></thead><tbody>" + new_rows + "</tbody></table>" if nouveaux_ref else new_empty}
 
 <h2>📀 Catalogue complet</h2>
 {catalogue_html}
