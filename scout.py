@@ -1,12 +1,12 @@
 """
-VINYL SCOUT v16
+VINYL SCOUT v17
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 3 : recherche opportunites Leboncoin (ScrapeOps) + Vinted (cookie auto) + eBay (direct)
 
-Nouveautes v16 vs v15 :
-  - Batch rotatif : avance de BATCH_SIZE disques à chaque run (couvre tout le catalogue en N runs)
-  - Log eBay debug : affiche les titres retournés par eBay pour diagnostiquer les faux positifs
-  - BATCH_SIZE=50 par défaut (~1 250 crédits LBC/run → 20 runs/mois)
+Nouveautes v17 vs v16 :
+  - Blacklist automatique : après 2 apparitions, une annonce est ignorée définitivement
+  - Bouton "Blacklister" dans le rapport HTML pour éliminer manuellement en 1 clic
+  - Compteur blacklist visible dans le rapport
 """
 
 import requests
@@ -22,6 +22,8 @@ MIN_PRICE = 100
 MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
 OFFSET_FILE = "scout_offset.json"
+BLACKLIST_FILE = "scout_blacklist.json"
+BLACKLIST_MAX_SEEN = 2  # Après X apparitions → blacklistée définitivement
 ALERT_FILE = "ALERTES.html"
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
@@ -721,20 +723,28 @@ def save_offset(offset):
 # RAPPORT HTML
 # ─────────────────────────────────────────────
 
-def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset):
+def generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset, blacklist=None):
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     credits_estimes = len(actifs) * 25
+
+    if blacklist is None:
+        blacklist = {}
+    nb_blacklisted = sum(1 for v in blacklist.values() if v.get('blacklisted'))
 
     opp_rows = ""
     for o in opportunites:
         marge_class = "high" if o['marge_pct'] >= 70 else "medium"
+        url_b64 = o['found_url'].replace('"', '&quot;')
+        seen_count = blacklist.get(o['found_url'], {}).get('count', 1)
+        seen_badge = f'<span class="seen-count">Vu {seen_count}x</span>'
         opp_rows += f"""
-        <tr class="opp-row {marge_class}">
+        <tr class="opp-row {marge_class}" id="row-{abs(hash(o['found_url'])) % 999999}">
             <td><strong>{o['ref_title']}</strong><br><small>{o['ref_source']}</small></td>
             <td class="price">{o['ref_price']:.0f}€</td>
-            <td><a href="{o['found_url']}" target="_blank">{o['found_title'][:60] or '—'}</a><br><small>{o['platform']}</small></td>
+            <td><a href="{o['found_url']}" target="_blank">{o['found_title'][:60] or '—'}</a><br><small>{o['platform']}</small> {seen_badge}</td>
             <td class="price">{o['found_price']:.0f}€</td>
             <td class="marge"><strong>{o['marge']:.0f}€</strong><br><span class="badge">{o['marge_pct']}%</span></td>
+            <td><button class="btn-blacklist" onclick="blacklistUrl('{url_b64}', this)">🚫 Blacklister</button></td>
         </tr>"""
 
     new_rows = ""
@@ -925,15 +935,24 @@ def main():
         if o['found_url'] not in seen_urls:
             seen_urls.add(o['found_url'])
             opportunites_uniques.append(o)
-    opportunites = sorted(opportunites_uniques, key=lambda x: -x['marge'])
+    opportunites = opportunites_uniques
+
+    # Blacklist : filtrer les annonces vues trop souvent
+    blacklist = load_blacklist()
+    opportunites = update_blacklist(blacklist, opportunites)
+    save_blacklist(blacklist)
+    nb_blacklisted = sum(1 for v in blacklist.values() if v.get('blacklisted'))
+    print(f"  Blacklist : {nb_blacklisted} annonces ignorées au total")
+
+    opportunites = sorted(opportunites, key=lambda x: -x['marge'])
 
     # Rapport HTML
-    html = generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset)
+    html = generate_html_report(db, actifs, tous_actifs, opportunites, nouveaux_ref, all_records, offset, blacklist)
     with open(ALERT_FILE, 'w', encoding='utf-8') as f:
         f.write(html)
 
     print(f"\n✅ Rapport généré : {ALERT_FILE}")
-    print(f"   {len(opportunites)} opportunités | {len(nouveaux_ref)} nouveaux | {len(db)} en base")
+    print(f"   {len(opportunites)} opportunités | {len(nouveaux_ref)} nouveaux | {len(db)} en base | {nb_blacklisted} blacklistées")
     print(f"   Crédits ScrapeOps utilisés : ~{len(actifs) * 25} (LBC seulement)")
     print(f"   Circuit breakers — LBC: {LBC_FAILURES}/{LBC_MAX_FAILURES} | VTD: {VINTED_FAILURES}/{VINTED_MAX_FAILURES} | eBay: {EBAY_FAILURES}/{EBAY_MAX_FAILURES}")
 
