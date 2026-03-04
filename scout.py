@@ -1,5 +1,5 @@
 """
-VINYL SCOUT v17
+VINYL SCOUT v19
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 3 : recherche opportunites Leboncoin (ScrapeOps) + Vinted (cookie auto) + eBay (direct)
 
@@ -455,49 +455,72 @@ def scrapeops_get(url):
 # ── Leboncoin (ScrapeOps) ──────────────────────────────────────────────────────
 
 def search_leboncoin(title, max_price):
-    """Leboncoin via ScrapeOps — ~25 crédits/requête."""
+    """
+    Leboncoin via API interne JSON — 0 crédit ScrapeOps.
+    POST api.leboncoin.fr/api/adfinder/v1/search
+    """
     global LBC_FAILURES
-    if not SCRAPEOPS_KEY:
-        return []
     if LBC_FAILURES >= LBC_MAX_FAILURES:
         return []
     results = []
-    query = urllib.parse.quote(clean_title(title))
+    query = clean_title(title)
     try:
-        url = f"https://www.leboncoin.fr/recherche?text={query}&category=34&price=0-{int(max_price)}"
-        r = scrapeops_get(url)
-        print(f"  LBC status: {r.status_code} | {clean_title(title)} | max {max_price}€")
+        payload = {
+            "limit": 20,
+            "filters": {
+                "category": {"id": "34"},
+                "keywords": {"text": query},
+                "ranges": {"price": {"max": int(max_price)}}
+            },
+            "sort_by": "time",
+            "sort_order": "desc",
+            "owner_type": "private"
+        }
+        lbc_headers = {
+            **HEADERS,
+            "api_key": "ba0c2dad52b3ec",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Origin": "https://www.leboncoin.fr",
+            "Referer": "https://www.leboncoin.fr/",
+        }
+        r = requests.post(
+            "https://api.leboncoin.fr/finder/search",
+            json=payload,
+            headers=lbc_headers,
+            timeout=20
+        )
+        print(f"  LBC status: {r.status_code} | {query} | max {max_price}€")
         if r.status_code != 200:
             LBC_FAILURES += 1
-            print(f"  LBC erreur ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {r.text[:100]}")
+            print(f"  LBC erreur ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {r.text[:200]}")
             return results
         LBC_FAILURES = 0
-        soup = BeautifulSoup(r.text, 'html.parser')
-        ads = (soup.select('a[data-qa-id="aditem_container"]') or
-               soup.select('[data-test-id="ad"]') or
-               soup.select('li[data-id]'))
+        data = r.json()
+        ads = data.get("ads", [])
         print(f"  LBC annonces: {len(ads)}")
-        for ad in ads[:20]:
-            title_el = (ad.select_one('[data-qa-id="aditem_title"]') or
-                        ad.select_one('h2') or ad.select_one('p'))
-            price_el = (ad.select_one('[data-qa-id="aditem_price"]') or
-                        ad.select_one('[class*="price"]'))
-            href = ad.get('href', '')
-            if not href:
+        for ad in ads:
+            try:
+                ad_title = ad.get("subject", "")
+                price_list = ad.get("price", [])
+                price = float(price_list[0]) if price_list else None
+                ad_url = ad.get("url", "")
+                if not ad_url:
+                    list_id = ad.get("list_id", "")
+                    ad_url = f"https://www.leboncoin.fr/ad/{list_id}" if list_id else ""
+                if not price or price > max_price or price < 5:
+                    continue
+                if not is_relevant_result(title, ad_title):
+                    continue
+                results.append({
+                    "platform": "leboncoin.fr",
+                    "title": ad_title,
+                    "price": price,
+                    "url": ad_url
+                })
+            except Exception:
                 continue
-            ad_url = href if href.startswith('http') else 'https://www.leboncoin.fr' + href
-            price = extract_price(price_el.get_text()) if price_el else None
-            if not price or price > max_price:
-                continue
-            found_title = title_el.get_text(strip=True) if title_el else ''
-            if not is_relevant_result(title, found_title):
-                continue
-            results.append({
-                "platform": "leboncoin.fr",
-                "title": found_title,
-                "price": price, "url": ad_url
-            })
-        time.sleep(1)
+        time.sleep(0.5)
     except Exception as e:
         LBC_FAILURES += 1
         print(f"  LBC exception ({LBC_FAILURES}/{LBC_MAX_FAILURES}): {e}")
@@ -634,6 +657,58 @@ def _get_ebay_session():
         pass
     _ebay_session = session
     return session
+
+
+def search_paruvendu(title, max_price):
+    """Recherche ParuVendu — HTML direct, 0 crédit ScrapeOps."""
+    results = []
+    query = urllib.parse.quote(clean_title(title))
+    try:
+        url = (
+            f"https://www.paruvendu.fr/mondebarras/listefo/default/default"
+            f"?fulltext={query}&r=BMECV000&px0=1&px1={int(max_price)}&zmd[]=VENTE"
+        )
+        r = requests.get(url, headers=HEADERS, timeout=25)
+        print(f"  PVU status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
+        if r.status_code != 200:
+            return results
+        soup = BeautifulSoup(r.text, 'html.parser')
+        ads = soup.select('a[href*="/annonces/livres-disques/"]')
+        # Dédoublonner (chaque annonce a plusieurs liens)
+        seen = set()
+        unique_ads = []
+        for a in ads:
+            href = a.get('href', '')
+            if href and href not in seen and '/annonces/livres-disques/' in href:
+                seen.add(href)
+                unique_ads.append(a)
+        print(f"  PVU annonces trouvées: {len(unique_ads)}")
+        for ad in unique_ads[:20]:
+            href = ad.get('href', '')
+            ad_url = href if href.startswith('http') else 'https://www.paruvendu.fr' + href
+            # Prix dans le parent proche
+            parent = ad.find_parent(['div', 'li', 'article'])
+            price_text = parent.get_text() if parent else ad.get_text()
+            price = extract_price(price_text)
+            if not price or price > max_price or price < 5:
+                continue
+            ad_title = ad.get_text(strip=True) or ad.get('title', '')
+            # Vérifier pertinence minimale
+            ref_words = words_from(title)
+            found_words = words_from(ad_title)
+            if not (ref_words & found_words):
+                continue
+            results.append({
+                "platform": "paruvendu.fr",
+                "title": ad_title[:80],
+                "price": price,
+                "url": ad_url
+            })
+        time.sleep(1)
+    except Exception as e:
+        print(f"  PVU exception: {e}")
+    return results
+
 
 
 def search_ebay(title, max_price):
@@ -957,6 +1032,7 @@ def main():
         found = []
         found += search_leboncoin(record['title'], max_price)
         found += search_vinted(record['title'], max_price)
+        found += search_paruvendu(record['title'], max_price)
         found += search_ebay(record['title'], max_price)
 
         for f in found:
@@ -1009,4 +1085,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-      
