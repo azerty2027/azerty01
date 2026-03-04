@@ -1,7 +1,7 @@
 name: Vinyl Scout
 on:
-  # schedule:
-  #   - cron: '0 8 * * *'
+  schedule:
+    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       batch_size:
@@ -16,27 +16,34 @@ on:
         options:
           - 'false'
           - 'true'
+
 jobs:
   scout:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install dependencies
         run: pip install requests beautifulsoup4
+
       - name: Run Vinyl Scout
         env:
           SCRAPEOPS_KEY: ${{ secrets.SCRAPEOPS_KEY }}
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
           TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '50' }}
         run: python scout.py
-      - name: Commit rapport
+
+      - name: Commit results
         run: |
-          git config user.name "Vinyl Scout Bot"
-          git config user.email "scout@bot.local"
-          git add ALERTES.html vinyl_db.json scout_offset.json scout_blacklist.json || true
-          git diff --staged --quiet || git commit -m "Scout $(date '+%d/%m/%Y %H:%M') — batch ${{ github.event.inputs.batch_size || '50' }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ALERTES.md ALERTES.html vinyl_db.json scout_offset.json scout_blacklist.json || true
+          git diff --staged --quiet || git commit -m "Scout run $(date +'%Y-%m-%d %H:%M')"
           git push
