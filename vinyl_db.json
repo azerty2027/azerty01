@@ -3401,5 +3401,21 @@
     "url": "https://www.sofarecords.fr/fr/logobi-various/logobi-parisian-african-breakdance/p3204926997/",
     "sold": true,
     "first_seen": "2026-02-28T10:00:43.441178"
+  },
+  "https://www.sofarecords.fr/fr/tim-maia/tim-maia-1973/p3174124480/": {
+    "source": "SOFA Records",
+    "title": "Tim Maiatim maia 1973  |  vampi soul",
+    "price_ref": 1973.0,
+    "url": "https://www.sofarecords.fr/fr/tim-maia/tim-maia-1973/p3174124480/",
+    "sold": false,
+    "first_seen": "2026-03-04T06:19:59.758184"
+  },
+  "https://www.sofarecords.fr/fr/the-roots-of-chicha-various/psychedelic-cumbias-from-peru-1968-81/p3030071161/": {
+    "source": "SOFA Records",
+    "title": "The Roots Of Chicha (Various)psychedelic cumbias from peru 1968-81  |  barbès",
+    "price_ref": 1968.0,
+    "url": "https://www.sofarecords.fr/fr/the-roots-of-chicha-various/psychedelic-cumbias-from-peru-1968-81/p3030071161/",
+    "sold": false,
+    "first_seen": "2026-03-04T06:19:59.758194"
   }
 }
