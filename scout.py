@@ -1,5 +1,5 @@
 """
-VINYL SCOUT v21
+VINYL SCOUT v22
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 2 : croisement Disques Anciens (matching artiste + album)
 - Phase 3 : recherche opportunites ParuVendu (direct) + Vinted (ScrapeOps) + eBay API
@@ -25,7 +25,7 @@ SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
 
 print("=" * 60)
-print("VINYL SCOUT v21")
+print("VINYL SCOUT v22")
 print("ParuVendu (direct, URL corrigée) + Vinted (ScrapeOps) + eBay API")
 print(f"Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref | Batch : {BATCH_SIZE} disques/run")
 print("=" * 60)
@@ -413,8 +413,13 @@ def scrape_sofarecords():
                         price = extract_price(price_text)
                         if not price or price < MIN_PRICE_SOFA:
                             continue
-                        title_el = link.select_one('h3') or link.select_one('h2') or link
-                        title = title_el.get_text(strip=True) if title_el else ''
+                        spans = link.select('span.limite_text')
+                        if len(spans) >= 2:
+                            title = f"{spans[0].get_text(strip=True)} - {spans[1].get_text(strip=True).split('|')[0].strip()}"
+                        elif spans:
+                            title = spans[0].get_text(strip=True)
+                        else:
+                            title = link.get_text(strip=True)
                         if not title:
                             continue
                         sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
@@ -442,8 +447,13 @@ def scrape_sofarecords():
                         price = extract_price(price_text)
                         if not price or price < MIN_PRICE_SOFA:
                             continue
-                        title_el = item.select_one('h3') or item.select_one('h2')
-                        title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
+                        spans = link_el.select('span.limite_text')
+                        if len(spans) >= 2:
+                            title = f"{spans[0].get_text(strip=True)} - {spans[1].get_text(strip=True).split('|')[0].strip()}"
+                        elif spans:
+                            title = spans[0].get_text(strip=True)
+                        else:
+                            title = link_el.get_text(strip=True)
                         if not title:
                             continue
                         sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
