@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 06/03/2026 13:56
+# VINYL SCOUT — Rapport du 07/03/2026 09:37
 
-**Base : 431 disques | Actifs : 407 | Batch : 1–5 | Seuil achat : 70% du prix ref**
+**Base : 431 disques | Actifs : 404 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -126,7 +126,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 33 disponibles, 0 vendus
+### SOFA Records — 32 disponibles, 0 vendus
 
 - **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
@@ -147,7 +147,6 @@
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
 - **80.0€** — Ramuntcho Matta Presents - brion gysin / polo lombardo — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
 - **80.0€** — Cohelmec Ensemble - next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
-- **80.0€** — Bernard Estardy - claviers — [voir](https://www.sofarecords.fr/fr/bernard-estardy/claviers/p3202495796/)
 - **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
 - **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
@@ -162,7 +161,7 @@
 - **70.0€** — Os Tatuis - os tatuís — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
-### Victor Kiswell — 267 disponibles, 0 vendus
+### Victor Kiswell — 265 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -289,7 +288,6 @@
 - **135.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad)
 - **135.0€** — Azar Lawrence - Bridge Into the New Age — [voir](http://www.victorkiswell.com/v3/?product=bridge-into-the-new-age)
 - **135.0€** — Wolfgang Dauner Quartet - The Oimels — [voir](http://www.victorkiswell.com/v3/?product=the-oimels)
-- **135.0€** — Herbie Flowers / Barry Morgan - Bass Guitar and Percussion — [voir](http://www.victorkiswell.com/v3/?product=bass-guitar-and-percussion)
 - **135.0€** — Doug Lucas - Niara — [voir](http://www.victorkiswell.com/v3/?product=niara-2)
 - **130.0€** — The Rwenzori's - Handsome Boy (E Wara) — [voir](http://www.victorkiswell.com/v3/?product=handsome-boy-e-wara)
 - **130.0€** — Voodoo Family - Voodoo Family — [voir](http://www.victorkiswell.com/v3/?product=voodoo-family)
@@ -391,7 +389,6 @@
 - **100.0€** — Rail Band de Bamako - Mouodillo — [voir](http://www.victorkiswell.com/v3/?product=mouodillo)
 - **100.0€** — Godzom - L’autre voix — [voir](http://www.victorkiswell.com/v3/?product=lautre-voix)
 - **100.0€** — Hamac - Avec Ti-Paul et José — [voir](http://www.victorkiswell.com/v3/?product=avec-ti-paul-et-jose)
-- **100.0€** — Pierre Labor - Pierre Labor — [voir](http://www.victorkiswell.com/v3/?product=pierre-labor)
 - **100.0€** — Samir Srour - Musiqaa Muhasin — [voir](http://www.victorkiswell.com/v3/?product=musiqaa-muhasin)
 - **100.0€** — Bandaly Family - Winter — [voir](http://www.victorkiswell.com/v3/?product=winter)
 - **100.0€** — Kyriakos Sfetsas - To Stigma — [voir](http://www.victorkiswell.com/v3/?product=to-stigma-3)
