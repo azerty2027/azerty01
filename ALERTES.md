@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 07/03/2026 09:37
+# VINYL SCOUT — Rapport du 07/03/2026 16:54
 
-**Base : 431 disques | Actifs : 404 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 431 disques | Actifs : 404 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,7 +8,17 @@
 
 ---
 
-## ✅ Aucune opportunite marche aujourd'hui
+## 🔴 2 OPPORTUNITES MARCHE
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
 
 ---
 ## Catalogue complet
