@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 07/03/2026 16:54
+# VINYL SCOUT — Rapport du 07/03/2026 17:37
 
-**Base : 431 disques | Actifs : 404 | Batch : 1–5 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 404 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -21,11 +21,12 @@
 - [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
 
 ---
+## 🆕 1 nouveaux en base
+
+- **350.0€** — LEE MORGAN - LEEWAY (Superfly Records)
+
+---
 ## Catalogue complet
-
-### Diaspora Records — 1 disponibles, 0 vendus
-
-- **125.0€** — VS QUARTET - A pou zot — [voir](https://www.diasporarecords.com/jazz-jazz-fusion/pou-zot)
 
 ### Digger's Digest — 106 disponibles, 0 vendus
 
@@ -170,6 +171,10 @@
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Os Tatuis - os tatuís — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
+
+### Superfly Records — 1 disponibles, 0 vendus
+
+- **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
 ### Victor Kiswell — 265 disponibles, 0 vendus
 
