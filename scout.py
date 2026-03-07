@@ -598,28 +598,22 @@ def search_paruvendu(title, max_price):
             return results
         soup = BeautifulSoup(r.text, 'html.parser')
         # Sélecteurs ParuVendu
-        ads = (soup.select('div.annonce') or
-               soup.select('article.annonce') or
-               soup.select('[class*="annonce"]') or
-               soup.select('li.item'))
+        # Chaque annonce est un <a> direct avec href contenant /annonces/
+        ads = soup.select('a[href*="/annonces/"]')
         print(f"  PVU annonces trouvées: {len(ads)}")
         for ad in ads[:20]:
-            link_el = ad.select_one('a[href*="/mondebarras/"]') or ad.select_one('a')
-            price_el = (ad.select_one('[class*="prix"]') or
-                        ad.select_one('[class*="price"]') or
-                        ad.select_one('strong'))
-            title_el = (ad.select_one('[class*="titre"]') or
-                        ad.select_one('h2') or
-                        ad.select_one('h3'))
-            if not link_el:
+            href = ad.get('href', '')
+            if not href:
                 continue
-            href = link_el.get('href', '')
             ad_url = href if href.startswith('http') else 'https://www.paruvendu.fr' + href
-            price = extract_price(price_el.get_text()) if price_el else None
+            title_el = ad.select_one('span.font-semibold')
+            price_el = ad.select_one('div.text-red div') or ad.select_one('div.font-medium div')
+            if not title_el or not price_el:
+                continue
+            ad_title = title_el.get_text(strip=True)
+            price = extract_price(price_el.get_text())
             if not price or price > max_price:
                 continue
-            ad_title = title_el.get_text(strip=True) if title_el else ''
-            # Filtre pertinence
             if not is_relevant(ad_title, title):
                 continue
             results.append({
@@ -643,33 +637,32 @@ def search_vinted(title, max_price):
         return []
     results = []
     # FIX : on force "vinyle" dans la recherche pour éviter les faux positifs
-    query_text = "vinyle " + clean_title(title)
+    query_text = clean_title(title)
     query = urllib.parse.quote(query_text)
     try:
-        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=139"
+        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=3041"
         r = scrapeops_get(url)
-        print(f"  VTD status: {r.status_code} | query: {query_text} | max: {max_price}€")
+        print(f"  VTD status: {r.status_code} | query: {query_text} | catalog: 3041 | max: {max_price}€")
         if r.status_code != 200:
             print(f"  VTD erreur: {r.text[:200]}")
             return results
         soup = BeautifulSoup(r.text, 'html.parser')
-        items = (soup.select('[data-testid="grid-item"]') or
-                 soup.select('[class*="ItemBox"]') or
-                 soup.select('div[class*="item"]'))
+        # Vinted : titre et prix dans l'attribut title du lien overlay
+        items = soup.select('a[data-testid*="overlay-link"]')
         print(f"  VTD articles trouvés: {len(items)}")
         for item in items[:20]:
-            link_el = item.select_one('a')
-            price_el = item.select_one('[class*="price"]') or item.select_one('[data-testid*="price"]')
-            if not link_el:
+            title_attr = item.get('title', '')
+            href = item.get('href', '').split('?')[0]
+            if not href or not title_attr:
                 continue
-            href = link_el.get('href', '')
             item_url = href if href.startswith('http') else 'https://www.vinted.fr' + href
-            price = extract_price(price_el.get_text()) if price_el else None
-            if not price or price > max_price:
+            item_title = title_attr.split(',')[0].strip()
+            price_match = re.search(r'(\d+[.,]\d+)\s*€', title_attr)
+            if not price_match:
                 continue
-            title_el = item.select_one('[class*="title"]') or item.select_one('h3') or link_el
-            item_title = title_el.get_text(strip=True) if title_el else ''
-            # FIX : filtre pertinence — rejette si aucun mot de la requête n'est dans le titre
+            price = float(price_match.group(1).replace(',', '.'))
+            if price > max_price:
+                continue
             if not is_relevant(item_title, title):
                 continue
             results.append({
