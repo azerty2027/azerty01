@@ -252,32 +252,26 @@ def scrape_superfly():
                 if r.status_code == 404:
                     break
                 soup = BeautifulSoup(r.text, 'html.parser')
-                image_links = soup.select('a[href*="/item/"]')
-                if not image_links:
+                blocks = soup.select('div.block_product_section_result_page')
+                if not blocks:
                     break
                 found_new = False
-                seen_urls = set()
-                for link in image_links:
-                    href = link.get('href', '')
-                    if not href or href in seen_urls:
+                for block in blocks:
+                    artiste_el = block.select_one('div.result_search_section_artiste a')
+                    album_el   = block.select_one('div.result_search_section_titre a')
+                    prix_el    = block.select_one('div.result_search_section_price_cart.show-for-1000px-up span.tAttBold')
+                    if not artiste_el or not album_el:
                         continue
-                    seen_urls.add(href)
-                    url_item = href if href.startswith('http') else 'https://www.superflyrecords.com' + href
-                    if url_item in results:
+                    url_item = artiste_el.get('href', '')
+                    if not url_item or url_item in results:
                         continue
-                    title = link.get_text(strip=True)
-                    if not title:
-                        parent = link.find_parent()
-                        if parent:
-                            texts = [a.get_text(strip=True) for a in parent.select('a[href*="/item/"]')]
-                            title = ' - '.join(t for t in texts if t)
-                    if not title:
-                        continue
-                    parent_block = link.find_parent(['div', 'li', 'td'])
-                    price_text = parent_block.get_text() if parent_block else ''
-                    price = extract_price(price_text)
+                    artiste = artiste_el.get_text(strip=True)
+                    album   = album_el.get_text(strip=True)
+                    title   = f"{artiste} - {album}"
+                    price   = extract_price(prix_el.get_text()) if prix_el else None
                     if not price or price < MIN_PRICE:
                         continue
+                    price_text = block.get_text()
                     sold = 'sold' in price_text.lower() or 'vendu' in price_text.lower()
                     results[url_item] = {
                         'source': 'Superfly Records',
@@ -306,37 +300,30 @@ def scrape_diaspora():
             url = f"https://www.diasporarecords.com/search?page={page}"
             r = requests.get(url, headers=HEADERS, timeout=25)
             soup = BeautifulSoup(r.text, 'html.parser')
-            blocks = soup.select('article') or soup.select('.views-row') or soup.select('[class*="record"]')
-            if not blocks:
-                blocks = [a.find_parent(['div', 'li']) for a in soup.select(
-                    'a[href*="/jazz"], a[href*="/afro"], a[href*="/soul"], a[href*="/africa"], '
-                    'a[href*="/caribbean"], a[href*="/latin"], a[href*="/brasil"]'
-                ) if a.find_parent(['div', 'li'])]
+            # Titre : <a class="font-weight-extrabold ...">ARTISTE - Album</a>
+            title_links = soup.select('a.font-weight-extrabold')
+            if not title_links:
+                break
             found_new = False
-            seen = set()
-            for block in blocks:
-                if not block:
-                    continue
-                link_el = block.select_one('a')
-                if not link_el:
-                    continue
+            for link_el in title_links:
                 href = link_el.get('href', '')
-                if not href or href in seen:
+                if not href:
                     continue
-                seen.add(href)
                 full_url = 'https://www.diasporarecords.com' + href if href.startswith('/') else href
-                if 'diasporarecords.com' not in full_url or full_url in results:
-                    continue
-                text = block.get_text(separator=' ')
-                price_match = re.search(r'(\d+[,.]?\d*)\s*€', text)
-                if not price_match:
-                    continue
-                price = extract_price(price_match.group())
-                if not price or price < MIN_PRICE:
+                if full_url in results:
                     continue
                 title = link_el.get_text(strip=True)
                 if not title:
                     continue
+                # Prix dans le bloc parent
+                parent = link_el.find_parent('div', class_=lambda c: c and 'flex-col' in c)
+                if not parent:
+                    continue
+                price_el = parent.select_one('div.font-weight-extrabold')
+                price = extract_price(price_el.get_text()) if price_el else None
+                if not price or price < MIN_PRICE:
+                    continue
+                text = parent.get_text()
                 sold = any(x in text.lower() for x in ['sold out', 'unavailable', 'vendu'])
                 results[full_url] = {
                     'source': 'Diaspora Records',
