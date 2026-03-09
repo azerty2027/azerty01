@@ -76,6 +76,17 @@ def clean_title(title):
     return ' '.join(words[:5])
 
 
+def build_query(title):
+    """Construit la requête de recherche — évite le doublon sur disques éponymes."""
+    title_clean = re.sub(r'\(.*?\)', '', title).strip()
+    parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
+    if len(parts) == 2:
+        artist, album = parts[0].strip(), parts[1].strip()
+        if artist.lower() == album.lower():
+            return clean_title(artist)
+    return clean_title(title)
+
+
 def words_from(text):
     """Mots significatifs : > 3 chars, pas chiffre, pas stopword."""
     text = text.lower()
@@ -315,15 +326,14 @@ def scrape_diaspora():
                 title = link_el.get_text(strip=True)
                 if not title:
                     continue
-                # Prix dans le bloc parent
-                parent = link_el.find_parent('div', class_=lambda c: c and 'flex-col' in c)
-                if not parent:
+                # Prix dans le div frère suivant
+                price_el = link_el.find_next_sibling('div')
+                if not price_el:
                     continue
-                price_el = parent.select_one('div.font-weight-extrabold')
-                price = extract_price(price_el.get_text()) if price_el else None
+                price = extract_price(price_el.get_text())
                 if not price or price < MIN_PRICE:
                     continue
-                text = parent.get_text()
+                text = price_el.get_text() + title
                 sold = any(x in text.lower() for x in ['sold out', 'unavailable', 'vendu'])
                 results[full_url] = {
                     'source': 'Diaspora Records',
@@ -570,7 +580,7 @@ def search_paruvendu(title, max_price):
     Catégorie BMECV000 = CD et vinyles.
     """
     results = []
-    query = urllib.parse.quote(clean_title(title))
+    query = urllib.parse.quote(build_query(title))
     try:
         url = (
             f"https://www.paruvendu.fr/mondebarras/listefo/default/default/"
@@ -580,7 +590,7 @@ def search_paruvendu(title, max_price):
             f"&zmd%5B%5D=VENTE&zmd%5B%5D=TROC&zep%5B%5D="
         )
         r = requests.get(url, headers=HEADERS, timeout=25)
-        print(f"  PVU status: {r.status_code} | query: {clean_title(title)} | max: {max_price}€")
+        print(f"  PVU status: {r.status_code} | query: {build_query(title)} | max: {max_price}€")
         if r.status_code != 200:
             return results
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -624,7 +634,7 @@ def search_vinted(title, max_price):
         return []
     results = []
     # FIX : on force "vinyle" dans la recherche pour éviter les faux positifs
-    query_text = clean_title(title)
+    query_text = build_query(title)
     query = urllib.parse.quote(query_text)
     try:
         url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=3041"
@@ -670,7 +680,7 @@ def search_ebay(title, max_price):
     ebay_key = os.environ.get("EBAY_APP_ID", "")
     if not ebay_key:
         return results
-    query = clean_title(title)
+    query = build_query(title)
     try:
         params = {
             "OPERATION-NAME": "findItemsAdvanced",
