@@ -106,10 +106,25 @@ def is_relevant(result_title, query_title):
     """
     query_words = words_from(query_title)
     result_words = words_from(result_title)
-    # Si la requête n'a pas de mots significatifs, on ne peut pas filtrer
     if not query_words:
         return True
     return bool(query_words & result_words)
+
+
+REISSUE_PATTERNS = re.compile(
+    r'\breissue\b|\brepress\b|\brepressing\b|'
+    r'\bréédition\b|\breedition\b|\bre-?issue\b|\bre-?press\b|'
+    r'\b180g\b|\b180\s*gram\b|'
+    r'(?<!\w)RE(?!\w)',
+    re.IGNORECASE
+)
+
+def is_reissue(title):
+    """Retourne True si le titre indique une réédition."""
+    return bool(REISSUE_PATTERNS.search(title))
+
+
+MAX_RESULTS_THRESHOLD = 15  # Au-delà, requête trop générique → on ignore
 
 
 def parse_artist_album(title):
@@ -598,6 +613,9 @@ def search_paruvendu(title, max_price):
         # Chaque annonce est un <a> direct avec href contenant /annonces/
         ads = soup.select('a[href*="/annonces/"]')
         print(f"  PVU annonces trouvées: {len(ads)}")
+        if len(ads) > MAX_RESULTS_THRESHOLD:
+            print(f"  PVU ignoré : requête trop générique ({len(ads)} résultats)")
+            return results
         for ad in ads[:20]:
             href = ad.get('href', '')
             if not href:
@@ -612,6 +630,8 @@ def search_paruvendu(title, max_price):
             if not price or price > max_price:
                 continue
             if not is_relevant(ad_title, title):
+                continue
+            if is_reissue(ad_title):
                 continue
             results.append({
                 "platform": "paruvendu.fr",
@@ -647,6 +667,9 @@ def search_vinted(title, max_price):
         # Vinted : titre et prix dans l'attribut title du lien overlay
         items = soup.select('a[data-testid*="overlay-link"]')
         print(f"  VTD articles trouvés: {len(items)}")
+        if len(items) > MAX_RESULTS_THRESHOLD:
+            print(f"  VTD ignoré : requête trop générique ({len(items)} résultats)")
+            return results
         for item in items[:20]:
             title_attr = item.get('title', '')
             href = item.get('href', '').split('?')[0]
@@ -661,6 +684,8 @@ def search_vinted(title, max_price):
             if price > max_price:
                 continue
             if not is_relevant(item_title, title):
+                continue
+            if is_reissue(item_title):
                 continue
             results.append({
                 "platform": "vinted.fr",
