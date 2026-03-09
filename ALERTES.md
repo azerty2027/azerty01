@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 11:28
+# VINYL SCOUT — Rapport du 09/03/2026 14:22
 
-**Base : 432 disques | Actifs : 402 | Batch : 1–5 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 401–402 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,17 +8,27 @@
 
 ---
 
-## 🔴 2 OPPORTUNITES MARCHE
+## 🔴 4 OPPORTUNITES MARCHE
 
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
+### Ilous - ilous
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **70.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5455304660-45t-ilous)
 
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
+### Ilous - ilous
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 23.0€ sur vinted.fr — marge potentielle **57.0€ (71%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4894904081-vinyle-ilous-et-decuyper)
+
+### Ilous - ilous
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **40.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7094772723-ilous-et-decuyper)
+
+### Ilous - ilous
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **35.0€ (44%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7985768670-vinyle-ilous-decuyper)
 
 ---
 ## Catalogue complet
