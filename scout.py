@@ -764,8 +764,7 @@ def search_ebay(title, max_price):
 # ─────────────────────────────────────────────
 
 def generate_html(opportunites, croisements_da, now, total_db, total_actifs, offset, batch_len):
-    """Génère ALERTES.html avec cases à cocher pour blacklister les annonces déjà vues."""
-    opps_json = json.dumps(opportunites, ensure_ascii=False)
+    """Génère ALERTES.html avec cases à cocher + sauvegarde blacklist via API GitHub."""
 
     opps_html = ""
     for i, o in enumerate(opportunites):
@@ -804,14 +803,14 @@ def generate_html(opportunites, croisements_da, now, total_db, total_actifs, off
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vinyl Scout — {now}</title>
 <style>
-  body {{ font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; }}
+  body {{ font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; max-width: 700px; margin: 0 auto; }}
   h1 {{ color: #f90; font-size: 1.4em; margin-bottom: 4px; }}
   .meta {{ color: #888; font-size: 0.85em; margin-bottom: 20px; }}
   .section-title {{ color: #f90; font-size: 1.1em; margin: 24px 0 10px; border-bottom: 1px solid #333; padding-bottom: 4px; }}
   .opp {{ background: #1e1e1e; border: 1px solid #333; border-radius: 8px; padding: 14px; margin-bottom: 10px; transition: opacity .3s; }}
-  .opp.seen {{ opacity: 0.35; }}
+  .opp.seen {{ opacity: 0.3; }}
   .opp-label {{ display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 8px; }}
-  .bl-check {{ width: 16px; height: 16px; cursor: pointer; }}
+  .bl-check {{ width: 16px; height: 16px; cursor: pointer; accent-color: #f90; }}
   .opp-seen {{ font-size: 0.78em; color: #888; }}
   .opp-title {{ font-weight: bold; font-size: 1em; color: #fff; margin-bottom: 4px; }}
   .opp-ref {{ font-size: 0.85em; color: #aaa; }}
@@ -820,18 +819,22 @@ def generate_html(opportunites, croisements_da, now, total_db, total_actifs, off
   .opp-link {{ display: inline-block; margin-top: 6px; color: #f90; font-size: 0.85em; text-decoration: none; }}
   .opp-link:hover {{ text-decoration: underline; }}
   .crois {{ background: #1a1f1a; border: 1px solid #2a4a2a; border-radius: 8px; padding: 14px; margin-bottom: 10px; }}
-  #bl-panel {{ display: none; background: #0d1f0d; border: 1px solid #2a4a2a; border-radius: 8px; padding: 16px; margin-top: 20px; }}
-  #bl-panel h3 {{ color: #4fc; margin-top: 0; }}
-  #bl-json {{ width: 100%; height: 120px; background: #111; color: #4fc; border: 1px solid #333; border-radius: 6px; padding: 8px; font-family: monospace; font-size: 0.82em; resize: vertical; }}
-  #bl-copy {{ background: #f90; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; margin-top: 8px; }}
-  #bl-copy:hover {{ background: #ffa500; }}
-  #bl-copied {{ color: #4fc; margin-left: 10px; font-size: 0.85em; display: none; }}
-  #bl-count {{ background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; display: none; }}
+  #bl-panel {{ display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #0d1a0d; border-top: 2px solid #4fc; padding: 16px; z-index: 100; }}
+  #bl-panel h3 {{ color: #4fc; margin: 0 0 10px; font-size: 1em; }}
+  .bl-actions {{ display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }}
+  #gh-token {{ background: #1e1e1e; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 7px 10px; font-size: 0.85em; width: 260px; }}
+  #gh-token::placeholder {{ color: #555; }}
+  #bl-save {{ background: #4fc; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; font-size: 0.9em; }}
+  #bl-save:hover {{ background: #3da; }}
+  #bl-save:disabled {{ background: #333; color: #666; cursor: default; }}
+  #bl-status {{ font-size: 0.85em; color: #aaa; }}
+  #bl-count {{ background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; }}
   .empty {{ color: #555; font-style: italic; padding: 16px 0; }}
+  .token-hint {{ font-size: 0.75em; color: #555; margin-top: 4px; }}
 </style>
 </head>
 <body>
-<h1>🎵 Vinyl Scout <span id="bl-count"></span></h1>
+<h1>🎵 Vinyl Scout</h1>
 <div class="meta">Rapport du {now} — Base : {total_db} disques | Actifs : {total_actifs} | Batch : {offset+1}–{offset+batch_len}</div>
 
 <div class="section-title">🔴 {len(opportunites)} opportunité(s) marché</div>
@@ -840,47 +843,90 @@ def generate_html(opportunites, croisements_da, now, total_db, total_actifs, off
 <div class="section-title">🏪 {len(croisements_da)} croisement(s) Disques Anciens</div>
 {"".join([crois_html]) if croisements_da else '<div class="empty">Aucun croisement ce run.</div>'}
 
+<div style="height:80px"></div>
+
 <div id="bl-panel">
-  <h3>📋 Blacklist à coller dans scout_blacklist.json sur GitHub</h3>
-  <textarea id="bl-json" readonly></textarea><br>
-  <button id="bl-copy" onclick="copyBlacklist()">Copier</button>
-  <span id="bl-copied">✓ Copié !</span>
-  <p style="color:#888;font-size:0.8em;margin-top:12px;">
-    Sur GitHub : ouvre <code>scout_blacklist.json</code> → Edit → remplace le contenu → Commit.
-  </p>
+  <h3>🚫 <span id="bl-count"></span> annonce(s) à blacklister</h3>
+  <div class="bl-actions">
+    <div>
+      <input type="password" id="gh-token" placeholder="GitHub Personal Access Token" autocomplete="off">
+      <div class="token-hint">Settings → Developer settings → Personal access tokens → repo</div>
+    </div>
+    <button id="bl-save" onclick="saveBlacklist()">💾 Sauvegarder sur GitHub</button>
+    <span id="bl-status"></span>
+  </div>
 </div>
 
 <script>
-const existingBlacklist = {json.dumps(list(load_blacklist())) if False else "[]"};
+const REPO = "azerty2027/azerty01";
+const FILE = "scout_blacklist.json";
+let checkedUrls = [];
 
 function updateBlacklist() {{
-  const checked = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
-  const all = [...new Set([...existingBlacklist, ...checked])];
+  checkedUrls = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
   document.querySelectorAll('.opp').forEach(el => {{
     const url = el.querySelector('.bl-check')?.dataset.url;
-    el.classList.toggle('seen', checked.includes(url));
+    el.classList.toggle('seen', checkedUrls.includes(url));
   }});
   const panel = document.getElementById('bl-panel');
   const count = document.getElementById('bl-count');
-  if (checked.length > 0) {{
+  if (checkedUrls.length > 0) {{
     panel.style.display = 'block';
-    document.getElementById('bl-json').value = JSON.stringify(all, null, 2);
-    count.textContent = checked.length + ' à blacklister';
-    count.style.display = 'inline';
+    count.textContent = checkedUrls.length;
   }} else {{
     panel.style.display = 'none';
-    count.style.display = 'none';
   }}
 }}
 
-function copyBlacklist() {{
-  const ta = document.getElementById('bl-json');
-  ta.select();
-  navigator.clipboard.writeText(ta.value).then(() => {{
-    const msg = document.getElementById('bl-copied');
-    msg.style.display = 'inline';
-    setTimeout(() => msg.style.display = 'none', 2000);
-  }});
+async function saveBlacklist() {{
+  const token = document.getElementById('gh-token').value.trim();
+  if (!token) {{ setStatus('⚠️ Entre ton token GitHub', '#f90'); return; }}
+  const btn = document.getElementById('bl-save');
+  btn.disabled = true;
+  setStatus('Récupération blacklist actuelle...', '#aaa');
+
+  try {{
+    // 1. Récupérer le fichier actuel pour avoir le SHA
+    const getRes = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{FILE}}`, {{
+      headers: {{ Authorization: `token ${{token}}`, Accept: 'application/vnd.github.v3+json' }}
+    }});
+    let sha = null;
+    let existing = [];
+    if (getRes.ok) {{
+      const data = await getRes.json();
+      sha = data.sha;
+      try {{ existing = JSON.parse(atob(data.content)); }} catch(e) {{}}
+    }}
+
+    // 2. Fusionner avec les nouvelles URLs
+    const merged = [...new Set([...existing, ...checkedUrls])];
+
+    // 3. Commit
+    setStatus('Sauvegarde en cours...', '#aaa');
+    const body = {{ message: `Blacklist mise à jour (+${{checkedUrls.length}})`, content: btoa(JSON.stringify(merged, null, 2)) }};
+    if (sha) body.sha = sha;
+    const putRes = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{FILE}}`, {{
+      method: 'PUT',
+      headers: {{ Authorization: `token ${{token}}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' }},
+      body: JSON.stringify(body)
+    }});
+    if (putRes.ok) {{
+      setStatus(`✅ ${{merged.length}} URLs blacklistées sur GitHub`, '#4fc');
+      document.getElementById('gh-token').value = '';
+    }} else {{
+      const err = await putRes.json();
+      setStatus('❌ Erreur : ' + (err.message || putRes.status), '#f44');
+    }}
+  }} catch(e) {{
+    setStatus('❌ ' + e.message, '#f44');
+  }}
+  btn.disabled = false;
+}}
+
+function setStatus(msg, color) {{
+  const el = document.getElementById('bl-status');
+  el.textContent = msg;
+  el.style.color = color;
 }}
 </script>
 </body>
