@@ -758,6 +758,138 @@ def search_ebay(title, max_price):
     return results
 
 
+
+# ─────────────────────────────────────────────
+# RAPPORT HTML
+# ─────────────────────────────────────────────
+
+def generate_html(opportunites, croisements_da, now, total_db, total_actifs, offset, batch_len):
+    """Génère ALERTES.html avec cases à cocher pour blacklister les annonces déjà vues."""
+    opps_json = json.dumps(opportunites, ensure_ascii=False)
+
+    opps_html = ""
+    for i, o in enumerate(opportunites):
+        opps_html += f"""
+        <div class="opp" id="opp-{i}">
+            <label class="opp-label">
+                <input type="checkbox" class="bl-check" data-url="{o['found_url']}" onchange="updateBlacklist()">
+                <span class="opp-seen">Déjà vu</span>
+            </label>
+            <div class="opp-body">
+                <div class="opp-title">{o['ref_title']}</div>
+                <div class="opp-ref">Ref : <b>{o['ref_price']}€</b> chez {o['ref_source']}</div>
+                <div class="opp-found">
+                    Trouvé : <b>{o['found_price']}€</b> sur {o['platform']}
+                    — marge <b>{o['marge']}€ ({o['marge_pct']}%)</b>
+                </div>
+                <a class="opp-link" href="{o['found_url']}" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">{o['found_title']}</div>
+            </div>
+        </div>"""
+
+    crois_html = ""
+    for o in croisements_da:
+        crois_html += f"""
+        <div class="crois">
+            <div class="opp-title">{o['ref_title']}</div>
+            <div class="opp-ref">Ref : <b>{o['ref_price']}€</b> chez {o['ref_source']}</div>
+            <div class="opp-found">Chez Disques Anciens : <b>{o['da_price']}€</b> — {o['da_title']}</div>
+            <a class="opp-link" href="{o['da_url']}" target="_blank">Voir →</a>
+        </div>"""
+
+    html = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinyl Scout — {now}</title>
+<style>
+  body {{ font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; }}
+  h1 {{ color: #f90; font-size: 1.4em; margin-bottom: 4px; }}
+  .meta {{ color: #888; font-size: 0.85em; margin-bottom: 20px; }}
+  .section-title {{ color: #f90; font-size: 1.1em; margin: 24px 0 10px; border-bottom: 1px solid #333; padding-bottom: 4px; }}
+  .opp {{ background: #1e1e1e; border: 1px solid #333; border-radius: 8px; padding: 14px; margin-bottom: 10px; transition: opacity .3s; }}
+  .opp.seen {{ opacity: 0.35; }}
+  .opp-label {{ display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 8px; }}
+  .bl-check {{ width: 16px; height: 16px; cursor: pointer; }}
+  .opp-seen {{ font-size: 0.78em; color: #888; }}
+  .opp-title {{ font-weight: bold; font-size: 1em; color: #fff; margin-bottom: 4px; }}
+  .opp-ref {{ font-size: 0.85em; color: #aaa; }}
+  .opp-found {{ font-size: 0.9em; color: #4fc; margin: 4px 0; }}
+  .opp-found-title {{ font-size: 0.78em; color: #777; margin-top: 4px; font-style: italic; }}
+  .opp-link {{ display: inline-block; margin-top: 6px; color: #f90; font-size: 0.85em; text-decoration: none; }}
+  .opp-link:hover {{ text-decoration: underline; }}
+  .crois {{ background: #1a1f1a; border: 1px solid #2a4a2a; border-radius: 8px; padding: 14px; margin-bottom: 10px; }}
+  #bl-panel {{ display: none; background: #0d1f0d; border: 1px solid #2a4a2a; border-radius: 8px; padding: 16px; margin-top: 20px; }}
+  #bl-panel h3 {{ color: #4fc; margin-top: 0; }}
+  #bl-json {{ width: 100%; height: 120px; background: #111; color: #4fc; border: 1px solid #333; border-radius: 6px; padding: 8px; font-family: monospace; font-size: 0.82em; resize: vertical; }}
+  #bl-copy {{ background: #f90; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; margin-top: 8px; }}
+  #bl-copy:hover {{ background: #ffa500; }}
+  #bl-copied {{ color: #4fc; margin-left: 10px; font-size: 0.85em; display: none; }}
+  #bl-count {{ background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; display: none; }}
+  .empty {{ color: #555; font-style: italic; padding: 16px 0; }}
+</style>
+</head>
+<body>
+<h1>🎵 Vinyl Scout <span id="bl-count"></span></h1>
+<div class="meta">Rapport du {now} — Base : {total_db} disques | Actifs : {total_actifs} | Batch : {offset+1}–{offset+batch_len}</div>
+
+<div class="section-title">🔴 {len(opportunites)} opportunité(s) marché</div>
+{"".join([opps_html]) if opportunites else '<div class="empty">Aucune opportunité ce run.</div>'}
+
+<div class="section-title">🏪 {len(croisements_da)} croisement(s) Disques Anciens</div>
+{"".join([crois_html]) if croisements_da else '<div class="empty">Aucun croisement ce run.</div>'}
+
+<div id="bl-panel">
+  <h3>📋 Blacklist à coller dans scout_blacklist.json sur GitHub</h3>
+  <textarea id="bl-json" readonly></textarea><br>
+  <button id="bl-copy" onclick="copyBlacklist()">Copier</button>
+  <span id="bl-copied">✓ Copié !</span>
+  <p style="color:#888;font-size:0.8em;margin-top:12px;">
+    Sur GitHub : ouvre <code>scout_blacklist.json</code> → Edit → remplace le contenu → Commit.
+  </p>
+</div>
+
+<script>
+const existingBlacklist = {json.dumps(list(load_blacklist())) if False else "[]"};
+
+function updateBlacklist() {{
+  const checked = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
+  const all = [...new Set([...existingBlacklist, ...checked])];
+  document.querySelectorAll('.opp').forEach(el => {{
+    const url = el.querySelector('.bl-check')?.dataset.url;
+    el.classList.toggle('seen', checked.includes(url));
+  }});
+  const panel = document.getElementById('bl-panel');
+  const count = document.getElementById('bl-count');
+  if (checked.length > 0) {{
+    panel.style.display = 'block';
+    document.getElementById('bl-json').value = JSON.stringify(all, null, 2);
+    count.textContent = checked.length + ' à blacklister';
+    count.style.display = 'inline';
+  }} else {{
+    panel.style.display = 'none';
+    count.style.display = 'none';
+  }}
+}}
+
+function copyBlacklist() {{
+  const ta = document.getElementById('bl-json');
+  ta.select();
+  navigator.clipboard.writeText(ta.value).then(() => {{
+    const msg = document.getElementById('bl-copied');
+    msg.style.display = 'inline';
+    setTimeout(() => msg.style.display = 'none', 2000);
+  }});
+}}
+</script>
+</body>
+</html>"""
+
+    with open("ALERTES.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 # ─────────────────────────────────────────────
 # DB
 # ─────────────────────────────────────────────
@@ -771,6 +903,16 @@ def load_db():
 def save_db(db):
     with open(DB_FILE, 'w') as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
+
+
+BLACKLIST_FILE = "scout_blacklist.json"
+
+def load_blacklist():
+    if os.path.exists(BLACKLIST_FILE):
+        with open(BLACKLIST_FILE) as f:
+            data = json.load(f)
+            return set(data) if isinstance(data, list) else set()
+    return set()
 
 
 # ─────────────────────────────────────────────
@@ -816,6 +958,7 @@ def main():
 
     # ── Phase 3 : recherche opportunites marche ──
     print("\n→ Phase 3 : recherche opportunités marché...")
+    blacklist = load_blacklist()
     opportunites = []
     actifs = [r for r in all_records if not r.get('sold')]
 
@@ -862,11 +1005,11 @@ def main():
 
     opportunites.sort(key=lambda x: -x['marge'])
 
-    # Déduplication par URL
+    # Déduplication par URL + filtre blacklist
     seen_urls = set()
     opportunites_uniques = []
     for o in opportunites:
-        if o['found_url'] not in seen_urls:
+        if o['found_url'] not in seen_urls and o['found_url'] not in blacklist:
             seen_urls.add(o['found_url'])
             opportunites_uniques.append(o)
     opportunites = opportunites_uniques
@@ -927,6 +1070,9 @@ def main():
 
     with open(ALERT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
+
+    # ── Rapport HTML avec blacklist interactive ──
+    generate_html(opportunites, croisements_da, now, len(db), len(actifs), offset, len(batch))
 
     print(f"\nRapport genere — {len(croisements_da)} croisements DA | {len(opportunites)} opportunites marche | {len(nouveaux_ref)} nouveaux")
 
