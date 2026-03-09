@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 07:01
+# VINYL SCOUT — Rapport du 09/03/2026 08:45
 
-**Base : 432 disques | Actifs : 402 | Batch : 1–5 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,17 +8,162 @@
 
 ---
 
-## 🔴 2 OPPORTUNITES MARCHE
+## 🔴 31 OPPORTUNITES MARCHE
 
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
+### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
+- **Ref** : 450.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
 
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
+### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7787446587-vinil-between-and-the-waters-opened)
+
+### Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8277374017-vinyl-lp-lintercommunal-free-dance-music-orchestra-free-jazz)
+
+### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **355.0€ (91%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2512560711-lp-between-and-the-waters-opened)
+
+### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **340.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8296551101-vinyl-spiritual-jazz-francais-neuf-chene-noir-orphee-2000)
+
+### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
+
+### Rufus Harley ‎– Re-Creation Of The Gods ( Ankh Records, Inc. ‎– US - 1972)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **300.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7519454429-vinilo-jazz-rufus-harley-re-creation-of-the-gods-lp-1972)
+
+### Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **250.0€ (71%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7694868948-le-theatre-du-chene-noir-miss-madona-1973)
+
+### Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)
+- **Ref** : 220.0€ chez Digger's Digest
+- **Trouve** : 16.5€ sur vinted.fr — marge potentielle **203.5€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8198670596-septet-matchi-oul-terremoto-vinyle-french-free-jazz)
+
+### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **160.0€ (46%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188856905-chene-noir-orphee-2000-1976-lp)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **156.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8174111591-lp-serge-gainsbourg-33t)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **155.01€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8035539785-serge-gainsbourg-histoire-de-melody-nelson)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8327797198-serge-gainsbourg-histoire-de-melody-nelson)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7878115891-vinyle-vintage-retro-serge-gainsbourg)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8138816223-lp-serge-gainsbourg-histoire-de-melody-nelson)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **149.0€ (85%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8201376007-double-33-tours-serge-gainsbourg)
+
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 175.0€ sur vinted.fr — marge potentielle **145.0€ (45%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7588374673-vinyle-musique-experimental-avant-garde-francaise-de-chene-noir)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **144.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8037822604-disque-33t-speed-limit-breakin-it)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 39.0€ sur vinted.fr — marge potentielle **136.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7884312359-serge-gainsbourg-histoire-de-melody-nelson)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051914766-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051913673-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7117907819-lp-mix-45-rpm-speed-limit-nicenslow-made-uk)
+
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **130.0€ (41%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188655237-chene-noir-disques-volume-1-chant)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **126.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7497748518-speed-limit-speed-limit-ep)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8294729111-speed-limit-dont-give-me-up-trance-makina-1996)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **122.0€ (81%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8269794432-lp-speed-limit-re-zeuhl-prog-rock-francese)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7818092659-speed-all-my-angels-vinyle)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 60.0€ sur paruvendu.fr — marge potentielle **115.0€ (66%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/serge-gainsbourg-album-vinyle-33-t-pressage-original-de--fourmies-59610/1287546539A1KBMECV000)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5639627914-vinyle-speed-only-one-mode)
+
+### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
+- **Ref** : 175.0€ chez Digger's Digest
+- **Trouve** : 95.0€ sur paruvendu.fr — marge potentielle **80.0€ (46%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-serge-gainsbourg-histoire-de-melody-nelson-nantes-44000/1210213509A1KBMECV000)
+
+### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8180231292-brian-eno-another-green-world-half-speed-mastering-2017)
 
 ---
 ## Catalogue complet
