@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 08:45
+# VINYL SCOUT — Rapport du 09/03/2026 10:59
 
-**Base : 432 disques | Actifs : 402 | Batch : 301–350 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 351–400 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,162 +8,352 @@
 
 ---
 
-## 🔴 31 OPPORTUNITES MARCHE
+## 🔴 69 OPPORTUNITES MARCHE
 
-### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
-- **Ref** : 450.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
+### Manu Dibango - African Voodoo (PSI, 1972)
+- **Ref** : 790.0€ chez Digger's Digest
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **690.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7097430031-manu-dibango-african-voodoo-33t)
 
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+### Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **380.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2564638190-45-tours-barney-wilen-lino-ventura-un-temoin-dans-la-villepromo)
+
+### Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959)
 - **Ref** : 390.0€ chez Digger's Digest
 - **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7787446587-vinil-between-and-the-waters-opened)
+- [Voir l'annonce](https://www.vinted.fr/items/6175758219-vinyle-miles-davis-quintet-art-blakey-and-the-jazz-messengers-barney-wilen-jazz-sur-lecran)
 
-### Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.
-- **Ref** : 390.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8277374017-vinyl-lp-lintercommunal-free-dance-music-orchestra-free-jazz)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 5.5€ sur vinted.fr — marge potentielle **314.5€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5671410975-eddy-louiss-bohemia-after-dark)
 
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
-- **Ref** : 390.0€ chez Digger's Digest
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **355.0€ (91%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2512560711-lp-between-and-the-waters-opened)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **310.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7824519008-vinyle-33t-eddy-louis)
 
-### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **340.0€ (97%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8296551101-vinyl-spiritual-jazz-francais-neuf-chene-noir-orphee-2000)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **310.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4709379123-eddy-louiss-multicolor-feeling-fanfare-2-lp)
 
-### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **308.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5923044315-lp-eddy-mitchell-tres-bon-etat)
 
-### Rufus Harley ‎– Re-Creation Of The Gods ( Ankh Records, Inc. ‎– US - 1972)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **302.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6305050361-33t-eddy-louiss-orgue-vol-2)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 19.0€ sur paruvendu.fr — marge potentielle **301.0€ (94%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/eddy-louiss-multicolor-feeling-fanfare-nantes-44000/1210223778A1KBMECV000)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
 - **Ref** : 320.0€ chez Digger's Digest
 - **Trouve** : 20.0€ sur vinted.fr — marge potentielle **300.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7519454429-vinilo-jazz-rufus-harley-re-creation-of-the-gods-lp-1972)
+- [Voir l'annonce](https://www.vinted.fr/items/8193177833-disque-vinyle-eddy-louiss-kenny-clarke-rene-thomas)
 
-### Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **250.0€ (71%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7694868948-le-theatre-du-chene-noir-miss-madona-1973)
-
-### Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)
-- **Ref** : 220.0€ chez Digger's Digest
-- **Trouve** : 16.5€ sur vinted.fr — marge potentielle **203.5€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8198670596-septet-matchi-oul-terremoto-vinyle-french-free-jazz)
-
-### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **160.0€ (46%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8188856905-chene-noir-orphee-2000-1976-lp)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **156.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8174111591-lp-serge-gainsbourg-33t)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **155.01€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8035539785-serge-gainsbourg-histoire-de-melody-nelson)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8327797198-serge-gainsbourg-histoire-de-melody-nelson)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7878115891-vinyle-vintage-retro-serge-gainsbourg)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **155.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8138816223-lp-serge-gainsbourg-histoire-de-melody-nelson)
-
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **149.0€ (85%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8201376007-double-33-tours-serge-gainsbourg)
-
-### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
 - **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 175.0€ sur vinted.fr — marge potentielle **145.0€ (45%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7588374673-vinyle-musique-experimental-avant-garde-francaise-de-chene-noir)
+- **Trouve** : 22.0€ sur vinted.fr — marge potentielle **298.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8172611936-vinyle-vintage-1973-jazz-eddy-louiss-kenny-clarke-rene-thomas)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **295.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7832627910-eddy-louis-sang-mele)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **290.0€ (91%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7824121510-eddy-louise-kenny-clarke-rene-thomas)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
+
+### Chene Noir - orphée 2000
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **240.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8296551101-vinyl-spiritual-jazz-francais-neuf-chene-noir-orphee-2000)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **220.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8317434532-cymande-cymande)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **220.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7480027770-vinyle-cymande)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **215.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8323373674-vinyle-33t-cymande)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 36.0€ sur vinted.fr — marge potentielle **214.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7710789122-cymande-promised-heights)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **212.0€ (85%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7040633877-vinyle-cymande-promised-heights-1974-reedition)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **205.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5814915581-cymande-renascence-colored-vinyl)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **197.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2878150455-rhesus-bouddha)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 5.0€ sur vinted.fr — marge potentielle **195.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5308018179-rhesus-night-zone)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 5.0€ sur vinted.fr — marge potentielle **195.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6188587048-rhesus-retro-dikirecords)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 8.0€ sur vinted.fr — marge potentielle **192.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6000538805-label-atomic-techno-26-rhesus-night-zone-etat-vinyl-vg)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 11.9€ sur vinted.fr — marge potentielle **188.1€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5334690558-rhesus-o-rhesus-o)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **185.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4937019040-techno-rhesus-night-zone-electrostatic)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **185.0€ (74%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8068813283-cymande-vinyle-album-promised-heights-edition-1999-gatefold)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **175.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6802069915-rhesus-o)
+
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 89.0€ sur vinted.fr — marge potentielle **161.0€ (64%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5876630362-vinyl-cymande-2003)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7445062312-moving-gelatine-plates-1lp-scelle)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7783553856-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7783551436-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6437807890-moving-gelatine-plates-scelle)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **152.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5931265033-33t-moving-gelatine-plates-the-world-of-genius-hans)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **152.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6468034063-lp-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **150.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8261186235-moving-gelatine-plates-lp)
+
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **144.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8037822604-disque-33t-speed-limit-breakin-it)
+- **Trouve** : 9.0€ sur vinted.fr — marge potentielle **141.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6141955684-burning-heads-guerilla-poubelle-vulgaires-machins-festival-poster-affiche-60x42cm)
 
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 39.0€ sur vinted.fr — marge potentielle **136.0€ (78%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7884312359-serge-gainsbourg-histoire-de-melody-nelson)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 13.0€ sur vinted.fr — marge potentielle **137.0€ (91%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5966935699-disque-vinyle-guerilla-black)
 
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
 - **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7051914766-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
+- [Voir l'annonce](https://www.vinted.fr/items/7695725662-giant-panda-guerilla-dub-squad-steady-12-lp)
 
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
 - **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7051913673-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
+- [Voir l'annonce](https://www.vinted.fr/items/5055083663-vinile-guerilla-records)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
 - **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7117907819-lp-mix-45-rpm-speed-limit-nicenslow-made-uk)
+- [Voir l'annonce](https://www.vinted.fr/items/8243798026-disque-45-tours-de-hawkwind-urban-guerilla-1973)
 
-### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
-- **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **130.0€ (41%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8188655237-chene-noir-disques-volume-1-chant)
+### Cymande - cymande
+- **Ref** : 250.0€ chez SOFA Records
+- **Trouve** : 120.0€ sur vinted.fr — marge potentielle **130.0€ (52%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7631932971-cymande-second-time-round-rare-original-gatefold-lp)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **126.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7497748518-speed-limit-speed-limit-ep)
-
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
 - **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8294729111-speed-limit-dont-give-me-up-trance-makina-1996)
+- [Voir l'annonce](https://www.vinted.fr/items/7928977611-guerilla-poubelle)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **122.0€ (81%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8269794432-lp-speed-limit-re-zeuhl-prog-rock-francese)
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **120.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8332165185-vinyle-guerilla-poubelle-punk-existentialisme)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
+### Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975)
 - **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7818092659-speed-all-my-angels-vinyle)
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **120.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6646012864-guerilla-in-dub-various-2-x-lp)
 
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 60.0€ sur paruvendu.fr — marge potentielle **115.0€ (66%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/serge-gainsbourg-album-vinyle-33-t-pressage-original-de--fourmies-59610/1287546539A1KBMECV000)
+### Jimmy Blanche - dou van jou
+- **Ref** : 180.0€ chez SOFA Records
+- **Trouve** : 82.5€ sur vinted.fr — marge potentielle **97.5€ (54%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5705320176-jimmy-blanche-dou-van-jou-lp-vinilo-african)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5639627914-vinyle-speed-only-one-mode)
+### Black Beats Band - black beat rhythms
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 4.0€ sur vinted.fr — marge potentielle **76.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7566194736-die-superstars-des-beat-the-beat-goes-on-lp)
 
-### Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971)
-- **Ref** : 175.0€ chez Digger's Digest
-- **Trouve** : 95.0€ sur paruvendu.fr — marge potentielle **80.0€ (46%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-serge-gainsbourg-histoire-de-melody-nelson-nantes-44000/1210213509A1KBMECV000)
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 125.0€ sur vinted.fr — marge potentielle **75.0€ (38%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7883326778-rare-rhesus-o-rhesus-o-og-lp-vinyl)
 
-### Speed Limit - Speed Limit (Le Chant Du Monde – LDX 74575 France - 1974)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8180231292-brian-eno-another-green-world-half-speed-mastering-2017)
+### Fela Kuti & Africa 70 - zombie
+- **Ref** : 110.0€ chez SOFA Records
+- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **72.0€ (65%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8252259287-fela-and-africa-70-zombie-maxi-promo)
+
+### Black Beats Band - black beat rhythms
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **70.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6294389909-beatt-international-orc-black-magic-rare-french-library-killer-soul-funk-lp)
+
+### Cohelmec Ensemble - next
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **60.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6902229907-cohelmec-ensemble-next-lp-vinyl-pror-jazz-experimental)
+
+### Black Beats Band - black beat rhythms
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **55.0€ (69%)**
+- [Voir l'annonce](https://www.vinted.fr/items/516703811-vinyle-45trs-ep-black-beats-band-onyinas-guitar-band)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **55.0€ (79%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5077006967-lp-chico-e-caetano-veloso)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **55.0€ (79%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7032872125-caetano-veloso-totalmente-demais-polygram-1986)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 17.5€ sur vinted.fr — marge potentielle **52.5€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8267351985-caetano-veloso-velo-1985-lp)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **52.0€ (74%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8016419810-lp-caetano-veloso-cores)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 19.9€ sur vinted.fr — marge potentielle **50.1€ (72%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8154154748-caetano-veloso-qualquer-coisa-lp)
+
+### Black Beats Band - black beat rhythms
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **45.0€ (56%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8283510739-kriegszittern-flamethrower-first-press-lp-black-vinyl-fucking-kill-records-fkr-123-2023)
+
+### Black Beats Band - black beat rhythms
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **45.0€ (56%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7552304476-crust-punk-vinyles-eps-package-x-5-2-col-3-black)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **45.0€ (64%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7830656034-caetano-veloso-cores-nomes-lp)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **42.0€ (60%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7882692377-caetano-veloso-caetano-veloso)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 29.0€ sur vinted.fr — marge potentielle **41.0€ (59%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6920469486-vinilo-caetano-veloso-araca-azul)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **40.0€ (57%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8096728343-caetano-veloso-araca-azul)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **35.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7865073076-disco-vinil-tropicalia-2-liminha-gilberto-gil-caetano-veloso)
+
+### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
+- **Ref** : 90.0€ chez SOFA Records
+- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
+
+### Caetano Veloso - s/t
+- **Ref** : 70.0€ chez SOFA Records
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **30.0€ (43%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7464366043-vinyle-caetano-veloso-caetano-veloso-edition-limite)
+
+### Cohelmec Ensemble - next
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **30.0€ (38%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8302692504-lp-raro-cohelmec-ensemble-next-prog-jazz-rock-francese)
 
 ---
 ## Catalogue complet
