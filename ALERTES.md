@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 08/03/2026 09:36
+# VINYL SCOUT — Rapport du 09/03/2026 07:01
 
-**Base : 432 disques | Actifs : 404 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,172 +8,22 @@
 
 ---
 
-## 🔴 32 OPPORTUNITES MARCHE
+## 🔴 2 OPPORTUNITES MARCHE
 
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **535.0€ (97%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7857771265-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **530.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6800745696-the-rough-guide-to-desert-blues-lp-tinariwen-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **526.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8103224071-ali-farka-toure-special-biennale-du-mali-lp)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7990028182-kruangbin-and-vieux-farka-toure-ali-vinyl-lp)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7684498495-ali-toure-farka-lp-vinile)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6904259945-ali-farka-toure-green-2023-record-store-day)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **520.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7437701191-vinyle-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 32.0€ sur vinted.fr — marge potentielle **518.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7437751699-vinyle-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 59.99€ sur vinted.fr — marge potentielle **490.01€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7169602358-vinyle-vieux-farka-toure-khruangbin-ali-edition-limitee-sunshine-179500-neuf-sous-blister)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **480.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8230972446-rare-vinyl-ali-farka-toure-toumani-diabate-in-the-heart-of-the-moon)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 99.0€ sur vinted.fr — marge potentielle **451.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7864154583-ali-farka-toure-with-ry-cooder-talking-timbuktu-2xvinyl)
-
-### Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy)
-- **Ref** : 450.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **420.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8059875138-armando-trovaioli-una-magnum-special-per-tony-saitta-lp)
-
-### Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)
-- **Ref** : 250.0€ chez Digger's Digest
-- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **238.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4771654879-jean-luc-ponty-fables-lp1985)
-
-### Jason Havelock - Pop Symphony
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **150.0€ (60%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7651134622-jason-havelock-pop-symphony)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **144.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8037822604-disque-33t-speed-limit-breakin-it)
-
-### Nef - Mais alors c’est à l’envers
-- **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **135.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8122462400-nef-mais-alors-cest-a-lenvers-ristampa-2019-apparition-a-lendroit)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7117907819-lp-mix-45-rpm-speed-limit-nicenslow-made-uk)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **126.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7497748518-speed-limit-speed-limit-ep)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **126.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6384631146-disque-vinyle-33t-the-police-half-speed-mastering-2016-edition-limitee)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8294729111-speed-limit-dont-give-me-up-trance-makina-1996)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **122.0€ (81%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8269794432-lp-speed-limit-re-zeuhl-prog-rock-francese)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7818092659-speed-all-my-angels-vinyle)
-
-### Jason Havelock - Pop Symphony
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 140.0€ sur vinted.fr — marge potentielle **110.0€ (44%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3959533385-jason-havelock-pop-symphony-jazz-funk-prog-psych-rare-japan-press-lp)
-
-### Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)
-- **Ref** : 220.0€ chez Digger's Digest
-- **Trouve** : 110.0€ sur vinted.fr — marge potentielle **110.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7876708703-can-ege-bamyasi-lp-krautrock-original-france)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5639627914-vinyle-speed-only-one-mode)
-
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 22.0€ sur vinted.fr — marge potentielle **98.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6563410010-vinyle-fela-ransome-kuti-felas-london-scene)
-
-### Structure - Pop Music
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **90.0€ (69%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7154047470-vynile-rare-structure-pop-music)
-
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 39.0€ sur vinted.fr — marge potentielle **81.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4730672314-fela-ransome-kuti-and-the-africa-70-with-ginger-baker)
-
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6027584420-fela-ransome-kuti-and-the-africa-70-with-ginger-baker-live-emi-lp-album-re)
-
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7492213461-disco-vinile-fela-ransomekuti-africa-70-band-ginger-baker-1971-live-rare-collection)
-
-### Speed Limit - Speed Limit
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8180231292-brian-eno-another-green-world-half-speed-mastering-2017)
-
-### Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites
+### Boncana Maiga - Boncana Maiga
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 59.0€ sur vinted.fr — marge potentielle **41.0€ (41%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7896296420-jean-cohen-solal-flutes-libres-vinyl)
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 106 disponibles, 0 vendus
+### Digger's Digest — 105 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -227,11 +77,11 @@
 - **250.0€** — "Free Jazz Festival au Bataclan feat. Steve Lacy orchestra" Original Poster. — [voir](https://www.diggersdigest.com/product/steve-lacy-au-bataclan)
 - **250.0€** — Sunny Boy – Love Affaire (D.K.Danse – D.K.01 - Italy - 80's) — [voir](https://www.diggersdigest.com/product/sunny-boy-love-affaire-d-k-danse-d-k-01-italy-80-s)
 - **250.0€** — José Manclière - Doubout Pou Gadé (Private - Guadelope, 1980) — [voir](https://www.diggersdigest.com/product/jose-mancliere-doubout-pou-gade-private-press-1980)
+- **240.0€** — Tee & Company – Spanish Flower (Three Blind Mice – TBM-5008 - Japan - 1978) — [voir](https://www.diggersdigest.com/product/tee-company-spanish-flower-three-blind-mice-tbm-5008-japan-1978)
 - **220.0€** — Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972) — [voir](https://www.diggersdigest.com/product/can-ege-bamyasi-united-artists-records-uas-29-414-france-1972)
 - **220.0€** — Richard Dunbar – Clear-Eyed Vision (Jahari Records – JR101 – US – 1981) — [voir](https://www.diggersdigest.com/product/richard-dunbar-clear-eyed-vision-jahari-records-jr101-1981)
 - **220.0€** — Mach-Hommy – Pray For Haiti (Daupe! – DM -SP-076) — [voir](https://www.diggersdigest.com/product/mach-hommy-pray-for-haiti-daupe-dm-sp-076)
 - **220.0€** — Omar Khorshid – With Love Vol. 1 (Voice Of Lebanon – VLMX 87 –Lebanon – 1978) — [voir](https://www.diggersdigest.com/product/omar-khorshid-omar-khorshid-with-love-vol-1-voice-of-lebanon-vlmx-87)
-- **220.0€** — Tee & Company – Spanish Flower (Three Blind Mice – TBM-5008 - Japan - 1978) — [voir](https://www.diggersdigest.com/product/tee-company-spanish-flower-three-blind-mice-tbm-5008-japan-1978)
 - **220.0€** — Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971) — [voir](https://www.diggersdigest.com/product/septet-matchi-oul-terremoto-futura-records-ger-25-1971)
 - **220.0€** — Peter Lemer & La Troupe Populaire De G'naoua De Asilah ‎- Asilah 80 — [voir](https://www.diggersdigest.com/product/peter-lemer-la-troupe-populaire-de-g-naoua-de-asilah-asilah-80)
 - **200.0€** — Claude Vasori / Robert Viger / Daniel Janin – Cocktail D'Images (MPI/LP 536) — [voir](https://www.diggersdigest.com/product/claude-vasori-robert-viger-daniel-janin-cocktail-d-images-mpi-lp-536)
@@ -267,7 +117,6 @@
 - **120.0€** — Sammy Massamba – Propriété Privée (SM Productions - France - 1987) — [voir](https://www.diggersdigest.com/product/sammy-massamba-propriete-privee-sm-productions-france-1987)
 - **120.0€** — Cap'tain Créole - Ni Bel Jounin (Private - 1985) — [voir](https://www.diggersdigest.com/product/cap-tain-creole-ni-bel-jounin-private-1985)
 - **120.0€** — Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976) — [voir](https://www.diggersdigest.com/product/fela-ransome-kuti-and-africa-70-organization-everything-scatter-philips-9286-434-1976)
-- **120.0€** — Tee & Company – Sonnet (Three Blind Mice – TBM-5004 - Japan - 1977) — [voir](https://www.diggersdigest.com/product/tee-company-sonnet-three-blind-mice-tbm-5004-japan-1977)
 - **120.0€** — Franco Campanino – L'Insegnante Viene A Casa (Cam – Sag 9094 - Italy - 1979) — [voir](https://www.diggersdigest.com/product/franco-campanino-l-insegnante-viene-a-casa-cam-sag-9094-italy-1979)
 - **120.0€** — American Center for Students and Artists - Point de Rencontre original poster — [voir](https://www.diggersdigest.com/product/american-center-for-students-and-artists-point-de-rencontre)
 - **120.0€** — Toni Campo – Prime Cuts (Impress – IA 409 - UK - 1976) — [voir](https://www.diggersdigest.com/product/eddie-warner-nino-nardini-music-of-today-music-of-tomorrow-im-16-france-1975)
@@ -321,7 +170,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 265 disponibles, 0 vendus
+### Victor Kiswell — 264 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -337,7 +186,6 @@
 - **350.0€** — Lloyd Miller - Near and Far East — [voir](http://www.victorkiswell.com/v3/?product=near-and-far-east)
 - **350.0€** — Haki R. Madhubuti - Rise Vision Comin’ — [voir](http://www.victorkiswell.com/v3/?product=rise-vision-comin)
 - **350.0€** — Neil Ardley - Mediterranean Intrigue — [voir](http://www.victorkiswell.com/v3/?product=mediterranean-intrigue)
-- **350.0€** — Alan Moorhouse - The Big Beat (Vol. 2) — [voir](http://www.victorkiswell.com/v3/?product=the-big-beat-vol-2)
 - **350.0€** — Luis Bacalov - La seduzione — [voir](http://www.victorkiswell.com/v3/?product=la-seduzione)
 - **300.0€** — Balka Sound - Afro Musik Creation — [voir](http://www.victorkiswell.com/v3/?product=afro-musik-creation)
 - **300.0€** — The Walias - Best of — [voir](http://www.victorkiswell.com/v3/?product=best-of-2)
