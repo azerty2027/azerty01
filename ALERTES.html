@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vinyl Scout — 09/03/2026 17:18</title>
+<title>Vinyl Scout — 09/03/2026 21:37</title>
 <style>
-  body { font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; }
+  body { font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; max-width: 700px; margin: 0 auto; }
   h1 { color: #f90; font-size: 1.4em; margin-bottom: 4px; }
   .meta { color: #888; font-size: 0.85em; margin-bottom: 20px; }
   .section-title { color: #f90; font-size: 1.1em; margin: 24px 0 10px; border-bottom: 1px solid #333; padding-bottom: 4px; }
   .opp { background: #1e1e1e; border: 1px solid #333; border-radius: 8px; padding: 14px; margin-bottom: 10px; transition: opacity .3s; }
-  .opp.seen { opacity: 0.35; }
+  .opp.seen { opacity: 0.3; }
   .opp-label { display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 8px; }
-  .bl-check { width: 16px; height: 16px; cursor: pointer; }
+  .bl-check { width: 16px; height: 16px; cursor: pointer; accent-color: #f90; }
   .opp-seen { font-size: 0.78em; color: #888; }
   .opp-title { font-weight: bold; font-size: 1em; color: #fff; margin-bottom: 4px; }
   .opp-ref { font-size: 0.85em; color: #aaa; }
@@ -21,227 +21,306 @@
   .opp-link { display: inline-block; margin-top: 6px; color: #f90; font-size: 0.85em; text-decoration: none; }
   .opp-link:hover { text-decoration: underline; }
   .crois { background: #1a1f1a; border: 1px solid #2a4a2a; border-radius: 8px; padding: 14px; margin-bottom: 10px; }
-  #bl-panel { display: none; background: #0d1f0d; border: 1px solid #2a4a2a; border-radius: 8px; padding: 16px; margin-top: 20px; }
-  #bl-panel h3 { color: #4fc; margin-top: 0; }
-  #bl-json { width: 100%; height: 120px; background: #111; color: #4fc; border: 1px solid #333; border-radius: 6px; padding: 8px; font-family: monospace; font-size: 0.82em; resize: vertical; }
-  #bl-copy { background: #f90; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; margin-top: 8px; }
-  #bl-copy:hover { background: #ffa500; }
-  #bl-copied { color: #4fc; margin-left: 10px; font-size: 0.85em; display: none; }
-  #bl-count { background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; display: none; }
+  #bl-panel { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #0d1a0d; border-top: 2px solid #4fc; padding: 16px; z-index: 100; }
+  #bl-panel h3 { color: #4fc; margin: 0 0 10px; font-size: 1em; }
+  .bl-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  #gh-token { background: #1e1e1e; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 7px 10px; font-size: 0.85em; width: 260px; }
+  #gh-token::placeholder { color: #555; }
+  #bl-save { background: #4fc; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; font-size: 0.9em; }
+  #bl-save:hover { background: #3da; }
+  #bl-save:disabled { background: #333; color: #666; cursor: default; }
+  #bl-status { font-size: 0.85em; color: #aaa; }
+  #bl-count { background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; }
   .empty { color: #555; font-style: italic; padding: 16px 0; }
+  .token-hint { font-size: 0.75em; color: #555; margin-top: 4px; }
 </style>
 </head>
 <body>
-<h1>🎵 Vinyl Scout <span id="bl-count"></span></h1>
-<div class="meta">Rapport du 09/03/2026 17:18 — Base : 432 disques | Actifs : 402 | Batch : 51–100</div>
+<h1>🎵 Vinyl Scout</h1>
+<div class="meta">Rapport du 09/03/2026 21:37 — Base : 432 disques | Actifs : 402 | Batch : 101–150</div>
 
-<div class="section-title">🔴 10 opportunité(s) marché</div>
+<div class="section-title">🔴 12 opportunité(s) marché</div>
 
         <div class="opp" id="opp-0">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7957781675-rajesh-infinite-fusion-explorations-in-musical-syntheses" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Minoru Muraoka - Bamboo</div>
+                <div class="opp-title">Rajesh - Infinite Fusion – Explorations In Musical Syntheses</div>
                 <div class="opp-ref">Ref : <b>500.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>30.0€</b> sur vinted.fr
-                    — marge <b>470.0€ (94%)</b>
+                    Trouvé : <b>185.0€</b> sur vinted.fr
+                    — marge <b>315.0€ (63%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Minoru Muraoka EP Shakuhachi Rock (2019)</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/7957781675-rajesh-infinite-fusion-explorations-in-musical-syntheses" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Rajesh – Infinite Fusion - Explorations In Musical Syntheses</div>
             </div>
         </div>
         <div class="opp" id="opp-1">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/8249931642-horace-tapscott-flight-17-2xlp-e-pan-afrikan-peoples-arkestra" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Minoru Muraoka - Bamboo</div>
-                <div class="opp-ref">Ref : <b>500.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Horace Tapscott & The Pan Afrikan Peoples Arkestra - Live at I.U.C.C.</div>
+                <div class="opp-ref">Ref : <b>300.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>65.0€</b> sur vinted.fr
-                    — marge <b>435.0€ (87%)</b>
+                    Trouvé : <b>25.0€</b> sur vinted.fr
+                    — marge <b>275.0€ (92%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Minoru Muraoka - Bamboo Jazz Funk Vinyl</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/8249931642-horace-tapscott-flight-17-2xlp-e-pan-afrikan-peoples-arkestra" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Horace Tapscott – Flight 17  2xLP e Pan Afrikan Peoples Arkestra</div>
             </div>
         </div>
         <div class="opp" id="opp-2">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7603915038-decibelios-kaos-oi-y-subversion-33tlp-1996-punk-oi" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Minoru Muraoka - Bamboo</div>
-                <div class="opp-ref">Ref : <b>500.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Subversion - Subversion</div>
+                <div class="opp-ref">Ref : <b>250.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>150.0€</b> sur vinted.fr
-                    — marge <b>350.0€ (70%)</b>
+                    Trouvé : <b>45.0€</b> sur vinted.fr
+                    — marge <b>205.0€ (82%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Minoru Muraoka & Life Theatres Shakuhachi Rock Enka-Hen rare Japan Bamboo flute funk LP</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/7603915038-decibelios-kaos-oi-y-subversion-33tlp-1996-punk-oi" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Decibelios - Kaos! Oi! Y Subversion - 33t/LP - 1996 - Punk Oi!</div>
             </div>
         </div>
         <div class="opp" id="opp-3">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/8086056801-stuntman-di-carlo-rustichelli-lp-vinile" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Grupo Oz - Grupo Oz</div>
-                <div class="opp-ref">Ref : <b>180.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Carlo Rustichelli - Stuntman</div>
+                <div class="opp-ref">Ref : <b>150.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>31.0€</b> sur paruvendu.fr
-                    — marge <b>149.0€ (83%)</b>
+                    Trouvé : <b>20.0€</b> sur vinted.fr
+                    — marge <b>130.0€ (87%)</b>
                 </div>
-                <a class="opp-link" href="https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">33 tours grupo nossa gente samba em dimensao total</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/8086056801-stuntman-di-carlo-rustichelli-lp-vinile" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Stuntman di Carlo rustichelli lp vinile</div>
             </div>
         </div>
         <div class="opp" id="opp-4">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7806305781-ian-carr-with-nucleus-labyrinth" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Jamisen Funk - Jamisen Funk</div>
-                <div class="opp-ref">Ref : <b>220.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Ian Carr & Nucleus - Labyrinth</div>
+                <div class="opp-ref">Ref : <b>150.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>90.0€</b> sur vinted.fr
-                    — marge <b>130.0€ (59%)</b>
+                    Trouvé : <b>35.0€</b> sur vinted.fr
+                    — marge <b>115.0€ (77%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Akira Ishikawa & tsugaru jongara bushi -drum & tsugaru jamisen jazz funk rock lp vinyl</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/7806305781-ian-carr-with-nucleus-labyrinth" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Ian Carr with Nucleus labyrinth</div>
             </div>
         </div>
         <div class="opp" id="opp-5">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7696274889-daniel-grau-el-leon-bailarin-lp-album-europe-2016-disco-funk-cosmic" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/7533413462-gregory-james-edition-prophets-of-soul-lp-70s-funk" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Daniel Grau - El Leon Bailarin</div>
-                <div class="opp-ref">Ref : <b>120.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Gregory James Edition - Prophets of Soul</div>
+                <div class="opp-ref">Ref : <b>100.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>19.99€</b> sur vinted.fr
-                    — marge <b>100.01€ (83%)</b>
+                    Trouvé : <b>18.0€</b> sur vinted.fr
+                    — marge <b>82.0€ (82%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/7696274889-daniel-grau-el-leon-bailarin-lp-album-europe-2016-disco-funk-cosmic" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Daniel Grau El León Bailarín LP Album Europe 2016 Disco Funk Cosmic</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/7533413462-gregory-james-edition-prophets-of-soul-lp-70s-funk" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Gregory James Edition - Prophets of soul LP 70's funk</div>
             </div>
         </div>
         <div class="opp" id="opp-6">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/5487236588-pedro-iturralde-flamenco-jazz-vinilo-lp" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/4985642361-disque-vynil-de-quasar-man-coda-trajectory-jamais-ecoute-scelle" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Pedro Iturralde - Jazz Flamenco</div>
-                <div class="opp-ref">Ref : <b>110.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Quasar - Man Coda</div>
+                <div class="opp-ref">Ref : <b>100.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>26.0€</b> sur vinted.fr
-                    — marge <b>84.0€ (76%)</b>
+                    Trouvé : <b>20.0€</b> sur vinted.fr
+                    — marge <b>80.0€ (80%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/5487236588-pedro-iturralde-flamenco-jazz-vinilo-lp" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Pedro Iturralde Flamenco Jazz vinilo lp</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/4985642361-disque-vynil-de-quasar-man-coda-trajectory-jamais-ecoute-scelle" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Disque vynil de Quasar "Man coda trajectory"</div>
             </div>
         </div>
         <div class="opp" id="opp-7">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/8009099751-ian-carr-with-nucleus-labyrinth-o-uk-1973" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Pedro Iturralde - Jazz Flamenco</div>
-                <div class="opp-ref">Ref : <b>110.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Ian Carr & Nucleus - Labyrinth</div>
+                <div class="opp-ref">Ref : <b>150.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>38.99€</b> sur vinted.fr
-                    — marge <b>71.00999999999999€ (65%)</b>
+                    Trouvé : <b>75.0€</b> sur vinted.fr
+                    — marge <b>75.0€ (50%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Pedro Iturralde Quintet Feat Paco De Lucia - Flamenco-Jazz</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/8009099751-ian-carr-with-nucleus-labyrinth-o-uk-1973" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Ian Carr With Nucleus – Labyrinth – O-UK - 1973</div>
             </div>
         </div>
         <div class="opp" id="opp-8">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/6444170905-33t-quasar-man-coda" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Aquarius y Luiz Antonio - Brasil Aquarius</div>
-                <div class="opp-ref">Ref : <b>120.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Quasar - Man Coda</div>
+                <div class="opp-ref">Ref : <b>100.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>73.0€</b> sur vinted.fr
-                    — marge <b>47.0€ (39%)</b>
+                    Trouvé : <b>25.0€</b> sur vinted.fr
+                    — marge <b>75.0€ (75%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">brasil aquarius y luiz antonio</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/6444170905-33t-quasar-man-coda" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">33t Quasar « man coda »</div>
             </div>
         </div>
         <div class="opp" id="opp-9">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973" onchange="updateBlacklist()">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/8233935319-ian-carr-with-nucleus-labyrinth-vinyle" onchange="updateBlacklist()">
                 <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">Aquarius y Luiz Antonio - Brasil Aquarius</div>
-                <div class="opp-ref">Ref : <b>120.0€</b> chez Victor Kiswell</div>
+                <div class="opp-title">Ian Carr & Nucleus - Labyrinth</div>
+                <div class="opp-ref">Ref : <b>150.0€</b> chez Victor Kiswell</div>
                 <div class="opp-found">
-                    Trouvé : <b>80.0€</b> sur vinted.fr
-                    — marge <b>40.0€ (33%)</b>
+                    Trouvé : <b>90.0€</b> sur vinted.fr
+                    — marge <b>60.0€ (40%)</b>
                 </div>
-                <a class="opp-link" href="https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">Aquarius Y Luiz Antonio "Brasil LP" Bossanova Latin Spain Ariola 1973</div>
+                <a class="opp-link" href="https://www.vinted.fr/items/8233935319-ian-carr-with-nucleus-labyrinth-vinyle" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Ian Carr With Nucleus – Labyrinth - Vinyle</div>
+            </div>
+        </div>
+        <div class="opp" id="opp-10">
+            <label class="opp-label">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/5357354036-herbie-hancock-flood" onchange="updateBlacklist()">
+                <span class="opp-seen">Déjà vu</span>
+            </label>
+            <div class="opp-body">
+                <div class="opp-title">Herbie Hancock - Flood</div>
+                <div class="opp-ref">Ref : <b>150.0€</b> chez Victor Kiswell</div>
+                <div class="opp-found">
+                    Trouvé : <b>92.0€</b> sur vinted.fr
+                    — marge <b>58.0€ (39%)</b>
+                </div>
+                <a class="opp-link" href="https://www.vinted.fr/items/5357354036-herbie-hancock-flood" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Herbie Hancock – Flood</div>
+            </div>
+        </div>
+        <div class="opp" id="opp-11">
+            <label class="opp-label">
+                <input type="checkbox" class="bl-check" data-url="https://www.vinted.fr/items/6894841230-sylvain-kassap-musiques-pour-la-tortue-magique" onchange="updateBlacklist()">
+                <span class="opp-seen">Déjà vu</span>
+            </label>
+            <div class="opp-body">
+                <div class="opp-title">Sylvain Kassap - Musiques pour la Tortue Magique</div>
+                <div class="opp-ref">Ref : <b>110.0€</b> chez Victor Kiswell</div>
+                <div class="opp-found">
+                    Trouvé : <b>54.0€</b> sur vinted.fr
+                    — marge <b>56.0€ (51%)</b>
+                </div>
+                <a class="opp-link" href="https://www.vinted.fr/items/6894841230-sylvain-kassap-musiques-pour-la-tortue-magique" target="_blank">Voir l'annonce →</a>
+                <div class="opp-found-title">Sylvain Kassap - Musiques Pour La Tortue Magique</div>
             </div>
         </div>
 
 <div class="section-title">🏪 0 croisement(s) Disques Anciens</div>
 <div class="empty">Aucun croisement ce run.</div>
 
+<div style="height:80px"></div>
+
 <div id="bl-panel">
-  <h3>📋 Blacklist à coller dans scout_blacklist.json sur GitHub</h3>
-  <textarea id="bl-json" readonly></textarea><br>
-  <button id="bl-copy" onclick="copyBlacklist()">Copier</button>
-  <span id="bl-copied">✓ Copié !</span>
-  <p style="color:#888;font-size:0.8em;margin-top:12px;">
-    Sur GitHub : ouvre <code>scout_blacklist.json</code> → Edit → remplace le contenu → Commit.
-  </p>
+  <h3>🚫 <span id="bl-count"></span> annonce(s) à blacklister</h3>
+  <div class="bl-actions">
+    <div>
+      <input type="password" id="gh-token" placeholder="GitHub Personal Access Token" autocomplete="off">
+      <div class="token-hint">Settings → Developer settings → Personal access tokens → repo</div>
+    </div>
+    <button id="bl-save" onclick="saveBlacklist()">💾 Sauvegarder sur GitHub</button>
+    <span id="bl-status"></span>
+  </div>
 </div>
 
 <script>
-const existingBlacklist = [];
+const REPO = "azerty2027/azerty01";
+const FILE = "scout_blacklist.json";
+let checkedUrls = [];
 
 function updateBlacklist() {
-  const checked = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
-  const all = [...new Set([...existingBlacklist, ...checked])];
+  checkedUrls = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
   document.querySelectorAll('.opp').forEach(el => {
     const url = el.querySelector('.bl-check')?.dataset.url;
-    el.classList.toggle('seen', checked.includes(url));
+    el.classList.toggle('seen', checkedUrls.includes(url));
   });
   const panel = document.getElementById('bl-panel');
   const count = document.getElementById('bl-count');
-  if (checked.length > 0) {
+  if (checkedUrls.length > 0) {
     panel.style.display = 'block';
-    document.getElementById('bl-json').value = JSON.stringify(all, null, 2);
-    count.textContent = checked.length + ' à blacklister';
-    count.style.display = 'inline';
+    count.textContent = checkedUrls.length;
   } else {
     panel.style.display = 'none';
-    count.style.display = 'none';
   }
 }
 
-function copyBlacklist() {
-  const ta = document.getElementById('bl-json');
-  ta.select();
-  navigator.clipboard.writeText(ta.value).then(() => {
-    const msg = document.getElementById('bl-copied');
-    msg.style.display = 'inline';
-    setTimeout(() => msg.style.display = 'none', 2000);
-  });
+async function saveBlacklist() {
+  const token = document.getElementById('gh-token').value.trim();
+  if (!token) { setStatus('⚠️ Entre ton token GitHub', '#f90'); return; }
+  const btn = document.getElementById('bl-save');
+  btn.disabled = true;
+  setStatus('Récupération blacklist actuelle...', '#aaa');
+
+  try {
+    // 1. Récupérer le fichier actuel pour avoir le SHA
+    const getRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    let sha = null;
+    let existing = [];
+    if (getRes.ok) {
+      const data = await getRes.json();
+      sha = data.sha;
+      try { existing = JSON.parse(atob(data.content)); } catch(e) {}
+    }
+
+    // 2. Fusionner avec les nouvelles URLs
+    const merged = [...new Set([...existing, ...checkedUrls])];
+
+    // 3. Commit
+    setStatus('Sauvegarde en cours...', '#aaa');
+    const body = { message: `Blacklist mise à jour (+${checkedUrls.length})`, content: btoa(JSON.stringify(merged, null, 2)) };
+    if (sha) body.sha = sha;
+    const putRes = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (putRes.ok) {
+      setStatus(`✅ ${merged.length} URLs blacklistées sur GitHub`, '#4fc');
+      document.getElementById('gh-token').value = '';
+    } else {
+      const err = await putRes.json();
+      setStatus('❌ Erreur : ' + (err.message || putRes.status), '#f44');
+    }
+  } catch(e) {
+    setStatus('❌ ' + e.message, '#f44');
+  }
+  btn.disabled = false;
+}
+
+function setStatus(msg, color) {
+  const el = document.getElementById('bl-status');
+  el.textContent = msg;
+  el.style.color = color;
 }
 </script>
 </body>

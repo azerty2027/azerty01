@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 17:18
+# VINYL SCOUT — Rapport du 09/03/2026 21:37
 
-**Base : 432 disques | Actifs : 402 | Batch : 51–100 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 101–150 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,57 +8,67 @@
 
 ---
 
-## 🔴 10 OPPORTUNITES MARCHE
+## 🔴 12 OPPORTUNITES MARCHE
 
-### Minoru Muraoka - Bamboo
+### Rajesh - Infinite Fusion – Explorations In Musical Syntheses
 - **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **470.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019)
+- **Trouve** : 185.0€ sur vinted.fr — marge potentielle **315.0€ (63%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7957781675-rajesh-infinite-fusion-explorations-in-musical-syntheses)
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **435.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl)
+### Horace Tapscott & The Pan Afrikan Peoples Arkestra - Live at I.U.C.C.
+- **Ref** : 300.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **275.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8249931642-horace-tapscott-flight-17-2xlp-e-pan-afrikan-peoples-arkestra)
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **350.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp)
+### Subversion - Subversion
+- **Ref** : 250.0€ chez Victor Kiswell
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **205.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7603915038-decibelios-kaos-oi-y-subversion-33tlp-1996-punk-oi)
 
-### Grupo Oz - Grupo Oz
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 31.0€ sur paruvendu.fr — marge potentielle **149.0€ (83%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000)
+### Carlo Rustichelli - Stuntman
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8086056801-stuntman-di-carlo-rustichelli-lp-vinile)
 
-### Jamisen Funk - Jamisen Funk
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **130.0€ (59%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl)
+### Ian Carr & Nucleus - Labyrinth
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7806305781-ian-carr-with-nucleus-labyrinth)
 
-### Daniel Grau - El Leon Bailarin
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **100.01€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7696274889-daniel-grau-el-leon-bailarin-lp-album-europe-2016-disco-funk-cosmic)
+### Gregory James Edition - Prophets of Soul
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **82.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7533413462-gregory-james-edition-prophets-of-soul-lp-70s-funk)
 
-### Pedro Iturralde - Jazz Flamenco
+### Quasar - Man Coda
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4985642361-disque-vynil-de-quasar-man-coda-trajectory-jamais-ecoute-scelle)
+
+### Ian Carr & Nucleus - Labyrinth
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 75.0€ sur vinted.fr — marge potentielle **75.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8009099751-ian-carr-with-nucleus-labyrinth-o-uk-1973)
+
+### Quasar - Man Coda
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6444170905-33t-quasar-man-coda)
+
+### Ian Carr & Nucleus - Labyrinth
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8233935319-ian-carr-with-nucleus-labyrinth-vinyle)
+
+### Herbie Hancock - Flood
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 92.0€ sur vinted.fr — marge potentielle **58.0€ (39%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5357354036-herbie-hancock-flood)
+
+### Sylvain Kassap - Musiques pour la Tortue Magique
 - **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **84.0€ (76%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5487236588-pedro-iturralde-flamenco-jazz-vinilo-lp)
-
-### Pedro Iturralde - Jazz Flamenco
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 38.99€ sur vinted.fr — marge potentielle **71.00999999999999€ (65%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz)
-
-### Aquarius y Luiz Antonio - Brasil Aquarius
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 73.0€ sur vinted.fr — marge potentielle **47.0€ (39%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973)
-
-### Aquarius y Luiz Antonio - Brasil Aquarius
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973)
+- **Trouve** : 54.0€ sur vinted.fr — marge potentielle **56.0€ (51%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6894841230-sylvain-kassap-musiques-pour-la-tortue-magique)
 
 ---
 ## Catalogue complet
