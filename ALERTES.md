@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 14:22
+# VINYL SCOUT — Rapport du 09/03/2026 15:41
 
-**Base : 432 disques | Actifs : 402 | Batch : 401–402 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 1–50 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,27 +8,97 @@
 
 ---
 
-## 🔴 4 OPPORTUNITES MARCHE
+## 🔴 18 OPPORTUNITES MARCHE
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **70.0€ (88%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5455304660-45t-ilous)
+### Fabriano Fuzion - Cosmik Sindika
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **195.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7453877323-fabriano-fuzion-cosmik-sindika)
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 23.0€ sur vinted.fr — marge potentielle **57.0€ (71%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4894904081-vinyle-ilous-et-decuyper)
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 2.0€ sur vinted.fr — marge potentielle **128.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7228049002-the-ritchie-family-quiet-village-voodoo)
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **40.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7094772723-ilous-et-decuyper)
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 2.0€ sur vinted.fr — marge potentielle **128.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2208577507-t45124-the-rich-family)
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **35.0€ (44%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7985768670-vinyle-ilous-decuyper)
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 4.9€ sur vinted.fr — marge potentielle **125.1€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5901361289-the-ritchie-family-quiet-village-voodoo)
+
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **120.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8256889702-vinyl-45t-the-ritchie-family-quiet-village-voodoo)
+
+### Assagai - Assagai
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7208245405-assagai-assagai-lp-album-re)
+
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **105.0€ (81%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6790758008-lp-don-tracy-a-night-with-the-voodoo-family)
+
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **100.0€ (77%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4236848505-vinyle-33t-voodoo-family)
+
+### Salah Ragab - Salah Ragab
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **81.0€ (81%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7743243763-salah-ragab-and-cairo-jazz-band-egypt-egypt)
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
+
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8094191865-ofege-try-and-love-vinyle-lp-33-tours)
+
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **80.0€ (62%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8092157892-voodoo-family)
+
+### Luis Paniagua - De magico acuerdo
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **75.0€ (62%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6103477964-vinilo-lp-luis-paniagua-de-magico-acuerdo-1986)
+
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **75.0€ (58%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7767651223-voodoo-family-afro-funk)
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
+
+### Luis Paniagua - De magico acuerdo
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **50.0€ (42%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8005499403-luis-paniagua-de-magico-acuerdo-lp-folk-experimental-spain-nuevos-medios-1986)
+
+### Salah Ragab - Salah Ragab
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **50.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3276266468-salah-ragab-and-the-cairo-jazz-band-egyptian-jazz)
+
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8290997842-ofege-try-and-love-original-ghana-psych-afro-funk-rare)
 
 ---
 ## Catalogue complet
