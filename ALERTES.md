@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 10/03/2026 10:34
+# VINYL SCOUT — Rapport du 10/03/2026 21:45
 
-**Base : 432 disques | Actifs : 402 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 401 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,132 +8,107 @@
 
 ---
 
-## 🔴 25 OPPORTUNITES MARCHE
+## 🔴 20 OPPORTUNITES MARCHE
 
-### Armando Trovajoli - Il grande colpo dei 7 uomini d’oro
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **195.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8088232441-armando-trovajoli-il-grande-colpo-dei-7-uomini-doro)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **530.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6800745696-the-rough-guide-to-desert-blues-lp-tinariwen-ali-farka-toure)
 
-### Michel Colombier - L’héritier
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **185.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6820781566-michel-colombier)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **526.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8103224071-ali-farka-toure-special-biennale-du-mali-lp)
 
-### Ennio Morricone - Revolver
-- **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **180.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/1162646631-lot-6-disques-vinyles-succes-chanson-francaise-bo-parrain-morricone-vartan-africa)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7990028182-kruangbin-and-vieux-farka-toure-ali-vinyl-lp)
 
-### Ennio Morricone - Revolver
-- **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 42.0€ sur vinted.fr — marge potentielle **158.0€ (79%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7221774580-ennio-morricone)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7684498495-ali-toure-farka-lp-vinile)
 
-### Nico Fidenco - Emanuelle in America
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **150.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7085979146-emanuelle-in-america-nico-fidenco-lp-original-soundtrack)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **520.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7437701191-vinyle-ali-farka-toure)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **147.0€ (98%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3988559393-bizarre-inc-time-to-get-funky-remix)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 32.0€ sur vinted.fr — marge potentielle **518.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7437751699-vinyle-ali-farka-toure)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **144.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5550773332-bizarre-inc-time-to-get-funky-remix-12-single)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 59.99€ sur vinted.fr — marge potentielle **490.01€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7169602358-vinyle-vieux-farka-toure-khruangbin-ali-edition-limitee-sunshine-179500-neuf-sous-blister)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 9.0€ sur vinted.fr — marge potentielle **141.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8321317171-bizarre-inc-feat-double-trouble-time-to-get-funky-remix-uk89)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **480.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8230972446-rare-vinyl-ali-farka-toure-toumani-diabate-in-the-heart-of-the-moon)
 
-### Gil Melle - Andromeda Strain
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **140.0€ (78%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4697585986-the-andromeda-strain-1971-sf-japan-movie-program)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 99.0€ sur vinted.fr — marge potentielle **451.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7864154583-ali-farka-toure-with-ry-cooder-talking-timbuktu-2xvinyl)
 
-### Nef - Mais alors c’est à l’envers
-- **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **135.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8122462400-nef-mais-alors-cest-a-lenvers-ristampa-2019-apparition-a-lendroit)
+### Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy)
+- **Ref** : 450.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **420.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8059875138-armando-trovaioli-una-magnum-special-per-tony-saitta-lp)
 
-### Gilbert Artman - Lard Free
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **131.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8312596641-like-new-urban-sax-2-edition-1986-vinyl-lp-gilbert-artman-lard-free-prog-experimental)
+### Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)
+- **Ref** : 250.0€ chez Digger's Digest
+- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **238.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4771654879-jean-luc-ponty-fables-lp1985)
 
-### Gilbert Artman - Lard Free
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **130.01€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6893609145-urban-sax-2-lp-vinyle-33t-cobra-37017-france-1978-gilbert-artman-lard-free-nm)
+### Jason Havelock - Pop Symphony
+- **Ref** : 250.0€ chez Victor Kiswell
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **150.0€ (60%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7651134622-jason-havelock-pop-symphony)
 
-### Francis Lai - Madly
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4703893559-soundtrack-45-tours-madly)
+### Jason Havelock - Pop Symphony
+- **Ref** : 250.0€ chez Victor Kiswell
+- **Trouve** : 140.0€ sur vinted.fr — marge potentielle **110.0€ (44%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3959533385-jason-havelock-pop-symphony-jazz-funk-prog-psych-rare-japan-press-lp)
 
-### Stelvio Cipriani - Timanfaya
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **110.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7078023314-stelvio-cipriani-single-timanfaya-1972)
+### Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)
+- **Ref** : 220.0€ chez Digger's Digest
+- **Trouve** : 110.0€ sur vinted.fr — marge potentielle **110.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7876708703-can-ege-bamyasi-lp-krautrock-original-france)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 52.0€ sur vinted.fr — marge potentielle **98.0€ (65%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7579837899-bizarre-ride-ii-the-pharcyde-couleur-edition-blue-yellow)
+### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Trouve** : 22.0€ sur vinted.fr — marge potentielle **98.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6563410010-vinyle-fela-ransome-kuti-felas-london-scene)
 
-### Serge Gainsbourg - Histoire de Melody Nelson
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 60.0€ sur paruvendu.fr — marge potentielle **90.0€ (60%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/serge-gainsbourg-album-vinyle-33-t-pressage-original-de--fourmies-59610/1287546539A1KBMECV000)
+### Structure - Pop Music
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **90.0€ (69%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7154047470-vynile-rare-structure-pop-music)
 
-### Brigitte Fontaine et Areski Belkacem - Vous et nous
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **75.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8323405826-vinyle-brigitte-fontaine)
+### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Trouve** : 39.0€ sur vinted.fr — marge potentielle **81.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4730672314-fela-ransome-kuti-and-the-africa-70-with-ginger-baker)
 
-### Ennio Morricone - Cosa avete fatto a Solange
-- **Ref** : 120.0€ chez Victor Kiswell
+### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6027584420-fela-ransome-kuti-and-the-africa-70-with-ginger-baker-live-emi-lp-album-re)
+
+### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
+- **Ref** : 120.0€ chez Digger's Digest
 - **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8307110030-ennio-morricone-un-mondo-di-musica-9xlp-italy-1974)
+- [Voir l'annonce](https://www.vinted.fr/items/7492213461-disco-vinile-fela-ransomekuti-africa-70-band-ginger-baker-1971-live-rare-collection)
 
-### Michel Colombier - L’héritier
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **70.0€ (32%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3471804665-lheritier-michel-colombier-neuf)
-
-### Francis Lai - Madly
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **70.0€ (47%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7538901029-33t-alain-delon-francis-lai-pas-de-vinted-go-merci)
-
-### Nico Fidenco - Emanuelle perche’ violenza alle donne ?
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **65.0€ (54%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4201256351-vinyle-nico-fidenco-emanuelle-perche-violenza-alle-donne)
-
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4127517311-sabbat-history-of-a-time-to-come-lp)
-
-### Babia - Oriente – Occidente
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **55.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3325824414-babia-oriente-occidente-1o-edicion-1982-lp-disco-vinilo)
-
-### Serge Gainsbourg - Histoire de Melody Nelson
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 95.0€ sur paruvendu.fr — marge potentielle **55.0€ (37%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-serge-gainsbourg-histoire-de-melody-nelson-nantes-44000/1210213509A1KBMECV000)
-
-### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
+### Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 49.99€ sur vinted.fr — marge potentielle **50.01€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8133848755-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa-lp)
+- **Trouve** : 59.0€ sur vinted.fr — marge potentielle **41.0€ (41%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7896296420-jean-cohen-solal-flutes-libres-vinyl)
 
 ---
 ## Catalogue complet
@@ -246,7 +221,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 32 disponibles, 0 vendus
+### SOFA Records — 31 disponibles, 0 vendus
 
 - **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
@@ -278,7 +253,6 @@
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Rico - mwen domi dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
-- **70.0€** — Os Tatuis - os tatuís — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
 ### Superfly Records — 1 disponibles, 0 vendus
