@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 10/03/2026 08:51
+# VINYL SCOUT — Rapport du 10/03/2026 10:34
 
-**Base : 432 disques | Actifs : 402 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,52 +8,132 @@
 
 ---
 
-## 🔴 9 OPPORTUNITES MARCHE
+## 🔴 25 OPPORTUNITES MARCHE
 
-### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 27.9€ sur vinted.fr — marge potentielle **222.1€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6502769154-lp-the-keith-tippett-group-dedicated-to-youbut-you-werent-listening-made-italy)
+### Armando Trovajoli - Il grande colpo dei 7 uomini d’oro
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **195.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8088232441-armando-trovajoli-il-grande-colpo-dei-7-uomini-doro)
 
-### Chene Noir - Orphée 2000
+### Michel Colombier - L’héritier
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **185.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6820781566-michel-colombier)
+
+### Ennio Morricone - Revolver
 - **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **190.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8296551101-vinyl-spiritual-jazz-francais-neuf-chene-noir-orphee-2000)
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **180.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/1162646631-lot-6-disques-vinyles-succes-chanson-francaise-bo-parrain-morricone-vartan-africa)
 
-### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **170.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7123110157-keith-tippett-group-dedicated-to-you-but-you-warent-listening-1971-german-press)
+### Ennio Morricone - Revolver
+- **Ref** : 200.0€ chez Victor Kiswell
+- **Trouve** : 42.0€ sur vinted.fr — marge potentielle **158.0€ (79%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7221774580-ennio-morricone)
 
-### Stefano Marcucci - Tempo di demoni, papi, angioli, incensi e cilici
+### Nico Fidenco - Emanuelle in America
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **150.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7085979146-emanuelle-in-america-nico-fidenco-lp-original-soundtrack)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 16.0€ sur vinted.fr — marge potentielle **134.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8063997551-vinyl-25cm-10-stefano-marcucci-tempo-di-demoni-folk-soundtrack-ost)
+- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **147.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3988559393-bizarre-inc-time-to-get-funky-remix)
 
-### Stelvio Cipriani / Ennio Morricone / Mario Molino / Luis Bacalov - Giallo 2 (Suspence – Drammatico) – Thriller 2
+### Bizarre Ko.Ko.Ko. - 00 Time
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **144.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5550773332-bizarre-inc-time-to-get-funky-remix-12-single)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 9.0€ sur vinted.fr — marge potentielle **141.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8321317171-bizarre-inc-feat-double-trouble-time-to-get-funky-remix-uk89)
+
+### Gil Melle - Andromeda Strain
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **140.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4697585986-the-andromeda-strain-1971-sf-japan-movie-program)
+
+### Nef - Mais alors c’est à l’envers
+- **Ref** : 200.0€ chez Victor Kiswell
+- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **135.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8122462400-nef-mais-alors-cest-a-lenvers-ristampa-2019-apparition-a-lendroit)
+
+### Gilbert Artman - Lard Free
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **131.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8312596641-like-new-urban-sax-2-edition-1986-vinyl-lp-gilbert-artman-lard-free-prog-experimental)
+
+### Gilbert Artman - Lard Free
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **130.01€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6893609145-urban-sax-2-lp-vinyle-33t-cobra-37017-france-1978-gilbert-artman-lard-free-nm)
+
+### Francis Lai - Madly
 - **Ref** : 150.0€ chez Victor Kiswell
 - **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8137466999-ennio-morricone-vinile-orig-raro)
+- [Voir l'annonce](https://www.vinted.fr/items/4703893559-soundtrack-45-tours-madly)
 
-### Art Ensemble of Chicago - Les stances à Sophie
+### Stelvio Cipriani - Timanfaya
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **110.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7078023314-stelvio-cipriani-single-timanfaya-1972)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **110.0€ (73%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8172211288-the-art-ensemble-of-chicago-les-stances-a-sophie)
+- **Trouve** : 52.0€ sur vinted.fr — marge potentielle **98.0€ (65%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7579837899-bizarre-ride-ii-the-pharcyde-couleur-edition-blue-yellow)
 
-### Art Ensemble of Chicago - Les stances à Sophie
+### Serge Gainsbourg - Histoire de Melody Nelson
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 49.0€ sur vinted.fr — marge potentielle **101.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8326066646-art-ensemble-of-chicago-les-stances-a-sophie-vinyle-2018-soul-jazz)
+- **Trouve** : 60.0€ sur paruvendu.fr — marge potentielle **90.0€ (60%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/serge-gainsbourg-album-vinyle-33-t-pressage-original-de--fourmies-59610/1287546539A1KBMECV000)
 
-### James Tatum - Live
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **88.0€ (88%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7994165453-james-brown-live-at-the-apollo)
+### Brigitte Fontaine et Areski Belkacem - Vous et nous
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **75.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8323405826-vinyle-brigitte-fontaine)
 
-### Bullet - The Hanged Man
+### Ennio Morricone - Cosa avete fatto a Solange
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8307110030-ennio-morricone-un-mondo-di-musica-9xlp-italy-1974)
+
+### Michel Colombier - L’héritier
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **70.0€ (32%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3471804665-lheritier-michel-colombier-neuf)
+
+### Francis Lai - Madly
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **70.0€ (47%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7538901029-33t-alain-delon-francis-lai-pas-de-vinted-go-merci)
+
+### Nico Fidenco - Emanuelle perche’ violenza alle donne ?
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **65.0€ (54%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4201256351-vinyle-nico-fidenco-emanuelle-perche-violenza-alle-donne)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4127517311-sabbat-history-of-a-time-to-come-lp)
+
+### Babia - Oriente – Occidente
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **55.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3325824414-babia-oriente-occidente-1o-edicion-1982-lp-disco-vinilo)
+
+### Serge Gainsbourg - Histoire de Melody Nelson
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 95.0€ sur paruvendu.fr — marge potentielle **55.0€ (37%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-serge-gainsbourg-histoire-de-melody-nelson-nantes-44000/1210213509A1KBMECV000)
+
+### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 27.0€ sur vinted.fr — marge potentielle **73.0€ (73%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7936286331-the-hanged-man-vinile-lp)
+- **Trouve** : 49.99€ sur vinted.fr — marge potentielle **50.01€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8133848755-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa-lp)
 
 ---
 ## Catalogue complet
