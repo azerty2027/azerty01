@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/03/2026 21:37
+# VINYL SCOUT — Rapport du 10/03/2026 08:51
 
-**Base : 432 disques | Actifs : 402 | Batch : 101–150 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 402 | Batch : 151–200 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,67 +8,52 @@
 
 ---
 
-## 🔴 12 OPPORTUNITES MARCHE
+## 🔴 9 OPPORTUNITES MARCHE
 
-### Rajesh - Infinite Fusion – Explorations In Musical Syntheses
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 185.0€ sur vinted.fr — marge potentielle **315.0€ (63%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7957781675-rajesh-infinite-fusion-explorations-in-musical-syntheses)
-
-### Horace Tapscott & The Pan Afrikan Peoples Arkestra - Live at I.U.C.C.
-- **Ref** : 300.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **275.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8249931642-horace-tapscott-flight-17-2xlp-e-pan-afrikan-peoples-arkestra)
-
-### Subversion - Subversion
+### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
 - **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **205.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7603915038-decibelios-kaos-oi-y-subversion-33tlp-1996-punk-oi)
+- **Trouve** : 27.9€ sur vinted.fr — marge potentielle **222.1€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6502769154-lp-the-keith-tippett-group-dedicated-to-youbut-you-werent-listening-made-italy)
 
-### Carlo Rustichelli - Stuntman
+### Chene Noir - Orphée 2000
+- **Ref** : 200.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **190.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8296551101-vinyl-spiritual-jazz-francais-neuf-chene-noir-orphee-2000)
+
+### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
+- **Ref** : 250.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **170.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7123110157-keith-tippett-group-dedicated-to-you-but-you-warent-listening-1971-german-press)
+
+### Stefano Marcucci - Tempo di demoni, papi, angioli, incensi e cilici
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8086056801-stuntman-di-carlo-rustichelli-lp-vinile)
+- **Trouve** : 16.0€ sur vinted.fr — marge potentielle **134.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8063997551-vinyl-25cm-10-stefano-marcucci-tempo-di-demoni-folk-soundtrack-ost)
 
-### Ian Carr & Nucleus - Labyrinth
+### Stelvio Cipriani / Ennio Morricone / Mario Molino / Luis Bacalov - Giallo 2 (Suspence – Drammatico) – Thriller 2
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7806305781-ian-carr-with-nucleus-labyrinth)
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8137466999-ennio-morricone-vinile-orig-raro)
 
-### Gregory James Edition - Prophets of Soul
+### Art Ensemble of Chicago - Les stances à Sophie
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **110.0€ (73%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8172211288-the-art-ensemble-of-chicago-les-stances-a-sophie)
+
+### Art Ensemble of Chicago - Les stances à Sophie
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 49.0€ sur vinted.fr — marge potentielle **101.0€ (67%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8326066646-art-ensemble-of-chicago-les-stances-a-sophie-vinyle-2018-soul-jazz)
+
+### James Tatum - Live
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **82.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7533413462-gregory-james-edition-prophets-of-soul-lp-70s-funk)
+- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **88.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7994165453-james-brown-live-at-the-apollo)
 
-### Quasar - Man Coda
+### Bullet - The Hanged Man
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4985642361-disque-vynil-de-quasar-man-coda-trajectory-jamais-ecoute-scelle)
-
-### Ian Carr & Nucleus - Labyrinth
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 75.0€ sur vinted.fr — marge potentielle **75.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8009099751-ian-carr-with-nucleus-labyrinth-o-uk-1973)
-
-### Quasar - Man Coda
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6444170905-33t-quasar-man-coda)
-
-### Ian Carr & Nucleus - Labyrinth
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8233935319-ian-carr-with-nucleus-labyrinth-vinyle)
-
-### Herbie Hancock - Flood
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 92.0€ sur vinted.fr — marge potentielle **58.0€ (39%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5357354036-herbie-hancock-flood)
-
-### Sylvain Kassap - Musiques pour la Tortue Magique
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 54.0€ sur vinted.fr — marge potentielle **56.0€ (51%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6894841230-sylvain-kassap-musiques-pour-la-tortue-magique)
+- **Trouve** : 27.0€ sur vinted.fr — marge potentielle **73.0€ (73%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7936286331-the-hanged-man-vinile-lp)
 
 ---
 ## Catalogue complet
