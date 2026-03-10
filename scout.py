@@ -895,7 +895,11 @@ async function saveBlacklist() {{
     if (getRes.ok) {{
       const data = await getRes.json();
       sha = data.sha;
-      try {{ existing = JSON.parse(atob(data.content)); }} catch(e) {{}}
+      try {{
+        const clean = (data.content || '').replace(/\\s/g, '');
+        const parsed = JSON.parse(atob(clean));
+        existing = Array.isArray(parsed) ? parsed : [];
+      }} catch(e) {{ existing = []; }}
     }}
 
     // 2. Fusionner avec les nouvelles URLs
