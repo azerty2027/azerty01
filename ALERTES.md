@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 10/03/2026 21:45
+# VINYL SCOUT — Rapport du 11/03/2026 10:36
 
-**Base : 432 disques | Actifs : 401 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 401 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,107 +8,67 @@
 
 ---
 
-## 🔴 20 OPPORTUNITES MARCHE
+## 🔴 12 OPPORTUNITES MARCHE
 
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **530.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6800745696-the-rough-guide-to-desert-blues-lp-tinariwen-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **526.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8103224071-ali-farka-toure-special-biennale-du-mali-lp)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7990028182-kruangbin-and-vieux-farka-toure-ali-vinyl-lp)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **525.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7684498495-ali-toure-farka-lp-vinile)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **520.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7437701191-vinyle-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 32.0€ sur vinted.fr — marge potentielle **518.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7437751699-vinyle-ali-farka-toure)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 59.99€ sur vinted.fr — marge potentielle **490.01€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7169602358-vinyle-vieux-farka-toure-khruangbin-ali-edition-limitee-sunshine-179500-neuf-sous-blister)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **480.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8230972446-rare-vinyl-ali-farka-toure-toumani-diabate-in-the-heart-of-the-moon)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 99.0€ sur vinted.fr — marge potentielle **451.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7864154583-ali-farka-toure-with-ry-cooder-talking-timbuktu-2xvinyl)
-
-### Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy)
+### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
 - **Ref** : 450.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **420.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8059875138-armando-trovaioli-una-magnum-special-per-tony-saitta-lp)
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
 
-### Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)
-- **Ref** : 250.0€ chez Digger's Digest
-- **Trouve** : 12.0€ sur vinted.fr — marge potentielle **238.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4771654879-jean-luc-ponty-fables-lp1985)
+### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7787446587-vinil-between-and-the-waters-opened)
 
-### Jason Havelock - Pop Symphony
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **150.0€ (60%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7651134622-jason-havelock-pop-symphony)
+### Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8277374017-vinyl-lp-lintercommunal-free-dance-music-orchestra-free-jazz)
 
-### Jason Havelock - Pop Symphony
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 140.0€ sur vinted.fr — marge potentielle **110.0€ (44%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3959533385-jason-havelock-pop-symphony-jazz-funk-prog-psych-rare-japan-press-lp)
+### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **355.0€ (91%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2512560711-lp-between-and-the-waters-opened)
 
-### Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)
+### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
+
+### Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **250.0€ (71%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7694868948-le-theatre-du-chene-noir-miss-madona-1973)
+
+### Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)
 - **Ref** : 220.0€ chez Digger's Digest
-- **Trouve** : 110.0€ sur vinted.fr — marge potentielle **110.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7876708703-can-ege-bamyasi-lp-krautrock-original-france)
+- **Trouve** : 16.5€ sur vinted.fr — marge potentielle **203.5€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8198670596-septet-matchi-oul-terremoto-vinyle-french-free-jazz)
 
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 22.0€ sur vinted.fr — marge potentielle **98.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6563410010-vinyle-fela-ransome-kuti-felas-london-scene)
+### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **160.0€ (46%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188856905-chene-noir-orphee-2000-1976-lp)
 
-### Structure - Pop Music
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **90.0€ (69%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7154047470-vynile-rare-structure-pop-music)
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 175.0€ sur vinted.fr — marge potentielle **145.0€ (45%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7588374673-vinyle-musique-experimental-avant-garde-francaise-de-chene-noir)
 
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 39.0€ sur vinted.fr — marge potentielle **81.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4730672314-fela-ransome-kuti-and-the-africa-70-with-ginger-baker)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051913673-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
 
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6027584420-fela-ransome-kuti-and-the-africa-70-with-ginger-baker-live-emi-lp-album-re)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051914766-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
 
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7492213461-disco-vinile-fela-ransomekuti-africa-70-band-ginger-baker-1971-live-rare-collection)
-
-### Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 59.0€ sur vinted.fr — marge potentielle **41.0€ (41%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7896296420-jean-cohen-solal-flutes-libres-vinyl)
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **130.0€ (41%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188655237-chene-noir-disques-volume-1-chant)
 
 ---
 ## Catalogue complet
