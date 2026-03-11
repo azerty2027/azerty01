@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 11/03/2026 10:36
+# VINYL SCOUT — Rapport du 11/03/2026 12:59
 
-**Base : 432 disques | Actifs : 401 | Batch : 301–350 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 401 | Batch : 351–400 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,67 +8,142 @@
 
 ---
 
-## 🔴 12 OPPORTUNITES MARCHE
+## 🔴 27 OPPORTUNITES MARCHE
 
-### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
-- **Ref** : 450.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
+### Manu Dibango - African Voodoo (PSI, 1972)
+- **Ref** : 790.0€ chez Digger's Digest
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **690.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7097430031-manu-dibango-african-voodoo-33t)
 
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+### Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959)
+- **Ref** : 390.0€ chez Digger's Digest
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **380.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2564638190-45-tours-barney-wilen-lino-ventura-un-temoin-dans-la-villepromo)
+
+### Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959)
 - **Ref** : 390.0€ chez Digger's Digest
 - **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7787446587-vinil-between-and-the-waters-opened)
+- [Voir l'annonce](https://www.vinted.fr/items/6175758219-vinyle-miles-davis-quintet-art-blakey-and-the-jazz-messengers-barney-wilen-jazz-sur-lecran)
 
-### Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.
-- **Ref** : 390.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8277374017-vinyl-lp-lintercommunal-free-dance-music-orchestra-free-jazz)
-
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
-- **Ref** : 390.0€ chez Digger's Digest
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **355.0€ (91%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2512560711-lp-between-and-the-waters-opened)
-
-### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
-
-### Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **250.0€ (71%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7694868948-le-theatre-du-chene-noir-miss-madona-1973)
-
-### Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)
-- **Ref** : 220.0€ chez Digger's Digest
-- **Trouve** : 16.5€ sur vinted.fr — marge potentielle **203.5€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8198670596-septet-matchi-oul-terremoto-vinyle-french-free-jazz)
-
-### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **160.0€ (46%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8188856905-chene-noir-orphee-2000-1976-lp)
-
-### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
 - **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 175.0€ sur vinted.fr — marge potentielle **145.0€ (45%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7588374673-vinyle-musique-experimental-avant-garde-francaise-de-chene-noir)
+- **Trouve** : 19.0€ sur paruvendu.fr — marge potentielle **301.0€ (94%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/eddy-louiss-multicolor-feeling-fanfare-nantes-44000/1210223778A1KBMECV000)
 
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7051913673-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
-
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7051914766-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
-
-### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
 - **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **130.0€ (41%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8188655237-chene-noir-disques-volume-1-chant)
+- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **197.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2878150455-rhesus-bouddha)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 5.0€ sur vinted.fr — marge potentielle **195.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5308018179-rhesus-night-zone)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 5.0€ sur vinted.fr — marge potentielle **195.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6188587048-rhesus-retro-dikirecords)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 8.0€ sur vinted.fr — marge potentielle **192.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6000538805-label-atomic-techno-26-rhesus-night-zone-etat-vinyl-vg)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 11.9€ sur vinted.fr — marge potentielle **188.1€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5334690558-rhesus-o-rhesus-o)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **185.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4937019040-techno-rhesus-night-zone-electrostatic)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **175.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6802069915-rhesus-o)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7445062312-moving-gelatine-plates-1lp-scelle)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7783553856-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7783551436-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6437807890-moving-gelatine-plates-scelle)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **152.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5931265033-33t-moving-gelatine-plates-the-world-of-genius-hans)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **152.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6468034063-lp-moving-gelatine-plates)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **150.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8261186235-moving-gelatine-plates-lp)
+
+### Jimmy Blanche - dou van jou
+- **Ref** : 180.0€ chez SOFA Records
+- **Trouve** : 82.5€ sur vinted.fr — marge potentielle **97.5€ (54%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5705320176-jimmy-blanche-dou-van-jou-lp-vinilo-african)
+
+### Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971)
+- **Ref** : 200.0€ chez Digger's Digest
+- **Trouve** : 125.0€ sur vinted.fr — marge potentielle **75.0€ (38%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7883326778-rare-rhesus-o-rhesus-o-og-lp-vinyl)
+
+### Fela Kuti & Africa 70 - zombie
+- **Ref** : 110.0€ chez SOFA Records
+- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **72.0€ (65%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8252259287-fela-and-africa-70-zombie-maxi-promo)
+
+### Cohelmec Ensemble - next
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **60.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8352139417-cohelmec-ensemble-next)
+
+### Cohelmec Ensemble - next
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **60.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6902229907-cohelmec-ensemble-next-lp-vinyl-pror-jazz-experimental)
+
+### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
+- **Ref** : 90.0€ chez SOFA Records
+- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
+
+### Cohelmec Ensemble - next
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **30.0€ (38%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8302692504-lp-raro-cohelmec-ensemble-next-prog-jazz-rock-francese)
 
 ---
 ## Catalogue complet
