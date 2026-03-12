@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 11/03/2026 21:35
+# VINYL SCOUT — Rapport du 12/03/2026 10:38
 
-**Base : 432 disques | Actifs : 401 | Batch : 1–50 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 401 | Batch : 51–100 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,112 +8,57 @@
 
 ---
 
-## 🔴 21 OPPORTUNITES MARCHE
+## 🔴 10 OPPORTUNITES MARCHE
 
-### Fabriano Fuzion - Cosmik Sindika
+### Minoru Muraoka - Bamboo
+- **Ref** : 500.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **470.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019)
+
+### Minoru Muraoka - Bamboo
+- **Ref** : 500.0€ chez Victor Kiswell
+- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **435.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl)
+
+### Minoru Muraoka - Bamboo
+- **Ref** : 500.0€ chez Victor Kiswell
+- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **350.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp)
+
+### Grupo Oz - Grupo Oz
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 31.0€ sur paruvendu.fr — marge potentielle **149.0€ (83%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000)
+
+### Jamisen Funk - Jamisen Funk
 - **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **195.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7453877323-fabriano-fuzion-cosmik-sindika)
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **130.0€ (59%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl)
 
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 1.0€ sur vinted.fr — marge potentielle **129.0€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5059292797-45-tours-the-ritchie-family-quiet-village-voodoo)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 1.5€ sur vinted.fr — marge potentielle **128.5€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8364580948-vinyle-45-tours-de-the-ritchie-family)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 2.0€ sur vinted.fr — marge potentielle **128.0€ (98%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7228049002-the-ritchie-family-quiet-village-voodoo)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 2.0€ sur vinted.fr — marge potentielle **128.0€ (98%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2208577507-t45124-the-rich-family)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 4.9€ sur vinted.fr — marge potentielle **125.1€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5901361289-the-ritchie-family-quiet-village-voodoo)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **120.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8256889702-vinyl-45t-the-ritchie-family-quiet-village-voodoo)
-
-### Assagai - Assagai
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7208245405-assagai-assagai-lp-album-re)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **105.0€ (81%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6790758008-lp-don-tracy-a-night-with-the-voodoo-family)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **100.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4236848505-vinyle-33t-voodoo-family)
-
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **92.0€ (71%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8353758337-pax-nicholas-and-the-nettey-family-na-teef-know-de-road-of-teef-lp)
-
-### Salah Ragab - Salah Ragab
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **81.0€ (81%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7743243763-salah-ragab-and-cairo-jazz-band-egypt-egypt)
-
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
-
-### Ofege - Try and Love
+### Daniel Grau - El Leon Bailarin
 - **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **80.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8094191865-ofege-try-and-love-vinyle-lp-33-tours)
+- **Trouve** : 19.99€ sur vinted.fr — marge potentielle **100.01€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7696274889-daniel-grau-el-leon-bailarin-lp-album-europe-2016-disco-funk-cosmic)
 
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **80.0€ (62%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8092157892-voodoo-family)
+### Pedro Iturralde - Jazz Flamenco
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **84.0€ (76%)**
+- [Voir l'annonce](https://www.vinted.fr/items/5487236588-pedro-iturralde-flamenco-jazz-vinilo-lp)
 
-### Luis Paniagua - De magico acuerdo
+### Pedro Iturralde - Jazz Flamenco
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 38.99€ sur vinted.fr — marge potentielle **71.00999999999999€ (65%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz)
+
+### Aquarius y Luiz Antonio - Brasil Aquarius
 - **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **75.0€ (62%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6103477964-vinilo-lp-luis-paniagua-de-magico-acuerdo-1986)
+- **Trouve** : 73.0€ sur vinted.fr — marge potentielle **47.0€ (39%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973)
 
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 55.0€ sur vinted.fr — marge potentielle **75.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7767651223-voodoo-family-afro-funk)
-
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **70.0€ (70%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4077166123-vinyle-maxi-45-tours-rpm-boncana-maiga)
-
-### Luis Paniagua - De magico acuerdo
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **50.0€ (42%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8005499403-luis-paniagua-de-magico-acuerdo-lp-folk-experimental-spain-nuevos-medios-1986)
-
-### Salah Ragab - Salah Ragab
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **50.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3276266468-salah-ragab-and-the-cairo-jazz-band-egyptian-jazz)
-
-### Ofege - Try and Love
+### Aquarius y Luiz Antonio - Brasil Aquarius
 - **Ref** : 120.0€ chez Victor Kiswell
 - **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8290997842-ofege-try-and-love-original-ghana-psych-afro-funk-rare)
+- [Voir l'annonce](https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973)
 
 ---
 ## Catalogue complet
