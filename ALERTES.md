@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 13/03/2026 08:13
+# VINYL SCOUT — Rapport du 13/03/2026 10:23
 
-**Base : 432 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 398 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,17 +8,7 @@
 
 ---
 
-## 🔴 2 OPPORTUNITES MARCHE
-
-### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **170.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7123110157-keith-tippett-group-dedicated-to-you-but-you-warent-listening-1971-german-press)
-
-### Stelvio Cipriani / Ennio Morricone / Mario Molino / Luis Bacalov - Giallo 2 (Suspence – Drammatico) – Thriller 2
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8137466999-ennio-morricone-vinile-orig-raro)
+## ✅ Aucune opportunite marche aujourd'hui
 
 ---
 ## Catalogue complet
