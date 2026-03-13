@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 13/03/2026 10:23
+# VINYL SCOUT — Rapport du 13/03/2026 16:17
 
-**Base : 432 disques | Actifs : 398 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 395 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -121,7 +121,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 31 disponibles, 0 vendus
+### SOFA Records — 29 disponibles, 0 vendus
 
 - **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
@@ -148,8 +148,6 @@
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **70.0€** — Ghana Soundz (various) - afro-beat funk and fusion in 70s ghana — [voir](https://www.sofarecords.fr/fr/ghana-soundz-various/afro-beat-funk-and-fusion-in-70s-ghana/p3023555870/)
 - **70.0€** — Senegal 70 (various) - sonic gems and previously unreleased recordings from the 70's — [voir](https://www.sofarecords.fr/fr/senegal-70-various/sonic-gems-and-previously-unreleased-recordings-from-the-70%27s/p3048567106/)
-- **70.0€** — African Pearls (various) - sénégal 70: musical effervescence — [voir](https://www.sofarecords.fr/fr/african-pearls-various/senegal-70-musical-effervescence/p3205364468/)
-- **70.0€** — African Pearls - guinée 70 : the discotheque years — [voir](https://www.sofarecords.fr/fr/african-pearls/guinee-70-the-discotheque-years/p3205347008/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Rico - mwen domi dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
@@ -159,7 +157,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 261 disponibles, 0 vendus
+### Victor Kiswell — 260 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -192,7 +190,6 @@
 - **250.0€** — Souheil Arafeh - Sufism from Old Damascus — [voir](http://www.victorkiswell.com/v3/?product=sufism-from-old-damascus)
 - **250.0€** — Minoru Muraoka - Shakuhachi Rock Matrooshen — [voir](http://www.victorkiswell.com/v3/?product=shakuhachi-rock-matrooshen)
 - **250.0€** — Jimmy Takeuchi - Drum Drum Drum – Japanese Folk Music — [voir](http://www.victorkiswell.com/v3/?product=drum-drum-drum-japanese-folk-music-3)
-- **250.0€** — Labi Siffre - Remember My Song — [voir](http://www.victorkiswell.com/v3/?product=remember-my-song)
 - **250.0€** — Clear Light Band (Joachim Sherylee) - Music Report — [voir](http://www.victorkiswell.com/v3/?product=music-report)
 - **250.0€** — Minoru Muraoka - Osorezan Suite — [voir](http://www.victorkiswell.com/v3/?product=osorezan-suite-3)
 - **250.0€** — Subversion - Subversion — [voir](http://www.victorkiswell.com/v3/?product=subversion)
