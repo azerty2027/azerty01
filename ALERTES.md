@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 12/03/2026 11:28
+# VINYL SCOUT — Rapport du 13/03/2026 08:13
 
-**Base : 432 disques | Actifs : 401 | Batch : 101–150 | Seuil achat : 70% du prix ref**
+**Base : 432 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,62 +8,17 @@
 
 ---
 
-## 🔴 11 OPPORTUNITES MARCHE
+## 🔴 2 OPPORTUNITES MARCHE
 
-### Rajesh - Infinite Fusion – Explorations In Musical Syntheses
-- **Ref** : 500.0€ chez Victor Kiswell
-- **Trouve** : 185.0€ sur vinted.fr — marge potentielle **315.0€ (63%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7957781675-rajesh-infinite-fusion-explorations-in-musical-syntheses)
-
-### Horace Tapscott & The Pan Afrikan Peoples Arkestra - Live at I.U.C.C.
-- **Ref** : 300.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **275.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8249931642-horace-tapscott-flight-17-2xlp-e-pan-afrikan-peoples-arkestra)
-
-### Subversion - Subversion
+### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
 - **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **205.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7603915038-decibelios-kaos-oi-y-subversion-33tlp-1996-punk-oi)
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **170.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7123110157-keith-tippett-group-dedicated-to-you-but-you-warent-listening-1971-german-press)
 
-### Carlo Rustichelli - Stuntman
+### Stelvio Cipriani / Ennio Morricone / Mario Molino / Luis Bacalov - Giallo 2 (Suspence – Drammatico) – Thriller 2
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **130.0€ (87%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8086056801-stuntman-di-carlo-rustichelli-lp-vinile)
-
-### Ian Carr & Nucleus - Labyrinth
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **115.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7806305781-ian-carr-with-nucleus-labyrinth)
-
-### Gregory James Edition - Prophets of Soul
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **82.0€ (82%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7533413462-gregory-james-edition-prophets-of-soul-lp-70s-funk)
-
-### Quasar - Man Coda
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4985642361-disque-vynil-de-quasar-man-coda-trajectory-jamais-ecoute-scelle)
-
-### Ian Carr & Nucleus - Labyrinth
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 75.0€ sur vinted.fr — marge potentielle **75.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8009099751-ian-carr-with-nucleus-labyrinth-o-uk-1973)
-
-### Quasar - Man Coda
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6444170905-33t-quasar-man-coda)
-
-### Ian Carr & Nucleus - Labyrinth
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8233935319-ian-carr-with-nucleus-labyrinth-vinyle)
-
-### Herbie Hancock - Flood
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 92.0€ sur vinted.fr — marge potentielle **58.0€ (39%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5357354036-herbie-hancock-flood)
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8137466999-ennio-morricone-vinile-orig-raro)
 
 ---
 ## Catalogue complet
@@ -214,7 +169,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 264 disponibles, 0 vendus
+### Victor Kiswell — 261 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -329,7 +284,6 @@
 - **150.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale)
 - **150.0€** — Francis Lai - Madly — [voir](http://www.victorkiswell.com/v3/?product=madly)
 - **150.0€** — Matsuo Ono - Space and Maryjuane Trip Is Same — [voir](http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same)
-- **150.0€** — Luis Paniagua - Neptuno — [voir](http://www.victorkiswell.com/v3/?product=neptuno-2)
 - **150.0€** — Bizarre Ko.Ko.Ko. - 00 Time — [voir](http://www.victorkiswell.com/v3/?product=00-time)
 - **150.0€** — Gilbert Artman - Lard Free — [voir](http://www.victorkiswell.com/v3/?product=lard-free)
 - **150.0€** — Serge Gainsbourg - Histoire de Melody Nelson — [voir](http://www.victorkiswell.com/v3/?product=histoire-de-melody-nelson-6)
@@ -355,7 +309,6 @@
 - **120.0€** — Le Kéné Star de Sikasso - Le Kéné Star de Sikasso — [voir](http://www.victorkiswell.com/v3/?product=le-kene-star-de-sikasso-2)
 - **120.0€** — Magda Ali - Nurik ya Ghazal — [voir](http://www.victorkiswell.com/v3/?product=nurik-ya-ghazal)
 - **120.0€** — Magda Ali - Nurik ya Ghazal — [voir](http://www.victorkiswell.com/v3/?product=nurik-ya-ghazal-2)
-- **120.0€** — Luis Paniagua - De magico acuerdo — [voir](http://www.victorkiswell.com/v3/?product=de-magico-acuerdo)
 - **120.0€** — Francis Bebey - Haiti — [voir](http://www.victorkiswell.com/v3/?product=haiti-2)
 - **120.0€** — Ofege - Try and Love — [voir](http://www.victorkiswell.com/v3/?product=try-and-love-3)
 - **120.0€** — Goddy Oku - One More Chance — [voir](http://www.victorkiswell.com/v3/?product=one-more-chance)
@@ -420,7 +373,6 @@
 - **110.0€** — Nana Simopoulos - Pandora Blues — [voir](http://www.victorkiswell.com/v3/?product=pandora-blues-3)
 - **110.0€** — Elvio Monti & Nevil Cameron / Pelleus & Vivika - Terzo Mondo — [voir](http://www.victorkiswell.com/v3/?product=terzo-mondo)
 - **110.0€** — Guy Boyer - Sport News — [voir](http://www.victorkiswell.com/v3/?product=sport-news)
-- **110.0€** — Joel VDB - Images of Flute in Nature — [voir](http://www.victorkiswell.com/v3/?product=images-of-flute-in-nature-2)
 - **110.0€** — Jean-Jacques Robert & Jean-Michel Guise - Delirius Music — [voir](http://www.victorkiswell.com/v3/?product=delirius-music)
 - **110.0€** — Shunsuke Kikuchi - Kamen Rider BGM — [voir](http://www.victorkiswell.com/v3/?product=kamen-rider-bgm-2)
 - **110.0€** — Francesco de Masi / Carlo Rustichelli - Ettore lo fusto / In nome del popolo italiano — [voir](http://www.victorkiswell.com/v3/?product=ettore-lo-fusto-in-nome-del-popolo-italiano)
