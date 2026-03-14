@@ -3457,5 +3457,13 @@
     "url": "https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html",
     "sold": false,
     "first_seen": "2026-03-07T17:27:54.388437"
+  },
+  "https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/": {
+    "source": "SOFA Records",
+    "title": "Michel Colombier - capot pointu",
+    "price_ref": 160.0,
+    "url": "https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/",
+    "sold": false,
+    "first_seen": "2026-03-14T09:14:20.731947"
   }
 }

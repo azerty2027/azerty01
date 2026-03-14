@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 13/03/2026 16:17
+# VINYL SCOUT — Rapport du 14/03/2026 09:29
 
-**Base : 432 disques | Actifs : 395 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 433 disques | Actifs : 396 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -9,6 +9,11 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
+
+---
+## 🆕 1 nouveaux en base
+
+- **160.0€** — Michel Colombier - capot pointu (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -121,11 +126,12 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 29 disponibles, 0 vendus
+### SOFA Records — 30 disponibles, 0 vendus
 
 - **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
 - **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
+- **160.0€** — Michel Colombier - capot pointu — [voir](https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/)
 - **150.0€** — The George Otsuka 5 - go on — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
 - **140.0€** — Johnny Mokhali - sister sexy eyes / best friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
 - **110.0€** — Fela Kuti & Africa 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
