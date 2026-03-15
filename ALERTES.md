@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 15/03/2026 15:27
+# VINYL SCOUT — Rapport du 15/03/2026 20:38
 
-**Base : 433 disques | Actifs : 395 | Batch : 1–50 | Seuil achat : 70% du prix ref**
+**Base : 433 disques | Actifs : 395 | Batch : 51–100 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,7 +8,12 @@
 
 ---
 
-## ✅ Aucune opportunite marche aujourd'hui
+## 🔴 1 OPPORTUNITES MARCHE
+
+### Grupo Oz - Grupo Oz
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 31.0€ sur paruvendu.fr — marge potentielle **149.0€ (83%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000)
 
 ---
 ## Catalogue complet
