@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 14/03/2026 09:29
+# VINYL SCOUT — Rapport du 15/03/2026 10:14
 
-**Base : 433 disques | Actifs : 396 | Batch : 301–350 | Seuil achat : 70% du prix ref**
+**Base : 433 disques | Actifs : 395 | Batch : 351–395 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,17 +8,27 @@
 
 ---
 
-## ✅ Aucune opportunite marche aujourd'hui
+## 🔴 3 OPPORTUNITES MARCHE
 
----
-## 🆕 1 nouveaux en base
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
 
-- **160.0€** — Michel Colombier - capot pointu (SOFA Records)
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
+
+### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
+- **Ref** : 90.0€ chez SOFA Records
+- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 105 disponibles, 0 vendus
+### Digger's Digest — 104 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -58,7 +68,6 @@
 - **300.0€** — Travelling ‎– Voici La Nuit Tombée (Futura Records ‎– RED 06 - 1973) — [voir](https://www.diggersdigest.com/product/travelling-voici-la-nuit-tombee-futura-records-red-06-1973)
 - **300.0€** — Charlston Marquis – Komba (Plato Production – CM 1 SD 16 - 1987) — [voir](https://www.diggersdigest.com/product/charlston-marquis-komba-plato-production-cm-1-sd-16-1987)
 - **290.0€** — Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964) — [voir](https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964)
-- **290.0€** — Nkotti François Et Les Black Styl - S/T (Editions Retro 2000 – RET 800203 - France) — [voir](https://www.diggersdigest.com/product/nkotti-fran%C3%A7ois-et-les-black-styl-st-editions-retro-2000-ret-800203)
 - **290.0€** — Jacques Thollot - Watch Devil Go (Palm – PALM 17 - France - 1975) — [voir](https://www.diggersdigest.com/product/jacques-thollot-watch-devil-go-palm-palm-17-france-1975)
 - **290.0€** — Jef Gilson - Enfin (Acétate - France  - 1964) — [voir](https://www.diggersdigest.com/product/jef-gilson-enfin-acetate)
 - **280.0€** — Ait Mislayene – Yémma / El Fen (Stip Record – CH 1010 - France - 1976) — [voir](https://www.diggersdigest.com/product/ait-mislayene-y%C3%A9mma-el-fen-stip-record-ch-1010-france-1976)
