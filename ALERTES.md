@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 15/03/2026 20:38
+# VINYL SCOUT — Rapport du 16/03/2026 08:36
 
-**Base : 433 disques | Actifs : 395 | Batch : 51–100 | Seuil achat : 70% du prix ref**
+**Base : 433 disques | Actifs : 393 | Batch : 101–150 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,17 +8,12 @@
 
 ---
 
-## 🔴 1 OPPORTUNITES MARCHE
-
-### Grupo Oz - Grupo Oz
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 31.0€ sur paruvendu.fr — marge potentielle **149.0€ (83%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-grupo-nossa-gente-samba-em-dimensao-total-nantes-44000/1210223261A1KBMECV000)
+## ✅ Aucune opportunite marche aujourd'hui
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 104 disponibles, 0 vendus
+### Digger's Digest — 102 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -101,7 +96,6 @@
 - **150.0€** — Max Rambhojan - Show Man Présente Max Rambhojan (Rythmo-Disc - 1980) — [voir](https://www.diggersdigest.com/product/max-rambhojan-show-man-presente-max-rambhojan-rythmo-disc-1980)
 - **150.0€** — Alex Dorothée Et Sa Troupe Gavodiè ‎- Au Krisma Discothèque (Private - mid 80's) — [voir](https://www.diggersdigest.com/product/alex-dorothee-et-sa-troupe-gavodie-au-krisma-discotheque)
 - **150.0€** — Guerilla - Guerilla (Hit Parade HPR.68 - Martinique - 1975) — [voir](https://www.diggersdigest.com/product/guerilla-guerilla-hit-parade-hpr-68-martinique-1975)
-- **140.0€** — Jacques Fattier – Haïti 86 (Institut Francais D'Haiti ‎– IFH 001 - 1987) — [voir](https://www.diggersdigest.com/product/jacques-fattier-ha%C3%AFti-86-institut-francais-dhaiti-ifh-001-1987)
 - **140.0€** — Bob Azzam And His Orchestra – New Sounds (Columbia – SSX 1035 - Sweden - 1968) — [voir](https://www.diggersdigest.com/product/bob-azzam-and-his-orchestra-new-sounds-columbia-ssx-1035-sweden-1968)
 - **140.0€** — Gwakasonne ‎- Témwen (GKS Robert Oumaou - 1987) — [voir](https://www.diggersdigest.com/product/gwakasonne-temwen)
 - **140.0€** — Jacques Berrocal ‎– Parallèles (d'Avantage ‎– dav 01 - France - 1976) — [voir](https://www.diggersdigest.com/product/jacques-berrocal-paralleles-d-avantage-dav-01-france-1976)
@@ -119,7 +113,6 @@
 - **120.0€** — Temple Sun - Brasilia Express / Voyage Sans Retour (Le Kiosque d'Orphée – KO/09.1102 - 1970) — [voir](https://www.diggersdigest.com/product/temple-sun-brasilia-express-voyage-sans-retour-le-kiosque-d-orphee-ko-09-1102-1970)
 - **120.0€** — Francis Bebey ‎– Si Les Gaulois Avaient Su !... (Blue Silver - France - 1986) — [voir](https://www.diggersdigest.com/product/francis-bebey-si-les-gaulois-avaient-su)
 - **120.0€** — Gérard Doulssane - Atmosphères (Soleil Masqué – SMA 33007) — [voir](https://www.diggersdigest.com/product/gerard-doulssane-atmospheres-soleil-masque-sma-33007)
-- **120.0€** — Pasteur Lappé – Ashiko, Sekele, Etc... (Disques Espérance - France - 1981) — [voir](https://www.diggersdigest.com/product/pasteur-lappe-ashiko-sekele-etc-disques-esperance-france-1981)
 - **120.0€** — François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979) — [voir](https://www.diggersdigest.com/product/francois-tusques-vers-une-musique-bretonne-nouvelle-le-chant-du-monde-1979)
 - **110.0€** — Alan Parker & Alan Hawkshaw - Alternatives (Music De Wolfe - 1971 - UK) — [voir](https://www.diggersdigest.com/product/alan-parker-alan-hawkshaw-alternatives-music-de-wolfe-1971-uk)
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
