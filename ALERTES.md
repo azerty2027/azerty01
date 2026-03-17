@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 17/03/2026 11:03
+# VINYL SCOUT — Rapport du 17/03/2026 12:15
 
-**Base : 434 disques | Actifs : 392 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 434 disques | Actifs : 391 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -11,14 +11,9 @@
 ## ✅ Aucune opportunite marche aujourd'hui
 
 ---
-## 🆕 1 nouveaux en base
-
-- **130.0€** — Pan & Regaliz - Pan & Regaliz (Victor Kiswell)
-
----
 ## Catalogue complet
 
-### Digger's Digest — 102 disponibles, 0 vendus
+### Digger's Digest — 101 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -29,7 +24,6 @@
 - **550.0€** — Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-saf-50016-france-1976)
 - **490.0€** — David Wertman, Sun Ensemble – Wide Eye Culture (Sunmuse Records – SUN 401 - US - 1983) — [voir](https://www.diggersdigest.com/product/david-wertman-sun-ensemble-wide-eye-culture-sunmuse-records-sun-401-us-1983)
 - **490.0€** — Franz Auffray ‎- Original Popcorn (Egg – 940.015 - France - 1970) — [voir](https://www.diggersdigest.com/product/franz-auffray-original-popcorn-barclay-kmlp-319-1970)
-- **450.0€** — Thomas & James : Just Because (Glorma Records – GM 408 – US – 1986) — [voir](https://www.diggersdigest.com/product/thomas-james-just-because)
 - **450.0€** — Jingo – Fever (Afro-Rock – U 79 000 – France – 1977) — [voir](https://www.diggersdigest.com/product/jingo-fever-afro-rock-u-79-000-france-1977)
 - **450.0€** — Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy) — [voir](https://www.diggersdigest.com/product/armando-trovaioli-una-magnum-special-per-tony-saitta-beat-records-company-lpf033-italy)
 - **450.0€** — The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982) — [voir](https://www.diggersdigest.com/product/the-william-penn-jazz-ensemble-carvings-not-on-label-tr-520643-us-1982)
