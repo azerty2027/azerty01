@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 16/03/2026 11:39
+# VINYL SCOUT — Rapport du 17/03/2026 11:03
 
-**Base : 433 disques | Actifs : 393 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 434 disques | Actifs : 392 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -9,6 +9,11 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
+
+---
+## 🆕 1 nouveaux en base
+
+- **130.0€** — Pan & Regaliz - Pan & Regaliz (Victor Kiswell)
 
 ---
 ## Catalogue complet
@@ -118,7 +123,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 30 disponibles, 0 vendus
+### SOFA Records — 28 disponibles, 0 vendus
 
 - **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
@@ -144,8 +149,6 @@
 - **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
-- **70.0€** — Ghana Soundz (various) - afro-beat funk and fusion in 70s ghana — [voir](https://www.sofarecords.fr/fr/ghana-soundz-various/afro-beat-funk-and-fusion-in-70s-ghana/p3023555870/)
-- **70.0€** — Senegal 70 (various) - sonic gems and previously unreleased recordings from the 70's — [voir](https://www.sofarecords.fr/fr/senegal-70-various/sonic-gems-and-previously-unreleased-recordings-from-the-70%27s/p3048567106/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Rico - mwen domi dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
@@ -155,7 +158,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 260 disponibles, 0 vendus
+### Victor Kiswell — 261 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -288,6 +291,7 @@
 - **130.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad-2)
 - **130.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale-2)
 - **130.0€** — Doris Norton - Nortoncomputerforpeace — [voir](http://www.victorkiswell.com/v3/?product=nortoncomputerforpeace)
+- **130.0€** — Pan & Regaliz - Pan & Regaliz — [voir](http://www.victorkiswell.com/v3/?product=pan-regaliz)
 - **130.0€** — Structure - Pop Music — [voir](http://www.victorkiswell.com/v3/?product=pop-music-2)
 - **125.0€** — Giampiero & Gianfranco Reverberi - Video Music — [voir](http://www.victorkiswell.com/v3/?product=video-music)
 - **125.0€** — Lester Freeman - Serie Gialli — [voir](http://www.victorkiswell.com/v3/?product=serie-gialli)
