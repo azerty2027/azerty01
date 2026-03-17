@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 17/03/2026 12:15
+# VINYL SCOUT — Rapport du 17/03/2026 17:48
 
-**Base : 434 disques | Actifs : 391 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 434 disques | Actifs : 391 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
