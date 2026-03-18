@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 17/03/2026 17:48
+# VINYL SCOUT — Rapport du 18/03/2026 11:02
 
-**Base : 434 disques | Actifs : 391 | Batch : 301–350 | Seuil achat : 70% du prix ref**
+**Base : 434 disques | Actifs : 390 | Batch : 351–390 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,7 +8,22 @@
 
 ---
 
-## ✅ Aucune opportunite marche aujourd'hui
+## 🔴 3 OPPORTUNITES MARCHE
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
+
+### Eddy Louiss - Eddy Louiss (Barclay - 1968)
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
+
+### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
+- **Ref** : 90.0€ chez SOFA Records
+- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
+- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
 
 ---
 ## Catalogue complet
@@ -117,9 +132,8 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 28 disponibles, 0 vendus
+### SOFA Records — 27 disponibles, 0 vendus
 
-- **250.0€** — Cymande - cymande — [voir](https://www.sofarecords.fr/fr/cymande/cymande/p3165503366/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
 - **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
 - **160.0€** — Michel Colombier - capot pointu — [voir](https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/)
@@ -132,7 +146,6 @@
 - **90.0€** — Fairuz - loulou volume 1 — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
 - **85.0€** — Fela Kuti & Africa 70 - question jam answer vol.2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Alan Hawkshaw, Alan Parker - the rock machine — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
-- **80.0€** — Bovick & Co - venus / bazombo — [voir](https://www.sofarecords.fr/fr/bovick-amp-co/venus-bazombo/p3204752568/)
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — L'Orchestre Jazz Babalou - ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
@@ -141,6 +154,7 @@
 - **80.0€** — Cohelmec Ensemble - next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
 - **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
 - **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
+- **75.0€** — Kazis Et Les Cheveux Crepus - diables noirs / champions — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
