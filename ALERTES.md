@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 18/03/2026 11:02
+# VINYL SCOUT — Rapport du 18/03/2026 13:22
 
-**Base : 434 disques | Actifs : 390 | Batch : 351–390 | Seuil achat : 70% du prix ref**
+**Base : 434 disques | Actifs : 390 | Batch : 1–50 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -8,22 +8,7 @@
 
 ---
 
-## 🔴 3 OPPORTUNITES MARCHE
-
-### Eddy Louiss - Eddy Louiss (Barclay - 1968)
-- **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
-
-### Eddy Louiss - Eddy Louiss (Barclay - 1968)
-- **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
-
-### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
-- **Ref** : 90.0€ chez SOFA Records
-- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
+## ✅ Aucune opportunite marche aujourd'hui
 
 ---
 ## Catalogue complet
