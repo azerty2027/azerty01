@@ -1,10 +1,9 @@
 """
-VINYL SCOUT v22
+VINYL SCOUT v23
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 2 : croisement Disques Anciens (matching artiste + album)
-- Phase 3 : recherche opportunites ParuVendu (direct) + Vinted (ScrapeOps) + eBay API
-  FIX v21 : URL ParuVendu corrigée (était 404) + requête Vinted préfixée "vinyle"
-            + filtre pertinence Vinted (rejette résultats sans mot-clé commun)
+- Phase 3 : recherche opportunites Leboncoin + Vinted (via ScrapeOps) + eBay API
+- Phase 3b: recherche wishlist (sans filtre prix)
 """
 
 import requests
@@ -16,19 +15,12 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 MIN_PRICE = 100
-MAX_PRICE_RATIO = 0.70
+MAX_PRICE_RATIO = 0.40
 DB_FILE = "vinyl_db.json"
 ALERT_FILE = "ALERTES.md"
-OFFSET_FILE = "scout_offset.json"
+WISHLIST_FILE = "wishlist.json"
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
-BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
-
-print("=" * 60)
-print("VINYL SCOUT v22")
-print("ParuVendu (direct, URL corrigée) + Vinted (ScrapeOps) + eBay API")
-print(f"Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref | Batch : {BATCH_SIZE} disques/run")
-print("=" * 60)
 
 
 # ─────────────────────────────────────────────
@@ -36,24 +28,31 @@ print("=" * 60)
 # ─────────────────────────────────────────────
 
 STOPWORDS = {
+    # Labels et industrie
     'records', 'record', 'company', 'label', 'edition', 'editions',
     'productions', 'production', 'international', 'pressing', 'reissue',
     'publishing', 'release', 'distributed', 'distribution',
+    # Formats
     'vinyl', 'stereo', 'mono', 'disc', 'disk', 'album', 'single',
     'original', 'limited', 'volume', 'studio', 'live',
+    # Mots musicaux génériques
     'music', 'musique', 'orchestra', 'orchestre', 'ensemble', 'band',
     'trio', 'quartet', 'quintet', 'sextet', 'session', 'suite',
     'theme', 'themes', 'song', 'songs', 'dance', 'plays', 'featuring',
     'present', 'presents', 'various', 'artists', 'compilation',
     'collection', 'series', 'best', 'great', 'super', 'special',
+    # Genres (trop génériques)
     'jazz', 'blues', 'soul', 'funk', 'disco', 'rock', 'folk',
     'latin', 'afro', 'reggae', 'bossa', 'nova', 'swing',
+    # Mots français/anglais communs
     'avec', 'dans', 'pour', 'from', 'the', 'and', 'feat',
     'chant', 'monde', 'club', 'libre',
+    # Pays et régions
     'france', 'french', 'italy', 'italian', 'germany', 'german',
     'sweden', 'swedish', 'japan', 'japanese', 'brasil', 'brazil',
     'belgium', 'swiss', 'spain', 'spanish', 'greece', 'greek',
     'africa', 'african', 'india', 'indian', 'lebanese',
+    # Labels spécifiques trop courants
     'columbia', 'ducretet', 'thomson', 'polydor', 'barclay',
     'philips', 'atlantic', 'verve',
 }
@@ -76,17 +75,6 @@ def clean_title(title):
     return ' '.join(words[:5])
 
 
-def build_query(title):
-    """Construit la requête de recherche — évite le doublon sur disques éponymes."""
-    title_clean = re.sub(r'\(.*?\)', '', title).strip()
-    parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
-    if len(parts) == 2:
-        artist, album = parts[0].strip(), parts[1].strip()
-        if artist.lower() == album.lower():
-            return clean_title(artist)
-    return clean_title(title)
-
-
 def words_from(text):
     """Mots significatifs : > 3 chars, pas chiffre, pas stopword."""
     text = text.lower()
@@ -99,55 +87,36 @@ def words_from(text):
     )
 
 
-def is_relevant(result_title, query_title):
-    """
-    Vérifie qu'au moins 1 mot significatif du titre de recherche
-    apparaît dans le titre du résultat. Rejette les faux positifs.
-    """
-    query_words = words_from(query_title)
-    result_words = words_from(result_title)
-    if not query_words:
-        return True
-    return bool(query_words & result_words)
-
-
-REISSUE_PATTERNS = re.compile(
-    r'\breissue\b|\brepress\b|\brepressing\b|'
-    r'\bréédition\b|\breedition\b|\bre-?issue\b|\bre-?press\b|'
-    r'\b180g\b|\b180\s*gram\b|'
-    r'(?<!\w)RE(?!\w)',
-    re.IGNORECASE
-)
-
-def is_reissue(title):
-    """Retourne True si le titre indique une réédition."""
-    return bool(REISSUE_PATTERNS.search(title))
-
-
-MAX_RESULTS_THRESHOLD = 15  # Au-delà, requête trop générique → on ignore
-
-
 def parse_artist_album(title):
+    """
+    Extrait (artiste, album) depuis le format standard :
+    'Artiste - Album (Label - Ref - Pays - Annee)'
+    """
     title_clean = re.sub(r'\(.*?\)', '', title).strip()
     parts = re.split(r'\s[–\-]\s', title_clean, maxsplit=1)
     if len(parts) == 2:
-        return parts[0].strip(), parts[1].strip()
-    return '', title_clean.strip()
+        artist = parts[0].strip()
+        album = parts[1].strip()
+    else:
+        artist = ''
+        album = title_clean.strip()
+    return artist, album
 
 
 # ─────────────────────────────────────────────
-# BATCH / OFFSET
+# WISHLIST
 # ─────────────────────────────────────────────
 
-def load_offset():
-    if os.path.exists(OFFSET_FILE):
-        with open(OFFSET_FILE) as f:
-            return json.load(f).get('offset', 0)
-    return 0
-
-def save_offset(offset):
-    with open(OFFSET_FILE, 'w') as f:
-        json.dump({'offset': offset}, f)
+def load_wishlist():
+    """Charge wishlist.json — liste de dicts {artist, album, added}."""
+    if os.path.exists(WISHLIST_FILE):
+        with open(WISHLIST_FILE, encoding='utf-8') as f:
+            try:
+                return json.load(f)
+            except Exception as e:
+                print(f"Wishlist JSON invalide: {e}")
+                return []
+    return []
 
 
 # ─────────────────────────────────────────────
@@ -173,10 +142,10 @@ def scrape_victorkiswell():
                 if not items:
                     break
                 for item in items:
-                    album_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
+                    title_el = item.select_one('.woocommerce-loop-product__title') or item.select_one('h2')
                     price_el = item.select_one('.price')
                     link_el = item.select_one('a.woocommerce-LoopProduct-link') or item.select_one('a')
-                    if not album_el or not link_el:
+                    if not title_el or not link_el:
                         continue
                     price_text = price_el.get_text() if price_el else ''
                     price = extract_price(price_text)
@@ -185,17 +154,10 @@ def scrape_victorkiswell():
                     url_item = link_el['href']
                     if url_item in results:
                         continue
-                    # VK : artiste dans <h4>, album dans <h2> — tous deux dans le même <a>
-                    album = album_el.get_text(strip=True)
-                    artist_el = link_el.select_one('h4')
-                    if artist_el:
-                        title = f"{artist_el.get_text(strip=True)} - {album}"
-                    else:
-                        title = album
                     sold = any(x in item.get_text().lower() for x in ['out of stock', 'sold', 'epuise'])
                     results[url_item] = {
                         'source': 'Victor Kiswell',
-                        'title': title,
+                        'title': title_el.get_text(strip=True),
                         'price_ref': price,
                         'url': url_item,
                         'sold': sold
@@ -278,26 +240,32 @@ def scrape_superfly():
                 if r.status_code == 404:
                     break
                 soup = BeautifulSoup(r.text, 'html.parser')
-                blocks = soup.select('div.block_product_section_result_page')
-                if not blocks:
+                image_links = soup.select('a[href*="/item/"]')
+                if not image_links:
                     break
                 found_new = False
-                for block in blocks:
-                    artiste_el = block.select_one('div.result_search_section_artiste a')
-                    album_el   = block.select_one('div.result_search_section_titre a')
-                    prix_el    = block.select_one('div.result_search_section_price_cart.show-for-1000px-up span.tAttBold')
-                    if not artiste_el or not album_el:
+                seen_urls = set()
+                for link in image_links:
+                    href = link.get('href', '')
+                    if not href or href in seen_urls:
                         continue
-                    url_item = artiste_el.get('href', '')
-                    if not url_item or url_item in results:
+                    seen_urls.add(href)
+                    url_item = href if href.startswith('http') else 'https://www.superflyrecords.com' + href
+                    if url_item in results:
                         continue
-                    artiste = artiste_el.get_text(strip=True)
-                    album   = album_el.get_text(strip=True)
-                    title   = f"{artiste} - {album}"
-                    price   = extract_price(prix_el.get_text()) if prix_el else None
+                    title = link.get_text(strip=True)
+                    if not title:
+                        parent = link.find_parent()
+                        if parent:
+                            texts = [a.get_text(strip=True) for a in parent.select('a[href*="/item/"]')]
+                            title = ' - '.join(t for t in texts if t)
+                    if not title:
+                        continue
+                    parent_block = link.find_parent(['div', 'li', 'td'])
+                    price_text = parent_block.get_text() if parent_block else ''
+                    price = extract_price(price_text)
                     if not price or price < MIN_PRICE:
                         continue
-                    price_text = block.get_text()
                     sold = 'sold' in price_text.lower() or 'vendu' in price_text.lower()
                     results[url_item] = {
                         'source': 'Superfly Records',
@@ -326,29 +294,37 @@ def scrape_diaspora():
             url = f"https://www.diasporarecords.com/search?page={page}"
             r = requests.get(url, headers=HEADERS, timeout=25)
             soup = BeautifulSoup(r.text, 'html.parser')
-            # Titre : <a class="font-weight-extrabold ...">ARTISTE - Album</a>
-            title_links = soup.select('a.font-weight-extrabold')
-            if not title_links:
-                break
+            blocks = soup.select('article') or soup.select('.views-row') or soup.select('[class*="record"]')
+            if not blocks:
+                blocks = [a.find_parent(['div', 'li']) for a in soup.select(
+                    'a[href*="/jazz"], a[href*="/afro"], a[href*="/soul"], a[href*="/africa"], '
+                    'a[href*="/caribbean"], a[href*="/latin"], a[href*="/brasil"]'
+                ) if a.find_parent(['div', 'li'])]
             found_new = False
-            for link_el in title_links:
-                href = link_el.get('href', '')
-                if not href:
+            seen = set()
+            for block in blocks:
+                if not block:
                     continue
+                link_el = block.select_one('a')
+                if not link_el:
+                    continue
+                href = link_el.get('href', '')
+                if not href or href in seen:
+                    continue
+                seen.add(href)
                 full_url = 'https://www.diasporarecords.com' + href if href.startswith('/') else href
-                if full_url in results:
+                if 'diasporarecords.com' not in full_url or full_url in results:
+                    continue
+                text = block.get_text(separator=' ')
+                price_match = re.search(r'(\d+[,.]?\d*)\s*€', text)
+                if not price_match:
+                    continue
+                price = extract_price(price_match.group())
+                if not price or price < MIN_PRICE:
                     continue
                 title = link_el.get_text(strip=True)
                 if not title:
                     continue
-                # Prix dans le div frère suivant
-                price_el = link_el.find_next_sibling('div')
-                if not price_el:
-                    continue
-                price = extract_price(price_el.get_text())
-                if not price or price < MIN_PRICE:
-                    continue
-                text = price_el.get_text() + title
                 sold = any(x in text.lower() for x in ['sold out', 'unavailable', 'vendu'])
                 results[full_url] = {
                     'source': 'Diaspora Records',
@@ -425,13 +401,8 @@ def scrape_sofarecords():
                         price = extract_price(price_text)
                         if not price or price < MIN_PRICE_SOFA:
                             continue
-                        spans = link.select('span.limite_text')
-                        if len(spans) >= 2:
-                            title = f"{spans[0].get_text(strip=True)} - {spans[1].get_text(strip=True).split('|')[0].strip()}"
-                        elif spans:
-                            title = spans[0].get_text(strip=True)
-                        else:
-                            title = link.get_text(strip=True)
+                        title_el = link.select_one('h3') or link.select_one('h2') or link
+                        title = title_el.get_text(strip=True) if title_el else ''
                         if not title:
                             continue
                         sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
@@ -459,13 +430,8 @@ def scrape_sofarecords():
                         price = extract_price(price_text)
                         if not price or price < MIN_PRICE_SOFA:
                             continue
-                        spans = link_el.select('span.limite_text')
-                        if len(spans) >= 2:
-                            title = f"{spans[0].get_text(strip=True)} - {spans[1].get_text(strip=True).split('|')[0].strip()}"
-                        elif spans:
-                            title = spans[0].get_text(strip=True)
-                        else:
-                            title = link_el.get_text(strip=True)
+                        title_el = item.select_one('h3') or item.select_one('h2')
+                        title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
                         if not title:
                             continue
                         sold = any(x in price_text.lower() for x in ['sold', 'vendu', 'épuisé'])
@@ -588,108 +554,82 @@ def scrapeops_get(url):
     )
 
 
-def search_paruvendu(title, max_price):
-    """
-    Recherche ParuVendu — scraping direct, 0 crédit ScrapeOps.
-    URL corrigée v21 d'après inspection navigateur réelle.
-    Catégorie BMECV000 = CD et vinyles.
-    """
+def search_leboncoin(title, max_price=None):
+    """Recherche Leboncoin via scraping HTML + ScrapeOps.
+    Si max_price est None, pas de filtre prix (mode wishlist)."""
+    if not SCRAPEOPS_KEY:
+        return []
     results = []
-    query = urllib.parse.quote(build_query(title))
+    query = urllib.parse.quote(clean_title(title))
     try:
-        url = (
-            f"https://www.paruvendu.fr/mondebarras/listefo/default/default/"
-            f"?codPro=&filtre=&tri=&fulltext={query}&elargrayon=1&ray=50"
-            f"&idtag=&r=BMECV000&codeinsee=&lo=&pa=&zvy=&zvt="
-            f"&px0=1&px1={int(max_price)}"
-            f"&zmd%5B%5D=VENTE&zmd%5B%5D=TROC&zep%5B%5D="
-        )
-        r = requests.get(url, headers=HEADERS, timeout=25)
-        print(f"  PVU status: {r.status_code} | query: {build_query(title)} | max: {max_price}€")
+        if max_price is not None:
+            url = f"https://www.leboncoin.fr/recherche?text={query}&category=34&price=0-{int(max_price)}"
+        else:
+            url = f"https://www.leboncoin.fr/recherche?text={query}&category=34"
+        r = scrapeops_get(url)
+        print(f"  LBC status: {r.status_code} | query: {clean_title(title)}" + (f" | max: {max_price}€" if max_price else " | [wishlist, pas de filtre prix]"))
         if r.status_code != 200:
+            print(f"  LBC erreur: {r.text[:200]}")
             return results
         soup = BeautifulSoup(r.text, 'html.parser')
-        # Sélecteurs ParuVendu
-        # Chaque annonce est un <a> direct avec href contenant /annonces/
-        ads = soup.select('a[href*="/annonces/"]')
-        print(f"  PVU annonces trouvées: {len(ads)}")
-        if len(ads) > MAX_RESULTS_THRESHOLD:
-            print(f"  PVU ignoré : requête trop générique ({len(ads)} résultats)")
-            return results
+        ads = soup.select('a[data-qa-id="aditem_container"]') or soup.select('[data-test-id="ad"]') or soup.select('li[data-id]')
+        print(f"  LBC annonces trouvées: {len(ads)}")
         for ad in ads[:20]:
+            title_el = ad.select_one('[data-qa-id="aditem_title"]') or ad.select_one('h2') or ad.select_one('p')
+            price_el = ad.select_one('[data-qa-id="aditem_price"]') or ad.select_one('[class*="price"]')
             href = ad.get('href', '')
             if not href:
                 continue
-            ad_url = href if href.startswith('http') else 'https://www.paruvendu.fr' + href
-            title_el = ad.select_one('span.font-semibold')
-            price_el = ad.select_one('div.text-red div') or ad.select_one('div.font-medium div')
-            if not title_el or not price_el:
-                continue
-            ad_title = title_el.get_text(strip=True)
-            price = extract_price(price_el.get_text())
-            if not price or price > max_price:
-                continue
-            if not is_relevant(ad_title, title):
-                continue
-            if is_reissue(ad_title):
+            ad_url = href if href.startswith('http') else 'https://www.leboncoin.fr' + href
+            price = extract_price(price_el.get_text()) if price_el else None
+            if max_price is not None and (not price or price > max_price):
                 continue
             results.append({
-                "platform": "paruvendu.fr",
-                "title": ad_title,
+                "platform": "leboncoin.fr",
+                "title": title_el.get_text(strip=True) if title_el else '',
                 "price": price,
                 "url": ad_url
             })
         time.sleep(1)
     except Exception as e:
-        print(f"  PVU exception: {e}")
+        print(f"  LBC exception: {e}")
     return results
 
 
-def search_vinted(title, max_price):
-    """
-    Recherche Vinted via scraping HTML + ScrapeOps.
-    FIX v21 : préfixe 'vinyle' dans la requête + filtre pertinence.
-    """
+def search_vinted(title, max_price=None):
+    """Recherche Vinted via scraping HTML + ScrapeOps.
+    Si max_price est None, pas de filtre prix (mode wishlist)."""
     if not SCRAPEOPS_KEY:
         return []
     results = []
-    # FIX : on force "vinyle" dans la recherche pour éviter les faux positifs
-    query_text = build_query(title)
-    query = urllib.parse.quote(query_text)
+    query = urllib.parse.quote(clean_title(title))
     try:
-        url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=3041"
+        if max_price is not None:
+            url = f"https://www.vinted.fr/catalog?search_text={query}&price_to={int(max_price)}&catalog[]=139"
+        else:
+            url = f"https://www.vinted.fr/catalog?search_text={query}&catalog[]=139"
         r = scrapeops_get(url)
-        print(f"  VTD status: {r.status_code} | query: {query_text} | catalog: 3041 | max: {max_price}€")
+        print(f"  VTD status: {r.status_code} | query: {clean_title(title)}" + (f" | max: {max_price}€" if max_price else " | [wishlist, pas de filtre prix]"))
         if r.status_code != 200:
             print(f"  VTD erreur: {r.text[:200]}")
             return results
         soup = BeautifulSoup(r.text, 'html.parser')
-        # Vinted : titre et prix dans l'attribut title du lien overlay
-        items = soup.select('a[data-testid*="overlay-link"]')
+        items = soup.select('[data-testid="grid-item"]') or soup.select('[class*="ItemBox"]') or soup.select('div[class*="item"]')
         print(f"  VTD articles trouvés: {len(items)}")
-        if len(items) > MAX_RESULTS_THRESHOLD:
-            print(f"  VTD ignoré : requête trop générique ({len(items)} résultats)")
-            return results
         for item in items[:20]:
-            title_attr = item.get('title', '')
-            href = item.get('href', '').split('?')[0]
-            if not href or not title_attr:
+            link_el = item.select_one('a')
+            price_el = item.select_one('[class*="price"]') or item.select_one('[data-testid*="price"]')
+            if not link_el:
                 continue
+            href = link_el.get('href', '')
             item_url = href if href.startswith('http') else 'https://www.vinted.fr' + href
-            item_title = title_attr.split(',')[0].strip()
-            price_match = re.search(r'(\d+[.,]\d+)\s*€', title_attr)
-            if not price_match:
+            price = extract_price(price_el.get_text()) if price_el else None
+            if max_price is not None and (not price or price > max_price):
                 continue
-            price = float(price_match.group(1).replace(',', '.'))
-            if price > max_price:
-                continue
-            if not is_relevant(item_title, title):
-                continue
-            if is_reissue(item_title):
-                continue
+            title_el = item.select_one('[class*="title"]') or item.select_one('h3') or link_el
             results.append({
                 "platform": "vinted.fr",
-                "title": item_title,
+                "title": title_el.get_text(strip=True) if title_el else '',
                 "price": price,
                 "url": item_url
             })
@@ -699,13 +639,14 @@ def search_vinted(title, max_price):
     return results
 
 
-def search_ebay(title, max_price):
-    """Recherche via l'API officielle eBay Finding."""
+def search_ebay(title, max_price=None):
+    """Recherche via l'API officielle eBay Finding.
+    Si max_price est None, pas de filtre prix (mode wishlist)."""
     results = []
     ebay_key = os.environ.get("EBAY_APP_ID", "")
     if not ebay_key:
         return results
-    query = build_query(title)
+    query = clean_title(title)
     try:
         params = {
             "OPERATION-NAME": "findItemsAdvanced",
@@ -714,16 +655,23 @@ def search_ebay(title, max_price):
             "RESPONSE-DATA-FORMAT": "JSON",
             "keywords": query,
             "categoryId": "306",
-            "itemFilter(0).name": "MaxPrice",
-            "itemFilter(0).value": str(int(max_price)),
-            "itemFilter(0).paramName": "Currency",
-            "itemFilter(0).paramValue": "EUR",
-            "itemFilter(1).name": "ListingType",
-            "itemFilter(1).value": "FixedPrice",
-            "itemFilter(2).name": "LocatedIn",
-            "itemFilter(2).value": "FR",
+            "itemFilter(0).name": "ListingType",
+            "itemFilter(0).value": "FixedPrice",
+            "itemFilter(1).name": "LocatedIn",
+            "itemFilter(1).value": "FR",
             "paginationInput.entriesPerPage": "20",
         }
+        if max_price is not None:
+            params.update({
+                "itemFilter(0).name": "MaxPrice",
+                "itemFilter(0).value": str(int(max_price)),
+                "itemFilter(0).paramName": "Currency",
+                "itemFilter(0).paramValue": "EUR",
+                "itemFilter(1).name": "ListingType",
+                "itemFilter(1).value": "FixedPrice",
+                "itemFilter(2).name": "LocatedIn",
+                "itemFilter(2).value": "FR",
+            })
         r = requests.get(
             "https://svcs.ebay.com/services/search/FindingService/v1",
             params=params, timeout=15
@@ -739,7 +687,7 @@ def search_ebay(title, max_price):
                                   .get("__value__", 0))
             except (IndexError, KeyError, ValueError):
                 continue
-            if not price or price > max_price:
+            if max_price is not None and (not price or price > max_price):
                 continue
             try:
                 item_url = item.get("viewItemURL", [""])[0]
@@ -758,186 +706,34 @@ def search_ebay(title, max_price):
     return results
 
 
-
 # ─────────────────────────────────────────────
-# RAPPORT HTML
+# PHASE 3b — RECHERCHE WISHLIST (sans filtre prix)
 # ─────────────────────────────────────────────
 
-def generate_html(opportunites, croisements_da, now, total_db, total_actifs, offset, batch_len):
-    """Génère ALERTES.html avec cases à cocher + sauvegarde blacklist via API GitHub."""
-
-    opps_html = ""
-    for i, o in enumerate(opportunites):
-        opps_html += f"""
-        <div class="opp" id="opp-{i}">
-            <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="{o['found_url']}" onchange="updateBlacklist()">
-                <span class="opp-seen">Déjà vu</span>
-            </label>
-            <div class="opp-body">
-                <div class="opp-title">{o['ref_title']}</div>
-                <div class="opp-ref">Ref : <b>{o['ref_price']}€</b> chez {o['ref_source']}</div>
-                <div class="opp-found">
-                    Trouvé : <b>{o['found_price']}€</b> sur {o['platform']}
-                    — marge <b>{o['marge']}€ ({o['marge_pct']}%)</b>
-                </div>
-                <a class="opp-link" href="{o['found_url']}" target="_blank">Voir l'annonce →</a>
-                <div class="opp-found-title">{o['found_title']}</div>
-            </div>
-        </div>"""
-
-    crois_html = ""
-    for o in croisements_da:
-        crois_html += f"""
-        <div class="crois">
-            <div class="opp-title">{o['ref_title']}</div>
-            <div class="opp-ref">Ref : <b>{o['ref_price']}€</b> chez {o['ref_source']}</div>
-            <div class="opp-found">Chez Disques Anciens : <b>{o['da_price']}€</b> — {o['da_title']}</div>
-            <a class="opp-link" href="{o['da_url']}" target="_blank">Voir →</a>
-        </div>"""
-
-    html = f"""<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vinyl Scout — {now}</title>
-<style>
-  body {{ font-family: -apple-system, sans-serif; background: #111; color: #eee; margin: 0; padding: 16px; max-width: 700px; margin: 0 auto; }}
-  h1 {{ color: #f90; font-size: 1.4em; margin-bottom: 4px; }}
-  .meta {{ color: #888; font-size: 0.85em; margin-bottom: 20px; }}
-  .section-title {{ color: #f90; font-size: 1.1em; margin: 24px 0 10px; border-bottom: 1px solid #333; padding-bottom: 4px; }}
-  .opp {{ background: #1e1e1e; border: 1px solid #333; border-radius: 8px; padding: 14px; margin-bottom: 10px; transition: opacity .3s; }}
-  .opp.seen {{ opacity: 0.3; }}
-  .opp-label {{ display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 8px; }}
-  .bl-check {{ width: 16px; height: 16px; cursor: pointer; accent-color: #f90; }}
-  .opp-seen {{ font-size: 0.78em; color: #888; }}
-  .opp-title {{ font-weight: bold; font-size: 1em; color: #fff; margin-bottom: 4px; }}
-  .opp-ref {{ font-size: 0.85em; color: #aaa; }}
-  .opp-found {{ font-size: 0.9em; color: #4fc; margin: 4px 0; }}
-  .opp-found-title {{ font-size: 0.78em; color: #777; margin-top: 4px; font-style: italic; }}
-  .opp-link {{ display: inline-block; margin-top: 6px; color: #f90; font-size: 0.85em; text-decoration: none; }}
-  .opp-link:hover {{ text-decoration: underline; }}
-  .crois {{ background: #1a1f1a; border: 1px solid #2a4a2a; border-radius: 8px; padding: 14px; margin-bottom: 10px; }}
-  #bl-panel {{ display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #0d1a0d; border-top: 2px solid #4fc; padding: 16px; z-index: 100; }}
-  #bl-panel h3 {{ color: #4fc; margin: 0 0 10px; font-size: 1em; }}
-  .bl-actions {{ display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }}
-  #gh-token {{ background: #1e1e1e; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 7px 10px; font-size: 0.85em; width: 260px; }}
-  #gh-token::placeholder {{ color: #555; }}
-  #bl-save {{ background: #4fc; color: #000; border: none; border-radius: 6px; padding: 8px 18px; cursor: pointer; font-weight: bold; font-size: 0.9em; }}
-  #bl-save:hover {{ background: #3da; }}
-  #bl-save:disabled {{ background: #333; color: #666; cursor: default; }}
-  #bl-status {{ font-size: 0.85em; color: #aaa; }}
-  #bl-count {{ background: #f90; color: #000; border-radius: 12px; padding: 2px 8px; font-size: 0.8em; margin-left: 8px; }}
-  .empty {{ color: #555; font-style: italic; padding: 16px 0; }}
-  .token-hint {{ font-size: 0.75em; color: #555; margin-top: 4px; }}
-</style>
-</head>
-<body>
-<h1>🎵 Vinyl Scout</h1>
-<div class="meta">Rapport du {now} — Base : {total_db} disques | Actifs : {total_actifs} | Batch : {offset+1}–{offset+batch_len}</div>
-
-<div class="section-title">🔴 {len(opportunites)} opportunité(s) marché</div>
-{"".join([opps_html]) if opportunites else '<div class="empty">Aucune opportunité ce run.</div>'}
-
-<div class="section-title">🏪 {len(croisements_da)} croisement(s) Disques Anciens</div>
-{"".join([crois_html]) if croisements_da else '<div class="empty">Aucun croisement ce run.</div>'}
-
-<div style="height:80px"></div>
-
-<div id="bl-panel">
-  <h3>🚫 <span id="bl-count"></span> annonce(s) à blacklister</h3>
-  <div class="bl-actions">
-    <div>
-      <input type="password" id="gh-token" placeholder="GitHub Personal Access Token" autocomplete="off">
-      <div class="token-hint">Settings → Developer settings → Personal access tokens → repo</div>
-    </div>
-    <button id="bl-save" onclick="saveBlacklist()">💾 Sauvegarder sur GitHub</button>
-    <span id="bl-status"></span>
-  </div>
-</div>
-
-<script>
-const REPO = "azerty2027/azerty01";
-const FILE = "scout_blacklist.json";
-let checkedUrls = [];
-
-function updateBlacklist() {{
-  checkedUrls = [...document.querySelectorAll('.bl-check:checked')].map(el => el.dataset.url);
-  document.querySelectorAll('.opp').forEach(el => {{
-    const url = el.querySelector('.bl-check')?.dataset.url;
-    el.classList.toggle('seen', checkedUrls.includes(url));
-  }});
-  const panel = document.getElementById('bl-panel');
-  const count = document.getElementById('bl-count');
-  if (checkedUrls.length > 0) {{
-    panel.style.display = 'block';
-    count.textContent = checkedUrls.length;
-  }} else {{
-    panel.style.display = 'none';
-  }}
-}}
-
-async function saveBlacklist() {{
-  const token = document.getElementById('gh-token').value.trim();
-  if (!token) {{ setStatus('⚠️ Entre ton token GitHub', '#f90'); return; }}
-  const btn = document.getElementById('bl-save');
-  btn.disabled = true;
-  setStatus('Récupération blacklist actuelle...', '#aaa');
-
-  try {{
-    // 1. Récupérer le fichier actuel pour avoir le SHA
-    const getRes = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{FILE}}`, {{
-      headers: {{ Authorization: `token ${{token}}`, Accept: 'application/vnd.github.v3+json' }}
-    }});
-    let sha = null;
-    let existing = [];
-    if (getRes.ok) {{
-      const data = await getRes.json();
-      sha = data.sha;
-      try {{
-        const clean = (data.content || '').replace(/\\s/g, '');
-        const parsed = JSON.parse(atob(clean));
-        existing = Array.isArray(parsed) ? parsed : [];
-      }} catch(e) {{ existing = []; }}
-    }}
-
-    // 2. Fusionner avec les nouvelles URLs
-    const merged = [...new Set([...existing, ...checkedUrls])];
-
-    // 3. Commit
-    setStatus('Sauvegarde en cours...', '#aaa');
-    const body = {{ message: `Blacklist mise à jour (+${{checkedUrls.length}})`, content: btoa(JSON.stringify(merged, null, 2)) }};
-    if (sha) body.sha = sha;
-    const putRes = await fetch(`https://api.github.com/repos/${{REPO}}/contents/${{FILE}}`, {{
-      method: 'PUT',
-      headers: {{ Authorization: `token ${{token}}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' }},
-      body: JSON.stringify(body)
-    }});
-    if (putRes.ok) {{
-      setStatus(`✅ ${{merged.length}} URLs blacklistées sur GitHub`, '#4fc');
-      document.getElementById('gh-token').value = '';
-    }} else {{
-      const err = await putRes.json();
-      setStatus('❌ Erreur : ' + (err.message || putRes.status), '#f44');
-    }}
-  }} catch(e) {{
-    setStatus('❌ ' + e.message, '#f44');
-  }}
-  btn.disabled = false;
-}}
-
-function setStatus(msg, color) {{
-  const el = document.getElementById('bl-status');
-  el.textContent = msg;
-  el.style.color = color;
-}}
-</script>
-</body>
-</html>"""
-
-    with open("ALERTES.html", "w", encoding="utf-8") as f:
-        f.write(html)
+def search_wishlist_item(entry):
+    """
+    Cherche un disque de la wishlist sur LBC, Vinted, eBay sans filtre prix.
+    entry = {artist, album, added}
+    """
+    artist = entry.get('artist', '').strip()
+    album = entry.get('album', '').strip()
+    query_parts = [p for p in [artist, album] if p]
+    if not query_parts:
+        return []
+    query = ' '.join(query_parts)
+    print(f"  Wishlist: {query}")
+    found = []
+    found += search_leboncoin(query, max_price=None)
+    found += search_vinted(query, max_price=None)
+    found += search_ebay(query, max_price=None)
+    # Déduplication par URL
+    seen = set()
+    unique = []
+    for f in found:
+        if f['url'] not in seen:
+            seen.add(f['url'])
+            unique.append({**f, 'wishlist_query': query, 'wishlist_artist': artist, 'wishlist_album': album})
+    return unique
 
 
 # ─────────────────────────────────────────────
@@ -955,23 +751,13 @@ def save_db(db):
         json.dump(db, f, ensure_ascii=False, indent=2)
 
 
-BLACKLIST_FILE = "scout_blacklist.json"
-
-def load_blacklist():
-    if os.path.exists(BLACKLIST_FILE):
-        with open(BLACKLIST_FILE) as f:
-            data = json.load(f)
-            return set(data) if isinstance(data, list) else set()
-    return set()
-
-
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 
 def main():
     # ── Phase 1 : scraping sources experts ──
-    print("\n→ Phase 1 : scraping sources experts...")
+    print("Phase 1 : scraping sources experts...")
     all_records = []
     all_records += scrape_victorkiswell()
     all_records += scrape_diggersdigest()
@@ -1001,38 +787,21 @@ def main():
     save_db(db)
 
     # ── Phase 2 : croisement Disques Anciens ──
-    print("\n→ Phase 2 : croisement Disques Anciens...")
+    print("\nPhase 2 : croisement Disques Anciens...")
     da_records = scrape_disquesanciens()
     croisements_da = croiser_disquesanciens(all_records, da_records)
     print(f"{len(croisements_da)} croisements trouves chez Disques Anciens")
 
     # ── Phase 3 : recherche opportunites marche ──
-    print("\n→ Phase 3 : recherche opportunités marché...")
-    blacklist = load_blacklist()
+    print("\nPhase 3 : recherche opportunites marche...")
     opportunites = []
     actifs = [r for r in all_records if not r.get('sold')]
-
     if TEST_MODE:
-        print("  [TEST_MODE] Limite a 5 disques pour diagnostic")
-        batch = actifs[:5]
-        offset = 0
-        next_offset = 5
-    else:
-        offset = load_offset()
-        if offset >= len(actifs):
-            offset = 0
-        batch = actifs[offset:offset + BATCH_SIZE]
-        next_offset = offset + BATCH_SIZE
-        if next_offset >= len(actifs):
-            next_offset = 0
-
-    print(f"Batch : disques {offset+1}–{offset+len(batch)} / {len(actifs)} actifs")
-    print(f"Prochain run : disques {next_offset+1}–{next_offset+BATCH_SIZE}")
-
-    for i, record in enumerate(batch):
+        print("  [TEST_MODE] Limite a 3 disques pour diagnostic")
+        actifs = actifs[:3]
+    for record in actifs:
         max_price = round(record['price_ref'] * MAX_PRICE_RATIO, 0)
-        print(f"  [{i+1}/{len(batch)}] {record['title']} | ref {record['price_ref']}€ | max {max_price}€")
-        found = search_paruvendu(record['title'], max_price)
+        found = search_leboncoin(record['title'], max_price)
         found += search_vinted(record['title'], max_price)
         found += search_ebay(record['title'], max_price)
         for f in found:
@@ -1049,27 +818,54 @@ def main():
                 'marge': marge,
                 'marge_pct': ratio,
             })
-
-    if not TEST_MODE:
-        save_offset(next_offset)
-
     opportunites.sort(key=lambda x: -x['marge'])
-
-    # Déduplication par URL + filtre blacklist
     seen_urls = set()
     opportunites_uniques = []
     for o in opportunites:
-        if o['found_url'] not in seen_urls and o['found_url'] not in blacklist:
+        if o['found_url'] not in seen_urls:
             seen_urls.add(o['found_url'])
             opportunites_uniques.append(o)
     opportunites = opportunites_uniques
 
+    # ── Phase 3b : recherche wishlist ──
+    wishlist = load_wishlist()
+    wishlist_hits = []
+    if wishlist:
+        print(f"\nPhase 3b : recherche wishlist ({len(wishlist)} disques)...")
+        for entry in wishlist:
+            hits = search_wishlist_item(entry)
+            wishlist_hits.extend(hits)
+        print(f"{len(wishlist_hits)} annonces wishlist trouvées")
+    else:
+        print("\nPhase 3b : wishlist vide, rien à chercher")
+
     # ── Rapport ──
     now = datetime.now().strftime("%d/%m/%Y %H:%M")
     lines = [f"# VINYL SCOUT — Rapport du {now}\n"]
-    lines.append(f"**Base : {len(db)} disques | Actifs : {len(actifs)} | Batch : {offset+1}–{offset+len(batch)} | Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref**\n")
+    lines.append(f"**Base : {len(db)} disques | Actifs : {len(actifs)} | Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref**\n")
     lines.append("---\n")
 
+    # Section wishlist
+    if wishlist_hits:
+        lines.append(f"## 🎯 {len(wishlist_hits)} ANNONCES WISHLIST\n")
+        # Grouper par disque recherché
+        by_query = {}
+        for h in wishlist_hits:
+            key = h['wishlist_query']
+            by_query.setdefault(key, []).append(h)
+        for query, hits in by_query.items():
+            lines.append(f"### {query}")
+            for h in hits:
+                price_str = f"{h['price']}€" if h['price'] else "prix non renseigné"
+                lines.append(f"- **{price_str}** sur {h['platform']} — {h['title']}")
+                lines.append(f"  [Voir l'annonce]({h['url']})")
+            lines.append("")
+    elif wishlist:
+        lines.append("## 🎯 Wishlist : aucune annonce trouvée aujourd'hui\n")
+
+    lines.append("---\n")
+
+    # Section croisements Disques Anciens
     if croisements_da:
         lines.append(f"## 🏪 {len(croisements_da)} REFS AUSSI CHEZ DISQUES ANCIENS\n")
         for o in croisements_da:
@@ -1084,6 +880,7 @@ def main():
 
     lines.append("---\n")
 
+    # Section opportunites marche
     if opportunites:
         lines.append(f"## 🔴 {len(opportunites)} OPPORTUNITES MARCHE\n")
         for o in opportunites:
@@ -1121,10 +918,7 @@ def main():
     with open(ALERT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
 
-    # ── Rapport HTML avec blacklist interactive ──
-    generate_html(opportunites, croisements_da, now, len(db), len(actifs), offset, len(batch))
-
-    print(f"\nRapport genere — {len(croisements_da)} croisements DA | {len(opportunites)} opportunites marche | {len(nouveaux_ref)} nouveaux")
+    print(f"\nRapport genere — {len(croisements_da)} croisements DA | {len(opportunites)} opportunites marche | {len(wishlist_hits)} hits wishlist | {len(nouveaux_ref)} nouveaux")
 
 
 if __name__ == "__main__":
