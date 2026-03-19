@@ -3577,5 +3577,13 @@
     "url": "https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/",
     "sold": false,
     "first_seen": "2026-03-19T13:38:40.010759"
+  },
+  "https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/": {
+    "source": "SOFA Records",
+    "title": "ABDOU EL OMARI - lost tape - 1980",
+    "price_ref": 1980.0,
+    "url": "https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/",
+    "sold": false,
+    "first_seen": "2026-03-19T19:44:31.728002"
   }
 }

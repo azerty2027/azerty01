@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 19/03/2026 13:44
+# VINYL SCOUT — Rapport du 19/03/2026 20:00
 
-**Base : 447 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 448 disques | Actifs : 397 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -11,21 +11,9 @@
 ## ✅ Aucune opportunite marche aujourd'hui
 
 ---
-## 🆕 13 nouveaux en base
+## 🆕 1 nouveaux en base
 
-- **350.0€** — Vladimir Cosma - ultra pop-op (SOFA Records)
-- **290.0€** — Gerardo Iacoucci / H. Caiage - l'aventure (SOFA Records)
-- **190.0€** — Walt Rockman - underwater vol. 1 (SOFA Records)
-- **150.0€** — Michel Berger - puzzle (SOFA Records)
-- **125.0€** — Marvelous Band - chant libre (SOFA Records)
-- **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution (SOFA Records)
-- **120.0€** — Peloquin, Sauvageau - laissez-nous vous embrasser où vous avez mal (SOFA Records)
-- **115.0€** — Philippe Doray, Les Asociaux Associes - ramasse-miettes nucléaire (SOFA Records)
-- **95.0€** — Pierre Dutour Et Son Orchestre - vol. 13 dance and mood music (SOFA Records)
-- **90.0€** — Ghédalia Tazartès - transports (SOFA Records)
-- **80.0€** — Manu Dibango - africadelic (SOFA Records)
-- **80.0€** — Nyssa - comme au moulin (SOFA Records)
-- **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music (SOFA Records)
+- **1980.0€** — ABDOU EL OMARI - lost tape - 1980 (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -136,13 +124,13 @@
 
 ### SOFA Records — 35 disponibles, 0 vendus
 
+- **1980.0€** — ABDOU EL OMARI - lost tape - 1980 — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
 - **350.0€** — Vladimir Cosma - ultra pop-op — [voir](https://www.sofarecords.fr/fr/vladimir-cosma/ultra-pop-op/p3205542569/)
 - **290.0€** — Gerardo Iacoucci / H. Caiage - l'aventure — [voir](https://www.sofarecords.fr/fr/gerardo-iacoucci-h-caiage/l%27aventure/p3205542029/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
 - **150.0€** — The George Otsuka 5 - go on — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
-- **150.0€** — Michel Berger - puzzle — [voir](https://www.sofarecords.fr/fr/michel-berger/puzzle/p3205647865/)
 - **140.0€** — Johnny Mokhali - sister sexy eyes / best friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
 - **125.0€** — Marvelous Band - chant libre — [voir](https://www.sofarecords.fr/fr/marvelous-band/chant-libre/p3205647864/)
 - **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
@@ -176,7 +164,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 261 disponibles, 0 vendus
+### Victor Kiswell — 260 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -438,4 +426,3 @@
 - **100.0€** — Louis Banks' Jazz Yatra - Sangam — [voir](http://www.victorkiswell.com/v3/?product=sangam)
 - **100.0€** — Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites — [voir](http://www.victorkiswell.com/v3/?product=flutes-libres-musiques-et-instruments-insolites)
 - **100.0€** — Foehn - Faëria — [voir](http://www.victorkiswell.com/v3/?product=faeria)
-- **100.0€** — Melodiya Ensemble - Labyrinth — [voir](http://www.victorkiswell.com/v3/?product=labyrinth-2)
