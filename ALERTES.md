@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 19/03/2026 12:58
+# VINYL SCOUT — Rapport du 19/03/2026 13:44
 
-**Base : 434 disques | Actifs : 390 | Batch : 101–150 | Seuil achat : 70% du prix ref**
+**Base : 447 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -9,6 +9,23 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
+
+---
+## 🆕 13 nouveaux en base
+
+- **350.0€** — Vladimir Cosma - ultra pop-op (SOFA Records)
+- **290.0€** — Gerardo Iacoucci / H. Caiage - l'aventure (SOFA Records)
+- **190.0€** — Walt Rockman - underwater vol. 1 (SOFA Records)
+- **150.0€** — Michel Berger - puzzle (SOFA Records)
+- **125.0€** — Marvelous Band - chant libre (SOFA Records)
+- **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution (SOFA Records)
+- **120.0€** — Peloquin, Sauvageau - laissez-nous vous embrasser où vous avez mal (SOFA Records)
+- **115.0€** — Philippe Doray, Les Asociaux Associes - ramasse-miettes nucléaire (SOFA Records)
+- **95.0€** — Pierre Dutour Et Son Orchestre - vol. 13 dance and mood music (SOFA Records)
+- **90.0€** — Ghédalia Tazartès - transports (SOFA Records)
+- **80.0€** — Manu Dibango - africadelic (SOFA Records)
+- **80.0€** — Nyssa - comme au moulin (SOFA Records)
+- **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -117,35 +134,43 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 27 disponibles, 0 vendus
+### SOFA Records — 35 disponibles, 0 vendus
 
-- **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
+- **350.0€** — Vladimir Cosma - ultra pop-op — [voir](https://www.sofarecords.fr/fr/vladimir-cosma/ultra-pop-op/p3205542569/)
+- **290.0€** — Gerardo Iacoucci / H. Caiage - l'aventure — [voir](https://www.sofarecords.fr/fr/gerardo-iacoucci-h-caiage/l%27aventure/p3205542029/)
+- **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
+- **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
-- **160.0€** — Michel Colombier - capot pointu — [voir](https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/)
 - **150.0€** — The George Otsuka 5 - go on — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
+- **150.0€** — Michel Berger - puzzle — [voir](https://www.sofarecords.fr/fr/michel-berger/puzzle/p3205647865/)
 - **140.0€** — Johnny Mokhali - sister sexy eyes / best friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
+- **125.0€** — Marvelous Band - chant libre — [voir](https://www.sofarecords.fr/fr/marvelous-band/chant-libre/p3205647864/)
+- **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
+- **120.0€** — Peloquin, Sauvageau - laissez-nous vous embrasser où vous avez mal — [voir](https://www.sofarecords.fr/fr/peloquin-sauvageau/laissez-nous-vous-embrasser-ou-vous-avez-mal/p3205647863/)
+- **115.0€** — Philippe Doray, Les Asociaux Associes - ramasse-miettes nucléaire — [voir](https://www.sofarecords.fr/fr/philippe-doray-les-asociaux-associes/ramasse-miettes-nucleaire/p3205647862/)
 - **110.0€** — Fela Kuti & Africa 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
 - **110.0€** — Orquesta Sabor Internacional - dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
 - **110.0€** — Neutral Rythmique - various — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
+- **95.0€** — Pierre Dutour Et Son Orchestre - vol. 13 dance and mood music — [voir](https://www.sofarecords.fr/fr/pierre-dutour-et-son-orchestre/vol-13-dance-and-mood-music/p3205542570/)
 - **90.0€** — Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
 - **90.0€** — Fairuz - loulou volume 1 — [voir](https://www.sofarecords.fr/fr/fairuz/loulou-volume-1/p3205207070/)
+- **90.0€** — Ghédalia Tazartès - transports — [voir](https://www.sofarecords.fr/fr/ghedalia-tazartes/transports/p3205647861/)
 - **85.0€** — Fela Kuti & Africa 70 - question jam answer vol.2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Alan Hawkshaw, Alan Parker - the rock machine — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
+- **80.0€** — Manu Dibango - africadelic — [voir](https://www.sofarecords.fr/fr/manu-dibango/africadelic/p3205542039/)
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — L'Orchestre Jazz Babalou - ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
-- **80.0€** — Ramuntcho Matta Presents - brion gysin / polo lombardo — [voir](https://www.sofarecords.fr/fr/ramuntcho-matta-presents/brion-gysin-polo-lombardo/p3202495250/)
-- **80.0€** — Cohelmec Ensemble - next — [voir](https://www.sofarecords.fr/fr/cohelmec-ensemble/next/p3103245669/)
-- **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
+- **80.0€** — Nyssa - comme au moulin — [voir](https://www.sofarecords.fr/fr/nyssa/comme-au-moulin/p3205647859/)
 - **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
-- **75.0€** — Kazis Et Les Cheveux Crepus - diables noirs / champions — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
 - **70.0€** — Rico - mwen domi dewo — [voir](https://www.sofarecords.fr/fr/rico/mwen-domi-dewo/p3200575881/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
+- **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
 
 ### Superfly Records — 1 disponibles, 0 vendus
 
