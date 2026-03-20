@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 19/03/2026 23:35
+# VINYL SCOUT — Rapport du 20/03/2026 11:40
 
-**Base : 448 disques | Actifs : 397 | Seuil achat : 40% du prix ref**
+**Base : 449 disques | Actifs : 397 | Seuil achat : 40% du prix ref**
 
 ---
 
@@ -13,6 +13,11 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
+
+---
+## 🆕 1 nouveaux en base
+
+- **2000.0€** — Eric Framondpalpitations  |  editions montparnasse 2000 (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -123,8 +128,8 @@
 
 ### SOFA Records — 35 disponibles, 0 vendus
 
+- **2000.0€** — Eric Framondpalpitations  |  editions montparnasse 2000 — [voir](https://www.sofarecords.fr/fr/eric-framond/palpitations/p3205542034/)
 - **1980.0€** — ABDOU EL OMARIlost tape - 1980  |  born bad records — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
-- **350.0€** — Vladimir Cosmaultra pop-op  |  musique pour l'image — [voir](https://www.sofarecords.fr/fr/vladimir-cosma/ultra-pop-op/p3205542569/)
 - **290.0€** — Gerardo Iacoucci / H. Caiagel'aventure  |  st germain des prés — [voir](https://www.sofarecords.fr/fr/gerardo-iacoucci-h-caiage/l%27aventure/p3205542029/)
 - **250.0€** — Action (Various)action  |  musax — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockmanunderwater vol. 1  |  sonoton — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
@@ -144,13 +149,13 @@
 - **90.0€** — Ghédalia Tazartèstransports  |  cobalt — [voir](https://www.sofarecords.fr/fr/ghedalia-tazartes/transports/p3205647861/)
 - **85.0€** — Fela Kuti & Africa 70question jam answer vol.2  |  makossa — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Alan Hawkshaw, Alan Parkerthe rock machine  |  themes international music — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
-- **80.0€** — Manu Dibangoafricadelic  |  mondiophone — [voir](https://www.sofarecords.fr/fr/manu-dibango/africadelic/p3205542039/)
 - **80.0€** — Black Beats Bandblack beat rhythms  |  decca — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
 - **80.0€** — Nyssacomme au moulin  |  not on label — [voir](https://www.sofarecords.fr/fr/nyssa/comme-au-moulin/p3205647859/)
 - **75.0€** — Mansia M'Bilas/t  |  west african music (wam) — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
+- **75.0€** — Kazis Et Les Cheveux Crepusdiables noirs / champions  |  afro-disc — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Rootsmsa mombasa  |  polydor — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **70.0€** — African Brothers Band Internationalodo paa nie  |  aduana — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
