@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 20/03/2026 11:40
+# VINYL SCOUT — Rapport du 21/03/2026 10:37
 
-**Base : 449 disques | Actifs : 397 | Seuil achat : 40% du prix ref**
+**Base : 450 disques | Actifs : 396 | Seuil achat : 40% du prix ref**
 
 ---
 
@@ -17,7 +17,7 @@
 ---
 ## 🆕 1 nouveaux en base
 
-- **2000.0€** — Eric Framondpalpitations  |  editions montparnasse 2000 (SOFA Records)
+- **1993.0€** — cesaria evoralive à paris 1993  |  music on vinyl / sony music (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -126,9 +126,9 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 35 disponibles, 0 vendus
+### SOFA Records — 34 disponibles, 0 vendus
 
-- **2000.0€** — Eric Framondpalpitations  |  editions montparnasse 2000 — [voir](https://www.sofarecords.fr/fr/eric-framond/palpitations/p3205542034/)
+- **1993.0€** — cesaria evoralive à paris 1993  |  music on vinyl / sony music — [voir](https://www.sofarecords.fr/fr/cesaria-evora/live-a-paris-1993/p3205681614/)
 - **1980.0€** — ABDOU EL OMARIlost tape - 1980  |  born bad records — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
 - **290.0€** — Gerardo Iacoucci / H. Caiagel'aventure  |  st germain des prés — [voir](https://www.sofarecords.fr/fr/gerardo-iacoucci-h-caiage/l%27aventure/p3205542029/)
 - **250.0€** — Action (Various)action  |  musax — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
@@ -153,7 +153,6 @@
 - **80.0€** — L'Orchestre Jazz Babaloungoma 50  |  ngoma — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyatfavourite songs vol.6  |  voix de l'orient — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnsonthe bow  |  volcanic — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
-- **80.0€** — Nyssacomme au moulin  |  not on label — [voir](https://www.sofarecords.fr/fr/nyssa/comme-au-moulin/p3205647859/)
 - **75.0€** — Mansia M'Bilas/t  |  west african music (wam) — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
 - **75.0€** — Kazis Et Les Cheveux Crepusdiables noirs / champions  |  afro-disc — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S.N. Thiamsynthez - guinée dimension 80  |  ledoux records — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
