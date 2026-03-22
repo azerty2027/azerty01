@@ -1132,13 +1132,31 @@ def load_wishlist():
     return []
 
 def search_wishlist_item(item):
-    """Recherche sans filtre prix pour la wishlist."""
-    title = item['title']
+    """
+    Recherche wishlist. Format attendu :
+    {"artist": "...", "album": "...", "max_price": 50}
+    Construit la query "Artiste Album" et utilise le max_price de l'item.
+    """
+    artist = item.get('artist', '').strip()
+    album = item.get('album', '').strip()
+    if not artist and not album:
+        print(f"  [WISHLIST] Item ignoré — artist et album vides : {item}")
+        return []
+    # Query : "Artiste Album" — évite le doublon si éponyme
+    if artist.lower() == album.lower():
+        query_title = artist
+    else:
+        query_title = f"{artist} - {album}" if artist else album
+    max_price = item.get('max_price', None)
+    print(f"  [WISH] {query_title} | max: {max_price or '—'}€")
     found = []
-    found += search_leboncoin(title, max_price=None)
-    found += search_paruvendu(title, max_price=None)
-    found += search_vinted(title, max_price=None)
-    found += search_ebay(title, max_price=None)
+    found += search_leboncoin(query_title, max_price=max_price)
+    found += search_paruvendu(query_title, max_price=max_price)
+    found += search_vinted(query_title, max_price=max_price)
+    found += search_ebay(query_title, max_price=max_price)
+    # Tag le titre affiché pour le rapport
+    for f in found:
+        f['wish_label'] = f"{artist} — {album}"
     return found
 
 
@@ -1277,9 +1295,9 @@ def main():
             found = search_wishlist_item(item)
             for f in found:
                 wishlist_results.append({
-                    'wish_title': item['title'],
+                    'wish_title': f.get('wish_label', f"{item.get('artist','')} — {item.get('album','')}"),
                     'found_title': f['title'],
-                    'found_price': f['price'],
+                    'found_price': f['found_price'] if 'found_price' in f else f['price'],
                     'found_url': f['url'],
                     'platform': f['platform'],
                 })
