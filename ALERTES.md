@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 23/03/2026 08:50
+# VINYL SCOUT — Rapport du 23/03/2026 11:59
 
-**Base : 450 disques | Actifs : 394 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 450 disques | Actifs : 394 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -29,7 +29,7 @@
   [Voir l'annonce](https://www.vinted.fr/items/4003845069-disque-vinyle45t-ann-steel-my-timesouthafternoon-durium-1979)
 
 ### Kat Tet — Women
-- **45.0€** sur vinted.fr — Kat Tet - Women
+- **40.0€** sur vinted.fr — Kat Tet - Women
   [Voir l'annonce](https://www.vinted.fr/items/8366359117-kat-tet-women)
 
 ### Raja — Lebanon
@@ -50,37 +50,67 @@
 
 ---
 
-## 🔴 6 OPPORTUNITES MARCHE
+## 🔴 12 OPPORTUNITES MARCHE
 
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **530.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8413769560-ali-farka-toure)
+### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
+- **Ref** : 450.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
 
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 34.0€ sur vinted.fr — marge potentielle **516.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6878740927-ali-farka-toure-savane)
-
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
+### Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster.
 - **Ref** : 390.0€ chez Digger's Digest
 - **Trouve** : 30.0€ sur vinted.fr — marge potentielle **360.0€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7787446587-vinil-between-and-the-waters-opened)
+- [Voir l'annonce](https://www.vinted.fr/items/8277374017-vinyl-lp-lintercommunal-free-dance-music-orchestra-free-jazz)
 
-### Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972)
-- **Ref** : 390.0€ chez Digger's Digest
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **355.0€ (91%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2512560711-lp-between-and-the-waters-opened)
+### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
 
-### Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)
+### Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **250.0€ (71%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7694868948-le-theatre-du-chene-noir-miss-madona-1973)
+
+### Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971)
 - **Ref** : 220.0€ chez Digger's Digest
-- **Trouve** : 110.0€ sur vinted.fr — marge potentielle **110.0€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7876708703-can-ege-bamyasi-lp-krautrock-original-france)
+- **Trouve** : 16.5€ sur vinted.fr — marge potentielle **203.5€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8198670596-septet-matchi-oul-terremoto-vinyle-french-free-jazz)
 
-### Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 59.0€ sur vinted.fr — marge potentielle **41.0€ (41%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7896296420-jean-cohen-solal-flutes-libres-vinyl)
+### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **160.0€ (46%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188856905-chene-noir-orphee-2000-1976-lp)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **156.0€ (87%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6811288698-moving-gelatine-plates-lp-the-same-vinyl)
+
+### Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971)
+- **Ref** : 180.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **155.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6811202724-moving-gelatine-plates-lp)
+
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 175.0€ sur vinted.fr — marge potentielle **145.0€ (45%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7588374673-vinyle-musique-experimental-avant-garde-francaise-de-chene-noir)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051913673-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7051914766-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
+
+### Chêne Noir - Chant Pour Le Delta, La Lune Et Le Soleil
+- **Ref** : 320.0€ chez Digger's Digest
+- **Trouve** : 190.0€ sur vinted.fr — marge potentielle **130.0€ (41%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8188655237-chene-noir-disques-volume-1-chant)
 
 ---
 ## Catalogue complet
