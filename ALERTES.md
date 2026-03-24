@@ -1,28 +1,26 @@
-# VINYL SCOUT — Rapport du 24/03/2026 11:21
+# VINYL SCOUT — Rapport du 24/03/2026 15:45
 
-**Base : 451 disques | Actifs : 385 | Batch : 351–385 | Seuil achat : 70% du prix ref**
+**Base : 451 disques | Actifs : 394 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
 ---
 
-## 🎯 13 ANNONCES WISHLIST
+## 🎯 10 ANNONCES WISHLIST
 
 ### Brothers by Choice — Brothers By Choice
-- **8.0€** sur vinted.fr — Tren Brothers Gone Away Kit's Choice Vinyl 7" LP Dirty Three Mick Turner Jim White Secretly Canadian
-  [Voir l'annonce](https://www.vinted.fr/items/7991855996-tren-brothers-gone-away-kits-choice-vinyl-7-lp-dirty-three-mick-turner-jim-white-secretly-canadian)
 - **28.0€** sur vinted.fr — Scream "Your Choice Live Series" LP Dave Grohl
   [Voir l'annonce](https://www.vinted.fr/items/5735550990-scream-your-choice-live-series-lp-dave-grohl)
+- **8.0€** sur vinted.fr — Tren Brothers Gone Away Kit's Choice Vinyl 7" LP Dirty Three Mick Turner Jim White Secretly Canadian
+  [Voir l'annonce](https://www.vinted.fr/items/7991855996-tren-brothers-gone-away-kits-choice-vinyl-7-lp-dirty-three-mick-turner-jim-white-secretly-canadian)
 
 ### Ann Steel — My Time
 - **4.0€** sur vinted.fr — Ann Steel - My time 45T
   [Voir l'annonce](https://www.vinted.fr/items/7872380331-ann-steel-my-time-45t)
 - **2.0€** sur vinted.fr — Ann Steel – My Time
   [Voir l'annonce](https://www.vinted.fr/items/7881801429-ann-steel-my-time)
-- **3.0€** sur vinted.fr — Ann Steel
-  [Voir l'annonce](https://www.vinted.fr/items/3047097772-ann-steel-45-tours)
-- **10.0€** sur vinted.fr — 45 tours Ann Steel - My Time
-  [Voir l'annonce](https://www.vinted.fr/items/7261316131-45-tours-ann-steel-my-time)
 - **9.5€** sur vinted.fr — Ann Steel – My Time
   [Voir l'annonce](https://www.vinted.fr/items/4583942339-ann-steel-my-time)
+- **10.0€** sur vinted.fr — 45 tours Ann Steel - My Time
+  [Voir l'annonce](https://www.vinted.fr/items/7261316131-45-tours-ann-steel-my-time)
 - **5.0€** sur vinted.fr — 45 tours Ann Steel - My time
   [Voir l'annonce](https://www.vinted.fr/items/6766500808-45-tours-ann-steel-my-time)
 - **3.0€** sur vinted.fr — Disque vinyle/45t Ann Steel "My Time/Southafternoon" (Durium
@@ -31,14 +29,6 @@
 ### Kat Tet — Women
 - **40.0€** sur vinted.fr — Kat Tet - Women
   [Voir l'annonce](https://www.vinted.fr/items/8366359117-kat-tet-women)
-
-### Raja — Lebanon
-- **16.0€** sur vinted.fr — Disque raja zahr
-  [Voir l'annonce](https://www.vinted.fr/items/8126500593-disque-raja-zahr)
-
-### Raja Zahr — Lebanon
-- **16.0€** sur vinted.fr — Disque raja zahr
-  [Voir l'annonce](https://www.vinted.fr/items/8126500593-disque-raja-zahr)
 
 ### Jaws — Jaws
 - **11.0€** sur paruvendu.fr — 45 tours seven seas super jaws
@@ -52,15 +42,10 @@
 
 ## 🔴 1 OPPORTUNITES MARCHE
 
-### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
-- **Ref** : 90.0€ chez SOFA Records
-- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
-
----
-## 🆕 1 nouveaux en base
-
-- **100.0€** — Naná Vasconcelos– Africadeus (Saravah – SH 10039 - France - 1973) (Digger's Digest)
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7232970954-maxi-45-boncana-maiga-marietou-african-funk-folk-vg)
 
 ---
 ## Catalogue complet
@@ -169,11 +154,10 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 32 disponibles, 0 vendus
+### SOFA Records — 31 disponibles, 0 vendus
 
 - **1993.0€** — cesaria evora - live à paris 1993 — [voir](https://www.sofarecords.fr/fr/cesaria-evora/live-a-paris-1993/p3205681614/)
 - **1980.0€** — ABDOU EL OMARI - lost tape - 1980 — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
-- **290.0€** — Gerardo Iacoucci / H. Caiage - l'aventure — [voir](https://www.sofarecords.fr/fr/gerardo-iacoucci-h-caiage/l%27aventure/p3205542029/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
@@ -208,7 +192,7 @@
 
 - **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
-### Victor Kiswell — 251 disponibles, 0 vendus
+### Victor Kiswell — 261 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -246,6 +230,7 @@
 - **250.0€** — Subversion - Subversion — [voir](http://www.victorkiswell.com/v3/?product=subversion)
 - **250.0€** — Haki R. Madhubuti - Rise Vision Comin’ — [voir](http://www.victorkiswell.com/v3/?product=rise-vision-comin-2)
 - **250.0€** — Keith Tippett Group - Dedicated to You, But You Weren’t Listening — [voir](http://www.victorkiswell.com/v3/?product=dedicated-to-you-but-you-werent-listening)
+- **250.0€** — Uni Sono - Unisono — [voir](http://www.victorkiswell.com/v3/?product=unisono)
 - **250.0€** — Jason Havelock - Pop Symphony — [voir](http://www.victorkiswell.com/v3/?product=pop-symphony)
 - **230.0€** — Omar el Sheriyi - Music From the East — [voir](http://www.victorkiswell.com/v3/?product=music-from-the-east)
 - **230.0€** — Jimmy Takeuchi - Drum Drum Drum – Japanese Folk Music — [voir](http://www.victorkiswell.com/v3/?product=drum-drum-drum-japanese-folk-music-4)
@@ -263,11 +248,12 @@
 - **200.0€** — Akira Ishikawa - Tsugaru Jongara Bushi – Drum & Tsugaru Jamisen — [voir](http://www.victorkiswell.com/v3/?product=tsugaru-jongara-bushi-drum-tsugaru-jamisen)
 - **200.0€** — Minoru Muraoka - Osorezan Suite — [voir](http://www.victorkiswell.com/v3/?product=osorezan-suite-4)
 - **200.0€** — Mine + Kosuke Quintet - Mine — [voir](http://www.victorkiswell.com/v3/?product=mine)
+- **200.0€** — Jerome Bigotti - Ebony Flash — [voir](http://www.victorkiswell.com/v3/?product=ebonyflash)
+- **200.0€** — Chene Noir - Orphée 2000 — [voir](http://www.victorkiswell.com/v3/?product=orphee-2000-2)
 - **200.0€** — Oscar Lindok (aka Giacomo dell'Orso) / Donimak (aka Nico Fidenco) - Stati d’animo Vol. 1 — [voir](http://www.victorkiswell.com/v3/?product=stati-danimo-vol-1-2)
 - **200.0€** — Giuliano Sorgini / Carlo Zoffoli - Natura e musica n°7 — [voir](http://www.victorkiswell.com/v3/?product=natura-e-musica-n7)
 - **200.0€** — Ennio Morricone - Revolver — [voir](http://www.victorkiswell.com/v3/?product=revolver)
 - **200.0€** — Albert Verrecchia - Tecnica di un amore — [voir](http://www.victorkiswell.com/v3/?product=tecnica-di-un-amore)
-- **200.0€** — Jerome Bigotti - Ebony Flash — [voir](http://www.victorkiswell.com/v3/?product=ebonyflash)
 - **200.0€** — Nef - Mais alors c’est à l’envers — [voir](http://www.victorkiswell.com/v3/?product=mais-alors-cest-a-lenvers)
 - **200.0€** — Pyranha - Pyranha — [voir](http://www.victorkiswell.com/v3/?product=pyranha)
 - **180.0€** — Le Kéné Star de Sikasso - Le Kéné Star de Sikasso — [voir](http://www.victorkiswell.com/v3/?product=le-kene-star-de-sikasso)
@@ -301,6 +287,7 @@
 - **150.0€** — Joan Bibiloni - Born — [voir](http://www.victorkiswell.com/v3/?product=born-2)
 - **150.0€** — Herbie Hancock - Flood — [voir](http://www.victorkiswell.com/v3/?product=flood-5)
 - **150.0€** — Oiling Boiling - Two Faces — [voir](http://www.victorkiswell.com/v3/?product=two-faces)
+- **150.0€** — Various Artists - Sensations — [voir](http://www.victorkiswell.com/v3/?product=sensations)
 - **150.0€** — Hideo Shiraki Quintet + 3 Koto Girls - Japan Meets Jazz — [voir](http://www.victorkiswell.com/v3/?product=japan-meets-jazz-2)
 - **150.0€** — Ian Carr & Nucleus - Labyrinth — [voir](http://www.victorkiswell.com/v3/?product=labyrinth-4)
 - **150.0€** — Ravi Shankar - Jazzmine — [voir](http://www.victorkiswell.com/v3/?product=jazzmine-2)
@@ -308,6 +295,7 @@
 - **150.0€** — Carlo Rustichelli - Stuntman — [voir](http://www.victorkiswell.com/v3/?product=stuntman)
 - **150.0€** — Nucleus - Belladonna — [voir](http://www.victorkiswell.com/v3/?product=belladonna)
 - **150.0€** — Art Ensemble of Chicago - Les stances à Sophie — [voir](http://www.victorkiswell.com/v3/?product=les-stances-a-sophie-2)
+- **150.0€** — Barcelona Traction - Nano — [voir](http://www.victorkiswell.com/v3/?product=nano-2)
 - **150.0€** — Stefano Marcucci - Tempo di demoni, papi, angioli, incensi e cilici — [voir](http://www.victorkiswell.com/v3/?product=tempo-di-demoni-papi-angioli-incensi-e-cilici)
 - **150.0€** — Alessandro Alessandroni - Romance and Drama — [voir](http://www.victorkiswell.com/v3/?product=romance-and-drama)
 - **150.0€** — Stelvio Cipriani / Ennio Morricone / Mario Molino / Luis Bacalov - Giallo 2 (Suspence – Drammatico) – Thriller 2 — [voir](http://www.victorkiswell.com/v3/?product=giallo-2-suspence-drammatico-thriller-2)
@@ -316,7 +304,6 @@
 - **150.0€** — Francesco de Masi / Carlo Rustichelli - Ettore lo fusto / In nome del popolo italiano — [voir](http://www.victorkiswell.com/v3/?product=ettore-lo-fusto-in-nome-del-popolo-italiano-2)
 - **150.0€** — Piero Piccioni - Tutto a posto e niente in ordine — [voir](http://www.victorkiswell.com/v3/?product=tutto-a-posto-e-niente-in-ordine)
 - **150.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale)
-- **150.0€** — Various Artists - Sensations — [voir](http://www.victorkiswell.com/v3/?product=sensations)
 - **150.0€** — Francis Lai - Madly — [voir](http://www.victorkiswell.com/v3/?product=madly)
 - **150.0€** — Matsuo Ono - Space and Maryjuane Trip Is Same — [voir](http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same)
 - **150.0€** — Bizarre Ko.Ko.Ko. - 00 Time — [voir](http://www.victorkiswell.com/v3/?product=00-time)
@@ -329,6 +316,7 @@
 - **135.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad)
 - **135.0€** — Azar Lawrence - Bridge Into the New Age — [voir](http://www.victorkiswell.com/v3/?product=bridge-into-the-new-age)
 - **135.0€** — Wolfgang Dauner Quartet - The Oimels — [voir](http://www.victorkiswell.com/v3/?product=the-oimels)
+- **135.0€** — Doug Lucas - Niara — [voir](http://www.victorkiswell.com/v3/?product=niara-2)
 - **130.0€** — The Rwenzori's - Handsome Boy (E Wara) — [voir](http://www.victorkiswell.com/v3/?product=handsome-boy-e-wara)
 - **130.0€** — Voodoo Family - Voodoo Family — [voir](http://www.victorkiswell.com/v3/?product=voodoo-family)
 - **130.0€** — Slujj - Slujj — [voir](http://www.victorkiswell.com/v3/?product=slujj)
@@ -371,6 +359,7 @@
 - **120.0€** — Arco Iris - Inti Raymi — [voir](http://www.victorkiswell.com/v3/?product=inti-raymi)
 - **120.0€** — Juan Carlos Calderon - Bloque 6 — [voir](http://www.victorkiswell.com/v3/?product=bloque-6)
 - **120.0€** — Irene Schweizer & Dewan Motihar Trio - Jazz Meets India — [voir](http://www.victorkiswell.com/v3/?product=jazz-meets-india-2)
+- **120.0€** — François Tusques - Après la marée noire — [voir](http://www.victorkiswell.com/v3/?product=apres-la-maree-noire)
 - **120.0€** — Private Joke - Private Joke — [voir](http://www.victorkiswell.com/v3/?product=private-joke)
 - **120.0€** — Gianni Fallabrino - Musical Visions n°1 — [voir](http://www.victorkiswell.com/v3/?product=musical-visions-n1)
 - **120.0€** — Serge Boëche - Du son au geste — [voir](http://www.victorkiswell.com/v3/?product=du-son-au-geste-2)
@@ -400,8 +389,11 @@
 - **110.0€** — Inoue Band - Matsuri bayashi ga kikoeru — [voir](http://www.victorkiswell.com/v3/?product=matsuri-bayashi-ga-kikoeru)
 - **110.0€** — Alberto Baldan Bembo - Codice d’amore orientale — [voir](http://www.victorkiswell.com/v3/?product=codice-damore-orientale-2)
 - **110.0€** — Ramon Farran & Robert Graves - El Olivo — [voir](http://www.victorkiswell.com/v3/?product=el-olivo-5)
+- **110.0€** — Jou Cogra - The Hammond Sound of — [voir](http://www.victorkiswell.com/v3/?product=the-hammond-sound-of)
 - **110.0€** — Sylvain Kassap - Musiques pour la Tortue Magique — [voir](http://www.victorkiswell.com/v3/?product=musiques-pour-la-tortue-magique)
 - **110.0€** — Maad - Maad — [voir](http://www.victorkiswell.com/v3/?product=maad-2)
+- **110.0€** — Marvin Martin - Charles Wilp fotografiert Bunny — [voir](http://www.victorkiswell.com/v3/?product=charles-wilp-fotografiert-bunny-3)
+- **110.0€** — Nana Simopoulos - Pandora Blues — [voir](http://www.victorkiswell.com/v3/?product=pandora-blues-3)
 - **110.0€** — Elvio Monti & Nevil Cameron / Pelleus & Vivika - Terzo Mondo — [voir](http://www.victorkiswell.com/v3/?product=terzo-mondo)
 - **110.0€** — Guy Boyer - Sport News — [voir](http://www.victorkiswell.com/v3/?product=sport-news)
 - **110.0€** — Jean-Jacques Robert & Jean-Michel Guise - Delirius Music — [voir](http://www.victorkiswell.com/v3/?product=delirius-music)
@@ -412,7 +404,6 @@
 - **110.0€** — Babia - Oriente – Occidente — [voir](http://www.victorkiswell.com/v3/?product=oriente-occidente-4)
 - **110.0€** — Brigitte Fontaine et Areski Belkacem - Vous et nous — [voir](http://www.victorkiswell.com/v3/?product=vous-et-nous)
 - **110.0€** — Ilhan Mimaroglu - Tract — [voir](http://www.victorkiswell.com/v3/?product=tract)
-- **110.0€** — Jou Cogra - The Hammond Sound of — [voir](http://www.victorkiswell.com/v3/?product=the-hammond-sound-of)
 - **110.0€** — The Plastic People - Egon Bondy’s Happy Hearts Club Banned — [voir](http://www.victorkiswell.com/v3/?product=egon-bondys-happy-hearts-club-banned)
 - **110.0€** — Elias Rahbani / Omar Khorshid / Sohail Rana - Oriental Dance — [voir](http://www.victorkiswell.com/v3/?product=oriental-dance)
 - **105.0€** — Drums and Tsugaru Shamisen - Drums and Tsugaru Shamisen — [voir](http://www.victorkiswell.com/v3/?product=drums-and-tsugaru-shamisen-2)
@@ -441,6 +432,7 @@
 - **100.0€** — Claude Guilhot - Traficos — [voir](http://www.victorkiswell.com/v3/?product=traficos)
 - **100.0€** — Armand Lemal - Le rythme — [voir](http://www.victorkiswell.com/v3/?product=le-rythme-3)
 - **100.0€** — James Tatum - Live — [voir](http://www.victorkiswell.com/v3/?product=live)
+- **100.0€** — Stanley Cowell - Musa – Ancestral Streams — [voir](http://www.victorkiswell.com/v3/?product=musa-ancestral-streams)
 - **100.0€** — Franco Potenza - Vetrina musicale n°3 — [voir](http://www.victorkiswell.com/v3/?product=vetrina-musicale-n3)
 - **100.0€** — Natale Massara - Politica — [voir](http://www.victorkiswell.com/v3/?product=politica)
 - **100.0€** — Stelvio Cipriani / Stefano Torossi / Piero Umiliani / Gianni Ferrio - Sentimentale – Moderno — [voir](http://www.victorkiswell.com/v3/?product=sentimentale-moderno)
@@ -461,3 +453,5 @@
 - **100.0€** — Ralph Lundsten - Alpha Ralpha Boulevard — [voir](http://www.victorkiswell.com/v3/?product=alpha-ralpha-boulevard)
 - **100.0€** — Louis Banks' Jazz Yatra - Sangam — [voir](http://www.victorkiswell.com/v3/?product=sangam)
 - **100.0€** — Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites — [voir](http://www.victorkiswell.com/v3/?product=flutes-libres-musiques-et-instruments-insolites)
+- **100.0€** — Foehn - Faëria — [voir](http://www.victorkiswell.com/v3/?product=faeria)
+- **100.0€** — Melodiya Ensemble - Labyrinth — [voir](http://www.victorkiswell.com/v3/?product=labyrinth-2)
