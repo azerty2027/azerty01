@@ -1,11 +1,9 @@
 """
-VINYL SCOUT v23
+VINYL SCOUT v24
 - Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
 - Phase 2 : croisement Disques Anciens (matching artiste + album)
-- Phase 3 : recherche opportunites ParuVendu (direct) + Vinted (ScrapeOps) + eBay API
-- Phase 3b : recherche wishlist (sans filtre prix)
-  FIX v23 : search_vinted catalog[]=3041 (vinyles) conservé — NE PAS changer en 139 (Beauté)
-             search_paruvendu/vinted/ebay acceptent max_price=None pour wishlist
+- Phase 3 : recherche opportunites LBC (cookies) + ParuVendu (direct) + Vinted (ScrapeOps) + eBay API
+- Phase 3b : wishlist (artist/album/max_price, blacklist par URL résultat)
 """
 
 import requests
@@ -26,8 +24,8 @@ SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
 
 print("=" * 60)
-print("VINYL SCOUT v23")
-print("LBC (HAR cookies) + ParuVendu (direct) + Vinted (ScrapeOps) + eBay API")
+print("VINYL SCOUT v24")
+print("LBC (cookies) + ParuVendu (direct) + Vinted (ScrapeOps) + eBay API")
 print(f"Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref | Batch : {BATCH_SIZE} disques/run")
 print("=" * 60)
 
@@ -589,167 +587,10 @@ def scrapeops_get(url):
     )
 
 
-LBC_SESSION_FILE = "lbc_session.json"
-_lbc_cookies = None  # cache global chargé une fois au démarrage
-
-
-def load_lbc_session():
-    """
-    Charge les cookies LBC depuis lbc_session.json.
-    Format attendu (extrait depuis un HAR ou copié depuis DevTools) :
-    {
-      "datadome": "xxxxxx...",
-      "PHPSESSID": "...",
-      ... (tous les cookies de la session navigateur)
-    }
-    À rafraîchir manuellement ~1x/semaine depuis leboncoin.fr.
-    """
-    global _lbc_cookies
-    if _lbc_cookies is not None:
-        return _lbc_cookies
-    if not os.path.exists(LBC_SESSION_FILE):
-        print("  [LBC] lbc_session.json absent — LBC désactivé")
-        _lbc_cookies = {}
-        return _lbc_cookies
-    with open(LBC_SESSION_FILE) as f:
-        try:
-            data = json.load(f)
-            _lbc_cookies = data if isinstance(data, dict) else {}
-            age_info = ""
-            if "saved_at" in _lbc_cookies:
-                try:
-                    saved = datetime.fromisoformat(_lbc_cookies["saved_at"])
-                    age_days = (datetime.now() - saved).days
-                    age_info = f" (sauvegardé il y a {age_days}j)"
-                    if age_days > 10:
-                        print(f"  [LBC] ⚠ Session vieille de {age_days} jours — penser à rafraîchir")
-                except:
-                    pass
-            print(f"  [LBC] Session chargée{age_info} — {len(_lbc_cookies)} cookies")
-            return _lbc_cookies
-        except Exception as e:
-            print(f"  [LBC] Erreur lecture session: {e}")
-            _lbc_cookies = {}
-            return _lbc_cookies
-
-
-def search_leboncoin(title, max_price=None):
-    """
-    Recherche Leboncoin — requête directe avec cookies de session navigateur.
-    0 crédit ScrapeOps. Nécessite lbc_session.json valide.
-    Catégorie 34 = Musique, Films, Livres → Vinyles.
-    max_price=None → pas de filtre prix (wishlist).
-    """
-    cookies = load_lbc_session()
-    # Clés obligatoires pour passer DataDome
-    if not cookies or "datadome" not in cookies:
-        print("  [LBC] Session invalide ou absente (pas de cookie datadome) — skip")
-        return []
-
-    results = []
-    query = urllib.parse.quote(build_query(title))
-    price_param = f"&price=1-{int(max_price)}" if max_price else ""
-
-    try:
-        url = (
-            f"https://www.leboncoin.fr/recherche"
-            f"?text={query}&category=34{price_param}&sort=time"
-        )
-        # Headers qui imitent un vrai navigateur
-        lbc_headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-            "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Referer": "https://www.leboncoin.fr/",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "same-origin",
-            "Upgrade-Insecure-Requests": "1",
-        }
-        # Construire le header Cookie depuis le dict
-        cookie_str = "; ".join(
-            f"{k}={v}" for k, v in cookies.items()
-            if k != "saved_at" and isinstance(v, str)
-        )
-        lbc_headers["Cookie"] = cookie_str
-
-        r = requests.get(url, headers=lbc_headers, timeout=25, allow_redirects=True)
-        print(f"  LBC status: {r.status_code} | query: {build_query(title)} | max: {max_price or '—'}€")
-
-        if r.status_code == 403 or "Accès refusé" in r.text or "datadome" in r.url:
-            print("  LBC bloqué par DataDome — session expirée, rafraîchir lbc_session.json")
-            return results
-
-        if r.status_code != 200:
-            return results
-
-        soup = BeautifulSoup(r.text, 'html.parser')
-
-        # Sélecteurs LBC 2024/2025 : les annonces sont dans des <a> data-qa-id="aditem_container"
-        # Fallback sur les liens /ad/ et /offre/
-        ads = (
-            soup.select('a[data-qa-id="aditem_container"]')
-            or soup.select('a[href*="/ad/"]')
-            or soup.select('a[href*="/offre/"]')
-        )
-        print(f"  LBC annonces trouvées: {len(ads)}")
-
-        if len(ads) > MAX_RESULTS_THRESHOLD:
-            print(f"  LBC ignoré : requête trop générique ({len(ads)} résultats)")
-            return results
-
-        for ad in ads[:20]:
-            href = ad.get("href", "")
-            if not href:
-                continue
-            ad_url = href if href.startswith("http") else "https://www.leboncoin.fr" + href
-
-            # Titre
-            title_el = (
-                ad.select_one('[data-qa-id="aditem_title"]')
-                or ad.select_one('p[class*="title"]')
-                or ad.select_one('h2')
-                or ad.select_one('p')
-            )
-            # Prix
-            price_el = (
-                ad.select_one('[data-qa-id="aditem_price"]')
-                or ad.select_one('span[class*="price"]')
-                or ad.select_one('[class*="Price"]')
-            )
-
-            ad_title = title_el.get_text(strip=True) if title_el else ""
-            price = extract_price(price_el.get_text()) if price_el else None
-
-            if not price or (max_price and price > max_price):
-                continue
-            if not ad_title or not is_relevant(ad_title, title):
-                continue
-            if is_reissue(ad_title):
-                continue
-
-            results.append({
-                "platform": "leboncoin.fr",
-                "title": ad_title,
-                "price": price,
-                "url": ad_url,
-            })
-
-        time.sleep(1.5)
-
-    except Exception as e:
-        print(f"  LBC exception: {e}")
-
-    return results
-
-
 def search_paruvendu(title, max_price=None):
     """
     Recherche ParuVendu — scraping direct, 0 crédit ScrapeOps.
-    URL corrigée v21 d'après inspection navigateur réelle.
-    Catégorie BMECV000 = CD et vinyles.
-    max_price=None → pas de filtre prix (wishlist).
+    max_price=None = pas de filtre prix (wishlist).
     """
     results = []
     query = urllib.parse.quote(build_query(title))
@@ -806,8 +647,8 @@ def search_paruvendu(title, max_price=None):
 def search_vinted(title, max_price=None):
     """
     Recherche Vinted via scraping HTML + ScrapeOps.
-    catalog[]=3041 = Musique (vinyles). NE PAS changer ce paramètre.
-    max_price=None → pas de filtre prix (wishlist).
+    catalog[]=3041 = Musique/Vinyles. NE PAS CHANGER.
+    max_price=None = pas de filtre prix (wishlist).
     """
     if not SCRAPEOPS_KEY:
         return []
@@ -858,7 +699,7 @@ def search_vinted(title, max_price=None):
 
 
 def search_ebay(title, max_price=None):
-    """Recherche via l'API officielle eBay Finding. max_price=None → pas de filtre prix."""
+    """Recherche via l'API officielle eBay Finding. max_price=None = pas de filtre prix."""
     results = []
     ebay_key = os.environ.get("EBAY_APP_ID", "")
     if not ebay_key:
@@ -927,33 +768,29 @@ def search_ebay(title, max_price=None):
 def generate_html(opportunites, croisements_da, wishlist_results, now, total_db, total_actifs, offset, batch_len):
     """Génère ALERTES.html avec cases à cocher + sauvegarde blacklist via API GitHub."""
 
-    # Section wishlist — déduplication par URL + checkbox blacklist
+    # Wishlist : même structure que les opps — checkbox par URL de résultat
     wl_html = ""
     if wishlist_results:
         by_title = {}
-        seen_wl_urls = set()
         for h in wishlist_results:
-            url = h['found_url']
-            if url in seen_wl_urls:
-                continue  # Fix : déduplique Raja/Raja Zahr même annonce
-            seen_wl_urls.add(url)
             by_title.setdefault(h['wish_title'], []).append(h)
         for i, (title, hits) in enumerate(by_title.items()):
-            wl_id = f"wl-{i}"
-            # Fix : même structure que .opp avec checkbox blacklist
-            wl_html += f'''
-        <div class="opp" id="{wl_id}">
+            for j, h in enumerate(hits):
+                uid = f"wl-{i}-{j}"
+                wl_html += f"""
+        <div class="opp" id="{uid}">
             <label class="opp-label">
-                <input type="checkbox" class="bl-check" data-url="WISH::{title}" onchange="updateBlacklist()">
-                <span class="opp-seen">Ignorer</span>
+                <input type="checkbox" class="bl-check" data-url="{h['found_url']}" onchange="updateBlacklist()">
+                <span class="opp-seen">Déjà vu</span>
             </label>
             <div class="opp-body">
-                <div class="opp-title">🎯 {title}</div>'''
-            for h in hits:
-                wl_html += f'''
-                <div class="opp-found"><b>{h["found_price"]}€</b> sur {h["platform"]} — {h["found_title"]}</div>
-                <a class="opp-link" href="{h["found_url"]}" target="_blank">Voir l\'annonce →</a>'''
-            wl_html += '\n            </div>\n        </div>'
+                <div class="opp-title">🎯 {title}</div>
+                <div class="opp-found">
+                    <b>{h['found_price']}€</b> sur {h['platform']} — {h['found_title']}
+                </div>
+                <a class="opp-link" href="{h['found_url']}" target="_blank">Voir l'annonce →</a>
+            </div>
+        </div>"""
 
     opps_html = ""
     for i, o in enumerate(opportunites):
@@ -1026,7 +863,8 @@ def generate_html(opportunites, croisements_da, wishlist_results, now, total_db,
 <h1>🎵 Vinyl Scout</h1>
 <div class="meta">Rapport du {now} — Base : {total_db} disques | Actifs : {total_actifs} | Batch : {offset+1}–{offset+batch_len}</div>
 
-{"" if not wishlist_results else f'<div class="section-title">🎯 {len(wishlist_results)} résultat(s) wishlist</div>' + wl_html}
+<div class="section-title">🎯 {len(wishlist_results)} résultat(s) wishlist</div>
+{"".join([wl_html]) if wishlist_results else '<div class="empty">Aucun résultat wishlist ce run.</div>'}
 
 <div class="section-title">🔴 {len(opportunites)} opportunité(s) marché</div>
 {"".join([opps_html]) if opportunites else '<div class="empty">Aucune opportunité ce run.</div>'}
@@ -1131,6 +969,97 @@ function setStatus(msg, color) {{
         f.write(html)
 
 
+LBC_SESSION_FILE = "lbc_session.json"
+_lbc_cookies = None
+
+def load_lbc_session():
+    global _lbc_cookies
+    if _lbc_cookies is not None:
+        return _lbc_cookies
+    if not os.path.exists(LBC_SESSION_FILE):
+        print("  [LBC] lbc_session.json absent — LBC désactivé")
+        _lbc_cookies = {}
+        return _lbc_cookies
+    with open(LBC_SESSION_FILE) as f:
+        try:
+            data = json.load(f)
+            _lbc_cookies = data if isinstance(data, dict) else {}
+            if "saved_at" in _lbc_cookies:
+                try:
+                    age = (datetime.now() - datetime.fromisoformat(_lbc_cookies["saved_at"])).days
+                    if age > 10:
+                        print(f"  [LBC] ⚠ Session vieille de {age}j — rafraîchir lbc_session.json")
+                    else:
+                        print(f"  [LBC] Session chargée ({age}j) — {len(_lbc_cookies)} cookies")
+                except:
+                    pass
+        except Exception as e:
+            print(f"  [LBC] Erreur lecture session: {e}")
+            _lbc_cookies = {}
+    return _lbc_cookies
+
+def search_leboncoin(title, max_price=None):
+    """
+    Recherche LBC avec cookies de session navigateur (DataDome).
+    Catégorie 34 = Musique. max_price=None = pas de filtre prix.
+    """
+    cookies = load_lbc_session()
+    if not cookies or "datadome" not in cookies:
+        return []
+    results = []
+    query = urllib.parse.quote(build_query(title))
+    price_param = f"&price=1-{int(max_price)}" if max_price else ""
+    try:
+        url = f"https://www.leboncoin.fr/recherche?text={query}&category=34{price_param}&sort=time"
+        cookie_str = "; ".join(f"{k}={v}" for k, v in cookies.items()
+                               if k != "saved_at" and isinstance(v, str))
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "fr-FR,fr;q=0.9",
+            "Referer": "https://www.leboncoin.fr/",
+            "Cookie": cookie_str,
+        }
+        r = requests.get(url, headers=headers, timeout=25, allow_redirects=True)
+        print(f"  LBC status: {r.status_code} | query: {build_query(title)} | max: {max_price or '—'}€")
+        if r.status_code == 403 or "datadome" in r.url:
+            print("  LBC bloqué — session expirée, rafraîchir lbc_session.json")
+            return results
+        if r.status_code != 200:
+            return results
+        soup = BeautifulSoup(r.text, 'html.parser')
+        ads = (soup.select('a[data-qa-id="aditem_container"]')
+               or soup.select('a[href*="/ad/"]')
+               or soup.select('a[href*="/offre/"]'))
+        print(f"  LBC annonces trouvées: {len(ads)}")
+        if len(ads) > MAX_RESULTS_THRESHOLD:
+            print(f"  LBC ignoré : trop générique ({len(ads)} résultats)")
+            return results
+        for ad in ads[:20]:
+            href = ad.get("href", "")
+            if not href:
+                continue
+            ad_url = href if href.startswith("http") else "https://www.leboncoin.fr" + href
+            title_el = (ad.select_one('[data-qa-id="aditem_title"]')
+                        or ad.select_one('p[class*="title"]') or ad.select_one('h2'))
+            price_el = (ad.select_one('[data-qa-id="aditem_price"]')
+                        or ad.select_one('span[class*="price"]'))
+            ad_title = title_el.get_text(strip=True) if title_el else ""
+            price = extract_price(price_el.get_text()) if price_el else None
+            if not price or (max_price and price > max_price):
+                continue
+            if not ad_title or not is_relevant(ad_title, title):
+                continue
+            if is_reissue(ad_title):
+                continue
+            results.append({"platform": "leboncoin.fr", "title": ad_title,
+                             "price": price, "url": ad_url})
+        time.sleep(1.5)
+    except Exception as e:
+        print(f"  LBC exception: {e}")
+    return results
+
+
 # ─────────────────────────────────────────────
 # WISHLIST
 # ─────────────────────────────────────────────
@@ -1148,20 +1077,14 @@ def load_wishlist():
 
 def search_wishlist_item(item):
     """
-    Recherche wishlist. Format attendu :
-    {"artist": "...", "album": "...", "max_price": 50}
-    Pertinence stricte : au moins 1 mot de l'artiste ET 1 mot de l'album
-    doivent apparaître dans le titre trouvé.
+    Recherche wishlist. Format : {"artist": "...", "album": "...", "max_price": 50}
+    Pertinence stricte : artiste ET album doivent apparaître dans le résultat.
     """
     artist = item.get('artist', '').strip()
     album = item.get('album', '').strip()
     if not artist and not album:
-        print(f"  [WISHLIST] Item ignoré — artist et album vides : {item}")
         return []
-    if artist.lower() == album.lower():
-        query_title = artist
-    else:
-        query_title = f"{artist} - {album}" if artist else album
+    query_title = artist if artist.lower() == album.lower() else f"{artist} - {album}"
     max_price = item.get('max_price', None)
     print(f"  [WISH] {query_title} | max: {max_price or '—'}€")
     found = []
@@ -1169,24 +1092,19 @@ def search_wishlist_item(item):
     found += search_paruvendu(query_title, max_price=max_price)
     found += search_vinted(query_title, max_price=max_price)
     found += search_ebay(query_title, max_price=max_price)
-
-    # Filtre strict : au moins 1 mot artiste ET 1 mot album dans le résultat
+    # Filtre strict : artiste ET album présents dans le titre du résultat
     artist_words = {w.lower() for w in artist.split() if len(w) > 2}
     album_words = {w.lower() for w in album.split() if len(w) > 2}
     filtered = []
     for f in found:
-        result_lower = f['title'].lower()
-        has_artist = any(w in result_lower for w in artist_words)
-        has_album = any(w in result_lower for w in album_words)
-        # Pour éponymes (artiste = album) un seul critère suffit
+        rl = f['title'].lower()
+        ok_artist = any(w in rl for w in artist_words)
+        ok_album = any(w in rl for w in album_words)
         if artist.lower() == album.lower():
-            if has_artist:
-                f['wish_label'] = f"{artist} — {album}"
+            if ok_artist:
                 filtered.append(f)
-        else:
-            if has_artist and has_album:
-                f['wish_label'] = f"{artist} — {album}"
-                filtered.append(f)
+        elif ok_artist and ok_album:
+            filtered.append(f)
     return filtered
 
 
@@ -1221,7 +1139,7 @@ def load_blacklist():
 
 def main():
     # ── Phase 1 : scraping sources experts ──
-    load_lbc_session()  # précharge + affiche statut session au démarrage
+    load_lbc_session()
     print("\n→ Phase 1 : scraping sources experts...")
     all_records = []
     all_records += scrape_victorkiswell()
@@ -1321,16 +1239,19 @@ def main():
     wishlist_results = []
     if wishlist:
         print(f"\n→ Phase 3b : recherche wishlist ({len(wishlist)} items)...")
+        seen_wish_urls = set()
         for item in wishlist:
-            found = search_wishlist_item(item)
-            for f in found:
-                wishlist_results.append({
-                    'wish_title': f.get('wish_label', f"{item.get('artist','')} — {item.get('album','')}"),
-                    'found_title': f['title'],
-                    'found_price': f['found_price'] if 'found_price' in f else f['price'],
-                    'found_url': f['url'],
-                    'platform': f['platform'],
-                })
+            for f in search_wishlist_item(item):
+                url = f['url']
+                if url not in seen_wish_urls and url not in blacklist:
+                    seen_wish_urls.add(url)
+                    wishlist_results.append({
+                        'wish_title': f"{item.get('artist','')} — {item.get('album','')}",
+                        'found_title': f['title'],
+                        'found_price': f['price'],
+                        'found_url': url,
+                        'platform': f['platform'],
+                    })
         print(f"  {len(wishlist_results)} résultats wishlist")
 
     # ── Rapport ──
@@ -1353,7 +1274,6 @@ def main():
             lines.append("")
     elif wishlist:
         lines.append("## 🎯 Aucun résultat wishlist ce run\n")
-
     lines.append("---\n")
 
     if croisements_da:
@@ -1410,7 +1330,7 @@ def main():
     # ── Rapport HTML avec blacklist interactive ──
     generate_html(opportunites, croisements_da, wishlist_results, now, len(db), len(actifs), offset, len(batch))
 
-    print(f"\nRapport genere — {len(croisements_da)} croisements DA | {len(opportunites)} opportunites marche | {len(wishlist_results)} wishlist | {len(nouveaux_ref)} nouveaux")
+    print(f"\nRapport genere — {len(croisements_da)} croisements DA | {len(opportunites)} opportunites | {len(wishlist_results)} wishlist | {len(nouveaux_ref)} nouveaux")
 
 
 if __name__ == "__main__":
