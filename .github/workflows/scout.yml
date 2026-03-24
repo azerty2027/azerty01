@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - name: Install dependencies
@@ -35,6 +35,11 @@ jobs:
         run: python scout.py
       - name: Commit results
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ALERTES.md ALERTES.html vinyl_db.json scout_offset.json scout_blacklist.json || true
+          git diff --staged --quiet || git commit -m "Scout run $(date +'%Y-%m-%d %H:%M')"
+          git push        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add ALERTES.md ALERTES.html vinyl_db.json scout_offset.json scout_blacklist.json || true
