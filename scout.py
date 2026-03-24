@@ -927,18 +927,33 @@ def search_ebay(title, max_price=None):
 def generate_html(opportunites, croisements_da, wishlist_results, now, total_db, total_actifs, offset, batch_len):
     """Génère ALERTES.html avec cases à cocher + sauvegarde blacklist via API GitHub."""
 
-    # Section wishlist
+    # Section wishlist — déduplication par URL + checkbox blacklist
     wl_html = ""
     if wishlist_results:
         by_title = {}
+        seen_wl_urls = set()
         for h in wishlist_results:
+            url = h['found_url']
+            if url in seen_wl_urls:
+                continue  # Fix : déduplique Raja/Raja Zahr même annonce
+            seen_wl_urls.add(url)
             by_title.setdefault(h['wish_title'], []).append(h)
-        for title, hits in by_title.items():
-            wl_html += f'<div class="crois"><div class="opp-title">🎯 {title}</div>'
+        for i, (title, hits) in enumerate(by_title.items()):
+            wl_id = f"wl-{i}"
+            # Fix : même structure que .opp avec checkbox blacklist
+            wl_html += f'''
+        <div class="opp" id="{wl_id}">
+            <label class="opp-label">
+                <input type="checkbox" class="bl-check" data-url="WISH::{title}" onchange="updateBlacklist()">
+                <span class="opp-seen">Ignorer</span>
+            </label>
+            <div class="opp-body">
+                <div class="opp-title">🎯 {title}</div>'''
             for h in hits:
-                wl_html += f'<div class="opp-found"><b>{h["found_price"]}€</b> sur {h["platform"]} — {h["found_title"]}</div>'
-                wl_html += f'<a class="opp-link" href="{h["found_url"]}" target="_blank">Voir l\'annonce →</a>'
-            wl_html += '</div>'
+                wl_html += f'''
+                <div class="opp-found"><b>{h["found_price"]}€</b> sur {h["platform"]} — {h["found_title"]}</div>
+                <a class="opp-link" href="{h["found_url"]}" target="_blank">Voir l\'annonce →</a>'''
+            wl_html += '\n            </div>\n        </div>'
 
     opps_html = ""
     for i, o in enumerate(opportunites):
@@ -1135,14 +1150,14 @@ def search_wishlist_item(item):
     """
     Recherche wishlist. Format attendu :
     {"artist": "...", "album": "...", "max_price": 50}
-    Construit la query "Artiste Album" et utilise le max_price de l'item.
+    Pertinence stricte : au moins 1 mot de l'artiste ET 1 mot de l'album
+    doivent apparaître dans le titre trouvé.
     """
     artist = item.get('artist', '').strip()
     album = item.get('album', '').strip()
     if not artist and not album:
         print(f"  [WISHLIST] Item ignoré — artist et album vides : {item}")
         return []
-    # Query : "Artiste Album" — évite le doublon si éponyme
     if artist.lower() == album.lower():
         query_title = artist
     else:
@@ -1154,10 +1169,25 @@ def search_wishlist_item(item):
     found += search_paruvendu(query_title, max_price=max_price)
     found += search_vinted(query_title, max_price=max_price)
     found += search_ebay(query_title, max_price=max_price)
-    # Tag le titre affiché pour le rapport
+
+    # Filtre strict : au moins 1 mot artiste ET 1 mot album dans le résultat
+    artist_words = {w.lower() for w in artist.split() if len(w) > 2}
+    album_words = {w.lower() for w in album.split() if len(w) > 2}
+    filtered = []
     for f in found:
-        f['wish_label'] = f"{artist} — {album}"
-    return found
+        result_lower = f['title'].lower()
+        has_artist = any(w in result_lower for w in artist_words)
+        has_album = any(w in result_lower for w in album_words)
+        # Pour éponymes (artiste = album) un seul critère suffit
+        if artist.lower() == album.lower():
+            if has_artist:
+                f['wish_label'] = f"{artist} — {album}"
+                filtered.append(f)
+        else:
+            if has_artist and has_album:
+                f['wish_label'] = f"{artist} — {album}"
+                filtered.append(f)
+    return filtered
 
 
 # ─────────────────────────────────────────────
