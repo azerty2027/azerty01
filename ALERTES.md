@@ -1,4 +1,4 @@
-# VINYL SCOUT — Rapport du 24/03/2026 15:45
+# VINYL SCOUT — Rapport du 24/03/2026 18:12
 
 **Base : 451 disques | Actifs : 394 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
@@ -7,22 +7,22 @@
 ## 🎯 10 ANNONCES WISHLIST
 
 ### Brothers by Choice — Brothers By Choice
-- **28.0€** sur vinted.fr — Scream "Your Choice Live Series" LP Dave Grohl
-  [Voir l'annonce](https://www.vinted.fr/items/5735550990-scream-your-choice-live-series-lp-dave-grohl)
 - **8.0€** sur vinted.fr — Tren Brothers Gone Away Kit's Choice Vinyl 7" LP Dirty Three Mick Turner Jim White Secretly Canadian
   [Voir l'annonce](https://www.vinted.fr/items/7991855996-tren-brothers-gone-away-kits-choice-vinyl-7-lp-dirty-three-mick-turner-jim-white-secretly-canadian)
+- **28.0€** sur vinted.fr — Scream "Your Choice Live Series" LP Dave Grohl
+  [Voir l'annonce](https://www.vinted.fr/items/5735550990-scream-your-choice-live-series-lp-dave-grohl)
 
 ### Ann Steel — My Time
 - **4.0€** sur vinted.fr — Ann Steel - My time 45T
   [Voir l'annonce](https://www.vinted.fr/items/7872380331-ann-steel-my-time-45t)
 - **2.0€** sur vinted.fr — Ann Steel – My Time
   [Voir l'annonce](https://www.vinted.fr/items/7881801429-ann-steel-my-time)
-- **9.5€** sur vinted.fr — Ann Steel – My Time
-  [Voir l'annonce](https://www.vinted.fr/items/4583942339-ann-steel-my-time)
 - **10.0€** sur vinted.fr — 45 tours Ann Steel - My Time
   [Voir l'annonce](https://www.vinted.fr/items/7261316131-45-tours-ann-steel-my-time)
 - **5.0€** sur vinted.fr — 45 tours Ann Steel - My time
   [Voir l'annonce](https://www.vinted.fr/items/6766500808-45-tours-ann-steel-my-time)
+- **9.5€** sur vinted.fr — Ann Steel – My Time
+  [Voir l'annonce](https://www.vinted.fr/items/4583942339-ann-steel-my-time)
 - **3.0€** sur vinted.fr — Disque vinyle/45t Ann Steel "My Time/Southafternoon" (Durium
   [Voir l'annonce](https://www.vinted.fr/items/4003845069-disque-vinyle45t-ann-steel-my-timesouthafternoon-durium-1979)
 
