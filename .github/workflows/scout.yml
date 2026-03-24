@@ -1,7 +1,5 @@
 name: Vinyl Scout
 on:
-  schedule:
-    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       batch_size:
@@ -16,22 +14,18 @@ on:
         options:
           - 'false'
           - 'true'
-
 jobs:
   scout:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install requests beautifulsoup4
-
       - name: Run Vinyl Scout
         env:
           SCRAPEOPS_KEY: ${{ secrets.SCRAPEOPS_KEY }}
@@ -39,7 +33,6 @@ jobs:
           TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '50' }}
         run: python scout.py
-
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
