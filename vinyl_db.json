@@ -2021,7 +2021,7 @@
   "http://www.victorkiswell.com/v3/?product=jazz-4": {
     "source": "Victor Kiswell",
     "title": "Jazz",
-    "price_ref": 120.0,
+    "price_ref": 100.0,
     "url": "http://www.victorkiswell.com/v3/?product=jazz-4",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332478"
@@ -3609,5 +3609,61 @@
     "url": "https://www.diggersdigest.com/product/nan%C3%A1-vasconcelos-africadeus-saravah-sh-10039-france-1973",
     "sold": false,
     "first_seen": "2026-03-24T10:49:55.444988"
+  },
+  "http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music": {
+    "source": "Victor Kiswell",
+    "title": "Cedric Im Brooks & The Divine Light - From Mento to Reggae to Third World Music",
+    "price_ref": 350.0,
+    "url": "http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371371"
+  },
+  "http://www.victorkiswell.com/v3/?product=akuma-ga-kitarite-3": {
+    "source": "Victor Kiswell",
+    "title": "Hozan Yamamoto - Akuma ga kitarite",
+    "price_ref": 200.0,
+    "url": "http://www.victorkiswell.com/v3/?product=akuma-ga-kitarite-3",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371407"
+  },
+  "http://www.victorkiswell.com/v3/?product=akuma-ga-kitarite-4": {
+    "source": "Victor Kiswell",
+    "title": "Hozan Yamamoto - Akuma ga kitarite",
+    "price_ref": 180.0,
+    "url": "http://www.victorkiswell.com/v3/?product=akuma-ga-kitarite-4",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371413"
+  },
+  "http://www.victorkiswell.com/v3/?product=on-drums-2": {
+    "source": "Victor Kiswell",
+    "title": "Hiro Tsunoda - On Drums",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=on-drums-2",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371415"
+  },
+  "http://www.victorkiswell.com/v3/?product=black-octopus-2": {
+    "source": "Victor Kiswell",
+    "title": "Paul Jackson - Black Octopus",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=black-octopus-2",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371416"
+  },
+  "http://www.victorkiswell.com/v3/?product=taiwan-library-music-folk-songs-vol-2": {
+    "source": "Victor Kiswell",
+    "title": "Taiwan Funk - Taiwan Library Music – Folk Songs Vol. 2",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=taiwan-library-music-folk-songs-vol-2",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371419"
+  },
+  "http://www.victorkiswell.com/v3/?product=jazz-5": {
+    "source": "Victor Kiswell",
+    "title": "Blue Note - Jazz",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=jazz-5",
+    "sold": false,
+    "first_seen": "2026-03-26T11:09:51.371435"
   }
 }
