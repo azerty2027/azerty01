@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 26/03/2026 11:31
+# VINYL SCOUT — Rapport du 27/03/2026 09:46
 
-**Base : 458 disques | Actifs : 397 | Batch : 101–150 | Seuil achat : 70% du prix ref**
+**Base : 459 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -21,20 +21,14 @@
 ## ✅ Aucune opportunite marche aujourd'hui
 
 ---
-## 🆕 7 nouveaux en base
+## 🆕 1 nouveaux en base
 
-- **350.0€** — Cedric Im Brooks & The Divine Light - From Mento to Reggae to Third World Music (Victor Kiswell)
-- **200.0€** — Hozan Yamamoto - Akuma ga kitarite (Victor Kiswell)
-- **180.0€** — Hozan Yamamoto - Akuma ga kitarite (Victor Kiswell)
-- **150.0€** — Paul Jackson - Black Octopus (Victor Kiswell)
-- **120.0€** — Hiro Tsunoda - On Drums (Victor Kiswell)
-- **120.0€** — Taiwan Funk - Taiwan Library Music – Folk Songs Vol. 2 (Victor Kiswell)
-- **120.0€** — Blue Note - Jazz (Victor Kiswell)
+- **170.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) (Digger's Digest)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 101 disponibles, 0 vendus
+### Digger's Digest — 102 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -102,6 +96,7 @@
 - **180.0€** — ATARPOP 73 & Le Collectif Le Temps Des Cerises ‎- Attention L'Armée (Temps Des Cerises - 1972) — [voir](https://www.diggersdigest.com/product/atarpop-73-le-collectif-le-temps-des-cerises-attention-l-armee-temps-des-cerises-1972)
 - **180.0€** — Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971) — [voir](https://www.diggersdigest.com/product/moving-gelatine-plates-moving-gelatine-plates-cbs-s-64399-france-1971)
 - **175.0€** — Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971) — [voir](https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020)
+- **170.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) — [voir](https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985)
 - **150.0€** — Nyssa Musique - Comme Au Moulin (Private press - France - 1985) — [voir](https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985)
 - **150.0€** — Pharoah Sanders ‎– Japan (Stateside ‎– 2C 006 - 90650 - France - 1969) — [voir](https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969)
 - **150.0€** — Fusion Jazz Quartet – New (	J.M.B. – J.M.B. 001 - France - 1984) — [voir](https://www.diggersdigest.com/product/fusion-jazz-quartet-new-j-m-b-j-m-b-001-france-1984)
@@ -188,11 +183,11 @@
 - **450.0€** — Minoru Muraoka - Bamboo — [voir](http://www.victorkiswell.com/v3/?product=bamboo-9)
 - **450.0€** — Minoru Muraoka - Yuri fusi suri — [voir](http://www.victorkiswell.com/v3/?product=yuri-fusi-suri)
 - **450.0€** — Alan Hawkshaw / Brian Bennett / David Lindup / Alan Parker - Breath of Danger — [voir](http://www.victorkiswell.com/v3/?product=breath-of-danger)
-- **350.0€** — Cedric Im Brooks & The Divine Light - From Mento to Reggae to Third World Music — [voir](http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music)
 - **350.0€** — Lloyd Miller - Near and Far East — [voir](http://www.victorkiswell.com/v3/?product=near-and-far-east)
 - **350.0€** — Haki R. Madhubuti - Rise Vision Comin’ — [voir](http://www.victorkiswell.com/v3/?product=rise-vision-comin)
 - **350.0€** — Neil Ardley - Mediterranean Intrigue — [voir](http://www.victorkiswell.com/v3/?product=mediterranean-intrigue)
 - **350.0€** — Luis Bacalov - La seduzione — [voir](http://www.victorkiswell.com/v3/?product=la-seduzione)
+- **300.0€** — Cedric Im Brooks & The Divine Light - From Mento to Reggae to Third World Music — [voir](http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music)
 - **300.0€** — Balka Sound - Afro Musik Creation — [voir](http://www.victorkiswell.com/v3/?product=afro-musik-creation)
 - **300.0€** — The Walias - Best of — [voir](http://www.victorkiswell.com/v3/?product=best-of-2)
 - **300.0€** — Erick Cosaque - Gros Ka – L’arme de défense du peuple guadeloupéen — [voir](http://www.victorkiswell.com/v3/?product=gros-ka-larme-de-defense-du-peuple-guadeloupeen)

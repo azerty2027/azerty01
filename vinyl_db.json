@@ -3613,7 +3613,7 @@
   "http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music": {
     "source": "Victor Kiswell",
     "title": "Cedric Im Brooks & The Divine Light - From Mento to Reggae to Third World Music",
-    "price_ref": 350.0,
+    "price_ref": 300.0,
     "url": "http://www.victorkiswell.com/v3/?product=from-mento-to-reggae-to-third-world-music",
     "sold": false,
     "first_seen": "2026-03-26T11:09:51.371371"
@@ -3665,5 +3665,13 @@
     "url": "http://www.victorkiswell.com/v3/?product=jazz-5",
     "sold": false,
     "first_seen": "2026-03-26T11:09:51.371435"
+  },
+  "https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985": {
+    "source": "Digger's Digest",
+    "title": "Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985)",
+    "price_ref": 170.0,
+    "url": "https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985",
+    "sold": false,
+    "first_seen": "2026-03-27T09:24:29.300430"
   }
 }
