@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 30/03/2026 14:19
+# VINYL SCOUT — Rapport du 30/03/2026 14:47
 
-**Base : 465 disques | Actifs : 400 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 465 disques | Actifs : 400 | Batch : 1–5 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -19,16 +19,6 @@
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
-
----
-## 🆕 6 nouveaux en base
-
-- **1980.0€** — Doing It In Lagos (Various) - boogie, pop & disco in 1980s nigeria (SOFA Records)
-- **1979.0€** — Body Beat (Various) - soca-dub and electronic calypso 1979-98 (SOFA Records)
-- **1975.0€** — Fairuz - mais el rim - highlights - piccadilly 1975 (SOFA Records)
-- **1974.0€** — Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88) (SOFA Records)
-- **1970.0€** — Kenya Special (Various) - selected east african recording's from the 1970s and 80s (SOFA Records)
-- **1962.0€** — Japanese Jazz Spectacle (Various) - vol.2 yusuke ogawa - deep, heavy and beautiful jazz from japan 1962-1985 (SOFA Records)
 
 ---
 ## Catalogue complet
