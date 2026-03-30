@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 27/03/2026 09:46
+# VINYL SCOUT — Rapport du 30/03/2026 14:19
 
-**Base : 459 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 465 disques | Actifs : 400 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -21,14 +21,19 @@
 ## ✅ Aucune opportunite marche aujourd'hui
 
 ---
-## 🆕 1 nouveaux en base
+## 🆕 6 nouveaux en base
 
-- **170.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) (Digger's Digest)
+- **1980.0€** — Doing It In Lagos (Various) - boogie, pop & disco in 1980s nigeria (SOFA Records)
+- **1979.0€** — Body Beat (Various) - soca-dub and electronic calypso 1979-98 (SOFA Records)
+- **1975.0€** — Fairuz - mais el rim - highlights - piccadilly 1975 (SOFA Records)
+- **1974.0€** — Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88) (SOFA Records)
+- **1970.0€** — Kenya Special (Various) - selected east african recording's from the 1970s and 80s (SOFA Records)
+- **1962.0€** — Japanese Jazz Spectacle (Various) - vol.2 yusuke ogawa - deep, heavy and beautiful jazz from japan 1962-1985 (SOFA Records)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 102 disponibles, 0 vendus
+### Digger's Digest — 101 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -45,7 +50,7 @@
 - **450.0€** — "Concerts Free Jazz" by Boojum Consort - Théatre du Chêne Noir poster. — [voir](https://www.diggersdigest.com/product/concerts-free-jazz-by-boojum-consort-theatre-du-chene-noir-poster)
 - **450.0€** — OREA – Désintégration / Biguine Inferno (Private - 1982 - France) — [voir](https://www.diggersdigest.com/product/orea-desintegration-beguine-inferno-private-1982-france)
 - **450.0€** — Cecil Leuter ‎– Pop Electronique (Neuilly - France - 1969) — [voir](https://www.diggersdigest.com/product/cecil-leuter-pop-electronique-neuilly-1969-france)
-- **420.0€** — Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976)
+- **390.0€** — Rashied Ali Quintet – Rashied Ali Quintet (Survival Records – SR-102 - US – 1973) — [voir](https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973)
 - **390.0€** — Between ‎– And The Waters Opened (Vertigo ‎– 6360 612 Germany - 1972) — [voir](https://www.diggersdigest.com/product/between-and-the-waters-opened-vertigo-6360-612-germany-1972)
 - **390.0€** — Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster. — [voir](https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-concert-novembre-1972-poster)
 - **390.0€** — Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959) — [voir](https://www.diggersdigest.com/product/barney-wilen-un-temoin-dans-la-ville-fontana-660-226-mr-1959)
@@ -57,7 +62,6 @@
 - **350.0€** — Le Théâtre Du Chêne Noir ‎- Miss Madona 7 + Exclusive Poster (Studio 35 – BM 65 - 1973) — [voir](https://www.diggersdigest.com/product/le-theatre-du-chene-noir-miss-madona-studio-35-bm-65-1973)
 - **350.0€** — Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976) — [voir](https://www.diggersdigest.com/product/chene-noir-orphee-2000-chene-noir-disques-cn-00-2-1976)
 - **350.0€** — Gainsbourg/ Iusse – Où Es-tu Mélody ? (Editions Vents D'Ouest – 1987) — [voir](https://www.diggersdigest.com/product/gainsbourg-iusse-ou-es-tu-melody-editions-vents-d-ouest-1987)
-- **320.0€** — Rashied Ali Quintet – Rashied Ali Quintet (Survival Records – SR-102 - US – 1973) — [voir](https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973)
 - **320.0€** — Intercommunal Free Dance Music Orchestra - Volume. 2 (Temps Des Cerises, France, 1974) — [voir](https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-volume-2-temps-des-cerises-1974)
 - **320.0€** — Rufus Harley ‎– Re-Creation Of The Gods ( Ankh Records, Inc. ‎– US - 1972) — [voir](https://www.diggersdigest.com/product/rufus-harley-re-creation-of-the-gods-ankh-records-inc-us-1972)
 - **320.0€** — Alain Bellaïche - Sea Fluorescent (Asylum Records - 1976) — [voir](https://www.diggersdigest.com/product/alain-bellaiche-sea-fluorescent-asylum-records-1976)
@@ -95,8 +99,8 @@
 - **180.0€** — Ted Moses Quintet – Sidereal Time (Radio Canada International – 400 - 1974) — [voir](https://www.diggersdigest.com/product/ted-moses-quintet-sidereal-time-radio-canada-international-400-1974)
 - **180.0€** — ATARPOP 73 & Le Collectif Le Temps Des Cerises ‎- Attention L'Armée (Temps Des Cerises - 1972) — [voir](https://www.diggersdigest.com/product/atarpop-73-le-collectif-le-temps-des-cerises-attention-l-armee-temps-des-cerises-1972)
 - **180.0€** — Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971) — [voir](https://www.diggersdigest.com/product/moving-gelatine-plates-moving-gelatine-plates-cbs-s-64399-france-1971)
+- **175.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) — [voir](https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985)
 - **175.0€** — Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971) — [voir](https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020)
-- **170.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) — [voir](https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985)
 - **150.0€** — Nyssa Musique - Comme Au Moulin (Private press - France - 1985) — [voir](https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985)
 - **150.0€** — Pharoah Sanders ‎– Japan (Stateside ‎– 2C 006 - 90650 - France - 1969) — [voir](https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969)
 - **150.0€** — Fusion Jazz Quartet – New (	J.M.B. – J.M.B. 001 - France - 1984) — [voir](https://www.diggersdigest.com/product/fusion-jazz-quartet-new-j-m-b-j-m-b-001-france-1984)
@@ -133,13 +137,17 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 30 disponibles, 0 vendus
+### SOFA Records — 34 disponibles, 0 vendus
 
 - **1980.0€** — ABDOU EL OMARI - lost tape - 1980 — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
+- **1980.0€** — Doing It In Lagos (Various) - boogie, pop & disco in 1980s nigeria — [voir](https://www.sofarecords.fr/fr/doing-it-in-lagos-various/boogie-pop-amp-disco-in-1980s-nigeria/p3059419746/)
+- **1979.0€** — Body Beat (Various) - soca-dub and electronic calypso 1979-98 — [voir](https://www.sofarecords.fr/fr/body-beat-various/soca-dub-and-electronic-calypso-1979-98/p3107490214/)
+- **1975.0€** — Fairuz - mais el rim - highlights - piccadilly 1975 — [voir](https://www.sofarecords.fr/fr/fairuz/mais-el-rim-highlights-piccadilly-1975/p3092284136/)
+- **1974.0€** — Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88) — [voir](https://www.sofarecords.fr/fr/ayo-ke-disco-various/boogie-pop-amp-funk-from-the-south-china-sea-1974-88/p3199825954/)
+- **1970.0€** — Kenya Special (Various) - selected east african recording's from the 1970s and 80s — [voir](https://www.sofarecords.fr/fr/kenya-special-various/selected-east-african-recording%27s-from-the-1970s-and-80s/p2970067941/)
+- **1962.0€** — Japanese Jazz Spectacle (Various) - vol.2 yusuke ogawa - deep, heavy and beautiful jazz from japan 1962-1985 — [voir](https://www.sofarecords.fr/fr/japanese-jazz-spectacle-various/vol-2-yusuke-ogawa-deep-heavy-and-beautiful-jazz-from-japan-1962-1985/p3170139832/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
-- **180.0€** — Jimmy Blanche - dou van jou — [voir](https://www.sofarecords.fr/fr/jimmy-blanche/dou-van-jou/p3119519776/)
-- **150.0€** — The George Otsuka 5 - go on — [voir](https://www.sofarecords.fr/fr/the-george-otsuka-5/go-on/p3196814372/)
 - **140.0€** — Johnny Mokhali - sister sexy eyes / best friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)
 - **125.0€** — Marvelous Band - chant libre — [voir](https://www.sofarecords.fr/fr/marvelous-band/chant-libre/p3205647864/)
 - **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
@@ -155,8 +163,8 @@
 - **80.0€** — L'Orchestre Jazz Babalou - ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
+- **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
 - **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
-- **75.0€** — Kazis Et Les Cheveux Crepus - diables noirs / champions — [voir](https://www.sofarecords.fr/fr/kazis-et-les-cheveux-crepus/diables-noirs-champions/p3113533071/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
@@ -165,10 +173,6 @@
 - **70.0€** — Os Tatuis - os tatuís — [voir](https://www.sofarecords.fr/fr/os-tatuis/os-tatuis/p3175273325/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 - **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
-
-### Superfly Records — 1 disponibles, 0 vendus
-
-- **350.0€** — LEE MORGAN - LEEWAY — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128786860/lee-morgan-leeway.html)
 
 ### Victor Kiswell — 265 disponibles, 0 vendus
 

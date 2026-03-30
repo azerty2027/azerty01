@@ -218,7 +218,7 @@
   "https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973": {
     "source": "Digger's Digest",
     "title": "Rashied Ali Quintet – Rashied Ali Quintet (Survival Records – SR-102 - US – 1973)",
-    "price_ref": 320.0,
+    "price_ref": 390.0,
     "url": "https://www.diggersdigest.com/product/rashied-ali-quintet-rashied-ali-quintet-survival-records-sr-102-us-1973",
     "sold": false,
     "first_seen": "2026-02-25T13:25:32.464593"
@@ -3669,9 +3669,57 @@
   "https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985": {
     "source": "Digger's Digest",
     "title": "Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985)",
-    "price_ref": 170.0,
+    "price_ref": 175.0,
     "url": "https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985",
     "sold": false,
     "first_seen": "2026-03-27T09:24:29.300430"
+  },
+  "https://www.sofarecords.fr/fr/doing-it-in-lagos-various/boogie-pop-amp-disco-in-1980s-nigeria/p3059419746/": {
+    "source": "SOFA Records",
+    "title": "Doing It In Lagos (Various) - boogie, pop & disco in 1980s nigeria",
+    "price_ref": 1980.0,
+    "url": "https://www.sofarecords.fr/fr/doing-it-in-lagos-various/boogie-pop-amp-disco-in-1980s-nigeria/p3059419746/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483308"
+  },
+  "https://www.sofarecords.fr/fr/body-beat-various/soca-dub-and-electronic-calypso-1979-98/p3107490214/": {
+    "source": "SOFA Records",
+    "title": "Body Beat (Various) - soca-dub and electronic calypso 1979-98",
+    "price_ref": 1979.0,
+    "url": "https://www.sofarecords.fr/fr/body-beat-various/soca-dub-and-electronic-calypso-1979-98/p3107490214/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483319"
+  },
+  "https://www.sofarecords.fr/fr/kenya-special-various/selected-east-african-recording%27s-from-the-1970s-and-80s/p2970067941/": {
+    "source": "SOFA Records",
+    "title": "Kenya Special (Various) - selected east african recording's from the 1970s and 80s",
+    "price_ref": 1970.0,
+    "url": "https://www.sofarecords.fr/fr/kenya-special-various/selected-east-african-recording%27s-from-the-1970s-and-80s/p2970067941/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483321"
+  },
+  "https://www.sofarecords.fr/fr/ayo-ke-disco-various/boogie-pop-amp-funk-from-the-south-china-sea-1974-88/p3199825954/": {
+    "source": "SOFA Records",
+    "title": "Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88)",
+    "price_ref": 1974.0,
+    "url": "https://www.sofarecords.fr/fr/ayo-ke-disco-various/boogie-pop-amp-funk-from-the-south-china-sea-1974-88/p3199825954/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483323"
+  },
+  "https://www.sofarecords.fr/fr/japanese-jazz-spectacle-various/vol-2-yusuke-ogawa-deep-heavy-and-beautiful-jazz-from-japan-1962-1985/p3170139832/": {
+    "source": "SOFA Records",
+    "title": "Japanese Jazz Spectacle (Various) - vol.2 yusuke ogawa - deep, heavy and beautiful jazz from japan 1962-1985",
+    "price_ref": 1962.0,
+    "url": "https://www.sofarecords.fr/fr/japanese-jazz-spectacle-various/vol-2-yusuke-ogawa-deep-heavy-and-beautiful-jazz-from-japan-1962-1985/p3170139832/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483325"
+  },
+  "https://www.sofarecords.fr/fr/fairuz/mais-el-rim-highlights-piccadilly-1975/p3092284136/": {
+    "source": "SOFA Records",
+    "title": "Fairuz - mais el rim - highlights - piccadilly 1975",
+    "price_ref": 1975.0,
+    "url": "https://www.sofarecords.fr/fr/fairuz/mais-el-rim-highlights-piccadilly-1975/p3092284136/",
+    "sold": false,
+    "first_seen": "2026-03-30T13:59:03.483327"
   }
 }
