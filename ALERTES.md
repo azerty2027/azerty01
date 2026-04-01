@@ -1,29 +1,26 @@
-# VINYL SCOUT — Rapport du 30/03/2026 14:47
+# VINYL SCOUT — Rapport du 01/04/2026 10:42
 
-**Base : 465 disques | Actifs : 400 | Batch : 1–5 | Seuil achat : 70% du prix ref**
-
----
-
-## 🎯 Aucun résultat wishlist ce run
+**Base : 466 disques | Actifs : 396 | Batch : 251–350 | Seuil achat : 70% du prix ref**
 
 ---
 
-## 🏪 1 REFS AUSSI CHEZ DISQUES ANCIENS
+---
 
-### Paul Jackson - Black Octopus
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Chez Disques Anciens** : 10.0€ — Duke ELLINGTON-Mahalia JACKSON 33T CBS S63363 Black Brown And Beige
-- Match artiste : `jackson` | album : `black`
-- [Voir](https://disquesanciens.com/produit/duke-ellington-mahalia-jacxson-33t-cbs-s63363-black-brown-and-beige/)
+## 🏪 Aucun croisement Disques Anciens aujourd'hui
 
 ---
 
 ## ✅ Aucune opportunite marche aujourd'hui
 
 ---
+## 🆕 1 nouveaux en base
+
+- **1970.0€** — Marcos Valle - marcos valle 1970 (SOFA Records)
+
+---
 ## Catalogue complet
 
-### Digger's Digest — 101 disponibles, 0 vendus
+### Digger's Digest — 102 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -32,6 +29,7 @@
 - **790.0€** — Manu Dibango - African Voodoo (PSI, 1972) — [voir](https://www.diggersdigest.com/product/manu-dibango-african-voodoo-psi-1972)
 - **750.0€** — Malagasy / Gilson - Malagasy (Lumen – LD 33 908 - 1972) — [voir](https://www.diggersdigest.com/product/malagasy-gilson-malagasy-lumen-ld-33-908-1972)
 - **550.0€** — Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-saf-50016-france-1976)
+- **490.0€** — Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976)
 - **490.0€** — David Wertman, Sun Ensemble – Wide Eye Culture (Sunmuse Records – SUN 401 - US - 1983) — [voir](https://www.diggersdigest.com/product/david-wertman-sun-ensemble-wide-eye-culture-sunmuse-records-sun-401-us-1983)
 - **490.0€** — Franz Auffray ‎- Original Popcorn (Egg – 940.015 - France - 1970) — [voir](https://www.diggersdigest.com/product/franz-auffray-original-popcorn-barclay-kmlp-319-1970)
 - **450.0€** — Jingo – Fever (Afro-Rock – U 79 000 – France – 1977) — [voir](https://www.diggersdigest.com/product/jingo-fever-afro-rock-u-79-000-france-1977)
@@ -127,15 +125,10 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 34 disponibles, 0 vendus
+### SOFA Records — 29 disponibles, 0 vendus
 
 - **1980.0€** — ABDOU EL OMARI - lost tape - 1980 — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
-- **1980.0€** — Doing It In Lagos (Various) - boogie, pop & disco in 1980s nigeria — [voir](https://www.sofarecords.fr/fr/doing-it-in-lagos-various/boogie-pop-amp-disco-in-1980s-nigeria/p3059419746/)
-- **1979.0€** — Body Beat (Various) - soca-dub and electronic calypso 1979-98 — [voir](https://www.sofarecords.fr/fr/body-beat-various/soca-dub-and-electronic-calypso-1979-98/p3107490214/)
-- **1975.0€** — Fairuz - mais el rim - highlights - piccadilly 1975 — [voir](https://www.sofarecords.fr/fr/fairuz/mais-el-rim-highlights-piccadilly-1975/p3092284136/)
-- **1974.0€** — Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88) — [voir](https://www.sofarecords.fr/fr/ayo-ke-disco-various/boogie-pop-amp-funk-from-the-south-china-sea-1974-88/p3199825954/)
-- **1970.0€** — Kenya Special (Various) - selected east african recording's from the 1970s and 80s — [voir](https://www.sofarecords.fr/fr/kenya-special-various/selected-east-african-recording%27s-from-the-1970s-and-80s/p2970067941/)
-- **1962.0€** — Japanese Jazz Spectacle (Various) - vol.2 yusuke ogawa - deep, heavy and beautiful jazz from japan 1962-1985 — [voir](https://www.sofarecords.fr/fr/japanese-jazz-spectacle-various/vol-2-yusuke-ogawa-deep-heavy-and-beautiful-jazz-from-japan-1962-1985/p3170139832/)
+- **1970.0€** — Marcos Valle - marcos valle 1970 — [voir](https://www.sofarecords.fr/fr/marcos-valle/marcos-valle-1970/p2968465691/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **140.0€** — Johnny Mokhali - sister sexy eyes / best friends — [voir](https://www.sofarecords.fr/fr/johnny-mokhali/sister-sexy-eyes-best-friends/p3202495240/)

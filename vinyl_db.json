@@ -266,7 +266,7 @@
   "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976": {
     "source": "Digger's Digest",
     "title": "Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976)",
-    "price_ref": 420.0,
+    "price_ref": 490.0,
     "url": "https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976",
     "sold": false,
     "first_seen": "2026-02-25T13:25:32.464601"
@@ -3721,5 +3721,13 @@
     "url": "https://www.sofarecords.fr/fr/fairuz/mais-el-rim-highlights-piccadilly-1975/p3092284136/",
     "sold": false,
     "first_seen": "2026-03-30T13:59:03.483327"
+  },
+  "https://www.sofarecords.fr/fr/marcos-valle/marcos-valle-1970/p2968465691/": {
+    "source": "SOFA Records",
+    "title": "Marcos Valle - marcos valle 1970",
+    "price_ref": 1970.0,
+    "url": "https://www.sofarecords.fr/fr/marcos-valle/marcos-valle-1970/p2968465691/",
+    "sold": false,
+    "first_seen": "2026-04-01T10:20:44.760657"
   }
 }
