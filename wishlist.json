@@ -1,48 +1,205 @@
-[
-  {"artist": "Patrick Beauvarlet", "album": "Quelle Belle Soirée", "max_price": 10},
-  {"artist": "Cubby St Charles", "album": "Party", "max_price": 4},
-  {"artist": "Jules Kamga", "album": "Maffo", "max_price": 35},
-  {"artist": "Marwan Rahbani", "album": "Salade du Chef", "max_price": 25},
-  {"artist": "Pete Richards", "album": "I Had A Dream", "max_price": 65},
-  {"artist": "BOUA-BOUA", "album": "West Indies", "max_price": 19},
-  {"artist": "Brothers by Choice", "album": "Brothers By Choice", "max_price": 41},
-  {"artist": "Bandaly Family", "album": "The Merry Family", "max_price": 51},
-  {"artist": "Boz Scaggs", "album": "Silk Degrees", "max_price": 2},
-  {"artist": "Michel Redolfi", "album": "Sonic Waters", "max_price": 17},
-  {"artist": "Frank Guiolet", "album": "Zouk Pulsions", "max_price": 41},
-  {"artist": "Christin Audhuy", "album": "Histoire De Corps", "max_price": 24},
-  {"artist": "Usha Uthup", "album": "Usha In Nairobi", "max_price": 27},
-  {"artist": "Ann Steel", "album": "My Time", "max_price": 11},
-  {"artist": "Christiane Legrand", "album": "Le Brésil De Christiane Legrand", "max_price": 11},
-  {"artist": "Nino Ferrer", "album": "Metronomie", "max_price": 18},
-  {"artist": "Gwakasonne", "album": "Gwakasonne", "max_price": 69},
-  {"artist": "Gerard Lockel", "album": "Gwo Ka Modènn", "max_price": 50},
-  {"artist": "Gerard Lockel", "album": "Présente Des Extraits De Concerts Tirés D'Archives De 1969 à 1990", "max_price": 181},
-  {"artist": "Kat Tet", "album": "Women", "max_price": 159},
-  {"artist": "Luc-Hubert Séjor", "album": "Mizik Filamonik", "max_price": 245},
-  {"artist": "Laurence Meillarec", "album": "L'Enfance En Papier", "max_price": 8},
-  {"artist": "Cento", "album": "Photochrome", "max_price": 35},
-  {"artist": "Pierre Maizeroi", "album": "Pierre Maizeroi", "max_price": 17},
-  {"artist": "Pierre Maizeroi", "album": "Biguine La", "max_price": 41},
-  {"artist": "Choukas", "album": "Zouk Star", "max_price": 34},
-  {"artist": "Le Mistral", "album": "Y Paré Poui Souflé", "max_price": 11},
-  {"artist": "Black Sun", "album": "Black Sun", "max_price": 5},
-  {"artist": "Kamal Abdul Alim", "album": "Dance", "max_price": 49},
-  {"artist": "The Henry-Wenceslas", "album": "Ne Dis Pas Cela", "max_price": 35},
-  {"artist": "Captain Torkive", "album": "Flying Saucers", "max_price": 13},
-  {"artist": "Gassan Rahbani", "album": "Gassan Rahbani", "max_price": 51},
-  {"artist": "Josy Mass", "album": "Fanm", "max_price": 53},
-  {"artist": "Rodrigue Cosaque", "album": "Bay Beton", "max_price": 28},
-  {"artist": "Jean Le Fennec", "album": "Phantastic", "max_price": 41},
-  {"artist": "Voltages '8'", "album": "Cosaque 1978", "max_price": 51},
-  {"artist": "Erick Cosaque", "album": "Gros-Ka L'Arme De Défense Du Peuple Guadeloupéen", "max_price": 51},
-  {"artist": "Annkrist", "album": "Bleu Cobalt", "max_price": 39},
-  {"artist": "Dionisio Maio", "album": "Dionísio Maio", "max_price": 31},
-  {"artist": "Jean-Yves Labat", "album": "Underwater Electronic Orchestra", "max_price": 39},
-  {"artist": "Raja", "album": "Lebanon", "max_price": 39},
-  {"artist": "Raja Zahr", "album": "Lebanon", "max_price": 39},
-  {"artist": "Raja Zahr", "album": "Disco Balady", "max_price": 28},
-  {"artist": "Raja", "album": "Journey Into Rhythm", "max_price": 8},
-  {"artist": "Jacky Chalard", "album": "Super Man, Super Cool", "max_price": 19},
-  {"artist": "Jaws", "album": "Jaws", "max_price": 59}
-]
+	
+0	
+artist	"Patrick Beauvarlet"
+album	"Quelle Belle Soirée"
+max_price	10
+1	
+artist	"Cubby St Charles"
+album	"Party"
+max_price	4
+2	
+artist	"Jules Kamga"
+album	"Maffo"
+max_price	35
+3	
+artist	"Marwan Rahbani"
+album	"Salade du Chef"
+max_price	25
+4	
+artist	"Pete Richards"
+album	"I Had A Dream"
+max_price	65
+5	
+artist	"BOUA-BOUA"
+album	"West Indies"
+max_price	19
+6	
+artist	"Brothers by Choice"
+album	"Brothers By Choice"
+max_price	41
+7	
+artist	"Bandaly Family"
+album	"The Merry Family"
+max_price	51
+8	
+artist	"Boz Scaggs"
+album	"Silk Degrees"
+max_price	2
+9	
+artist	"Michel Redolfi"
+album	"Sonic Waters"
+max_price	17
+10	
+artist	"Frank Guiolet"
+album	"Zouk Pulsions"
+max_price	41
+11	
+artist	"Christin Audhuy"
+album	"Histoire De Corps"
+max_price	24
+12	
+artist	"Usha Uthup"
+album	"Usha In Nairobi"
+max_price	27
+13	
+artist	"Ann Steel"
+album	"My Time"
+max_price	11
+14	
+artist	"Christiane Legrand"
+album	"Le Brésil De Christiane Legrand"
+max_price	11
+15	
+artist	"Nino Ferrer"
+album	"Metronomie"
+max_price	18
+16	
+artist	"Gwakasonne"
+album	"Gwakasonne"
+max_price	69
+17	
+artist	"Gerard Lockel"
+album	"Gwo Ka Modènn"
+max_price	50
+18	
+artist	"Gerard Lockel"
+album	"Présente Des Extraits De Concerts Tirés D'Archives De 1969 à 1990"
+max_price	181
+19	
+artist	"Kat Tet"
+album	"Women"
+max_price	159
+20	
+artist	"Luc-Hubert Séjor"
+album	"Mizik Filamonik"
+max_price	245
+21	
+artist	"Laurence Meillarec"
+album	"L'Enfance En Papier"
+max_price	8
+22	
+artist	"Cento"
+album	"Photochrome"
+max_price	35
+23	
+artist	"Pierre Maizeroi"
+album	"Pierre Maizeroi"
+max_price	17
+24	
+artist	"Pierre Maizeroi"
+album	"Biguine La"
+max_price	41
+25	
+artist	"Choukas"
+album	"Zouk Star"
+max_price	34
+26	
+artist	"Le Mistral"
+album	"Y Paré Poui Souflé"
+max_price	11
+27	
+artist	"Black Sun"
+album	"Black Sun"
+max_price	5
+28	
+artist	"Kamal Abdul Alim"
+album	"Dance"
+max_price	49
+29	
+artist	"The Henry-Wenceslas"
+album	"Ne Dis Pas Cela"
+max_price	35
+30	
+artist	"Captain Torkive"
+album	"Flying Saucers"
+max_price	13
+31	
+artist	"Gassan Rahbani"
+album	"Gassan Rahbani"
+max_price	51
+32	
+artist	"Josy Mass"
+album	"Fanm"
+max_price	53
+33	
+artist	"Rodrigue Cosaque"
+album	"Bay Beton"
+max_price	28
+34	
+artist	"Jean Le Fennec"
+album	"Phantastic"
+max_price	41
+35	
+artist	"Voltages '8'"
+album	"Cosaque 1978"
+max_price	51
+36	
+artist	"Erick Cosaque"
+album	"Gros-Ka L'Arme De Défense Du Peuple Guadeloupéen"
+max_price	51
+37	
+artist	"Annkrist"
+album	"Bleu Cobalt"
+max_price	39
+38	
+artist	"Dionisio Maio"
+album	"Dionísio Maio"
+max_price	31
+39	
+artist	"Jean-Yves Labat"
+album	"Underwater Electronic Orchestra"
+max_price	39
+40	
+artist	"Raja"
+album	"Lebanon"
+max_price	39
+41	
+artist	"Raja Zahr"
+album	"Lebanon"
+max_price	39
+42	
+artist	"Raja Zahr"
+album	"Disco Balady"
+max_price	28
+43	
+artist	"Raja"
+album	"Journey Into Rhythm"
+max_price	8
+44	
+artist	"Jacky Chalard"
+album	"Super Man, Super Cool"
+max_price	19
+45	
+artist	"Jaws"
+album	"Jaws"
+max_price	59
+46	
+artist	"Via Afrika"
+album	"Hey Boy"
+max_price	15
+47	
+artist	"Various"
+album	"Adieu Foulards"
+max_price	35
+48	
+artist	"Eboni Band"
+album	"Eboni Band"
+max_price	35
+49	
+artist	"Bataan"
+album	"Afrofilipino"
+max_price	35
+50	
+artist	"Eddy Louis"
+album	"Sang Mêlé"
+max_price	50
