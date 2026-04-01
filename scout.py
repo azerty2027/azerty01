@@ -1,8 +1,7 @@
 """
-VINYL SCOUT v24
-- Phase 1 : scraping sources experts (Kiswell, DD, Superfly, Diaspora, SOFA Records)
-- Phase 2 : croisement Disques Anciens (matching artiste + album)
-- Phase 3 : recherche opportunites LBC (cookies) + ParuVendu (direct) + Vinted (ScrapeOps) + eBay API
+VINYL SCOUT v25
+- Fix wishlist : filtre adaptatif (artiste OU album selon disponibilité des mots significatifs)
+- Fix Disques Anciens : mots match > 4 chars + union >= 3 (réduit faux positifs)
 - Phase 3b : wishlist (artist/album/max_price, blacklist par URL résultat)
 """
 
@@ -24,7 +23,7 @@ SCRAPEOPS_KEY = os.environ.get("SCRAPEOPS_KEY", "")
 BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "50"))
 
 print("=" * 60)
-print("VINYL SCOUT v24")
+print("VINYL SCOUT v25")
 print("LBC (cookies) + ParuVendu (direct) + Vinted (ScrapeOps) + eBay API")
 print(f"Seuil achat : {int(MAX_PRICE_RATIO*100)}% du prix ref | Batch : {BATCH_SIZE} disques/run")
 print("=" * 60)
@@ -543,18 +542,23 @@ def scrape_disquesanciens():
 
 
 def croiser_disquesanciens(base_records, da_records):
+    """
+    Match artiste + album avec mots > 4 chars pour éviter les faux positifs
+    sur des mots courts comme 'black', 'jackson', 'star', etc.
+    Union des mots matchés doit être >= 3 (au lieu de 2).
+    """
     croisements = []
     for ref in base_records:
         artist, album = parse_artist_album(ref['title'])
-        artist_words = words_from(artist)
-        album_words = words_from(album)
+        artist_words = {w for w in words_from(artist) if len(w) > 4}
+        album_words = {w for w in words_from(album) if len(w) > 4}
         if not artist_words or not album_words:
             continue
         for da in da_records:
-            da_words = words_from(da['title'])
+            da_words = {w for w in words_from(da['title']) if len(w) > 4}
             match_artist = artist_words & da_words
             match_album = album_words & da_words
-            if match_artist and match_album and len(match_artist | match_album) >= 2:
+            if match_artist and match_album and len(match_artist | match_album) >= 3:
                 croisements.append({
                     'ref_title': ref['title'],
                     'ref_source': ref['source'],
@@ -1078,7 +1082,10 @@ def load_wishlist():
 def search_wishlist_item(item):
     """
     Recherche wishlist. Format : {"artist": "...", "album": "...", "max_price": 50}
-    Pertinence stricte : artiste ET album doivent apparaître dans le résultat.
+    Filtre adaptatif :
+    - Si artiste éponyme : 1 mot artiste suffit
+    - Si artiste ET album ont des mots significatifs (>3 chars) : les deux requis
+    - Sinon : 1 mot de l'un ou l'autre suffit (ex : "Ann Steel" sans album précis)
     """
     artist = item.get('artist', '').strip()
     album = item.get('album', '').strip()
@@ -1092,19 +1099,26 @@ def search_wishlist_item(item):
     found += search_paruvendu(query_title, max_price=max_price)
     found += search_vinted(query_title, max_price=max_price)
     found += search_ebay(query_title, max_price=max_price)
-    # Filtre strict : artiste ET album présents dans le titre du résultat
-    artist_words = {w.lower() for w in artist.split() if len(w) > 2}
-    album_words = {w.lower() for w in album.split() if len(w) > 2}
+    # Mots significatifs (>3 chars) de l'artiste et de l'album
+    artist_words = {w.lower() for w in artist.split() if len(w) > 3}
+    album_words = {w.lower() for w in album.split() if len(w) > 3}
     filtered = []
     for f in found:
         rl = f['title'].lower()
-        ok_artist = any(w in rl for w in artist_words)
-        ok_album = any(w in rl for w in album_words)
+        ok_artist = any(w in rl for w in artist_words) if artist_words else True
+        ok_album = any(w in rl for w in album_words) if album_words else True
         if artist.lower() == album.lower():
+            # Éponyme : 1 mot artiste suffit
             if ok_artist:
                 filtered.append(f)
-        elif ok_artist and ok_album:
-            filtered.append(f)
+        elif artist_words and album_words:
+            # Les deux ont des mots significatifs → les deux requis
+            if ok_artist and ok_album:
+                filtered.append(f)
+        else:
+            # Un seul côté a des mots significatifs → celui-là suffit
+            if ok_artist or ok_album:
+                filtered.append(f)
     return filtered
 
 
