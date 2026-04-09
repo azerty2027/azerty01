@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/04/2026 19:18
+# VINYL SCOUT — Rapport du 09/04/2026 21:03
 
-**Base : 469 disques | Actifs : 389 | Batch : 351–389 | Seuil achat : 70% du prix ref**
+**Base : 469 disques | Actifs : 389 | Batch : 1–50 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,29 +10,27 @@
 
 ---
 
-## 🔴 3 OPPORTUNITES MARCHE
+## 🔴 4 OPPORTUNITES MARCHE
 
-### Eddy Louiss - Eddy Louiss (Barclay - 1968)
-- **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 75.0€ sur paruvendu.fr — marge potentielle **245.0€ (77%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-histoire-sans-parole-jazz-nantes-44000/1210204902A1KBMECV000)
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 9.95€ sur vinted.fr — marge potentielle **120.05€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8536610740-vinilo-the-ritchie-family-supersingle-15)
 
-### Eddy Louiss - Eddy Louiss (Barclay - 1968)
-- **Ref** : 320.0€ chez Digger's Digest
-- **Trouve** : 105.0€ sur paruvendu.fr — marge potentielle **215.0€ (67%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-eddy-louiss-sang-mele--sautron-44880/1263510988A1KBMECV000)
+### Voodoo Family - Voodoo Family
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **80.0€ (62%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8092157892-voodoo-family)
 
-### Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero
-- **Ref** : 90.0€ chez SOFA Records
-- **Trouve** : 57.0€ sur paruvendu.fr — marge potentielle **33.0€ (37%)**
-- [Voir l'annonce](https://www.paruvendu.fr/annonces/livres-disques/33-tours-docteur-nico-et-l-orchestre-african-fiesta-sukisa-nantes-44000/1227747608A1KBMECV000)
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 32.0€ sur vinted.fr — marge potentielle **68.0€ (68%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8599412737-boncana-maiga-marietou-afro-funk)
 
----
-## 🆕 3 nouveaux en base
-
-- **160.0€** — Guy Pedersen ‎– Contrebasses (Tele Music – TM 3014 - France - 1970) (Digger's Digest)
-- **100.0€** — Daniel Forestal - a paris (SOFA Records)
-- **70.0€** — Joby Valente - disque la rayé (SOFA Records)
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8570588346-ofege-try-and-love-original-ghana-psych-afro-funk-rare)
 
 ---
 ## Catalogue complet
