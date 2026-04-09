@@ -1677,7 +1677,7 @@
   "http://www.victorkiswell.com/v3/?product=bamboo-8": {
     "source": "Victor Kiswell",
     "title": "Bamboo",
-    "price_ref": 500.0,
+    "price_ref": 350.0,
     "url": "http://www.victorkiswell.com/v3/?product=bamboo-8",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332342"
@@ -3729,5 +3729,29 @@
     "url": "https://www.sofarecords.fr/fr/marcos-valle/marcos-valle-1970/p2968465691/",
     "sold": false,
     "first_seen": "2026-04-01T10:20:44.760657"
+  },
+  "https://www.diggersdigest.com/product/guy-pedersen-contrebasses-tele-music-tm-3014-france-1970": {
+    "source": "Digger's Digest",
+    "title": "Guy Pedersen ‎– Contrebasses (Tele Music – TM 3014 - France - 1970)",
+    "price_ref": 160.0,
+    "url": "https://www.diggersdigest.com/product/guy-pedersen-contrebasses-tele-music-tm-3014-france-1970",
+    "sold": false,
+    "first_seen": "2026-04-09T19:04:28.426226"
+  },
+  "https://www.sofarecords.fr/fr/daniel-forestal/a-paris/p3206039137/": {
+    "source": "SOFA Records",
+    "title": "Daniel Forestal - a paris",
+    "price_ref": 100.0,
+    "url": "https://www.sofarecords.fr/fr/daniel-forestal/a-paris/p3206039137/",
+    "sold": false,
+    "first_seen": "2026-04-09T19:04:28.426271"
+  },
+  "https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/": {
+    "source": "SOFA Records",
+    "title": "Joby Valente - disque la rayé",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/",
+    "sold": false,
+    "first_seen": "2026-04-09T19:04:28.426273"
   }
 }
