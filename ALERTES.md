@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 09/04/2026 21:03
+# VINYL SCOUT — Rapport du 10/04/2026 07:29
 
-**Base : 469 disques | Actifs : 389 | Batch : 1–50 | Seuil achat : 70% du prix ref**
+**Base : 469 disques | Actifs : 389 | Batch : 51–100 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,27 +10,42 @@
 
 ---
 
-## 🔴 4 OPPORTUNITES MARCHE
+## 🔴 7 OPPORTUNITES MARCHE
 
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 9.95€ sur vinted.fr — marge potentielle **120.05€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8536610740-vinilo-the-ritchie-family-supersingle-15)
+### Minoru Muraoka - Bamboo
+- **Ref** : 450.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **420.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019)
 
-### Voodoo Family - Voodoo Family
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **80.0€ (62%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8092157892-voodoo-family)
+### Minoru Muraoka - Bamboo
+- **Ref** : 450.0€ chez Victor Kiswell
+- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **385.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl)
 
-### Boncana Maiga - Boncana Maiga
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 32.0€ sur vinted.fr — marge potentielle **68.0€ (68%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8599412737-boncana-maiga-marietou-afro-funk)
+### Minoru Muraoka - Bamboo
+- **Ref** : 450.0€ chez Victor Kiswell
+- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **300.0€ (67%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp)
 
-### Ofege - Try and Love
+### Jamisen Funk - Jamisen Funk
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **130.0€ (59%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl)
+
+### Pedro Iturralde - Jazz Flamenco
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 38.99€ sur vinted.fr — marge potentielle **71.00999999999999€ (65%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz)
+
+### Aquarius y Luiz Antonio - Brasil Aquarius
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 73.0€ sur vinted.fr — marge potentielle **47.0€ (39%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973)
+
+### Aquarius y Luiz Antonio - Brasil Aquarius
 - **Ref** : 120.0€ chez Victor Kiswell
 - **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8570588346-ofege-try-and-love-original-ghana-psych-afro-funk-rare)
+- [Voir l'annonce](https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973)
 
 ---
 ## Catalogue complet
