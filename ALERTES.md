@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 10/04/2026 07:29
+# VINYL SCOUT — Rapport du 10/04/2026 15:13
 
-**Base : 469 disques | Actifs : 389 | Batch : 51–100 | Seuil achat : 70% du prix ref**
+**Base : 469 disques | Actifs : 389 | Batch : 101–150 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,42 +10,32 @@
 
 ---
 
-## 🔴 7 OPPORTUNITES MARCHE
+## 🔴 5 OPPORTUNITES MARCHE
 
-### Minoru Muraoka - Bamboo
-- **Ref** : 450.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **420.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4890002767-minoru-muraoka-ep-shakuhachi-rock-2019)
-
-### Minoru Muraoka - Bamboo
-- **Ref** : 450.0€ chez Victor Kiswell
-- **Trouve** : 65.0€ sur vinted.fr — marge potentielle **385.0€ (86%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7647638660-minoru-muraoka-bamboo-jazz-funk-vinyl)
-
-### Minoru Muraoka - Bamboo
-- **Ref** : 450.0€ chez Victor Kiswell
-- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **300.0€ (67%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7000686364-minoru-muraoka-life-theatres-shakuhachi-rock-enka-hen-rare-japan-bamboo-flute-funk-lp)
-
-### Jamisen Funk - Jamisen Funk
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **130.0€ (59%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7776347437-akira-ishikawa-tsugaru-jongara-bushi-drum-tsugaru-jamisen-jazz-funk-rock-lp-vinyl)
-
-### Pedro Iturralde - Jazz Flamenco
+### Alberto Baldan Bembo - Codice d’amore orientale
 - **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 38.99€ sur vinted.fr — marge potentielle **71.00999999999999€ (65%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6297045418-pedro-iturralde-quintet-feat-paco-de-lucia-flamenco-jazz)
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **100.0€ (91%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7538468306-33-giri-gino-amore-ammore-italo-disco-neapolitan-funk-lp-album)
 
-### Aquarius y Luiz Antonio - Brasil Aquarius
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 73.0€ sur vinted.fr — marge potentielle **47.0€ (39%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6370503666-brasil-aquarius-y-luiz-antoniolp-espanol-1973)
+### Alberto Baldan Bembo - Codice d’amore orientale
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **90.0€ (82%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8356336147-ennio-morricone-amore)
 
-### Aquarius y Luiz Antonio - Brasil Aquarius
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8135386914-aquarius-y-luiz-antonio-brasil-lp-bossanova-latin-spain-ariola-1973)
+### James Tatum - Live
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **90.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8466761430-james-brown-live-t-the-apollo)
+
+### Alberto Baldan Bembo - Codice d’amore orientale
+- **Ref** : 110.0€ chez Victor Kiswell
+- **Trouve** : 24.99€ sur vinted.fr — marge potentielle **85.01€ (77%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8314302861-ennio-morricone-amore-lp)
+
+### Quasar - Man Coda
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3091374656-quasar-man-coda-vinyle)
 
 ---
 ## Catalogue complet
