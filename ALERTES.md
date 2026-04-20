@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 20/04/2026 14:56
+# VINYL SCOUT — Rapport du 20/04/2026 16:16
 
-**Base : 475 disques | Actifs : 383 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 476 disques | Actifs : 385 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,57 +10,37 @@
 
 ---
 
-## 🔴 8 OPPORTUNITES MARCHE
+## 🔴 5 OPPORTUNITES MARCHE
 
-### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **215.0€ (86%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3826303083-the-keith-tippett-group)
+### Gil Melle - Andromeda Strain
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **140.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/4697585986-the-andromeda-strain-1971-sf-japan-movie-program)
 
-### Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 4.0€ sur vinted.fr — marge potentielle **126.0€ (97%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5331899501-bianco-im-crazy-1986)
+### Ralph Lundsten - Alpha Ralpha Boulevard
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 11.0€ sur vinted.fr — marge potentielle **89.0€ (89%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2241290659-alpha-tiger-como-novo)
 
-### Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 8.0€ sur vinted.fr — marge potentielle **122.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/5340023604-bonnie-bianco-al-paradise)
+### Egg - The Polite Force
+- **Ref** : 180.0€ chez Victor Kiswell
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **80.0€ (44%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8453369904-egg-the-polite-force-1970)
 
-### François Tusques - Après la marée noire
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 6.0€ sur vinted.fr — marge potentielle **114.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3952029916-45t-quatre-titres-maree-noire)
+### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 29.0€ sur vinted.fr — marge potentielle **71.0€ (71%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8634642275-alberto-baldan-bembo)
 
-### Jean-Jacques Robert & Jean-Michel Guise - Delirius Music
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 1.0€ sur vinted.fr — marge potentielle **109.0€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8576972970-vinyle-45-tours-felix-leclerc-robert-charlebois)
-
-### Jean-Jacques Robert & Jean-Michel Guise - Delirius Music
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 1.0€ sur vinted.fr — marge potentielle **109.0€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6526502627-vinyle-jean-ferrat-45-tours)
-
-### Luciano Michelini - Il decamerone nero
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **95.0€ (79%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8228831446-nino-taranto-lp-vinile-decamerone-della-canzone-comica-1973-edibi-vinile-raro)
-
-### Jean-Jacques Robert & Jean-Michel Guise - Delirius Music
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 17.0€ sur vinted.fr — marge potentielle **93.0€ (85%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4659458492-jean-philippe-rameau-platee-festival-daix-en-provence-1956)
+### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 49.99€ sur vinted.fr — marge potentielle **50.01€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8133848755-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa-lp)
 
 ---
-## 🆕 6 nouveaux en base
+## 🆕 1 nouveaux en base
 
-- **1971.0€** — Black Jazz Records (various) - black jazz records best of 1971-76 (SOFA Records)
-- **1968.0€** — Music For A Revolution Vol 2 (various) - guinea's syliphone recording label 1968-1980 (SOFA Records)
-- **550.0€** — The Heshoo Beshoo Group – Armitage Road (Columbia – 2 C 062 - 80842 - France - 1971) (Digger's Digest)
-- **250.0€** — Max Cilla ‎- La Flute Des Mornes Volume 1 (Apia - 1981) (Digger's Digest)
-- **200.0€** — Sohail Rana & Fore Thoughts - Four Folk Tunes of Pakistan (Victor Kiswell)
-- **80.0€** — Cabo Verde Show - caminho de esperança coladance 80 (SOFA Records)
+- **110.0€** — Joan Bibiloni - Una Vida Llarga i Tranquila (Victor Kiswell)
 
 ---
 ## Catalogue complet
@@ -199,7 +179,7 @@
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 - **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
 
-### Victor Kiswell — 255 disponibles, 0 vendus
+### Victor Kiswell — 257 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -353,7 +333,6 @@
 - **120.0€** — Haruko Wanibushi - Rashamen — [voir](http://www.victorkiswell.com/v3/?product=rashamen)
 - **120.0€** — Hiro Tsunoda - On Drums — [voir](http://www.victorkiswell.com/v3/?product=on-drums-2)
 - **120.0€** — Pedro Ruy Blas - Luna LLena — [voir](http://www.victorkiswell.com/v3/?product=luna-llena)
-- **120.0€** — Joan Bibiloni - Una Vida Llarga i Tranquila — [voir](http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-2)
 - **120.0€** — Taiwan Funk - Taiwan Library Music – Folk Songs Vol. 2 — [voir](http://www.victorkiswell.com/v3/?product=taiwan-library-music-folk-songs-vol-2)
 - **120.0€** — Mike Ribas - TV Radio Cine — [voir](http://www.victorkiswell.com/v3/?product=tv-radio-cine)
 - **120.0€** — Annette Peacock - I’m the One — [voir](http://www.victorkiswell.com/v3/?product=im-the-one-2)
@@ -390,6 +369,7 @@
 - **110.0€** — Pedro Iturralde - Jazz Flamenco Vol. 2 — [voir](http://www.victorkiswell.com/v3/?product=jazz-flamenco-vol-2)
 - **110.0€** — Pedro Iturralde - Jazz Flamenco — [voir](http://www.victorkiswell.com/v3/?product=jazz-flamenco-2)
 - **110.0€** — Inoue Band - Matsuri bayashi ga kikoeru — [voir](http://www.victorkiswell.com/v3/?product=matsuri-bayashi-ga-kikoeru)
+- **110.0€** — Joan Bibiloni - Una Vida Llarga i Tranquila — [voir](http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-6)
 - **110.0€** — Alberto Baldan Bembo - Codice d’amore orientale — [voir](http://www.victorkiswell.com/v3/?product=codice-damore-orientale-2)
 - **110.0€** — Ramon Farran & Robert Graves - El Olivo — [voir](http://www.victorkiswell.com/v3/?product=el-olivo-5)
 - **110.0€** — Jou Cogra - The Hammond Sound of — [voir](http://www.victorkiswell.com/v3/?product=the-hammond-sound-of)
@@ -456,3 +436,5 @@
 - **100.0€** — Ralph Lundsten - Alpha Ralpha Boulevard — [voir](http://www.victorkiswell.com/v3/?product=alpha-ralpha-boulevard)
 - **100.0€** — Louis Banks' Jazz Yatra - Sangam — [voir](http://www.victorkiswell.com/v3/?product=sangam)
 - **100.0€** — Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites — [voir](http://www.victorkiswell.com/v3/?product=flutes-libres-musiques-et-instruments-insolites)
+- **100.0€** — Foehn - Faëria — [voir](http://www.victorkiswell.com/v3/?product=faeria)
+- **100.0€** — Melodiya Ensemble - Labyrinth — [voir](http://www.victorkiswell.com/v3/?product=labyrinth-2)

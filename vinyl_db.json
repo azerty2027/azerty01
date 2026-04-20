@@ -3801,5 +3801,13 @@
     "url": "https://www.sofarecords.fr/fr/black-jazz-records-various/black-jazz-records-best-of-1971-76/p3206076225/",
     "sold": false,
     "first_seen": "2026-04-20T14:27:38.631969"
+  },
+  "http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-6": {
+    "source": "Victor Kiswell",
+    "title": "Joan Bibiloni - Una Vida Llarga i Tranquila",
+    "price_ref": 110.0,
+    "url": "http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-6",
+    "sold": false,
+    "first_seen": "2026-04-20T15:41:44.786642"
   }
 }
