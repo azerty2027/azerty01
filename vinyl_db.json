@@ -1861,7 +1861,7 @@
   "http://www.victorkiswell.com/v3/?product=jesus-from-up-above": {
     "source": "Victor Kiswell",
     "title": "Jesus From Up Above",
-    "price_ref": 120.0,
+    "price_ref": 180.0,
     "url": "http://www.victorkiswell.com/v3/?product=jesus-from-up-above",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332450"
@@ -3753,5 +3753,53 @@
     "url": "https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/",
     "sold": false,
     "first_seen": "2026-04-09T19:04:28.426273"
+  },
+  "http://www.victorkiswell.com/v3/?product=four-folk-tunes-of-pakistan": {
+    "source": "Victor Kiswell",
+    "title": "Sohail Rana & Fore Thoughts - Four Folk Tunes of Pakistan",
+    "price_ref": 200.0,
+    "url": "http://www.victorkiswell.com/v3/?product=four-folk-tunes-of-pakistan",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631836"
+  },
+  "https://www.diggersdigest.com/product/the-heshoo-beshoo-group-armitage-road-columbia-2-c-062-80842-france-1974": {
+    "source": "Digger's Digest",
+    "title": "The Heshoo Beshoo Group – Armitage Road (Columbia – 2 C 062 - 80842 - France - 1971)",
+    "price_ref": 550.0,
+    "url": "https://www.diggersdigest.com/product/the-heshoo-beshoo-group-armitage-road-columbia-2-c-062-80842-france-1974",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631926"
+  },
+  "https://www.diggersdigest.com/product/max-cilla-la-flute-des-mornes-volume-1-apia-1981": {
+    "source": "Digger's Digest",
+    "title": "Max Cilla ‎- La Flute Des Mornes Volume 1 (Apia - 1981)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/max-cilla-la-flute-des-mornes-volume-1-apia-1981",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631929"
+  },
+  "https://www.sofarecords.fr/fr/cabo-verde-show/caminho-de-esperanca-coladance-80/p3206149356/": {
+    "source": "SOFA Records",
+    "title": "Cabo Verde Show - caminho de esperança coladance 80",
+    "price_ref": 80.0,
+    "url": "https://www.sofarecords.fr/fr/cabo-verde-show/caminho-de-esperanca-coladance-80/p3206149356/",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631966"
+  },
+  "https://www.sofarecords.fr/fr/music-for-a-revolution-vol-2-various/guinea%27s-syliphone-recording-label-1968-1980/p3206094655/": {
+    "source": "SOFA Records",
+    "title": "Music For A Revolution Vol 2 (various) - guinea's syliphone recording label 1968-1980",
+    "price_ref": 1968.0,
+    "url": "https://www.sofarecords.fr/fr/music-for-a-revolution-vol-2-various/guinea%27s-syliphone-recording-label-1968-1980/p3206094655/",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631967"
+  },
+  "https://www.sofarecords.fr/fr/black-jazz-records-various/black-jazz-records-best-of-1971-76/p3206076225/": {
+    "source": "SOFA Records",
+    "title": "Black Jazz Records (various) - black jazz records best of 1971-76",
+    "price_ref": 1971.0,
+    "url": "https://www.sofarecords.fr/fr/black-jazz-records-various/black-jazz-records-best-of-1971-76/p3206076225/",
+    "sold": false,
+    "first_seen": "2026-04-20T14:27:38.631969"
   }
 }
