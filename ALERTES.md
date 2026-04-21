@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 20/04/2026 16:16
+# VINYL SCOUT — Rapport du 21/04/2026 13:50
 
-**Base : 476 disques | Actifs : 385 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 476 disques | Actifs : 385 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,37 +10,17 @@
 
 ---
 
-## 🔴 5 OPPORTUNITES MARCHE
+## 🔴 2 OPPORTUNITES MARCHE
 
-### Gil Melle - Andromeda Strain
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 40.0€ sur vinted.fr — marge potentielle **140.0€ (78%)**
-- [Voir l'annonce](https://www.vinted.fr/items/4697585986-the-andromeda-strain-1971-sf-japan-movie-program)
+### Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972)
+- **Ref** : 220.0€ chez Digger's Digest
+- **Trouve** : 110.0€ sur vinted.fr — marge potentielle **110.0€ (50%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8622969579-can-ege-bamyasi-1972)
 
-### Ralph Lundsten - Alpha Ralpha Boulevard
+### Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites
 - **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 11.0€ sur vinted.fr — marge potentielle **89.0€ (89%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2241290659-alpha-tiger-como-novo)
-
-### Egg - The Polite Force
-- **Ref** : 180.0€ chez Victor Kiswell
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **80.0€ (44%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8453369904-egg-the-polite-force-1970)
-
-### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 29.0€ sur vinted.fr — marge potentielle **71.0€ (71%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8634642275-alberto-baldan-bembo)
-
-### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 49.99€ sur vinted.fr — marge potentielle **50.01€ (50%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8133848755-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa-lp)
-
----
-## 🆕 1 nouveaux en base
-
-- **110.0€** — Joan Bibiloni - Una Vida Llarga i Tranquila (Victor Kiswell)
+- **Trouve** : 59.0€ sur vinted.fr — marge potentielle **41.0€ (41%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7896296420-jean-cohen-solal-flutes-libres-vinyl)
 
 ---
 ## Catalogue complet
