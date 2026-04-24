@@ -3809,5 +3809,13 @@
     "url": "http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-6",
     "sold": false,
     "first_seen": "2026-04-20T15:41:44.786642"
+  },
+  "https://www.sofarecords.fr/fr/gratien-midonet/a-cosmic-poet-from-martinique-1979-1989/p3121026226/": {
+    "source": "SOFA Records",
+    "title": "Gratien Midonet - a cosmic poet from martinique 1979-1989",
+    "price_ref": 1979.0,
+    "url": "https://www.sofarecords.fr/fr/gratien-midonet/a-cosmic-poet-from-martinique-1979-1989/p3121026226/",
+    "sold": false,
+    "first_seen": "2026-04-24T08:46:32.503767"
   }
 }
