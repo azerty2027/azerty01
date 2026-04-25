@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 24/04/2026 09:15
+# VINYL SCOUT — Rapport du 25/04/2026 15:29
 
-**Base : 477 disques | Actifs : 386 | Batch : 351–386 | Seuil achat : 70% du prix ref**
+**Base : 492 disques | Actifs : 396 | Batch : 1–50 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,37 +10,46 @@
 
 ---
 
-## 🔴 5 OPPORTUNITES MARCHE
+## 🔴 4 OPPORTUNITES MARCHE
 
-### Gratien Midonet - a cosmic poet from martinique 1979-1989
-- **Ref** : 1979.0€ chez SOFA Records
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **1964.0€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7715402331-double-vinyl-gratien-midonet)
+### Baligh Hamdi & Magid Khan - Indo Arabic Variations
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 27.0€ sur vinted.fr — marge potentielle **93.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8660104877-baligh-hamdi-magid-khan-indo-arabic-variations-lp-vinyl-new-mint-sealed)
 
-### Gratien Midonet - a cosmic poet from martinique 1979-1989
-- **Ref** : 1979.0€ chez SOFA Records
-- **Trouve** : 23.0€ sur vinted.fr — marge potentielle **1956.0€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8366427492-gratien-midonet-a-cosmic-poet-from-martinique)
+### Assagai - Assagai
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 60.0€ sur vinted.fr — marge potentielle **90.0€ (60%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8713742266-assagai-telephone-girl-ill-wait-for-you)
 
-### Gratien Midonet - a cosmic poet from martinique 1979-1989
-- **Ref** : 1979.0€ chez SOFA Records
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **1909.0€ (96%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6458591966-church-of-the-cosmic-skull-science-fiction-lp-2018)
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 31.0€ sur vinted.fr — marge potentielle **89.0€ (74%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8660892704-ofege-album-try-and-love-vinyle)
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 22.0€ sur vinted.fr — marge potentielle **58.0€ (72%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8443632889-vinyle-ilous-et-decuyper)
-
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **35.0€ (44%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7985768670-vinyle-ilous-decuyper)
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8536375964-ofege-try-and-love-edition-wax-buyers-club)
 
 ---
-## 🆕 1 nouveaux en base
+## 🆕 15 nouveaux en base
 
-- **1979.0€** — Gratien Midonet - a cosmic poet from martinique 1979-1989 (SOFA Records)
+- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 (SOFA Records)
+- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 (SOFA Records)
+- **180.0€** — Star Band De Dakar - volume 1 (SOFA Records)
+- **160.0€** — Star Band De Dakar - volume 10 (SOFA Records)
+- **150.0€** — Kabasa - kabasa (SOFA Records)
+- **140.0€** — Franco OK Jazz et Jolie Detta - massu (SOFA Records)
+- **81.0€** — Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar (SOFA Records)
+- **80.0€** — Tabu Ley Rochereau avec l'Orchestre Afrisa - hafi deo (SOFA Records)
+- **80.0€** — Paul Louis Et Ses Cumbeleros - o africa (SOFA Records)
+- **75.0€** — The Shunters - since morning (SOFA Records)
+- **75.0€** — G. Lawani - tayata (SOFA Records)
+- **75.0€** — Bembeya Jazz - bembeya jazz (SOFA Records)
+- **71.0€** — Victoria Jazz Band - 71 (SOFA Records)
+- **70.0€** — Soleya Mama & le Waatoo Sita - vol.1 (SOFA Records)
+- **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -148,14 +157,18 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 29 disponibles, 0 vendus
+### SOFA Records — 40 disponibles, 0 vendus
 
+- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
+- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1980.0€** — ABDOU EL OMARI - lost tape - 1980 — [voir](https://www.sofarecords.fr/fr/abdou-el-omari/lost-tape-1980/p3205664371/)
-- **1979.0€** — Gratien Midonet - a cosmic poet from martinique 1979-1989 — [voir](https://www.sofarecords.fr/fr/gratien-midonet/a-cosmic-poet-from-martinique-1979-1989/p3121026226/)
 - **1971.0€** — Black Jazz Records (various) - black jazz records best of 1971-76 — [voir](https://www.sofarecords.fr/fr/black-jazz-records-various/black-jazz-records-best-of-1971-76/p3206076225/)
-- **1968.0€** — Music For A Revolution Vol 2 (various) - guinea's syliphone recording label 1968-1980 — [voir](https://www.sofarecords.fr/fr/music-for-a-revolution-vol-2-various/guinea%27s-syliphone-recording-label-1968-1980/p3206094655/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
+- **180.0€** — Star Band De Dakar - volume 1 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-1/p2968465624/)
+- **160.0€** — Star Band De Dakar - volume 10 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-10/p2968465627/)
+- **150.0€** — Kabasa - kabasa — [voir](https://www.sofarecords.fr/fr/kabasa/kabasa/p3206166577/)
+- **140.0€** — Franco OK Jazz et Jolie Detta - massu — [voir](https://www.sofarecords.fr/fr/franco-ok-jazz-et-jolie-detta/massu/p3206183634/)
 - **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
 - **110.0€** — Fela Kuti & Africa 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
 - **110.0€** — Orquesta Sabor Internacional - dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
@@ -165,22 +178,29 @@
 - **90.0€** — Ghédalia Tazartès - transports — [voir](https://www.sofarecords.fr/fr/ghedalia-tazartes/transports/p3205647861/)
 - **85.0€** — Fela Kuti & Africa 70 - question jam answer vol.2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Alan Hawkshaw, Alan Parker - the rock machine — [voir](https://www.sofarecords.fr/fr/alan-hawkshaw-alan-parker/the-rock-machine/p3205083304/)
-- **80.0€** — Cabo Verde Show - caminho de esperança coladance 80 — [voir](https://www.sofarecords.fr/fr/cabo-verde-show/caminho-de-esperanca-coladance-80/p3206149356/)
+- **81.0€** — Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar — [voir](https://www.sofarecords.fr/fr/nahawa-doumbia/la-grande-cantatrice-malienne-decouverte-81-a-dakar/p3206185772/)
+- **80.0€** — Tabu Ley Rochereau avec l'Orchestre Afrisa - hafi deo — [voir](https://www.sofarecords.fr/fr/tabu-ley-rochereau-avec-l%27orchestre-afrisa/hafi-deo/p3033808161/)
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — L'Orchestre Jazz Babalou - ngoma 50 — [voir](https://www.sofarecords.fr/fr/l%27orchestre-jazz-babalou/ngoma-50/p3202139785/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
+- **80.0€** — Paul Louis Et Ses Cumbeleros - o africa — [voir](https://www.sofarecords.fr/fr/paul-louis-et-ses-cumbeleros/o-africa/p3202495247/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
 - **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
-- **75.0€** — Mansia M'Bila - s/t — [voir](https://www.sofarecords.fr/fr/mansia-m%27bila/s-t/p3203376999/)
+- **75.0€** — The Shunters - since morning — [voir](https://www.sofarecords.fr/fr/the-shunters/since-morning/p3151225505/)
+- **75.0€** — G. Lawani - tayata — [voir](https://www.sofarecords.fr/fr/g-lawani/tayata/p3065791061/)
+- **75.0€** — Bembeya Jazz - bembeya jazz — [voir](https://www.sofarecords.fr/fr/bembeya-jazz/bembeya-jazz/p2968465710/)
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
+- **71.0€** — Victoria Jazz Band - 71 — [voir](https://www.sofarecords.fr/fr/victoria-jazz-band/71/p3206166569/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
+- **70.0€** — Soleya Mama & le Waatoo Sita - vol.1 — [voir](https://www.sofarecords.fr/fr/soleya-mama-amp-le-waatoo-sita/vol-1/p3027066439/)
+- **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
 - **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 - **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
 
-### Victor Kiswell — 257 disponibles, 0 vendus
+### Victor Kiswell — 256 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -329,7 +349,6 @@
 - **120.0€** — Boussouar el Maghnaoui - Wa Louahrania Waldik — [voir](http://www.victorkiswell.com/v3/?product=wa-louahrania-waldik)
 - **120.0€** — Boussoir el Maghnaoui - Sidi Rabi — [voir](http://www.victorkiswell.com/v3/?product=sidi-rabi)
 - **120.0€** — Robin Jones and His Quintet - Denga — [voir](http://www.victorkiswell.com/v3/?product=denga)
-- **120.0€** — Aquarius y Luiz Antonio - Brasil Aquarius — [voir](http://www.victorkiswell.com/v3/?product=brasil-aquarius-3)
 - **120.0€** — Akira Ishikawa - Tsugaru Jamisen vs Drums — [voir](http://www.victorkiswell.com/v3/?product=tsugaru-jamisen-vs-drums-3)
 - **120.0€** — Haruko Wanibushi - Rashamen — [voir](http://www.victorkiswell.com/v3/?product=rashamen)
 - **120.0€** — Hiro Tsunoda - On Drums — [voir](http://www.victorkiswell.com/v3/?product=on-drums-2)
