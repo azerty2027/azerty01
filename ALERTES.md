@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 25/04/2026 15:29
+# VINYL SCOUT — Rapport du 27/04/2026 12:48
 
-**Base : 492 disques | Actifs : 396 | Batch : 1–50 | Seuil achat : 70% du prix ref**
+**Base : 492 disques | Actifs : 378 | Batch : 51–100 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,46 +10,7 @@
 
 ---
 
-## 🔴 4 OPPORTUNITES MARCHE
-
-### Baligh Hamdi & Magid Khan - Indo Arabic Variations
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 27.0€ sur vinted.fr — marge potentielle **93.0€ (78%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8660104877-baligh-hamdi-magid-khan-indo-arabic-variations-lp-vinyl-new-mint-sealed)
-
-### Assagai - Assagai
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 60.0€ sur vinted.fr — marge potentielle **90.0€ (60%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8713742266-assagai-telephone-girl-ill-wait-for-you)
-
-### Ofege - Try and Love
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 31.0€ sur vinted.fr — marge potentielle **89.0€ (74%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8660892704-ofege-album-try-and-love-vinyle)
-
-### Ofege - Try and Love
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8536375964-ofege-try-and-love-edition-wax-buyers-club)
-
----
-## 🆕 15 nouveaux en base
-
-- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 (SOFA Records)
-- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 (SOFA Records)
-- **180.0€** — Star Band De Dakar - volume 1 (SOFA Records)
-- **160.0€** — Star Band De Dakar - volume 10 (SOFA Records)
-- **150.0€** — Kabasa - kabasa (SOFA Records)
-- **140.0€** — Franco OK Jazz et Jolie Detta - massu (SOFA Records)
-- **81.0€** — Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar (SOFA Records)
-- **80.0€** — Tabu Ley Rochereau avec l'Orchestre Afrisa - hafi deo (SOFA Records)
-- **80.0€** — Paul Louis Et Ses Cumbeleros - o africa (SOFA Records)
-- **75.0€** — The Shunters - since morning (SOFA Records)
-- **75.0€** — G. Lawani - tayata (SOFA Records)
-- **75.0€** — Bembeya Jazz - bembeya jazz (SOFA Records)
-- **71.0€** — Victoria Jazz Band - 71 (SOFA Records)
-- **70.0€** — Soleya Mama & le Waatoo Sita - vol.1 (SOFA Records)
-- **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube (SOFA Records)
+## ✅ Aucune opportunite marche aujourd'hui
 
 ---
 ## Catalogue complet
@@ -200,7 +161,7 @@
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 - **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
 
-### Victor Kiswell — 256 disponibles, 0 vendus
+### Victor Kiswell — 238 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -247,7 +208,6 @@
 - **220.0€** — Claude Vasori - Ionic Scrabble — [voir](http://www.victorkiswell.com/v3/?product=ionic-scrabble)
 - **220.0€** — Emiliano Orti - Underground Session — [voir](http://www.victorkiswell.com/v3/?product=underground-session)
 - **220.0€** — Armando Trovajoli - Il grande colpo dei 7 uomini d’oro — [voir](http://www.victorkiswell.com/v3/?product=il-grande-colpo-dei-7-uomini-doro)
-- **220.0€** — Michel Colombier - L’héritier — [voir](http://www.victorkiswell.com/v3/?product=lheritier-2)
 - **220.0€** — Hektor Zazou, Jeanne Folly, Bazooka - La perversita — [voir](http://www.victorkiswell.com/v3/?product=la-perversita)
 - **200.0€** — N'Kouri - Percussions — [voir](http://www.victorkiswell.com/v3/?product=percussions-2)
 - **200.0€** — Sohail Rana & Fore Thoughts - Four Folk Tunes of Pakistan — [voir](http://www.victorkiswell.com/v3/?product=four-folk-tunes-of-pakistan)
@@ -260,8 +220,6 @@
 - **200.0€** — Chene Noir - Orphée 2000 — [voir](http://www.victorkiswell.com/v3/?product=orphee-2000-2)
 - **200.0€** — Oscar Lindok (aka Giacomo dell'Orso) / Donimak (aka Nico Fidenco) - Stati d’animo Vol. 1 — [voir](http://www.victorkiswell.com/v3/?product=stati-danimo-vol-1-2)
 - **200.0€** — Giuliano Sorgini / Carlo Zoffoli - Natura e musica n°7 — [voir](http://www.victorkiswell.com/v3/?product=natura-e-musica-n7)
-- **200.0€** — Ennio Morricone - Revolver — [voir](http://www.victorkiswell.com/v3/?product=revolver)
-- **200.0€** — Albert Verrecchia - Tecnica di un amore — [voir](http://www.victorkiswell.com/v3/?product=tecnica-di-un-amore)
 - **200.0€** — Nef - Mais alors c’est à l’envers — [voir](http://www.victorkiswell.com/v3/?product=mais-alors-cest-a-lenvers)
 - **200.0€** — Pyranha - Pyranha — [voir](http://www.victorkiswell.com/v3/?product=pyranha)
 - **180.0€** — Le Kéné Star de Sikasso - Le Kéné Star de Sikasso — [voir](http://www.victorkiswell.com/v3/?product=le-kene-star-de-sikasso)
@@ -275,9 +233,8 @@
 - **180.0€** — M. Zalla (Piero Umiliani) - The Folk Group — [voir](http://www.victorkiswell.com/v3/?product=the-folk-group)
 - **180.0€** — Les Baxter - Bugaloo in Brazil — [voir](http://www.victorkiswell.com/v3/?product=bugaloo-in-brazil)
 - **180.0€** — Nico Fidenco - Emanuelle in America — [voir](http://www.victorkiswell.com/v3/?product=emanuelle-in-america)
-- **180.0€** — Filippo Trecca / Piero Piccioni / Bruno Nicolai / Gianfranco Chiaramello - Sceneggiatti TV — [voir](http://www.victorkiswell.com/v3/?product=sceneggiatti-tv)
-- **180.0€** — Gil Melle - Andromeda Strain — [voir](http://www.victorkiswell.com/v3/?product=andromeda-strain)
 - **180.0€** — Egg - The Polite Force — [voir](http://www.victorkiswell.com/v3/?product=the-polite-force)
+- **180.0€** — Filippo Trecca / Piero Piccioni / Bruno Nicolai / Gianfranco Chiaramello - Sceneggiatti TV — [voir](http://www.victorkiswell.com/v3/?product=sceneggiatti-tv)
 - **175.0€** — Noe's Jazz Ensemble - Serie Jazz — [voir](http://www.victorkiswell.com/v3/?product=serie-jazz)
 - **150.0€** — Super Mama Djombo - Festival — [voir](http://www.victorkiswell.com/v3/?product=festival-2)
 - **150.0€** — Ali Hassan Kuban - From Nubia to Cairo — [voir](http://www.victorkiswell.com/v3/?product=from-nubia-to-cairo)
@@ -310,16 +267,15 @@
 - **150.0€** — Albert Verrecchia - Tecnica di un amore — [voir](http://www.victorkiswell.com/v3/?product=tecnica-di-un-amore-2)
 - **150.0€** — Francesco de Masi / Carlo Rustichelli - Ettore lo fusto / In nome del popolo italiano — [voir](http://www.victorkiswell.com/v3/?product=ettore-lo-fusto-in-nome-del-popolo-italiano-2)
 - **150.0€** — Piero Piccioni - Tutto a posto e niente in ordine — [voir](http://www.victorkiswell.com/v3/?product=tutto-a-posto-e-niente-in-ordine)
-- **150.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale)
+- **150.0€** — Serge Gainsbourg - Histoire de Melody Nelson — [voir](http://www.victorkiswell.com/v3/?product=histoire-de-melody-nelson-6)
 - **150.0€** — Francis Lai - Madly — [voir](http://www.victorkiswell.com/v3/?product=madly)
 - **150.0€** — Matsuo Ono - Space and Maryjuane Trip Is Same — [voir](http://www.victorkiswell.com/v3/?product=space-and-maryjuane-trip-is-same)
-- **150.0€** — Bizarre Ko.Ko.Ko. - 00 Time — [voir](http://www.victorkiswell.com/v3/?product=00-time)
-- **150.0€** — Gilbert Artman - Lard Free — [voir](http://www.victorkiswell.com/v3/?product=lard-free)
-- **150.0€** — Serge Gainsbourg - Histoire de Melody Nelson — [voir](http://www.victorkiswell.com/v3/?product=histoire-de-melody-nelson-6)
 - **150.0€** — Proyecto "A" - Proyecto A — [voir](http://www.victorkiswell.com/v3/?product=same-3)
+- **150.0€** — Gilbert Artman - Lard Free — [voir](http://www.victorkiswell.com/v3/?product=lard-free)
 - **150.0€** — Speed Limit - Speed Limit — [voir](http://www.victorkiswell.com/v3/?product=speed-limit-3)
 - **150.0€** — Shlomo Ydov / Shlomo Gronich / Shem Tov Levy - Ktzat aheret (No Names) — [voir](http://www.victorkiswell.com/v3/?product=ktzat-aheret-no-names)
 - **150.0€** — Dr Aftershave & the Mixed Pickles - For Missus Beastly — [voir](http://www.victorkiswell.com/v3/?product=for-missus-beastly)
+- **150.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale)
 - **135.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad)
 - **135.0€** — Azar Lawrence - Bridge Into the New Age — [voir](http://www.victorkiswell.com/v3/?product=bridge-into-the-new-age)
 - **135.0€** — Wolfgang Dauner Quartet - The Oimels — [voir](http://www.victorkiswell.com/v3/?product=the-oimels)
@@ -330,7 +286,6 @@
 - **130.0€** — Tihomir Asanovic - Majko Zemljo — [voir](http://www.victorkiswell.com/v3/?product=majko-zemljo)
 - **130.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad-2)
 - **130.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale-2)
-- **130.0€** — Doris Norton - Nortoncomputerforpeace — [voir](http://www.victorkiswell.com/v3/?product=nortoncomputerforpeace)
 - **130.0€** — Structure - Pop Music — [voir](http://www.victorkiswell.com/v3/?product=pop-music-2)
 - **125.0€** — Giampiero & Gianfranco Reverberi - Video Music — [voir](http://www.victorkiswell.com/v3/?product=video-music)
 - **125.0€** — Lester Freeman - Serie Gialli — [voir](http://www.victorkiswell.com/v3/?product=serie-gialli)
@@ -375,11 +330,9 @@
 - **120.0€** — Armando Trovaioli - Sexe fou (Sesso Matto) — [voir](http://www.victorkiswell.com/v3/?product=sexe-fou-sesso-matto)
 - **120.0€** — Stelvio Cipriani - Timanfaya — [voir](http://www.victorkiswell.com/v3/?product=timanfaya)
 - **120.0€** — Piero Piccioni - Je sais que tu sais — [voir](http://www.victorkiswell.com/v3/?product=je-sais-que-tu-sais)
-- **120.0€** — Gerard Doulssane - Slows spéciaux — [voir](http://www.victorkiswell.com/v3/?product=slows-speciaux)
-- **120.0€** — The Messengers - Hometown Hero — [voir](http://www.victorkiswell.com/v3/?product=hometown-hero)
+- **120.0€** — Ryusuke Seto - Miroku — [voir](http://www.victorkiswell.com/v3/?product=miroku)
 - **120.0€** — Staff Carpenborg and the Electric Corona - Fantastic Party — [voir](http://www.victorkiswell.com/v3/?product=fantastic-party)
 - **120.0€** — Igor Wakhevitch - Hathor — [voir](http://www.victorkiswell.com/v3/?product=hathor)
-- **120.0€** — Ryusuke Seto - Miroku — [voir](http://www.victorkiswell.com/v3/?product=miroku)
 - **110.0€** — Francis Bebey - Sanza Nocturne — [voir](http://www.victorkiswell.com/v3/?product=sanza-nocturne)
 - **110.0€** — Mombasa - African Rhythms & Blues — [voir](http://www.victorkiswell.com/v3/?product=african-rhythms-blues-2)
 - **110.0€** — Francis Bebey - Africa Sanza — [voir](http://www.victorkiswell.com/v3/?product=africa-sanza)
@@ -403,11 +356,10 @@
 - **110.0€** — Shunsuke Kikuchi - Kamen Rider BGM — [voir](http://www.victorkiswell.com/v3/?product=kamen-rider-bgm-2)
 - **110.0€** — Francesco de Masi / Carlo Rustichelli - Ettore lo fusto / In nome del popolo italiano — [voir](http://www.victorkiswell.com/v3/?product=ettore-lo-fusto-in-nome-del-popolo-italiano)
 - **110.0€** — Luis Bacalov - Osanna - Milano calibro 9 — [voir](http://www.victorkiswell.com/v3/?product=milano-calibro-9)
-- **110.0€** — José Manuel Pagan - KIU i els seus amics — [voir](http://www.victorkiswell.com/v3/?product=kiu-i-els-seus-amics)
-- **110.0€** — Babia - Oriente – Occidente — [voir](http://www.victorkiswell.com/v3/?product=oriente-occidente-4)
 - **110.0€** — Brigitte Fontaine et Areski Belkacem - Vous et nous — [voir](http://www.victorkiswell.com/v3/?product=vous-et-nous)
-- **110.0€** — Ilhan Mimaroglu - Tract — [voir](http://www.victorkiswell.com/v3/?product=tract)
+- **110.0€** — Babia - Oriente – Occidente — [voir](http://www.victorkiswell.com/v3/?product=oriente-occidente-4)
 - **110.0€** — The Plastic People - Egon Bondy’s Happy Hearts Club Banned — [voir](http://www.victorkiswell.com/v3/?product=egon-bondys-happy-hearts-club-banned)
+- **110.0€** — Ilhan Mimaroglu - Tract — [voir](http://www.victorkiswell.com/v3/?product=tract)
 - **110.0€** — Elias Rahbani / Omar Khorshid / Sohail Rana - Oriental Dance — [voir](http://www.victorkiswell.com/v3/?product=oriental-dance)
 - **105.0€** — Drums and Tsugaru Shamisen - Drums and Tsugaru Shamisen — [voir](http://www.victorkiswell.com/v3/?product=drums-and-tsugaru-shamisen-2)
 - **100.0€** — Orchestre Lomeka - Orchestre Lomeka — [voir](http://www.victorkiswell.com/v3/?product=orchestre-lomeka)
@@ -444,17 +396,8 @@
 - **100.0€** — Bullet - The Hanged Man — [voir](http://www.victorkiswell.com/v3/?product=the-hanged-man)
 - **100.0€** — Go Misawa - Devil Man — [voir](http://www.victorkiswell.com/v3/?product=devil-man)
 - **100.0€** — Sante Maria Romitelli - Questa volta ti faccio ricco — [voir](http://www.victorkiswell.com/v3/?product=questa-volta-ti-faccio-ricco)
-- **100.0€** — Gianni Marchetti - Vigliacchi non pregano / Sette baschi rossi — [voir](http://www.victorkiswell.com/v3/?product=vigliacchi-non-pregano-sette-baschi-rossi)
-- **100.0€** — Armando Trovajoli - Noi donne siamo fatte cosi — [voir](http://www.victorkiswell.com/v3/?product=noi-donne-siamo-fatte-cosi)
-- **100.0€** — Alberto Baldan Bembo - The Soul of Ali Ben Djamballa — [voir](http://www.victorkiswell.com/v3/?product=the-soul-of-ali-ben-djamballa)
-- **100.0€** — Alfonso Santisteban - Banda original de las peliculas — [voir](http://www.victorkiswell.com/v3/?product=banda-original-de-las-peliculas)
-- **100.0€** — Giorgos Hatzinasios - Esy ki ego — [voir](http://www.victorkiswell.com/v3/?product=esy-ki-ego-2)
-- **100.0€** — Giorgos Hatzinasios - Esy ki ego — [voir](http://www.victorkiswell.com/v3/?product=esy-ki-ego)
-- **100.0€** — Jean-Claude Vannier - Point d’interrogation — [voir](http://www.victorkiswell.com/v3/?product=point-dinterrogation)
-- **100.0€** — Graziano Mandozzi - Bilder des Ruhmes — [voir](http://www.victorkiswell.com/v3/?product=bilder-des-ruhmes)
 - **100.0€** — Philippe Doray - Nouveaux modes industriels — [voir](http://www.victorkiswell.com/v3/?product=nouveaux-modes-industriels)
 - **100.0€** — Ralph Lundsten - Alpha Ralpha Boulevard — [voir](http://www.victorkiswell.com/v3/?product=alpha-ralpha-boulevard)
 - **100.0€** — Louis Banks' Jazz Yatra - Sangam — [voir](http://www.victorkiswell.com/v3/?product=sangam)
 - **100.0€** — Jean Cohen-Solal - Flutes libres – Musiques et instruments insolites — [voir](http://www.victorkiswell.com/v3/?product=flutes-libres-musiques-et-instruments-insolites)
-- **100.0€** — Foehn - Faëria — [voir](http://www.victorkiswell.com/v3/?product=faeria)
-- **100.0€** — Melodiya Ensemble - Labyrinth — [voir](http://www.victorkiswell.com/v3/?product=labyrinth-2)
+- **100.0€** — Alberto Baldan Bembo - The Soul of Ali Ben Djamballa — [voir](http://www.victorkiswell.com/v3/?product=the-soul-of-ali-ben-djamballa)
