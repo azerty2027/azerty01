@@ -1861,7 +1861,7 @@
   "http://www.victorkiswell.com/v3/?product=jesus-from-up-above": {
     "source": "Victor Kiswell",
     "title": "Jesus From Up Above",
-    "price_ref": 180.0,
+    "price_ref": 200.0,
     "url": "http://www.victorkiswell.com/v3/?product=jesus-from-up-above",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332450"
@@ -3877,7 +3877,7 @@
   "https://www.sofarecords.fr/fr/nahawa-doumbia/la-grande-cantatrice-malienne-decouverte-81-a-dakar/p3206185772/": {
     "source": "SOFA Records",
     "title": "Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar",
-    "price_ref": 81.0,
+    "price_ref": 85.0,
     "url": "https://www.sofarecords.fr/fr/nahawa-doumbia/la-grande-cantatrice-malienne-decouverte-81-a-dakar/p3206185772/",
     "sold": false,
     "first_seen": "2026-04-25T14:56:28.473876"
@@ -3937,5 +3937,21 @@
     "url": "https://www.sofarecords.fr/fr/paul-louis-et-ses-cumbeleros/o-africa/p3202495247/",
     "sold": false,
     "first_seen": "2026-04-25T14:56:28.473894"
+  },
+  "https://www.sofarecords.fr/fr/dj-notoya-presents-tokyo-pulse-various/japanese-funk-modern-soul-and-city-pop-from-the-tokyo-scene-1974-88/p3206238185/": {
+    "source": "SOFA Records",
+    "title": "DJ Notoya presents Tokyo Pulse (Various) - japanese funk, modern soul and city pop from the tokyo scene 1974-88",
+    "price_ref": 1974.0,
+    "url": "https://www.sofarecords.fr/fr/dj-notoya-presents-tokyo-pulse-various/japanese-funk-modern-soul-and-city-pop-from-the-tokyo-scene-1974-88/p3206238185/",
+    "sold": false,
+    "first_seen": "2026-04-29T08:17:21.570943"
+  },
+  "https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/": {
+    "source": "SOFA Records",
+    "title": "Yassine Nana - modern pop from mauritania 1984-1989",
+    "price_ref": 1984.0,
+    "url": "https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/",
+    "sold": false,
+    "first_seen": "2026-04-29T08:17:21.570954"
   }
 }
