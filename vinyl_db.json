@@ -3953,5 +3953,37 @@
     "url": "https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/",
     "sold": false,
     "first_seen": "2026-04-29T08:17:21.570954"
+  },
+  "http://www.victorkiswell.com/v3/?product=autumn-leaves": {
+    "source": "Victor Kiswell",
+    "title": "Bandaly Family - Autumn Leaves",
+    "price_ref": 100.0,
+    "url": "http://www.victorkiswell.com/v3/?product=autumn-leaves",
+    "sold": false,
+    "first_seen": "2026-04-30T16:06:02.646636"
+  },
+  "http://www.victorkiswell.com/v3/?product=dirham": {
+    "source": "Victor Kiswell",
+    "title": "Said Ziani - Dirham",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=dirham",
+    "sold": false,
+    "first_seen": "2026-04-30T16:06:02.646652"
+  },
+  "https://www.diggersdigest.com/product/ariel-kalma-richard-tinti-osmose-sfp-sfp-5021-5022-france-1978": {
+    "source": "Digger's Digest",
+    "title": "Ariel Kalma — Richard Tinti ‎– Osmose (SFP ‎– SFP 5021-5022 – France – 1978)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/ariel-kalma-richard-tinti-osmose-sfp-sfp-5021-5022-france-1978",
+    "sold": false,
+    "first_seen": "2026-04-30T16:06:02.646712"
+  },
+  "https://www.sofarecords.fr/fr/ghana-special-highlife-various/modern-highlife-afro-sounds-ghanaian-blues-1967-76/p3204805223/": {
+    "source": "SOFA Records",
+    "title": "Ghana Special Highlife (Various) - modern highlife, afro-sounds, ghanaian blues 1967-76",
+    "price_ref": 1967.0,
+    "url": "https://www.sofarecords.fr/fr/ghana-special-highlife-various/modern-highlife-afro-sounds-ghanaian-blues-1967-76/p3204805223/",
+    "sold": false,
+    "first_seen": "2026-04-30T16:06:02.646751"
   }
 }
