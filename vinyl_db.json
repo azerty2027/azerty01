@@ -3985,5 +3985,37 @@
     "url": "https://www.sofarecords.fr/fr/ghana-special-highlife-various/modern-highlife-afro-sounds-ghanaian-blues-1967-76/p3204805223/",
     "sold": false,
     "first_seen": "2026-04-30T16:06:02.646751"
+  },
+  "http://www.victorkiswell.com/v3/?product=pan-regaliz-2": {
+    "source": "Victor Kiswell",
+    "title": "Pan & Regaliz - Pan & Regaliz",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=pan-regaliz-2",
+    "sold": false,
+    "first_seen": "2026-05-04T07:22:22.177950"
+  },
+  "https://www.diggersdigest.com/product/henri-texier-varech-eurodisc-913-087-france-1977": {
+    "source": "Digger's Digest",
+    "title": "Henri Texier – Varech (Disques JMS – France - JMS 02 1979)",
+    "price_ref": 200.0,
+    "url": "https://www.diggersdigest.com/product/henri-texier-varech-eurodisc-913-087-france-1977",
+    "sold": false,
+    "first_seen": "2026-05-04T07:22:22.177965"
+  },
+  "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128872999/frankie-gearing-just-frankie.html": {
+    "source": "Superfly Records",
+    "title": "FRANKIE GEARING - JUST FRANKIE",
+    "price_ref": 125.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128872999/frankie-gearing-just-frankie.html",
+    "sold": false,
+    "first_seen": "2026-05-04T07:22:22.178000"
+  },
+  "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128873062/the-classic-example-same.html": {
+    "source": "Superfly Records",
+    "title": "THE CLASSIC EXAMPLE - SAME",
+    "price_ref": 100.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128873062/the-classic-example-same.html",
+    "sold": false,
+    "first_seen": "2026-05-04T07:22:22.178002"
   }
 }
