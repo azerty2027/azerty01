@@ -4017,5 +4017,13 @@
     "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128873062/the-classic-example-same.html",
     "sold": false,
     "first_seen": "2026-05-04T07:22:22.178002"
+  },
+  "https://www.diggersdigest.com/product/coll%C3%A8ge-du-caousou-centenaire-1874-1974-private-press-france-1974": {
+    "source": "Digger's Digest",
+    "title": "Caousou - Centenaire 1874 - 1974 (Private Press - France - 1974)",
+    "price_ref": 250.0,
+    "url": "https://www.diggersdigest.com/product/coll%C3%A8ge-du-caousou-centenaire-1874-1974-private-press-france-1974",
+    "sold": false,
+    "first_seen": "2026-05-05T20:12:30.521771"
   }
 }

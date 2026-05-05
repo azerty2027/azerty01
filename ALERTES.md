@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 04/05/2026 07:53
+# VINYL SCOUT — Rapport du 05/05/2026 20:27
 
-**Base : 502 disques | Actifs : 394 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 503 disques | Actifs : 391 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,30 +10,52 @@
 
 ---
 
-## 🔴 2 OPPORTUNITES MARCHE
+## 🔴 7 OPPORTUNITES MARCHE
 
-### Luis Bacalov - Osanna - Milano calibro 9
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 18.0€ sur vinted.fr — marge potentielle **92.0€ (84%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8786802547-vinile-osanna-luis-bacalov-milano-calibro-9-preludio-tema-variazioni-canzona)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 6.5€ sur vinted.fr — marge potentielle **543.5€ (99%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8791408096-cd-ali-farka-toure-radio-mali)
 
-### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8720974121-lp-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **531.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8816094500-cd-ali-farka-toure-the-river)
+
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 24.0€ sur vinted.fr — marge potentielle **526.0€ (96%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8807858095-ali-farka-toure-special-biennale-du-mali-lp)
+
+### Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **322.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7956962031-second-hand-death-may-be-your-santa-claus)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8726028714-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
+
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8726024453-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
+
+### Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982)
+- **Ref** : 250.0€ chez Digger's Digest
+- **Trouve** : 150.0€ sur vinted.fr — marge potentielle **100.0€ (40%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8833342527-didier-et-jean-luc-avec-les-ecchoes-joie-de-vivre-en-roumanie-vinyle-45-tours)
 
 ---
-## 🆕 4 nouveaux en base
+## 🆕 1 nouveaux en base
 
-- **200.0€** — Henri Texier – Varech (Disques JMS – France - JMS 02 1979) (Digger's Digest)
-- **150.0€** — Pan & Regaliz - Pan & Regaliz (Victor Kiswell)
-- **125.0€** — FRANKIE GEARING - JUST FRANKIE (Superfly Records)
-- **100.0€** — THE CLASSIC EXAMPLE - SAME (Superfly Records)
+- **250.0€** — Caousou - Centenaire 1874 - 1974 (Private Press - France - 1974) (Digger's Digest)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 99 disponibles, 0 vendus
+### Digger's Digest — 100 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -76,6 +98,7 @@
 - **280.0€** — Erick Cosaque Et Les Voltages 8 – Gros-Ka L'Arme De Défense Du Peuple Guadeloupéen — [voir](https://www.diggersdigest.com/product/erick-cosaque-et-les-voltages-8-gros-ka-l-arme-de-defense-du-peuple-guadeloupeen)
 - **280.0€** — Black Devil – Disco Club (RCA – PL 37164 - France - 1978) — [voir](https://www.diggersdigest.com/product/black-devil-disco-club-rca-pl-37164-france-1978)
 - **280.0€** — U-Turn ‎– Démon Du Midi ( Mini Records ‎– MRS 1202 - 1988) — [voir](https://www.diggersdigest.com/product/u-turn-demon-du-midi-mini-records-mrs-1202-1988)
+- **250.0€** — Caousou - Centenaire 1874 - 1974 (Private Press - France - 1974) — [voir](https://www.diggersdigest.com/product/coll%C3%A8ge-du-caousou-centenaire-1874-1974-private-press-france-1974)
 - **250.0€** — Ariel Kalma — Richard Tinti ‎– Osmose (SFP ‎– SFP 5021-5022 – France – 1978) — [voir](https://www.diggersdigest.com/product/ariel-kalma-richard-tinti-osmose-sfp-sfp-5021-5022-france-1978)
 - **250.0€** — Max Cilla ‎- La Flute Des Mornes Volume 1 (Apia - 1981) — [voir](https://www.diggersdigest.com/product/max-cilla-la-flute-des-mornes-volume-1-apia-1981)
 - **250.0€** — Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982) — [voir](https://www.diggersdigest.com/product/didier-et-jean-luc-avec-les-ecchoes-joie-de-vivre-en-roumanie-private-france-1982)
@@ -135,7 +158,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 43 disponibles, 0 vendus
+### SOFA Records — 41 disponibles, 0 vendus
 
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
@@ -149,7 +172,6 @@
 - **180.0€** — Star Band De Dakar - volume 1 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-1/p2968465624/)
 - **160.0€** — Star Band De Dakar - volume 10 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-10/p2968465627/)
 - **150.0€** — Kabasa - kabasa — [voir](https://www.sofarecords.fr/fr/kabasa/kabasa/p3206166577/)
-- **140.0€** — Franco OK Jazz et Jolie Detta - massu — [voir](https://www.sofarecords.fr/fr/franco-ok-jazz-et-jolie-detta/massu/p3206183634/)
 - **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
 - **110.0€** — Fela Kuti & Africa 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
 - **110.0€** — Orquesta Sabor Internacional - dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
@@ -174,17 +196,11 @@
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **71.0€** — Victoria Jazz Band - 71 — [voir](https://www.sofarecords.fr/fr/victoria-jazz-band/71/p3206166569/)
 - **70.0€** — African Brothers Band International - odo paa nie — [voir](https://www.sofarecords.fr/fr/african-brothers-band-international/odo-paa-nie/p3201952070/)
-- **70.0€** — Soleya Mama & le Waatoo Sita - vol.1 — [voir](https://www.sofarecords.fr/fr/soleya-mama-amp-le-waatoo-sita/vol-1/p3027066439/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
 - **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 - **70.0€** — Jean-Claude Petit Et Son Orchestre - vol. 6 dance and mood music — [voir](https://www.sofarecords.fr/fr/jean-claude-petit-et-son-orchestre/vol-6-dance-and-mood-music/p3205542568/)
-
-### Superfly Records — 2 disponibles, 0 vendus
-
-- **125.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128872999/frankie-gearing-just-frankie.html)
-- **100.0€** — THE CLASSIC EXAMPLE - SAME — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128873062/the-classic-example-same.html)
 
 ### Victor Kiswell — 250 disponibles, 0 vendus
 
