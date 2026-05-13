@@ -442,7 +442,7 @@
   "https://www.diggersdigest.com/product/gwakasonne-temwen": {
     "source": "Digger's Digest",
     "title": "Gwakasonne ‎- Témwen (GKS Robert Oumaou - 1987)",
-    "price_ref": 140.0,
+    "price_ref": 180.0,
     "url": "https://www.diggersdigest.com/product/gwakasonne-temwen",
     "sold": false,
     "first_seen": "2026-02-25T13:25:32.464630"
@@ -4025,5 +4025,21 @@
     "url": "https://www.diggersdigest.com/product/coll%C3%A8ge-du-caousou-centenaire-1874-1974-private-press-france-1974",
     "sold": false,
     "first_seen": "2026-05-05T20:12:30.521771"
+  },
+  "https://www.diggersdigest.com/product/crystal-music-life-gd-productions-gd-011-martinique-1984": {
+    "source": "Digger's Digest",
+    "title": "Crystal – Music Life (GD Productions – GD 011 – Martinique – 1984)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/crystal-music-life-gd-productions-gd-011-martinique-1984",
+    "sold": false,
+    "first_seen": "2026-05-13T13:48:49.710890"
+  },
+  "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128884233/frankie-gearing-just-frankie.html": {
+    "source": "Superfly Records",
+    "title": "FRANKIE GEARING - JUST FRANKIE",
+    "price_ref": 110.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128884233/frankie-gearing-just-frankie.html",
+    "sold": false,
+    "first_seen": "2026-05-13T13:48:49.710941"
   }
 }
