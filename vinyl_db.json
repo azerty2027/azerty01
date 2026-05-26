@@ -4053,7 +4053,7 @@
   "https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971": {
     "source": "Digger's Digest",
     "title": "Nico Gomez And His Afro Percussion Inc. – Ritual (Omega International – Netherlands –  1971)",
-    "price_ref": 150.0,
+    "price_ref": 160.0,
     "url": "https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971",
     "sold": false,
     "first_seen": "2026-05-20T09:13:25.097763"
@@ -4097,5 +4097,45 @@
     "url": "https://www.sofarecords.fr/fr/cymande/second-time-around/p3102549865/",
     "sold": false,
     "first_seen": "2026-05-20T09:13:25.097803"
+  },
+  "http://www.victorkiswell.com/v3/?product=clunia-jazz-2": {
+    "source": "Victor Kiswell",
+    "title": "Clunia Jazz - Clunia Jazz",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=clunia-jazz-2",
+    "sold": false,
+    "first_seen": "2026-05-26T07:15:25.481769"
+  },
+  "http://www.victorkiswell.com/v3/?product=sincerely-p-t-2": {
+    "source": "Victor Kiswell",
+    "title": "Peter Trunk - Sincerely P.T.",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=sincerely-p-t-2",
+    "sold": false,
+    "first_seen": "2026-05-26T07:15:25.481787"
+  },
+  "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html": {
+    "source": "Superfly Records",
+    "title": "FRANKIE GEARING - JUST FRANKIE",
+    "price_ref": 110.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html",
+    "sold": false,
+    "first_seen": "2026-05-26T07:15:25.481878"
+  },
+  "https://www.superflyrecords.com/item/2/0-181102-0-1-0/128899330/alfredo-linares-y-su-orquesta-boogaloo-en-ambiente.html": {
+    "source": "Superfly Records",
+    "title": "ALFREDO LINARES Y SU OR... - BOOGALOO EN AMBIENTE",
+    "price_ref": 100.0,
+    "url": "https://www.superflyrecords.com/item/2/0-181102-0-1-0/128899330/alfredo-linares-y-su-orquesta-boogaloo-en-ambiente.html",
+    "sold": false,
+    "first_seen": "2026-05-26T07:15:25.481880"
+  },
+  "https://www.sofarecords.fr/fr/brigitte-fontaine-areski-belkacem/vous-et-nous/p3170684907/": {
+    "source": "SOFA Records",
+    "title": "Brigitte Fontaine / Areski Belkacem - vous et nous",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/brigitte-fontaine-areski-belkacem/vous-et-nous/p3170684907/",
+    "sold": false,
+    "first_seen": "2026-05-26T07:15:25.481898"
   }
 }
