@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 02/06/2026 15:56
+# VINYL SCOUT — Rapport du 03/06/2026 13:36
 
-**Base : 528 disques | Actifs : 396 | Batch : 51–100 | Seuil achat : 70% du prix ref**
+**Base : 529 disques | Actifs : 398 | Batch : 101–150 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,42 +10,52 @@
 
 ---
 
-## 🔴 4 OPPORTUNITES MARCHE
+## 🔴 8 OPPORTUNITES MARCHE
 
-### Jimmy Takeuchi - Drum Drum Drum – Japanese Folk Music
+### Chene Noir - Orphée 2000
+- **Ref** : 200.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **175.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8850479751-chene-noir-orphee-2000)
+
+### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
 - **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **220.0€ (88%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8984646535-disque-vinyle-33tr-the-drum-battle-kawaguchi-takeuchi-bailey-okudaira-voir-photos)
+- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **150.0€ (60%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9053779827-the-keith-tippett-group-dedicated-to-you-but-you-werent-listening-rare-jazz-rock-vertigo-lp)
 
-### Alberto Baldan Bembo - Codice d’amore orientale
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **100.0€ (91%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7538468306-33-giri-gino-amore-ammore-italo-disco-neapolitan-funk-lp-album)
+### Quinteplus - En vivo
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 36.0€ sur vinted.fr — marge potentielle **114.0€ (76%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7691212292-fito-fitipaldis-vivo-para-contarlo-2-x-vinyl-lp-compilation-cd-spain-2021)
 
-### Alberto Baldan Bembo - Codice d’amore orientale
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **95.0€ (86%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9008828424-ennio-morricone-amore)
+### Clunia Jazz - Clunia Jazz
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **105.0€ (88%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8537131605-clunia-rua-cega-lp)
 
-### Alberto Baldan Bembo - Codice d’amore orientale
-- **Ref** : 110.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **85.0€ (77%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8843265657-ennio-morricone-amore-colonna-sonora-vinile-lp-sigillato)
+### Clunia Jazz - Clunia Jazz
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **94.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7653099402-clunia-jazzlp-rua-cega)
+
+### Quasar - Man Coda
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8712015210-33t-quasar-man-coda-hugg68100)
+
+### The Harry Roche Constellation - Spiral
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **55.0€ (55%)**
+- [Voir l'annonce](https://www.vinted.fr/items/2941893542-the-harry-roche-constellation-spiral-lp-album-re-vinyl-rock)
+
+### Clunia Jazz - Clunia Jazz
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **50.0€ (42%)**
+- [Voir l'annonce](https://www.vinted.fr/items/6072867317-clunia-jazz)
 
 ---
-## 🆕 11 nouveaux en base
+## 🆕 1 nouveaux en base
 
-- **700.0€** — Ju Ju – A Message From Mozambique (Strata-East – SES 19735 – 1973) (Digger's Digest)
-- **150.0€** — D'Almeida Blucky Et Les Black Santiago De Cotonou - les nanes / entente africaine (SOFA Records)
-- **150.0€** — Hazel Scott And The Braza Brasil - i don't love you no more / canto de ossanha (SOFA Records)
-- **100.0€** — The Harry Roche Constellation - Spiral (Victor Kiswell)
-- **90.0€** — Stargazers Dance Band – Samamo / Obene Obene - samamo / obene obene (SOFA Records)
-- **80.0€** — Fela Kuti And Egypt 80 - original suffer head (SOFA Records)
-- **80.0€** — Conjunto Orfeu Negro - clube pan wd (SOFA Records)
-- **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness (SOFA Records)
-- **70.0€** — Fela Kuti And Afrika 70 - no agreement (SOFA Records)
-- **70.0€** — Fela Kuti & Africa 70 - afrodisiac (SOFA Records)
-- **70.0€** — Fela Kuti & the Africa 70 - he miss road (SOFA Records)
+- **1978.0€** — Kiki Gyan - 1978-82 / 24 hours in a disco (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -158,6 +168,7 @@
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
+- **1978.0€** — Kiki Gyan - 1978-82 / 24 hours in a disco — [voir](https://www.sofarecords.fr/fr/kiki-gyan/1978-82-24-hours-in-a-disco/p3047455759/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
@@ -194,14 +205,18 @@
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **75.0€** — The Congos - heart of the congos — [voir](https://www.sofarecords.fr/fr/the-congos/heart-of-the-congos/p3206410170/)
-- **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness — [voir](https://www.sofarecords.fr/fr/fela-anikulapo-kuti-amp-afrika-70/ikoyi-blindness/p3206559843/)
 - **70.0€** — Fela Kuti And Afrika 70 - no agreement — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/no-agreement/p3120372461/)
+- **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness — [voir](https://www.sofarecords.fr/fr/fela-anikulapo-kuti-amp-afrika-70/ikoyi-blindness/p3206559843/)
 - **70.0€** — Fela Kuti & Africa 70 - afrodisiac — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/afrodisiac/p3092750769/)
-- **70.0€** — Fela Kuti & the Africa 70 - he miss road — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-the-africa-70/he-miss-road/p3043847508/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
 - **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
+
+### Superfly Records — 2 disponibles, 0 vendus
+
+- **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
+- **100.0€** — ALFREDO LINARES Y SU OR... - BOOGALOO EN AMBIENTE — [voir](https://www.superflyrecords.com/item/2/0-181102-0-1-0/128899330/alfredo-linares-y-su-orquesta-boogaloo-en-ambiente.html)
 
 ### Victor Kiswell — 249 disponibles, 0 vendus
 

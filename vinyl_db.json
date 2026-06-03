@@ -4225,5 +4225,13 @@
     "url": "https://www.sofarecords.fr/fr/conjunto-orfeu-negro/clube-pan-wd/p3206504421/",
     "sold": false,
     "first_seen": "2026-06-02T15:34:52.369812"
+  },
+  "https://www.sofarecords.fr/fr/kiki-gyan/1978-82-24-hours-in-a-disco/p3047455759/": {
+    "source": "SOFA Records",
+    "title": "Kiki Gyan - 1978-82 / 24 hours in a disco",
+    "price_ref": 1978.0,
+    "url": "https://www.sofarecords.fr/fr/kiki-gyan/1978-82-24-hours-in-a-disco/p3047455759/",
+    "sold": false,
+    "first_seen": "2026-06-03T13:20:15.490991"
   }
 }
