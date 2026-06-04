@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 03/06/2026 13:36
+# VINYL SCOUT — Rapport du 04/06/2026 20:52
 
-**Base : 529 disques | Actifs : 398 | Batch : 101–150 | Seuil achat : 70% du prix ref**
+**Base : 530 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,52 +10,42 @@
 
 ---
 
-## 🔴 8 OPPORTUNITES MARCHE
+## 🔴 6 OPPORTUNITES MARCHE
 
-### Chene Noir - Orphée 2000
-- **Ref** : 200.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **175.0€ (88%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8850479751-chene-noir-orphee-2000)
-
-### Keith Tippett Group - Dedicated to You, But You Weren’t Listening
-- **Ref** : 250.0€ chez Victor Kiswell
-- **Trouve** : 100.0€ sur vinted.fr — marge potentielle **150.0€ (60%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9053779827-the-keith-tippett-group-dedicated-to-you-but-you-werent-listening-rare-jazz-rock-vertigo-lp)
-
-### Quinteplus - En vivo
+### Stefano Marcucci - Tempo di demoni, papi, angioli, incensi e cilici
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 36.0€ sur vinted.fr — marge potentielle **114.0€ (76%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7691212292-fito-fitipaldis-vivo-para-contarlo-2-x-vinyl-lp-compilation-cd-spain-2021)
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **140.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8858736857-vinyle-stefano-marcucci-tempo-di-demoni-papi-angioli-incensi-e-cilici)
 
-### Clunia Jazz - Clunia Jazz
+### Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale
+- **Ref** : 130.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **120.0€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9018785038-lp-matt-bianco-indigo-1988)
+
+### François Tusques - Après la marée noire
 - **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **105.0€ (88%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8537131605-clunia-rua-cega-lp)
+- **Trouve** : 8.0€ sur vinted.fr — marge potentielle **112.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8851293245-disque-vinyle-la-maree-noire)
 
-### Clunia Jazz - Clunia Jazz
+### Nico Fidenco - Emanuelle perche’ violenza alle donne ?
 - **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **94.0€ (78%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7653099402-clunia-jazzlp-rua-cega)
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **100.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9064962336-nico-fidenco-emanuelle-perche-violenza-alle-donne-the-degradation-of-emanuelle)
 
-### Quasar - Man Coda
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **80.0€ (80%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8712015210-33t-quasar-man-coda-hugg68100)
-
-### The Harry Roche Constellation - Spiral
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **55.0€ (55%)**
-- [Voir l'annonce](https://www.vinted.fr/items/2941893542-the-harry-roche-constellation-spiral-lp-album-re-vinyl-rock)
-
-### Clunia Jazz - Clunia Jazz
+### Piero Piccioni - Je sais que tu sais
 - **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **50.0€ (42%)**
-- [Voir l'annonce](https://www.vinted.fr/items/6072867317-clunia-jazz)
+- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8913422581-je-sais-que-tu-sais-piero-piccioni)
+
+### Piero Piccioni - Je sais que tu sais
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8713647437-vinyle-de-piero-piccioni-je-sais-que-tu-sais)
 
 ---
 ## 🆕 1 nouveaux en base
 
-- **1978.0€** — Kiki Gyan - 1978-82 / 24 hours in a disco (SOFA Records)
+- **1970.0€** — Kaiso Power (various) - sound revolution in trinidad 1970-1980 (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -169,6 +159,7 @@
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
 - **1978.0€** — Kiki Gyan - 1978-82 / 24 hours in a disco — [voir](https://www.sofarecords.fr/fr/kiki-gyan/1978-82-24-hours-in-a-disco/p3047455759/)
+- **1970.0€** — Kaiso Power (various) - sound revolution in trinidad 1970-1980 — [voir](https://www.sofarecords.fr/fr/kaiso-power-various/sound-revolution-in-trinidad-1970-1980/p3206561654/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
@@ -207,7 +198,6 @@
 - **75.0€** — The Congos - heart of the congos — [voir](https://www.sofarecords.fr/fr/the-congos/heart-of-the-congos/p3206410170/)
 - **70.0€** — Fela Kuti And Afrika 70 - no agreement — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/no-agreement/p3120372461/)
 - **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness — [voir](https://www.sofarecords.fr/fr/fela-anikulapo-kuti-amp-afrika-70/ikoyi-blindness/p3206559843/)
-- **70.0€** — Fela Kuti & Africa 70 - afrodisiac — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/afrodisiac/p3092750769/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
 - **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
