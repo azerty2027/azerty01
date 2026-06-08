@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 04/06/2026 20:52
+# VINYL SCOUT — Rapport du 08/06/2026 20:48
 
-**Base : 530 disques | Actifs : 398 | Batch : 151–200 | Seuil achat : 70% du prix ref**
+**Base : 531 disques | Actifs : 397 | Batch : 201–250 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,47 +10,62 @@
 
 ---
 
-## 🔴 6 OPPORTUNITES MARCHE
+## 🔴 9 OPPORTUNITES MARCHE
 
-### Stefano Marcucci - Tempo di demoni, papi, angioli, incensi e cilici
+### Michel Colombier - L’héritier
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **190.0€ (86%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8834540969-disque-vinyle-michel-colombier-lheritier-ost-vinyl-sealed-scelle)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
 - **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **140.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8858736857-vinyle-stefano-marcucci-tempo-di-demoni-papi-angioli-incensi-e-cilici)
+- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **147.0€ (98%)**
+- [Voir l'annonce](https://www.vinted.fr/items/3988559393-bizarre-inc-time-to-get-funky-remix)
+
+### Bizarre Ko.Ko.Ko. - 00 Time
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 9.0€ sur vinted.fr — marge potentielle **141.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8433980654-bizarre-inc-feat-double-trouble-time-to-get-funky-remix-uk89)
 
 ### Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale
-- **Ref** : 130.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **120.0€ (92%)**
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **140.0€ (93%)**
 - [Voir l'annonce](https://www.vinted.fr/items/9018785038-lp-matt-bianco-indigo-1988)
 
-### François Tusques - Après la marée noire
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 8.0€ sur vinted.fr — marge potentielle **112.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8851293245-disque-vinyle-la-maree-noire)
+### Bizarre Ko.Ko.Ko. - 00 Time
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 12.5€ sur vinted.fr — marge potentielle **137.5€ (92%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8963577945-illformants-the-bizarre-godspot-subtitles-drumbass)
 
-### Nico Fidenco - Emanuelle perche’ violenza alle donne ?
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **100.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9064962336-nico-fidenco-emanuelle-perche-violenza-alle-donne-the-degradation-of-emanuelle)
+### Francis Lai - Madly
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 60.0€ sur vinted.fr — marge potentielle **90.0€ (60%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7538901029-33t-alain-delon-francis-lai-pas-de-vinted-go-merci-al1)
 
-### Piero Piccioni - Je sais que tu sais
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 50.0€ sur vinted.fr — marge potentielle **70.0€ (58%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8913422581-je-sais-que-tu-sais-piero-piccioni)
+### Pan & Regaliz - Pan & Regaliz
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **80.0€ (53%)**
+- [Voir l'annonce](https://www.vinted.fr/items/7221771465-vinilo-lp-pan-y-regaliz)
 
-### Piero Piccioni - Je sais que tu sais
-- **Ref** : 120.0€ chez Victor Kiswell
-- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8713647437-vinyle-de-piero-piccioni-je-sais-que-tu-sais)
+### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8720974121-lp-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa)
+
+### Dr Aftershave & the Mixed Pickles - For Missus Beastly
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 85.0€ sur vinted.fr — marge potentielle **65.0€ (43%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8630146573-dr-aftershave-and-the-mixed-pickles-for-missus-beastly-lp-vinyl-schallplatte-original-1976)
 
 ---
 ## 🆕 1 nouveaux en base
 
-- **1970.0€** — Kaiso Power (various) - sound revolution in trinidad 1970-1980 (SOFA Records)
+- **150.0€** — Francis Bebey ‎– Sanza Nocturne (Ozileka ‎– OZIL 3315 – France – 1985) (Digger's Digest)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 100 disponibles, 0 vendus
+### Digger's Digest — 101 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -119,6 +134,7 @@
 - **175.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) — [voir](https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985)
 - **175.0€** — Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971) — [voir](https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020)
 - **160.0€** — Nico Gomez And His Afro Percussion Inc. – Ritual (Omega International – Netherlands –  1971) — [voir](https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971)
+- **150.0€** — Francis Bebey ‎– Sanza Nocturne (Ozileka ‎– OZIL 3315 – France – 1985) — [voir](https://www.diggersdigest.com/product/francis-bebey-sanza-nocturne-ozileka-ozil-3315-france-1985)
 - **150.0€** — Nyssa Musique - Comme Au Moulin (Private press - France - 1985) — [voir](https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985)
 - **150.0€** — Pharoah Sanders ‎– Japan (Stateside ‎– 2C 006 - 90650 - France - 1969) — [voir](https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969)
 - **150.0€** — Fusion Jazz Quartet – New (	J.M.B. – J.M.B. 001 - France - 1984) — [voir](https://www.diggersdigest.com/product/fusion-jazz-quartet-new-j-m-b-j-m-b-001-france-1984)
@@ -203,12 +219,11 @@
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
-### Superfly Records — 2 disponibles, 0 vendus
+### Superfly Records — 1 disponibles, 0 vendus
 
 - **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
-- **100.0€** — ALFREDO LINARES Y SU OR... - BOOGALOO EN AMBIENTE — [voir](https://www.superflyrecords.com/item/2/0-181102-0-1-0/128899330/alfredo-linares-y-su-orquesta-boogaloo-en-ambiente.html)
 
-### Victor Kiswell — 249 disponibles, 0 vendus
+### Victor Kiswell — 248 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -386,7 +401,6 @@
 - **110.0€** — Francis Bebey - Africa Sanza — [voir](http://www.victorkiswell.com/v3/?product=africa-sanza)
 - **110.0€** — Ibrahim Aasmawi - Belly Dance Soher Zaki — [voir](http://www.victorkiswell.com/v3/?product=belly-dance-soher-zaki)
 - **110.0€** — Mohammed Diyaeddin - Adwa’a al Mandinah — [voir](http://www.victorkiswell.com/v3/?product=adwaa-al-mandinah)
-- **110.0€** — Caribe (Cacique & Karma) - Homenaje a Tulio Enrique Leon (Volumen 2) — [voir](http://www.victorkiswell.com/v3/?product=homenaje-a-tulio-enrique-leon-volumen-2)
 - **110.0€** — Pedro Iturralde - Jazz Flamenco Vol. 2 — [voir](http://www.victorkiswell.com/v3/?product=jazz-flamenco-vol-2)
 - **110.0€** — Pedro Iturralde - Jazz Flamenco — [voir](http://www.victorkiswell.com/v3/?product=jazz-flamenco-2)
 - **110.0€** — Joan Bibiloni - Una Vida Llarga i Tranquila — [voir](http://www.victorkiswell.com/v3/?product=una-vida-llarga-i-tranquila-6)
@@ -425,8 +439,8 @@
 - **100.0€** — Kyriakos Sfetsas - To Stigma — [voir](http://www.victorkiswell.com/v3/?product=to-stigma-3)
 - **100.0€** — Salah Ragab - Salah Ragab — [voir](http://www.victorkiswell.com/v3/?product=salah-ragab-2)
 - **100.0€** — Joseph Salama - Streets of Beirut — [voir](http://www.victorkiswell.com/v3/?product=streets-of-beirut-2)
-- **100.0€** — Daniel Grau - El Sonido Magico de Daniel Grau — [voir](http://www.victorkiswell.com/v3/?product=el-sonido-magico-de-daniel-grau)
 - **100.0€** — Pedro Iturralde - Flamenco Jazz — [voir](http://www.victorkiswell.com/v3/?product=flamenco-jazz-6)
+- **100.0€** — Daniel Grau - El Sonido Magico de Daniel Grau — [voir](http://www.victorkiswell.com/v3/?product=el-sonido-magico-de-daniel-grau)
 - **100.0€** — Daniel Grau - Kryptonica Liquida — [voir](http://www.victorkiswell.com/v3/?product=kryptonica-liquida-2)
 - **100.0€** — The Harry Roche Constellation - Spiral — [voir](http://www.victorkiswell.com/v3/?product=spiral-3)
 - **100.0€** — Gregory James Edition - Prophets of Soul — [voir](http://www.victorkiswell.com/v3/?product=prophets-of-soul)
