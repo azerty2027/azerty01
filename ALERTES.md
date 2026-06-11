@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 08/06/2026 20:48
+# VINYL SCOUT — Rapport du 11/06/2026 11:36
 
-**Base : 531 disques | Actifs : 397 | Batch : 201–250 | Seuil achat : 70% du prix ref**
+**Base : 532 disques | Actifs : 397 | Batch : 251–300 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,57 +10,62 @@
 
 ---
 
-## 🔴 9 OPPORTUNITES MARCHE
+## 🔴 10 OPPORTUNITES MARCHE
 
-### Michel Colombier - L’héritier
-- **Ref** : 220.0€ chez Victor Kiswell
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **190.0€ (86%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8834540969-disque-vinyle-michel-colombier-lheritier-ost-vinyl-sealed-scelle)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 6.5€ sur vinted.fr — marge potentielle **543.5€ (99%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8791408096-cd-ali-farka-toure-radio-mali)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 3.0€ sur vinted.fr — marge potentielle **147.0€ (98%)**
-- [Voir l'annonce](https://www.vinted.fr/items/3988559393-bizarre-inc-time-to-get-funky-remix)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **531.0€ (97%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8816094500-cd-ali-farka-toure-the-river)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 9.0€ sur vinted.fr — marge potentielle **141.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8433980654-bizarre-inc-feat-double-trouble-time-to-get-funky-remix-uk89)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **520.0€ (95%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8989746814-ali-farka-toure-ry-cooder-talking-timbuktu)
 
-### Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **140.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9018785038-lp-matt-bianco-indigo-1988)
+### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
+- **Ref** : 550.0€ chez Digger's Digest
+- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **512.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9090477985-lp-ali-farka-toure-savane)
 
-### Bizarre Ko.Ko.Ko. - 00 Time
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 12.5€ sur vinted.fr — marge potentielle **137.5€ (92%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8963577945-illformants-the-bizarre-godspot-subtitles-drumbass)
+### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
+- **Ref** : 450.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
 
-### Francis Lai - Madly
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 60.0€ sur vinted.fr — marge potentielle **90.0€ (60%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7538901029-33t-alain-delon-francis-lai-pas-de-vinted-go-merci-al1)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8726028714-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
 
-### Pan & Regaliz - Pan & Regaliz
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 70.0€ sur vinted.fr — marge potentielle **80.0€ (53%)**
-- [Voir l'annonce](https://www.vinted.fr/items/7221771465-vinilo-lp-pan-y-regaliz)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8726024453-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
 
-### Alberto Baldan Bembo - The Soul of Ali Ben Djamballa
-- **Ref** : 100.0€ chez Victor Kiswell
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **75.0€ (75%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8720974121-lp-alberto-baldan-bembo-the-soul-of-ali-ben-djamballa)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8949402254-rare-lp-33t-rock-progressif-b-verley-catharsis-rimbaud-cest-toi)
 
-### Dr Aftershave & the Mixed Pickles - For Missus Beastly
-- **Ref** : 150.0€ chez Victor Kiswell
-- **Trouve** : 85.0€ sur vinted.fr — marge potentielle **65.0€ (43%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8630146573-dr-aftershave-and-the-mixed-pickles-for-missus-beastly-lp-vinyl-schallplatte-original-1976)
+### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
+- **Ref** : 150.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8949355011-lp-33t-rock-progressif-b-verley-catharsis-rare-pathe)
+
+### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
+- **Ref** : 120.0€ chez Digger's Digest
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **100.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9019100103-vinile-fela-ransome-kuti-and-africa-70-band-with-ginger-baker)
 
 ---
 ## 🆕 1 nouveaux en base
 
-- **150.0€** — Francis Bebey ‎– Sanza Nocturne (Ozileka ‎– OZIL 3315 – France – 1985) (Digger's Digest)
+- **70.0€** — Fela Kuti and afrika 70 - zombie (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -169,7 +174,7 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 47 disponibles, 0 vendus
+### SOFA Records — 48 disponibles, 0 vendus
 
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
@@ -212,6 +217,7 @@
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **75.0€** — The Congos - heart of the congos — [voir](https://www.sofarecords.fr/fr/the-congos/heart-of-the-congos/p3206410170/)
+- **70.0€** — Fela Kuti and afrika 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/zombie/p3061399140/)
 - **70.0€** — Fela Kuti And Afrika 70 - no agreement — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/no-agreement/p3120372461/)
 - **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness — [voir](https://www.sofarecords.fr/fr/fela-anikulapo-kuti-amp-afrika-70/ikoyi-blindness/p3206559843/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
@@ -223,7 +229,7 @@
 
 - **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
 
-### Victor Kiswell — 248 disponibles, 0 vendus
+### Victor Kiswell — 247 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -345,7 +351,6 @@
 - **130.0€** — Tihomir Asanovic - Majko Zemljo — [voir](http://www.victorkiswell.com/v3/?product=majko-zemljo)
 - **130.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad-2)
 - **130.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale-2)
-- **130.0€** — Doris Norton - Nortoncomputerforpeace — [voir](http://www.victorkiswell.com/v3/?product=nortoncomputerforpeace)
 - **130.0€** — Structure - Pop Music — [voir](http://www.victorkiswell.com/v3/?product=pop-music-2)
 - **125.0€** — Giampiero & Gianfranco Reverberi - Video Music — [voir](http://www.victorkiswell.com/v3/?product=video-music)
 - **125.0€** — Lester Freeman - Serie Gialli — [voir](http://www.victorkiswell.com/v3/?product=serie-gialli)
