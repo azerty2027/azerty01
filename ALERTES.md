@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 11/06/2026 11:36
+# VINYL SCOUT — Rapport du 18/06/2026 07:42
 
-**Base : 532 disques | Actifs : 397 | Batch : 251–300 | Seuil achat : 70% du prix ref**
+**Base : 535 disques | Actifs : 393 | Batch : 301–350 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,62 +10,24 @@
 
 ---
 
-## 🔴 10 OPPORTUNITES MARCHE
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 6.5€ sur vinted.fr — marge potentielle **543.5€ (99%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8791408096-cd-ali-farka-toure-radio-mali)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 19.0€ sur vinted.fr — marge potentielle **531.0€ (97%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8816094500-cd-ali-farka-toure-the-river)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 30.0€ sur vinted.fr — marge potentielle **520.0€ (95%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8989746814-ali-farka-toure-ry-cooder-talking-timbuktu)
-
-### Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976)
-- **Ref** : 550.0€ chez Digger's Digest
-- **Trouve** : 38.0€ sur vinted.fr — marge potentielle **512.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9090477985-lp-ali-farka-toure-savane)
+## 🔴 2 OPPORTUNITES MARCHE
 
 ### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
 - **Ref** : 450.0€ chez Digger's Digest
 - **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
 - [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
 
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8726028714-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-delires)
-
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 15.0€ sur vinted.fr — marge potentielle **135.0€ (90%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8726024453-vinyl-original-bernard-verley-accompagne-par-catharsis-rimbaud-cest-toi-le-bateau-ivre)
-
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8949402254-rare-lp-33t-rock-progressif-b-verley-catharsis-rimbaud-cest-toi)
-
-### Bernard Verley Accompagné Par Catharsis ‎- Rimbaud C'est Toi - Le Bateau Ivre (original lacquer)
-- **Ref** : 150.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **125.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8949355011-lp-33t-rock-progressif-b-verley-catharsis-rare-pathe)
-
-### Fela Ransome-Kuti And Africa 70 Organization – Everything Scatter (Philips – 9286 434 - 1976)
-- **Ref** : 120.0€ chez Digger's Digest
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **100.0€ (83%)**
-- [Voir l'annonce](https://www.vinted.fr/items/9019100103-vinile-fela-ransome-kuti-and-africa-70-band-with-ginger-baker)
+### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
+- **Ref** : 350.0€ chez Digger's Digest
+- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **325.0€ (93%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8850479751-chene-noir-orphee-2000)
 
 ---
-## 🆕 1 nouveaux en base
+## 🆕 3 nouveaux en base
 
-- **70.0€** — Fela Kuti and afrika 70 - zombie (SOFA Records)
+- **1988.0€** — Naya Beat (Various Artists) - vol 2 south asian dance and electronic music 1988-1994 (SOFA Records)
+- **80.0€** — Bobby Pauneto - el sonido moderno (SOFA Records)
+- **80.0€** — Pete Terrace And His Orchestra - p.t. (SOFA Records)
 
 ---
 ## Catalogue complet
@@ -174,19 +136,17 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 48 disponibles, 0 vendus
+### SOFA Records — 43 disponibles, 0 vendus
 
+- **1988.0€** — Naya Beat (Various Artists) - vol 2 south asian dance and electronic music 1988-1994 — [voir](https://www.sofarecords.fr/fr/naya-beat-various-artists/vol-2-south-asian-dance-and-electronic-music-1988-1994/p3197717482/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
-- **1978.0€** — Kiki Gyan - 1978-82 / 24 hours in a disco — [voir](https://www.sofarecords.fr/fr/kiki-gyan/1978-82-24-hours-in-a-disco/p3047455759/)
-- **1970.0€** — Kaiso Power (various) - sound revolution in trinidad 1970-1980 — [voir](https://www.sofarecords.fr/fr/kaiso-power-various/sound-revolution-in-trinidad-1970-1980/p3206561654/)
 - **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **180.0€** — Star Band De Dakar - volume 1 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-1/p2968465624/)
 - **160.0€** — Star Band De Dakar - volume 10 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-10/p2968465627/)
-- **160.0€** — Michel Colombier - capot pointu — [voir](https://www.sofarecords.fr/fr/michel-colombier/capot-pointu/p3170686362/)
 - **150.0€** — D'Almeida Blucky Et Les Black Santiago De Cotonou - les nanes / entente africaine — [voir](https://www.sofarecords.fr/fr/d%27almeida-blucky-et-les-black-santiago-de-cotonou/les-nanes-entente-africaine/p3206503895/)
 - **150.0€** — Kabasa - kabasa — [voir](https://www.sofarecords.fr/fr/kabasa/kabasa/p3206166577/)
 - **150.0€** — Hazel Scott And The Braza Brasil - i don't love you no more / canto de ossanha — [voir](https://www.sofarecords.fr/fr/hazel-scott-and-the-braza-brasil/i-don%27t-love-you-no-more-canto-de-ossanha/p3206506276/)
@@ -203,11 +163,11 @@
 - **85.0€** — Fela Kuti & Africa 70 - question jam answer vol.2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar — [voir](https://www.sofarecords.fr/fr/nahawa-doumbia/la-grande-cantatrice-malienne-decouverte-81-a-dakar/p3206185772/)
 - **80.0€** — Tabu Ley Rochereau avec l'Orchestre Afrisa - hafi deo — [voir](https://www.sofarecords.fr/fr/tabu-ley-rochereau-avec-l%27orchestre-afrisa/hafi-deo/p3033808161/)
-- **80.0€** — Fela Kuti And Egypt 80 - original suffer head — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-egypt-80/original-suffer-head/p3206559844/)
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
-- **80.0€** — Paul Louis Et Ses Cumbeleros - o africa — [voir](https://www.sofarecords.fr/fr/paul-louis-et-ses-cumbeleros/o-africa/p3202495247/)
 - **80.0€** — Easy - more easy — [voir](https://www.sofarecords.fr/fr/easy/more-easy/p3206381358/)
+- **80.0€** — Bobby Pauneto - el sonido moderno — [voir](https://www.sofarecords.fr/fr/bobby-pauneto/el-sonido-moderno/p3206657981/)
+- **80.0€** — Pete Terrace And His Orchestra - p.t. — [voir](https://www.sofarecords.fr/fr/pete-terrace-and-his-orchestra/p-t/p3206658503/)
 - **80.0€** — Conjunto Orfeu Negro - clube pan wd — [voir](https://www.sofarecords.fr/fr/conjunto-orfeu-negro/clube-pan-wd/p3206504421/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
 - **80.0€** — Ilous - ilous — [voir](https://www.sofarecords.fr/fr/ilous/ilous/p3165559789/)
@@ -217,9 +177,6 @@
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **75.0€** — The Congos - heart of the congos — [voir](https://www.sofarecords.fr/fr/the-congos/heart-of-the-congos/p3206410170/)
-- **70.0€** — Fela Kuti and afrika 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/zombie/p3061399140/)
-- **70.0€** — Fela Kuti And Afrika 70 - no agreement — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/no-agreement/p3120372461/)
-- **70.0€** — Fela Anikulapo Kuti & Afrika 70 - ikoyi blindness — [voir](https://www.sofarecords.fr/fr/fela-anikulapo-kuti-amp-afrika-70/ikoyi-blindness/p3206559843/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
 - **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
@@ -229,7 +186,7 @@
 
 - **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
 
-### Victor Kiswell — 247 disponibles, 0 vendus
+### Victor Kiswell — 248 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -351,6 +308,7 @@
 - **130.0€** — Tihomir Asanovic - Majko Zemljo — [voir](http://www.victorkiswell.com/v3/?product=majko-zemljo)
 - **130.0€** — Vlady Bas - Free Jazz – En la Universidad — [voir](http://www.victorkiswell.com/v3/?product=free-jazz-en-la-universidad-2)
 - **130.0€** — Fiorenzo Carpi / Bruno Nicolai - Un bianco vestito per mariale — [voir](http://www.victorkiswell.com/v3/?product=un-bianco-vestito-per-mariale-2)
+- **130.0€** — Doris Norton - Nortoncomputerforpeace — [voir](http://www.victorkiswell.com/v3/?product=nortoncomputerforpeace)
 - **130.0€** — Structure - Pop Music — [voir](http://www.victorkiswell.com/v3/?product=pop-music-2)
 - **125.0€** — Giampiero & Gianfranco Reverberi - Video Music — [voir](http://www.victorkiswell.com/v3/?product=video-music)
 - **125.0€** — Lester Freeman - Serie Gialli — [voir](http://www.victorkiswell.com/v3/?product=serie-gialli)

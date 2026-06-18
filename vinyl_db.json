@@ -4257,5 +4257,29 @@
     "url": "https://www.sofarecords.fr/fr/fela-kuti-and-afrika-70/zombie/p3061399140/",
     "sold": false,
     "first_seen": "2026-06-11T11:17:24.510806"
+  },
+  "https://www.sofarecords.fr/fr/naya-beat-various-artists/vol-2-south-asian-dance-and-electronic-music-1988-1994/p3197717482/": {
+    "source": "SOFA Records",
+    "title": "Naya Beat (Various Artists) - vol 2 south asian dance and electronic music 1988-1994",
+    "price_ref": 1988.0,
+    "url": "https://www.sofarecords.fr/fr/naya-beat-various-artists/vol-2-south-asian-dance-and-electronic-music-1988-1994/p3197717482/",
+    "sold": false,
+    "first_seen": "2026-06-18T07:22:10.372066"
+  },
+  "https://www.sofarecords.fr/fr/bobby-pauneto/el-sonido-moderno/p3206657981/": {
+    "source": "SOFA Records",
+    "title": "Bobby Pauneto - el sonido moderno",
+    "price_ref": 80.0,
+    "url": "https://www.sofarecords.fr/fr/bobby-pauneto/el-sonido-moderno/p3206657981/",
+    "sold": false,
+    "first_seen": "2026-06-18T07:22:10.372083"
+  },
+  "https://www.sofarecords.fr/fr/pete-terrace-and-his-orchestra/p-t/p3206658503/": {
+    "source": "SOFA Records",
+    "title": "Pete Terrace And His Orchestra - p.t.",
+    "price_ref": 80.0,
+    "url": "https://www.sofarecords.fr/fr/pete-terrace-and-his-orchestra/p-t/p3206658503/",
+    "sold": false,
+    "first_seen": "2026-06-18T07:22:10.372085"
   }
 }
