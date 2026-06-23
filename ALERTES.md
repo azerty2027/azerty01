@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 18/06/2026 07:42
+# VINYL SCOUT — Rapport du 23/06/2026 07:59
 
-**Base : 535 disques | Actifs : 393 | Batch : 301–350 | Seuil achat : 70% du prix ref**
+**Base : 535 disques | Actifs : 389 | Batch : 351–389 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -12,22 +12,15 @@
 
 ## 🔴 2 OPPORTUNITES MARCHE
 
-### The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982)
-- **Ref** : 450.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **425.0€ (94%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8037657330-the-william-penn-jazz-ensemble)
+### Ilous - ilous
+- **Ref** : 80.0€ chez SOFA Records
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **60.0€ (75%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8443632889-vinyle-ilous-et-decuyper)
 
-### Chêne Noir - Orphée 2000 (Chêne Noir Disques – CN 00 2 - 1976)
-- **Ref** : 350.0€ chez Digger's Digest
-- **Trouve** : 25.0€ sur vinted.fr — marge potentielle **325.0€ (93%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8850479751-chene-noir-orphee-2000)
-
----
-## 🆕 3 nouveaux en base
-
-- **1988.0€** — Naya Beat (Various Artists) - vol 2 south asian dance and electronic music 1988-1994 (SOFA Records)
-- **80.0€** — Bobby Pauneto - el sonido moderno (SOFA Records)
-- **80.0€** — Pete Terrace And His Orchestra - p.t. (SOFA Records)
+### Bembeya Jazz - bembeya jazz
+- **Ref** : 75.0€ chez SOFA Records
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **40.0€ (53%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8889699153-lp-bembeya-jazz-national-regard-sur-le-passe)
 
 ---
 ## Catalogue complet
@@ -136,13 +129,12 @@
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 43 disponibles, 0 vendus
+### SOFA Records — 41 disponibles, 0 vendus
 
-- **1988.0€** — Naya Beat (Various Artists) - vol 2 south asian dance and electronic music 1988-1994 — [voir](https://www.sofarecords.fr/fr/naya-beat-various-artists/vol-2-south-asian-dance-and-electronic-music-1988-1994/p3197717482/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
-- **250.0€** — Chene Noir - orphée 2000 — [voir](https://www.sofarecords.fr/fr/chene-noir/orphee-2000/p2968465927/)
+- **1968.0€** — The Roots Of Chicha (Various) - psychedelic cumbias from peru 1968-81 — [voir](https://www.sofarecords.fr/fr/the-roots-of-chicha-various/psychedelic-cumbias-from-peru-1968-81/p3030071161/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
 - **180.0€** — Star Band De Dakar - volume 1 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-1/p2968465624/)
@@ -166,7 +158,6 @@
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
 - **80.0€** — Rahbaniyat - favourite songs vol.6 — [voir](https://www.sofarecords.fr/fr/rahbaniyat/favourite-songs-vol-6/p3205207068/)
 - **80.0€** — Easy - more easy — [voir](https://www.sofarecords.fr/fr/easy/more-easy/p3206381358/)
-- **80.0€** — Bobby Pauneto - el sonido moderno — [voir](https://www.sofarecords.fr/fr/bobby-pauneto/el-sonido-moderno/p3206657981/)
 - **80.0€** — Pete Terrace And His Orchestra - p.t. — [voir](https://www.sofarecords.fr/fr/pete-terrace-and-his-orchestra/p-t/p3206658503/)
 - **80.0€** — Conjunto Orfeu Negro - clube pan wd — [voir](https://www.sofarecords.fr/fr/conjunto-orfeu-negro/clube-pan-wd/p3206504421/)
 - **80.0€** — Tchangodei, Steve Lacy, O. Johnson - the bow — [voir](https://www.sofarecords.fr/fr/tchangodei-steve-lacy-o-johnson/the-bow/p2970180373/)
@@ -182,11 +173,7 @@
 - **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
-### Superfly Records — 1 disponibles, 0 vendus
-
-- **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
-
-### Victor Kiswell — 248 disponibles, 0 vendus
+### Victor Kiswell — 247 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -402,7 +389,6 @@
 - **100.0€** — Kyriakos Sfetsas - To Stigma — [voir](http://www.victorkiswell.com/v3/?product=to-stigma-3)
 - **100.0€** — Salah Ragab - Salah Ragab — [voir](http://www.victorkiswell.com/v3/?product=salah-ragab-2)
 - **100.0€** — Joseph Salama - Streets of Beirut — [voir](http://www.victorkiswell.com/v3/?product=streets-of-beirut-2)
-- **100.0€** — Pedro Iturralde - Flamenco Jazz — [voir](http://www.victorkiswell.com/v3/?product=flamenco-jazz-6)
 - **100.0€** — Daniel Grau - El Sonido Magico de Daniel Grau — [voir](http://www.victorkiswell.com/v3/?product=el-sonido-magico-de-daniel-grau)
 - **100.0€** — Daniel Grau - Kryptonica Liquida — [voir](http://www.victorkiswell.com/v3/?product=kryptonica-liquida-2)
 - **100.0€** — The Harry Roche Constellation - Spiral — [voir](http://www.victorkiswell.com/v3/?product=spiral-3)
