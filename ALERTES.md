@@ -1,6 +1,6 @@
-# VINYL SCOUT — Rapport du 23/06/2026 07:59
+# VINYL SCOUT — Rapport du 16/07/2026 20:42
 
-**Base : 535 disques | Actifs : 389 | Batch : 351–389 | Seuil achat : 70% du prix ref**
+**Base : 545 disques | Actifs : 389 | Batch : 1–50 | Seuil achat : 70% du prix ref**
 
 ---
 
@@ -10,22 +10,71 @@
 
 ---
 
-## 🔴 2 OPPORTUNITES MARCHE
+## 🔴 9 OPPORTUNITES MARCHE
 
-### Ilous - ilous
-- **Ref** : 80.0€ chez SOFA Records
-- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **60.0€ (75%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8443632889-vinyle-ilous-et-decuyper)
+### Fabriano Fuzion - Cosmik Sindika
+- **Ref** : 220.0€ chez Victor Kiswell
+- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **185.0€ (84%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9015742448-fabriano-fuzion-cosmik-sindika)
 
-### Bembeya Jazz - bembeya jazz
-- **Ref** : 75.0€ chez SOFA Records
-- **Trouve** : 35.0€ sur vinted.fr — marge potentielle **40.0€ (53%)**
-- [Voir l'annonce](https://www.vinted.fr/items/8889699153-lp-bembeya-jazz-national-regard-sur-le-passe)
+### Assagai - Assagai
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 45.0€ sur vinted.fr — marge potentielle **105.0€ (70%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8713742266-assagai-telephone-girl-ill-wait-for-you)
+
+### Goddy Oku - One More Chance
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 20.0€ sur vinted.fr — marge potentielle **100.0€ (83%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8901159462-goddy-oku-1984-vinyl-lp-33t)
+
+### Baligh Hamdi & Magid Khan - Indo Arabic Variations
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 27.0€ sur vinted.fr — marge potentielle **93.0€ (78%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8660104877-baligh-hamdi-magid-khan-indo-arabic-variations-lp-vinyl-new-mint-sealed)
+
+### Hamac - Avec Ti-Paul et José
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 10.0€ sur vinted.fr — marge potentielle **90.0€ (90%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9394475547-hamac-disque-vinyle-1980s-soukous)
+
+### Salah Ragab - Salah Ragab
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 26.0€ sur vinted.fr — marge potentielle **74.0€ (74%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8945547716-vinyle-lp-salah-ragab-and-the-cairo-jazz-band-present-egyptian-jazz)
+
+### Boncana Maiga - Boncana Maiga
+- **Ref** : 100.0€ chez Victor Kiswell
+- **Trouve** : 28.0€ sur vinted.fr — marge potentielle **72.0€ (72%)**
+- [Voir l'annonce](https://www.vinted.fr/items/8880217473-boncana-maiga-koyma-hondo-fr-2018)
+
+### Toulai & François Rabbath - Toulai & François Rabbath
+- **Ref** : 150.0€ chez Victor Kiswell
+- **Trouve** : 90.0€ sur vinted.fr — marge potentielle **60.0€ (40%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9059132521-vinyle-toulai-et-francois-rabbath)
+
+### Ofege - Try and Love
+- **Ref** : 120.0€ chez Victor Kiswell
+- **Trouve** : 80.0€ sur vinted.fr — marge potentielle **40.0€ (33%)**
+- [Voir l'annonce](https://www.vinted.fr/items/9318697349-ofege-try-and-love-original-ghana-psych-afro-funk-rare)
+
+---
+## 🆕 10 nouveaux en base
+
+- **1982.0€** — Mario Rui Silva - stories from another time 1982​-​1988 (SOFA Records)
+- **270.0€** — Patrick Petitbon / Jacky Giordano – Percussions (Musax – 100.007 - France - (Digger's Digest)
+- **220.0€** — Ettika – Ettika (Johnnie Coco Musik – 8810 – 1985 – France) (Digger's Digest)
+- **180.0€** — Tom Scott With The California Dreamers – The Honeysuckle Breeze (Impulse! – AS-9163 - 1972) (Digger's Digest)
+- **180.0€** — Beckie Bell - in need of ... (SOFA Records)
+- **180.0€** — Exode + - s/t (SOFA Records)
+- **150.0€** — Henry Wenceslas Thenard - ne dis pas cela / ba moin on swing (SOFA Records)
+- **100.0€** — BILL BARRON, TED CURSON - NOW, HEAR THIS! (Superfly Records)
+- **95.0€** — Nidia - 95 mindjeres (SOFA Records)
+- **70.0€** — Fela Kuti and Africa 70 - everything scatter (SOFA Records)
 
 ---
 ## Catalogue complet
 
-### Digger's Digest — 101 disponibles, 0 vendus
+### Digger's Digest — 99 disponibles, 0 vendus
 
 - **1300.0€** — Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978) — [voir](https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978)
 - **1250.0€** — Popera Cosmic – Les Esclaves (CBS – S.7.63981 - France - 1969) — [voir](https://www.diggersdigest.com/product/popera-cosmic-les-esclaves-cbs-s-7-63981-france-1969)
@@ -34,13 +83,10 @@
 - **790.0€** — Manu Dibango - African Voodoo (PSI, 1972) — [voir](https://www.diggersdigest.com/product/manu-dibango-african-voodoo-psi-1972)
 - **750.0€** — Malagasy / Gilson - Malagasy (Lumen – LD 33 908 - 1972) — [voir](https://www.diggersdigest.com/product/malagasy-gilson-malagasy-lumen-ld-33-908-1972)
 - **700.0€** — Ju Ju – A Message From Mozambique (Strata-East – SES 19735 – 1973) — [voir](https://www.diggersdigest.com/product/ju-ju-a-message-from-mozambique-strata-east-ses-19735-1973)
-- **550.0€** — Ali Toure "Farka" – Ali Toure "Farka" (Sonafric – SAF 50016 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-saf-50016-france-1976)
-- **490.0€** — Ali Toure Farka – Ali Toure Farka  (Sonafric – Sonafric – SAF 50032 - France - 1976) — [voir](https://www.diggersdigest.com/product/ali-toure-farka-ali-toure-farka-sonafric-sonafric-saf-50032-france-1976)
 - **490.0€** — David Wertman, Sun Ensemble – Wide Eye Culture (Sunmuse Records – SUN 401 - US - 1983) — [voir](https://www.diggersdigest.com/product/david-wertman-sun-ensemble-wide-eye-culture-sunmuse-records-sun-401-us-1983)
 - **490.0€** — Franz Auffray ‎- Original Popcorn (Egg – 940.015 - France - 1970) — [voir](https://www.diggersdigest.com/product/franz-auffray-original-popcorn-barclay-kmlp-319-1970)
 - **450.0€** — The Henry-Wenceslas Thenard Band ‎– Direct Dance New Sound Of Guadeloupe (LM Production) — [voir](https://www.diggersdigest.com/product/the-henry-wenceslas-thenard-band-direct-dance-new-sound-of-guadeloupe-lm-production)
 - **450.0€** — Crystal – Music Life (GD Productions – GD 011 – Martinique – 1984) — [voir](https://www.diggersdigest.com/product/crystal-music-life-gd-productions-gd-011-martinique-1984)
-- **450.0€** — Jingo – Fever (Afro-Rock – U 79 000 – France – 1977) — [voir](https://www.diggersdigest.com/product/jingo-fever-afro-rock-u-79-000-france-1977)
 - **450.0€** — Armando Trovaioli – Una Magnum Special Per Tony Saitta (Beat Records Company – LPF.033 - Italy) — [voir](https://www.diggersdigest.com/product/armando-trovaioli-una-magnum-special-per-tony-saitta-beat-records-company-lpf033-italy)
 - **450.0€** — The William Penn Jazz Ensemble – Carvings (Not On Label – TR 520643 - US - 1982) — [voir](https://www.diggersdigest.com/product/the-william-penn-jazz-ensemble-carvings-not-on-label-tr-520643-us-1982)
 - **450.0€** — "Concerts Free Jazz" by Boojum Consort - Théatre du Chêne Noir poster. — [voir](https://www.diggersdigest.com/product/concerts-free-jazz-by-boojum-consort-theatre-du-chene-noir-poster)
@@ -50,7 +96,7 @@
 - **390.0€** — Intercommunal Free Dance Music Orchestra Concert Novembre 1972 poster. — [voir](https://www.diggersdigest.com/product/intercommunal-free-dance-music-orchestra-concert-novembre-1972-poster)
 - **390.0€** — Barney Wilen ‎- Un Témoin Dans La Ville (Fontana 660.226 MR - France - 1959) — [voir](https://www.diggersdigest.com/product/barney-wilen-un-temoin-dans-la-ville-fontana-660-226-mr-1959)
 - **380.0€** — Acayouman - Funky Reggae 12" (Sepdda Production – CA 94441) — [voir](https://www.diggersdigest.com/product/acayouman-funky-reggae-12-sepdda-production-ca-94441)
-- **370.0€** — Jean-Pierre Graziani ‎- A Dumane (Disques Vendémiaire ‎– vd 33120 - France - 1982) — [voir](https://www.diggersdigest.com/product/jean-pierre-graziani-a-dumane)
+- **350.0€** — Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964) — [voir](https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964)
 - **350.0€** — Second Hand – Death May Be Your Santa Claus (Stateside – 2 C 062 - 92660 - France - 1971) — [voir](https://www.diggersdigest.com/product/second-hand-death-may-be-your-santa-claus-stateside-2-c-062-92660-france-1971)
 - **350.0€** — Louis Xavier ‎– Ladja "Jazz With A West Indian Soul" (Adda ‎– France - 1981) — [voir](https://www.diggersdigest.com/product/louis-xavier-ladja-adda-81013-1981)
 - **350.0€** — Twink – Think Pink (Sire – STEC LP 93 - France - 1970) — [voir](https://www.diggersdigest.com/product/twink-think-pink-sire-stec-lp-93-france-1970)
@@ -64,12 +110,12 @@
 - **300.0€** — Johnny Lamas – Danza Cosmica (Private Press - Venezuela - 1993) — [voir](https://www.diggersdigest.com/product/johnny-lamas-danza-cosmica-private-press-venezuela-1993)
 - **300.0€** — Travelling ‎– Voici La Nuit Tombée (Futura Records ‎– RED 06 - 1973) — [voir](https://www.diggersdigest.com/product/travelling-voici-la-nuit-tombee-futura-records-red-06-1973)
 - **300.0€** — Charlston Marquis – Komba (Plato Production – CM 1 SD 16 - 1987) — [voir](https://www.diggersdigest.com/product/charlston-marquis-komba-plato-production-cm-1-sd-16-1987)
-- **290.0€** — Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964) — [voir](https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964)
 - **290.0€** — Jacques Thollot - Watch Devil Go (Palm – PALM 17 - France - 1975) — [voir](https://www.diggersdigest.com/product/jacques-thollot-watch-devil-go-palm-palm-17-france-1975)
 - **290.0€** — Jef Gilson - Enfin (Acétate - France  - 1964) — [voir](https://www.diggersdigest.com/product/jef-gilson-enfin-acetate)
 - **280.0€** — Ait Mislayene – Yémma / El Fen (Stip Record – CH 1010 - France - 1976) — [voir](https://www.diggersdigest.com/product/ait-mislayene-y%C3%A9mma-el-fen-stip-record-ch-1010-france-1976)
 - **280.0€** — Black Devil – Disco Club (RCA – PL 37164 - France - 1978) — [voir](https://www.diggersdigest.com/product/black-devil-disco-club-rca-pl-37164-france-1978)
 - **280.0€** — U-Turn ‎– Démon Du Midi ( Mini Records ‎– MRS 1202 - 1988) — [voir](https://www.diggersdigest.com/product/u-turn-demon-du-midi-mini-records-mrs-1202-1988)
+- **270.0€** — Patrick Petitbon / Jacky Giordano – Percussions (Musax – 100.007 - France - — [voir](https://www.diggersdigest.com/product/patrick-petitbon-jacky-giordano-percussions-musax-100007-france)
 - **250.0€** — Caousou - Centenaire 1874 - 1974 (Private Press - France - 1974) — [voir](https://www.diggersdigest.com/product/coll%C3%A8ge-du-caousou-centenaire-1874-1974-private-press-france-1974)
 - **250.0€** — Ariel Kalma — Richard Tinti ‎– Osmose (SFP ‎– SFP 5021-5022 – France – 1978) — [voir](https://www.diggersdigest.com/product/ariel-kalma-richard-tinti-osmose-sfp-sfp-5021-5022-france-1978)
 - **250.0€** — Didier Et Jean-Luc Avec Les Ecchoes – Joie De Vivre En Roumanie (Private - France - 1982) — [voir](https://www.diggersdigest.com/product/didier-et-jean-luc-avec-les-ecchoes-joie-de-vivre-en-roumanie-private-france-1982)
@@ -80,12 +126,15 @@
 - **250.0€** — Sunny Boy – Love Affaire (D.K.Danse – D.K.01 - Italy - 80's) — [voir](https://www.diggersdigest.com/product/sunny-boy-love-affaire-d-k-danse-d-k-01-italy-80-s)
 - **250.0€** — José Manclière - Doubout Pou Gadé (Private - Guadelope, 1980) — [voir](https://www.diggersdigest.com/product/jose-mancliere-doubout-pou-gade-private-press-1980)
 - **240.0€** — Tee & Company – Spanish Flower (Three Blind Mice – TBM-5008 - Japan - 1978) — [voir](https://www.diggersdigest.com/product/tee-company-spanish-flower-three-blind-mice-tbm-5008-japan-1978)
+- **220.0€** — Ettika – Ettika (Johnnie Coco Musik – 8810 – 1985 – France) — [voir](https://www.diggersdigest.com/product/ettika-ettika-johnnie-coco-musik-8810-1985-france)
 - **220.0€** — Can – Ege Bamyasi (United Artists Records – UAS 29 414 – France – 1972) — [voir](https://www.diggersdigest.com/product/can-ege-bamyasi-united-artists-records-uas-29-414-france-1972)
 - **220.0€** — Septet Matchi-oul – Terremoto (Futura Records – GER 25, 1971) — [voir](https://www.diggersdigest.com/product/septet-matchi-oul-terremoto-futura-records-ger-25-1971)
 - **220.0€** — Peter Lemer & La Troupe Populaire De G'naoua De Asilah ‎- Asilah 80 — [voir](https://www.diggersdigest.com/product/peter-lemer-la-troupe-populaire-de-g-naoua-de-asilah-asilah-80)
 - **200.0€** — Claude Vasori / Robert Viger / Daniel Janin – Cocktail D'Images (MPI/LP 536) — [voir](https://www.diggersdigest.com/product/claude-vasori-robert-viger-daniel-janin-cocktail-d-images-mpi-lp-536)
 - **200.0€** — Rhesus O – Rhesus O (Epic – EPC 64560 - France - 1971) — [voir](https://www.diggersdigest.com/product/rhesus-o-rhesus-o-epic-epc-64560-france-1971)
 - **190.0€** — Hot Fudge - Play It Again (Music De Wolfe - 1976) — [voir](https://www.diggersdigest.com/product/hot-fudge-play-it-again-music-de-wolfe-1976)
+- **180.0€** — Tom Scott With The California Dreamers – The Honeysuckle Breeze (Impulse! – AS-9163 - 1972) — [voir](https://www.diggersdigest.com/product/tom-scott-with-the-california-dreamers-the-honeysuckle-breeze-impulse-as-9163-1972)
+- **180.0€** — Nico Gomez And His Afro Percussion Inc. – Ritual (Omega International – Netherlands –  1971) — [voir](https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971)
 - **180.0€** — Revelasong – Soul Roots Reggae Music (Not On Label – M16K – France) — [voir](https://www.diggersdigest.com/product/revelasong-soul-roots-reggae-music-not-on-label-m16k-france)
 - **180.0€** — Maitre Ledy Youla ‎– Alou Kèlè Dabila - Soukabè ( Not On Label ‎– 003 - France - 1986) — [voir](https://www.diggersdigest.com/product/maitre-ledy-youla-alou-k%C3%A8l%C3%A8-dabila-soukab%C3%A8-not-on-label-003-france-1986)
 - **180.0€** — Gwakasonne ‎- Témwen (GKS Robert Oumaou - 1987) — [voir](https://www.diggersdigest.com/product/gwakasonne-temwen)
@@ -93,7 +142,6 @@
 - **180.0€** — Moving Gelatine Plates – Moving Gelatine Plates (CBS – S 64399 - France - 1971) — [voir](https://www.diggersdigest.com/product/moving-gelatine-plates-moving-gelatine-plates-cbs-s-64399-france-1971)
 - **175.0€** — Henry Wenceslas Thenard ‎– Ne Dis Pas Cela (LM Production ‎– LM 6035 - 1985) — [voir](https://www.diggersdigest.com/product/henry-wenceslas-thenard-ne-dis-pas-cela-lm-production-lm-6035-1985)
 - **175.0€** — Serge Gainsbourg – Histoire De Melody Nelson (Philips 6397 020 - 1971) — [voir](https://www.diggersdigest.com/product/serge-gainsbourg-histoire-de-melody-nelson-philips-6397-020)
-- **160.0€** — Nico Gomez And His Afro Percussion Inc. – Ritual (Omega International – Netherlands –  1971) — [voir](https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971)
 - **150.0€** — Francis Bebey ‎– Sanza Nocturne (Ozileka ‎– OZIL 3315 – France – 1985) — [voir](https://www.diggersdigest.com/product/francis-bebey-sanza-nocturne-ozileka-ozil-3315-france-1985)
 - **150.0€** — Nyssa Musique - Comme Au Moulin (Private press - France - 1985) — [voir](https://www.diggersdigest.com/product/nyssa-musique-comme-au-moulin-private-1985)
 - **150.0€** — Pharoah Sanders ‎– Japan (Stateside ‎– 2C 006 - 90650 - France - 1969) — [voir](https://www.diggersdigest.com/product/pharoah-sanders-japan-stateside-2c-006-90650-france-1969)
@@ -125,34 +173,35 @@
 - **120.0€** — François Tusques - Vers Une Musique Bretonne Nouvelle (Le Chant Du Monde - 1979) — [voir](https://www.diggersdigest.com/product/francois-tusques-vers-une-musique-bretonne-nouvelle-le-chant-du-monde-1979)
 - **110.0€** — Alan Parker & Alan Hawkshaw - Alternatives (Music De Wolfe - 1971 - UK) — [voir](https://www.diggersdigest.com/product/alan-parker-alan-hawkshaw-alternatives-music-de-wolfe-1971-uk)
 - **100.0€** — Naná Vasconcelos– Africadeus (Saravah – SH 10039 - France - 1973) — [voir](https://www.diggersdigest.com/product/nan%C3%A1-vasconcelos-africadeus-saravah-sh-10039-france-1973)
-- **100.0€** — Ted Moses Quintet – Sidereal Time (Radio Canada International – 400 - 1974) — [voir](https://www.diggersdigest.com/product/ted-moses-quintet-sidereal-time-radio-canada-international-400-1974)
 - **100.0€** — Mombasa – Mombasa 2 "African Rhythms & Blues" (Spiegelei – INT 160.049 - 1976) — [voir](https://www.diggersdigest.com/product/mombasa-mombasa-2-african-rhythms-blues-spiegelei-int-160-049-1976)
 - **100.0€** — Jacques Siroul - My Lovely Planet (Selection n°13, Belgium, 1978) — [voir](https://www.diggersdigest.com/product/jacques-siroul-my-lovely-planet-selection-n-13-belgium-1978)
 
-### SOFA Records — 41 disponibles, 0 vendus
+### SOFA Records — 42 disponibles, 0 vendus
 
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206204884/)
-- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
 - **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206166578/)
-- **1968.0€** — The Roots Of Chicha (Various) - psychedelic cumbias from peru 1968-81 — [voir](https://www.sofarecords.fr/fr/the-roots-of-chicha-various/psychedelic-cumbias-from-peru-1968-81/p3030071161/)
+- **1984.0€** — Yassine Nana - modern pop from mauritania 1984-1989 — [voir](https://www.sofarecords.fr/fr/yassine-nana/modern-pop-from-mauritania-1984-1989/p3206185707/)
+- **1982.0€** — Mario Rui Silva - stories from another time 1982​-​1988 — [voir](https://www.sofarecords.fr/fr/mario-rui-silva/stories-from-another-time-1982-1988/p3133233889/)
+- **1974.0€** — Ayo Ke Disco (Various) - boogie, pop & funk from the south china sea (1974​-​88) — [voir](https://www.sofarecords.fr/fr/ayo-ke-disco-various/boogie-pop-amp-funk-from-the-south-china-sea-1974-88/p3199825954/)
 - **250.0€** — Action (Various) - action — [voir](https://www.sofarecords.fr/fr/action-various/action/p3202495790/)
 - **190.0€** — Walt Rockman - underwater vol. 1 — [voir](https://www.sofarecords.fr/fr/walt-rockman/underwater-vol-1/p3205542027/)
+- **180.0€** — Beckie Bell - in need of ... — [voir](https://www.sofarecords.fr/fr/beckie-bell/in-need-of/p3206830480/)
 - **180.0€** — Star Band De Dakar - volume 1 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-1/p2968465624/)
+- **180.0€** — Exode + - s/t — [voir](https://www.sofarecords.fr/fr/exode/s-t/p3206828728/)
 - **160.0€** — Star Band De Dakar - volume 10 — [voir](https://www.sofarecords.fr/fr/star-band-de-dakar/volume-10/p2968465627/)
 - **150.0€** — D'Almeida Blucky Et Les Black Santiago De Cotonou - les nanes / entente africaine — [voir](https://www.sofarecords.fr/fr/d%27almeida-blucky-et-les-black-santiago-de-cotonou/les-nanes-entente-africaine/p3206503895/)
 - **150.0€** — Kabasa - kabasa — [voir](https://www.sofarecords.fr/fr/kabasa/kabasa/p3206166577/)
+- **150.0€** — Henry Wenceslas Thenard - ne dis pas cela / ba moin on swing — [voir](https://www.sofarecords.fr/fr/henry-wenceslas-thenard/ne-dis-pas-cela-ba-moin-on-swing/p3206828732/)
 - **150.0€** — Hazel Scott And The Braza Brasil - i don't love you no more / canto de ossanha — [voir](https://www.sofarecords.fr/fr/hazel-scott-and-the-braza-brasil/i-don%27t-love-you-no-more-canto-de-ossanha/p3206506276/)
-- **140.0€** — Joe Higgs - life of contradiction — [voir](https://www.sofarecords.fr/fr/joe-higgs/life-of-contradiction/p3202689276/)
 - **140.0€** — Cymande - second time around — [voir](https://www.sofarecords.fr/fr/cymande/second-time-around/p3102549865/)
 - **120.0€** — Sam Sklair & Gus Galbraith - the micro chip revolution — [voir](https://www.sofarecords.fr/fr/sam-sklair-amp-gus-galbraith/the-micro-chip-revolution/p3205542566/)
-- **110.0€** — Fela Kuti & Africa 70 - zombie — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/zombie/p3043847685/)
 - **110.0€** — Orquesta Sabor Internacional - dieka — [voir](https://www.sofarecords.fr/fr/orquesta-sabor-internacional/dieka/p2968465761/)
 - **110.0€** — Neutral Rythmique - various — [voir](https://www.sofarecords.fr/fr/neutral-rythmique/various/p3205083030/)
 - **100.0€** — Daniel Forestal - a paris — [voir](https://www.sofarecords.fr/fr/daniel-forestal/a-paris/p3206039137/)
+- **95.0€** — Nidia - 95 mindjeres — [voir](https://www.sofarecords.fr/fr/nidia/95-mindjeres/p3206853966/)
 - **90.0€** — Stargazers Dance Band – Samamo / Obene Obene - samamo / obene obene — [voir](https://www.sofarecords.fr/fr/stargazers-dance-band-ndash-samamo-obene-obene/samamo-obene-obene/p3206504409/)
 - **90.0€** — Docteur Nico & Orchestre African Fiesta - adieu freetown / timbero — [voir](https://www.sofarecords.fr/fr/docteur-nico-amp-orchestre-african-fiesta/adieu-freetown-timbero/p3202139792/)
 - **90.0€** — Ghédalia Tazartès - transports — [voir](https://www.sofarecords.fr/fr/ghedalia-tazartes/transports/p3205647861/)
-- **85.0€** — Fela Kuti & Africa 70 - question jam answer vol.2 — [voir](https://www.sofarecords.fr/fr/fela-kuti-amp-africa-70/question-jam-answer-vol-2/p3119522348/)
 - **85.0€** — Nahawa Doumbia - la grande cantatrice malienne - decouverte 81 a dakar — [voir](https://www.sofarecords.fr/fr/nahawa-doumbia/la-grande-cantatrice-malienne-decouverte-81-a-dakar/p3206185772/)
 - **80.0€** — Tabu Ley Rochereau avec l'Orchestre Afrisa - hafi deo — [voir](https://www.sofarecords.fr/fr/tabu-ley-rochereau-avec-l%27orchestre-afrisa/hafi-deo/p3033808161/)
 - **80.0€** — Black Beats Band - black beat rhythms — [voir](https://www.sofarecords.fr/fr/black-beats-band/black-beat-rhythms/p3203797943/)
@@ -168,12 +217,16 @@
 - **75.0€** — S.N. Thiam - synthez - guinée dimension 80 — [voir](https://www.sofarecords.fr/fr/s-n-thiam/synthez-guinee-dimension-80/p3203376441/)
 - **75.0€** — Mombasa Roots - msa mombasa — [voir](https://www.sofarecords.fr/fr/mombasa-roots/msa-mombasa/p3201952069/)
 - **75.0€** — The Congos - heart of the congos — [voir](https://www.sofarecords.fr/fr/the-congos/heart-of-the-congos/p3206410170/)
+- **70.0€** — Fela Kuti and Africa 70 - everything scatter — [voir](https://www.sofarecords.fr/fr/fela-kuti-and-africa-70/everything-scatter/p3087388988/)
 - **70.0€** — Super Rail Band International & Ouedraogo Mamadou - dioulou koussoube — [voir](https://www.sofarecords.fr/fr/super-rail-band-international-amp-ouedraogo-mamadou/dioulou-koussoube/p2968465767/)
-- **70.0€** — Joby Valente - disque la rayé — [voir](https://www.sofarecords.fr/fr/joby-valente/disque-la-raye/p3167119870/)
-- **70.0€** — Caetano Veloso - s/t — [voir](https://www.sofarecords.fr/fr/caetano-veloso/s-t/p3083830609/)
 - **70.0€** — Kimiko Kasai With Kosuke Mine Quartet - yellow carcass in the blue — [voir](https://www.sofarecords.fr/fr/kimiko-kasai-with-kosuke-mine-quartet/yellow-carcass-in-the-blue/p3196814374/)
 
-### Victor Kiswell — 247 disponibles, 0 vendus
+### Superfly Records — 2 disponibles, 0 vendus
+
+- **110.0€** — FRANKIE GEARING - JUST FRANKIE — [voir](https://www.superflyrecords.com/item/2/0-2204-0-1-0/128899354/frankie-gearing-just-frankie.html)
+- **100.0€** — BILL BARRON, TED CURSON - NOW, HEAR THIS! — [voir](https://www.superflyrecords.com/item/2/0-2407-0-1-0/128936080/bill-barron-ted-curson-now-hear-this.html)
+
+### Victor Kiswell — 246 disponibles, 0 vendus
 
 - **600.0€** — Armando Trovaioli - Blazing Magnum — [voir](http://www.victorkiswell.com/v3/?product=blazing-magnum)
 - **600.0€** — Luis Bacalov - L’amica — [voir](http://www.victorkiswell.com/v3/?product=lamica)
@@ -368,7 +421,6 @@
 - **110.0€** — Shunsuke Kikuchi - Kamen Rider BGM — [voir](http://www.victorkiswell.com/v3/?product=kamen-rider-bgm-2)
 - **110.0€** — Francesco de Masi / Carlo Rustichelli - Ettore lo fusto / In nome del popolo italiano — [voir](http://www.victorkiswell.com/v3/?product=ettore-lo-fusto-in-nome-del-popolo-italiano)
 - **110.0€** — Luis Bacalov - Osanna - Milano calibro 9 — [voir](http://www.victorkiswell.com/v3/?product=milano-calibro-9)
-- **110.0€** — José Manuel Pagan - KIU i els seus amics — [voir](http://www.victorkiswell.com/v3/?product=kiu-i-els-seus-amics)
 - **110.0€** — Babia - Oriente – Occidente — [voir](http://www.victorkiswell.com/v3/?product=oriente-occidente-4)
 - **110.0€** — Brigitte Fontaine et Areski Belkacem - Vous et nous — [voir](http://www.victorkiswell.com/v3/?product=vous-et-nous)
 - **110.0€** — Ilhan Mimaroglu - Tract — [voir](http://www.victorkiswell.com/v3/?product=tract)

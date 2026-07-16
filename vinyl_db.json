@@ -234,7 +234,7 @@
   "https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964": {
     "source": "Digger's Digest",
     "title": "Michel Magne ‎– Le Monocle Rit Jaune (Ducretet Thomson ‎– 460 V 647 – France – 1964)",
-    "price_ref": 290.0,
+    "price_ref": 350.0,
     "url": "https://www.diggersdigest.com/product/michel-magne-le-monocle-rit-jaune-ducretet-thomson-460-v-647-france-1964",
     "sold": false,
     "first_seen": "2026-02-25T13:25:32.464596"
@@ -4053,7 +4053,7 @@
   "https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971": {
     "source": "Digger's Digest",
     "title": "Nico Gomez And His Afro Percussion Inc. – Ritual (Omega International – Netherlands –  1971)",
-    "price_ref": 160.0,
+    "price_ref": 180.0,
     "url": "https://www.diggersdigest.com/product/nico-gomez-and-his-afro-percussion-inc-ritual-omega-international-netherlands-1971",
     "sold": false,
     "first_seen": "2026-05-20T09:13:25.097763"
@@ -4281,5 +4281,85 @@
     "url": "https://www.sofarecords.fr/fr/pete-terrace-and-his-orchestra/p-t/p3206658503/",
     "sold": false,
     "first_seen": "2026-06-18T07:22:10.372085"
+  },
+  "https://www.diggersdigest.com/product/ettika-ettika-johnnie-coco-musik-8810-1985-france": {
+    "source": "Digger's Digest",
+    "title": "Ettika – Ettika (Johnnie Coco Musik – 8810 – 1985 – France)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/ettika-ettika-johnnie-coco-musik-8810-1985-france",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485471"
+  },
+  "https://www.diggersdigest.com/product/tom-scott-with-the-california-dreamers-the-honeysuckle-breeze-impulse-as-9163-1972": {
+    "source": "Digger's Digest",
+    "title": "Tom Scott With The California Dreamers – The Honeysuckle Breeze (Impulse! – AS-9163 - 1972)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/tom-scott-with-the-california-dreamers-the-honeysuckle-breeze-impulse-as-9163-1972",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485481"
+  },
+  "https://www.diggersdigest.com/product/patrick-petitbon-jacky-giordano-percussions-musax-100007-france": {
+    "source": "Digger's Digest",
+    "title": "Patrick Petitbon / Jacky Giordano – Percussions (Musax – 100.007 - France -",
+    "price_ref": 270.0,
+    "url": "https://www.diggersdigest.com/product/patrick-petitbon-jacky-giordano-percussions-musax-100007-france",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485483"
+  },
+  "https://www.superflyrecords.com/item/2/0-2407-0-1-0/128936080/bill-barron-ted-curson-now-hear-this.html": {
+    "source": "Superfly Records",
+    "title": "BILL BARRON, TED CURSON - NOW, HEAR THIS!",
+    "price_ref": 100.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2407-0-1-0/128936080/bill-barron-ted-curson-now-hear-this.html",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485516"
+  },
+  "https://www.sofarecords.fr/fr/beckie-bell/in-need-of/p3206830480/": {
+    "source": "SOFA Records",
+    "title": "Beckie Bell - in need of ...",
+    "price_ref": 180.0,
+    "url": "https://www.sofarecords.fr/fr/beckie-bell/in-need-of/p3206830480/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485517"
+  },
+  "https://www.sofarecords.fr/fr/mario-rui-silva/stories-from-another-time-1982-1988/p3133233889/": {
+    "source": "SOFA Records",
+    "title": "Mario Rui Silva - stories from another time 1982​-​1988",
+    "price_ref": 1982.0,
+    "url": "https://www.sofarecords.fr/fr/mario-rui-silva/stories-from-another-time-1982-1988/p3133233889/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485520"
+  },
+  "https://www.sofarecords.fr/fr/nidia/95-mindjeres/p3206853966/": {
+    "source": "SOFA Records",
+    "title": "Nidia - 95 mindjeres",
+    "price_ref": 95.0,
+    "url": "https://www.sofarecords.fr/fr/nidia/95-mindjeres/p3206853966/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485522"
+  },
+  "https://www.sofarecords.fr/fr/fela-kuti-and-africa-70/everything-scatter/p3087388988/": {
+    "source": "SOFA Records",
+    "title": "Fela Kuti and Africa 70 - everything scatter",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/fela-kuti-and-africa-70/everything-scatter/p3087388988/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485524"
+  },
+  "https://www.sofarecords.fr/fr/henry-wenceslas-thenard/ne-dis-pas-cela-ba-moin-on-swing/p3206828732/": {
+    "source": "SOFA Records",
+    "title": "Henry Wenceslas Thenard - ne dis pas cela / ba moin on swing",
+    "price_ref": 150.0,
+    "url": "https://www.sofarecords.fr/fr/henry-wenceslas-thenard/ne-dis-pas-cela-ba-moin-on-swing/p3206828732/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485530"
+  },
+  "https://www.sofarecords.fr/fr/exode/s-t/p3206828728/": {
+    "source": "SOFA Records",
+    "title": "Exode + - s/t",
+    "price_ref": 180.0,
+    "url": "https://www.sofarecords.fr/fr/exode/s-t/p3206828728/",
+    "sold": false,
+    "first_seen": "2026-07-16T20:22:11.485532"
   }
 }
