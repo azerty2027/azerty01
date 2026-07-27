@@ -4361,5 +4361,29 @@
     "url": "https://www.sofarecords.fr/fr/exode/s-t/p3206828728/",
     "sold": false,
     "first_seen": "2026-07-16T20:22:11.485532"
+  },
+  "https://www.diggersdigest.com/product/freeway-the-clock-tonight-vulcan-records-vr-102-italy-1984": {
+    "source": "Digger's Digest",
+    "title": "Freeway – The Clock Tonight (Vulcan Records – VR 102 – Italy – 1984)",
+    "price_ref": 240.0,
+    "url": "https://www.diggersdigest.com/product/freeway-the-clock-tonight-vulcan-records-vr-102-italy-1984",
+    "sold": false,
+    "first_seen": "2026-07-27T13:20:49.324911"
+  },
+  "https://www.diggersdigest.com/product/amara-tour%C3%A9-accompagn%C3%A9-par-lorchestre-massako-st-sonafric-saf-50107-1980": {
+    "source": "Digger's Digest",
+    "title": "Amara Touré Accompagné Par L'Orchestre Massako - S/T (Sonafric ‎– SAF 50107 - 1980)",
+    "price_ref": 450.0,
+    "url": "https://www.diggersdigest.com/product/amara-tour%C3%A9-accompagn%C3%A9-par-lorchestre-massako-st-sonafric-saf-50107-1980",
+    "sold": false,
+    "first_seen": "2026-07-27T13:20:49.324923"
+  },
+  "https://www.diggersdigest.com/product/derboukas-caravan-march-la-danse-de-la-nubienne-disques-bagatelle-1968": {
+    "source": "Digger's Digest",
+    "title": "Derboukas ‎– Caravan March / La Danse De La Nubienne (Disques Bagatelle ‎– 1968 )",
+    "price_ref": 175.0,
+    "url": "https://www.diggersdigest.com/product/derboukas-caravan-march-la-danse-de-la-nubienne-disques-bagatelle-1968",
+    "sold": false,
+    "first_seen": "2026-07-27T13:20:49.324925"
   }
 }
