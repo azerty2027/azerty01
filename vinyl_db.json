@@ -2005,7 +2005,7 @@
   "http://www.victorkiswell.com/v3/?product=musiques-pour-la-tortue-magique": {
     "source": "Victor Kiswell",
     "title": "Musiques pour la Tortue Magique",
-    "price_ref": 110.0,
+    "price_ref": 100.0,
     "url": "http://www.victorkiswell.com/v3/?product=musiques-pour-la-tortue-magique",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332475"
@@ -4385,5 +4385,117 @@
     "url": "https://www.diggersdigest.com/product/derboukas-caravan-march-la-danse-de-la-nubienne-disques-bagatelle-1968",
     "sold": false,
     "first_seen": "2026-07-27T13:20:49.324925"
+  },
+  "http://www.victorkiswell.com/v3/?product=le-peuple-presente": {
+    "source": "Victor Kiswell",
+    "title": "Ibo Waka Danaka Simon - Le peuple présente",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=le-peuple-presente",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621720"
+  },
+  "http://www.victorkiswell.com/v3/?product=the-last-of-the-origins": {
+    "source": "Victor Kiswell",
+    "title": "Ofege - The Last of the Origins",
+    "price_ref": 180.0,
+    "url": "http://www.victorkiswell.com/v3/?product=the-last-of-the-origins",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621734"
+  },
+  "http://www.victorkiswell.com/v3/?product=plein-caille-3": {
+    "source": "Victor Kiswell",
+    "title": "Trio Select - Plein caille",
+    "price_ref": 100.0,
+    "url": "http://www.victorkiswell.com/v3/?product=plein-caille-3",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621747"
+  },
+  "http://www.victorkiswell.com/v3/?product=libyan-folk-dances": {
+    "source": "Victor Kiswell",
+    "title": "Walid Gholmieh - Libyan Folk Dances",
+    "price_ref": 135.0,
+    "url": "http://www.victorkiswell.com/v3/?product=libyan-folk-dances",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621752"
+  },
+  "http://www.victorkiswell.com/v3/?product=flood-4": {
+    "source": "Victor Kiswell",
+    "title": "Herbie Hancock - Flood",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=flood-4",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621768"
+  },
+  "http://www.victorkiswell.com/v3/?product=spacy-2": {
+    "source": "Victor Kiswell",
+    "title": "Tatsuro Yamashita - Spacy",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=spacy-2",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621770"
+  },
+  "http://www.victorkiswell.com/v3/?product=masada-2": {
+    "source": "Victor Kiswell",
+    "title": "Graziano Mandozzi - Masada",
+    "price_ref": 300.0,
+    "url": "http://www.victorkiswell.com/v3/?product=masada-2",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621771"
+  },
+  "http://www.victorkiswell.com/v3/?product=original-popcorn-2": {
+    "source": "Victor Kiswell",
+    "title": "Franz Auffray - Original Popcorn",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=original-popcorn-2",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621772"
+  },
+  "http://www.victorkiswell.com/v3/?product=the-sweetest-sound": {
+    "source": "Victor Kiswell",
+    "title": "Elsie Bianchi Trio - The Sweetest Sound",
+    "price_ref": 450.0,
+    "url": "http://www.victorkiswell.com/v3/?product=the-sweetest-sound",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621791"
+  },
+  "https://www.diggersdigest.com/product/pourquoi-pas-il-etait-une-fois-la-danse-barclay-620202-1976": {
+    "source": "Digger's Digest",
+    "title": "Pourquoi Pas ? – Il Etait Une Fois La Danse (Barclay – 620.202 – 1976)",
+    "price_ref": 130.0,
+    "url": "https://www.diggersdigest.com/product/pourquoi-pas-il-etait-une-fois-la-danse-barclay-620202-1976",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621852"
+  },
+  "https://www.diggersdigest.com/product/omar-el-shariyi-music-from-the-east-soutelphan-gstp-82-egypt-1976": {
+    "source": "Digger's Digest",
+    "title": "Omar El Shariyi – Music From The East (Soutelphan ‎– GSTP 82 – Egypt – 1976)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/omar-el-shariyi-music-from-the-east-soutelphan-gstp-82-egypt-1976",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621853"
+  },
+  "https://www.diggersdigest.com/product/hassan-abu-al-saoud-rasputin-al-balady-sout-el-hob-egypt-1982": {
+    "source": "Digger's Digest",
+    "title": "Hassan Abu Al Saoud – Rasputin Al Balady (Sout El Hob – Egypt - 1982)",
+    "price_ref": 500.0,
+    "url": "https://www.diggersdigest.com/product/hassan-abu-al-saoud-rasputin-al-balady-sout-el-hob-egypt-1982",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621855"
+  },
+  "https://www.diggersdigest.com/product/elias-rahbani-and-his-orchestra-st-voix-de-lorient-lebanon-1977": {
+    "source": "Digger's Digest",
+    "title": "Elias Rahbani And His Orchestra ‎– S/T (Voix De L'Orient ‎– Lebanon - 1977)",
+    "price_ref": 180.0,
+    "url": "https://www.diggersdigest.com/product/elias-rahbani-and-his-orchestra-st-voix-de-lorient-lebanon-1977",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621857"
+  },
+  "https://www.diggersdigest.com/product/rochereau-et-lorchestre-african-fiesta-national-kashama-nkoy-ngoma-j-5154": {
+    "source": "Digger's Digest",
+    "title": "Rochereau Et L'Orchestre African Fiesta National– Kashama Nkoy  (Ngoma – J 5154)",
+    "price_ref": 420.0,
+    "url": "https://www.diggersdigest.com/product/rochereau-et-lorchestre-african-fiesta-national-kashama-nkoy-ngoma-j-5154",
+    "sold": false,
+    "first_seen": "2026-09-16T11:52:14.621858"
   }
 }
