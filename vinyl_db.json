@@ -362,7 +362,7 @@
   "https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978": {
     "source": "Digger's Digest",
     "title": "Arthur Doyle Plus 4 – Alabama Feeling (AK-BA Records – AK 1030 – US – 1978)",
-    "price_ref": 1300.0,
+    "price_ref": 1000.0,
     "url": "https://www.diggersdigest.com/product/arthur-doyle-plus-4-alabama-feeling-ak-ba-records-ak-1030-us-1978",
     "sold": false,
     "first_seen": "2026-02-25T13:25:32.464617"
@@ -1341,7 +1341,7 @@
   "http://www.victorkiswell.com/v3/?product=rmani-rih": {
     "source": "Victor Kiswell",
     "title": "Rmani Rih",
-    "price_ref": 120.0,
+    "price_ref": 135.0,
     "url": "http://www.victorkiswell.com/v3/?product=rmani-rih",
     "sold": false,
     "first_seen": "2026-02-25T16:39:03.332278"
@@ -4497,5 +4497,213 @@
     "url": "https://www.diggersdigest.com/product/rochereau-et-lorchestre-african-fiesta-national-kashama-nkoy-ngoma-j-5154",
     "sold": false,
     "first_seen": "2026-09-16T11:52:14.621858"
+  },
+  "http://www.victorkiswell.com/v3/?product=mulher-de-angola": {
+    "source": "Victor Kiswell",
+    "title": "Africa Tentaçao - Mulher de Angola",
+    "price_ref": 100.0,
+    "url": "http://www.victorkiswell.com/v3/?product=mulher-de-angola",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272301"
+  },
+  "http://www.victorkiswell.com/v3/?product=tiempo-reflejado-2": {
+    "source": "Victor Kiswell",
+    "title": "Manolo Juarez - Tiempo Reflejado",
+    "price_ref": 150.0,
+    "url": "http://www.victorkiswell.com/v3/?product=tiempo-reflejado-2",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272323"
+  },
+  "http://www.victorkiswell.com/v3/?product=o-que-eu-canto": {
+    "source": "Victor Kiswell",
+    "title": "Agnaldo Rayol - O que eu canto",
+    "price_ref": 100.0,
+    "url": "http://www.victorkiswell.com/v3/?product=o-que-eu-canto",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272324"
+  },
+  "http://www.victorkiswell.com/v3/?product=la-puerta-abierta-2": {
+    "source": "Victor Kiswell",
+    "title": "Pedro Ruy Blas - La Puerta Abierta",
+    "price_ref": 220.0,
+    "url": "http://www.victorkiswell.com/v3/?product=la-puerta-abierta-2",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272325"
+  },
+  "http://www.victorkiswell.com/v3/?product=llorar-por-amor-3": {
+    "source": "Victor Kiswell",
+    "title": "Las Deblas - Llorar por Amor",
+    "price_ref": 180.0,
+    "url": "http://www.victorkiswell.com/v3/?product=llorar-por-amor-3",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272327"
+  },
+  "http://www.victorkiswell.com/v3/?product=arco-iris": {
+    "source": "Victor Kiswell",
+    "title": "Arco Iris - Arco Iris",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=arco-iris",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272338"
+  },
+  "http://www.victorkiswell.com/v3/?product=kiu-i-els-seus-amics-2": {
+    "source": "Victor Kiswell",
+    "title": "José Manuel Pagan - KIU i els seus amics",
+    "price_ref": 120.0,
+    "url": "http://www.victorkiswell.com/v3/?product=kiu-i-els-seus-amics-2",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272355"
+  },
+  "http://www.victorkiswell.com/v3/?product=arraigo": {
+    "source": "Victor Kiswell",
+    "title": "Jeronimo Maesso - Arraigo",
+    "price_ref": 130.0,
+    "url": "http://www.victorkiswell.com/v3/?product=arraigo",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272365"
+  },
+  "https://www.diggersdigest.com/product/various-trt-ara-m%C3%BCzikleri-2": {
+    "source": "Digger's Digest",
+    "title": "Various ‎– TRT Ara Müzikleri 2 (Yonca – YC 5015 – Turkey – 1976)",
+    "price_ref": 490.0,
+    "url": "https://www.diggersdigest.com/product/various-trt-ara-m%C3%BCzikleri-2",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272372"
+  },
+  "https://www.diggersdigest.com/product/jacques-micheline-pelzer-quartet-song-for-rene-duchesne-dd-8003-belgium-1975": {
+    "source": "Digger's Digest",
+    "title": "Jacques & Micheline Pelzer Quartet – Song For René (Duchesne – DD 8003 - Belgium - 1975)",
+    "price_ref": 490.0,
+    "url": "https://www.diggersdigest.com/product/jacques-micheline-pelzer-quartet-song-for-rene-duchesne-dd-8003-belgium-1975",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272373"
+  },
+  "https://www.diggersdigest.com/product/fran%C3%A7ois-de-roubaix-les-l%C3%A8vres-rouges-barclay-61-441-l-france-1971": {
+    "source": "Digger's Digest",
+    "title": "François De Roubaix – Les Lèvres Rouges (Barclay – 61 441 L – France – 1971)",
+    "price_ref": 220.0,
+    "url": "https://www.diggersdigest.com/product/fran%C3%A7ois-de-roubaix-les-l%C3%A8vres-rouges-barclay-61-441-l-france-1971",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272374"
+  },
+  "https://www.superflyrecords.com/item/2/0-2204-0-1-0/129097202/gloria-scott-what-am-i-gonna-do-that-s-what-you-say.html": {
+    "source": "Superfly Records",
+    "title": "GLORIA SCOTT - WHAT AM I GONNA DO / TH...",
+    "price_ref": 195.0,
+    "url": "https://www.superflyrecords.com/item/2/0-2204-0-1-0/129097202/gloria-scott-what-am-i-gonna-do-that-s-what-you-say.html",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272397"
+  },
+  "https://www.superflyrecords.com/item/2/0-1105-0-1-0/129097334/the-fire-escape-love-special-delivery.html": {
+    "source": "Superfly Records",
+    "title": "THE FIRE ESCAPE - LOVE SPECIAL DELIVERY",
+    "price_ref": 100.0,
+    "url": "https://www.superflyrecords.com/item/2/0-1105-0-1-0/129097334/the-fire-escape-love-special-delivery.html",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272399"
+  },
+  "https://www.sofarecords.fr/fr/rikki-ililonga-amp-musi-o-tunya/dark-sunrise-the-birth-of-zamrock-1973-76/p3061404011/": {
+    "source": "SOFA Records",
+    "title": "rikki ililonga & Musi-O-Tunya - dark sunrise (the birth of zamrock 1973-76)",
+    "price_ref": 95.0,
+    "url": "https://www.sofarecords.fr/fr/rikki-ililonga-amp-musi-o-tunya/dark-sunrise-the-birth-of-zamrock-1973-76/p3061404011/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272400"
+  },
+  "https://www.sofarecords.fr/fr/jeremiah-chiu/edge-conditions/p3207779743/": {
+    "source": "SOFA Records",
+    "title": "Jeremiah Chiu - edge conditions",
+    "price_ref": 115.0,
+    "url": "https://www.sofarecords.fr/fr/jeremiah-chiu/edge-conditions/p3207779743/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272402"
+  },
+  "https://www.sofarecords.fr/fr/rastafari-various/the-dreads-enter-babylon-1955-83/p3047915701/": {
+    "source": "SOFA Records",
+    "title": "Rastafari (various) - the dreads enter babylon 1955-83",
+    "price_ref": 1955.0,
+    "url": "https://www.sofarecords.fr/fr/rastafari-various/the-dreads-enter-babylon-1955-83/p3047915701/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272403"
+  },
+  "https://www.sofarecords.fr/fr/senegal-70-various/senegal-70-musical-effervescence/p3205364468/": {
+    "source": "SOFA Records",
+    "title": "Sénégal 70 (various) - sénégal 70, musical effervescence",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/senegal-70-various/senegal-70-musical-effervescence/p3205364468/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272404"
+  },
+  "https://www.sofarecords.fr/fr/declic-kaz-a-zouk/zouk-creole-rap-amp-ragga-kompa-gwo-ka-modern-1987-1998/p3207100913/": {
+    "source": "SOFA Records",
+    "title": "Déclic Kaz A Zouk - zouk créole rap & ragga - kompa - gwo ka modern (1987-1998)",
+    "price_ref": 1987.0,
+    "url": "https://www.sofarecords.fr/fr/declic-kaz-a-zouk/zouk-creole-rap-amp-ragga-kompa-gwo-ka-modern-1987-1998/p3207100913/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272405"
+  },
+  "https://www.sofarecords.fr/fr/kingo-hamada/midnight-cruisin%27/p3196814376/": {
+    "source": "SOFA Records",
+    "title": "Kingo Hamada - midnight cruisin'",
+    "price_ref": 190.0,
+    "url": "https://www.sofarecords.fr/fr/kingo-hamada/midnight-cruisin%27/p3196814376/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272409"
+  },
+  "https://www.sofarecords.fr/fr/frankie-zhivago/the-age-of-flying-high/p2968465658/": {
+    "source": "SOFA Records",
+    "title": "Frankie Zhivago - the age of flying high",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/frankie-zhivago/the-age-of-flying-high/p2968465658/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272410"
+  },
+  "https://www.sofarecords.fr/fr/the-headhunters/survival-of-the-fittest/p3199684759/": {
+    "source": "SOFA Records",
+    "title": "The Headhunters - survival of the fittest",
+    "price_ref": 70.0,
+    "url": "https://www.sofarecords.fr/fr/the-headhunters/survival-of-the-fittest/p3199684759/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272411"
+  },
+  "https://www.sofarecords.fr/fr/alan-silva-celestrial-communication-orchestra/desert-mirage/p3207566370/": {
+    "source": "SOFA Records",
+    "title": "Alan Silva / Celestrial Communication Orchestra - desert mirage",
+    "price_ref": 75.0,
+    "url": "https://www.sofarecords.fr/fr/alan-silva-celestrial-communication-orchestra/desert-mirage/p3207566370/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272412"
+  },
+  "https://www.sofarecords.fr/fr/la-monte-young-marian-zazeela-the-theatre-of-eternal-music/dream-house-78%2717/p3025068385/": {
+    "source": "SOFA Records",
+    "title": "La Monte Young, Marian Zazeela, The Theatre Of Eternal Music - dream house 78'17",
+    "price_ref": 130.0,
+    "url": "https://www.sofarecords.fr/fr/la-monte-young-marian-zazeela-the-theatre-of-eternal-music/dream-house-78%2717/p3025068385/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272413"
+  },
+  "https://www.sofarecords.fr/fr/okko/sitar-amp-electronics/p3207566372/": {
+    "source": "SOFA Records",
+    "title": "Okko - sitar & electronics",
+    "price_ref": 75.0,
+    "url": "https://www.sofarecords.fr/fr/okko/sitar-amp-electronics/p3207566372/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272414"
+  },
+  "https://www.sofarecords.fr/fr/vincent-gemignani-ensemble-de-percussion-de-paris/modern-pop-percussion-l%27oiseau-sans-pied/p3025068386/": {
+    "source": "SOFA Records",
+    "title": "Vincent Gemignani, Ensemble De Percussion De Paris - modern pop percussion / l'oiseau sans pied",
+    "price_ref": 180.0,
+    "url": "https://www.sofarecords.fr/fr/vincent-gemignani-ensemble-de-percussion-de-paris/modern-pop-percussion-l%27oiseau-sans-pied/p3025068386/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272415"
+  },
+  "https://www.sofarecords.fr/fr/workshop-de-lyon/la-chasse-de-shirah-sharibad/p3026819298/": {
+    "source": "SOFA Records",
+    "title": "Workshop De Lyon - la chasse de shirah sharibad",
+    "price_ref": 95.0,
+    "url": "https://www.sofarecords.fr/fr/workshop-de-lyon/la-chasse-de-shirah-sharibad/p3026819298/",
+    "sold": false,
+    "first_seen": "2026-10-20T12:26:37.272416"
   }
 }
